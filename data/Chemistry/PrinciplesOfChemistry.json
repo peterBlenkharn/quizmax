@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is an atom?",
+    "choices": ["A small molecule", "The basic unit of matter", "A chemical reaction", "A compound"],
+    "correctIndex": 1,
+    "explanation": "An atom is the basic unit of matter."
+  }
+]
