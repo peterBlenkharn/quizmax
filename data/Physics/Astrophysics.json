@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is the primary component of stars?",
+    "choices": ["Helium", "Hydrogen", "Carbon", "Iron"],
+    "correctIndex": 1,
+    "explanation": "Stars are primarily made of hydrogen."
+  }
+]
