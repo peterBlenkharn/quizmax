@@ -305,6 +305,7 @@ function disableChoices() {
 // Handle the Next Question button click
 document.getElementById("next-btn").addEventListener("click", () => {
   currentQuestionIndex++;
+  console.log("Next button clicked");
   displayQuestion();
 });
 
