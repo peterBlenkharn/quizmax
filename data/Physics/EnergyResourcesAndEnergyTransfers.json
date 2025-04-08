@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is the principle of conservation of energy?",
+    "choices": [
+      "Energy cannot be created or destroyed",
+      "Energy is always lost",
+      "Energy decreases over time",
+      "Energy is relative"
+    ],
+    "correctIndex": 0,
+    "explanation": "Energy cannot be created or destroyed – only transformed."
+  }
+]
