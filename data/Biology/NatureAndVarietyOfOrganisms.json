@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is taxonomy?",
+    "choices": [
+      "The study of cells",
+      "Classification of organisms",
+      "Plant biology",
+      "Evolutionary history"
+    ],
+    "correctIndex": 1,
+    "explanation": "Taxonomy is the classification of organisms."
+  }
+]
