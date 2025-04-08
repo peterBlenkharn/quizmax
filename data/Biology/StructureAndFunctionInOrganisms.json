@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is the function of the cell membrane?",
+    "choices": [
+      "DNA replication",
+      "Energy production",
+      "Controls entry and exit of substances",
+      "Protein synthesis"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cell membrane controls what enters and exits the cell."
+  }
+]
