@@ -364,7 +364,7 @@ const questionBanks = {
 };
 
 // List of subject cards and their chips (subject sections)
-// The keys below must match exactly with the keys in questionBanks.
+/* ===== UPDATED SUBJECTS OBJECT ===== */
 const subjects = {
   "Maths": {
     colorClass: "maths",
@@ -377,8 +377,18 @@ const subjects = {
       "Maths - Statistics & Probability"
     ]
   },
-  "Sciences": {
-    colorClass: "sciences",
+  "Biology": {
+    colorClass: "biology",
+    chips: [
+      "Science - Biology - Nature & Variety of Organisms",
+      "Science - Biology - Structure & Function in Organisms",
+      "Science - Biology - Reproduction & Inheritance",
+      "Science - Biology - Ecology & Environment",
+      "Science - Biology - Use of Biological Resources"
+    ]
+  },
+  "Physics": {
+    colorClass: "physics",
     chips: [
       "Science - Physics - Forces & Motion",
       "Science - Physics - Electricity",
@@ -387,23 +397,28 @@ const subjects = {
       "Science - Physics - Solids, Liquids & Gases",
       "Science - Physics - Magnetism & Electromagnetism",
       "Science - Physics - Radioactivity & Particles",
-      "Science - Physics - Astrophysics",
+      "Science - Physics - Astrophysics"
+    ]
+  },
+  "Chemistry": {
+    colorClass: "chemistry",
+    chips: [
       "Science - Chemistry - Principles of Chemistry",
       "Science - Chemistry - Inorganic Chemistry",
       "Science - Chemistry - Physical Chemistry",
-      "Science - Chemistry - Organic Chemistry",
-      "Science - Biology - Nature & Variety of Organisms",
-      "Science - Biology - Structure & Function in Organisms",
-      "Science - Biology - Reproduction & Inheritance",
-      "Science - Biology - Ecology & Environment",
-      "Science - Biology - Use of Biological Resources"
+      "Science - Chemistry - Organic Chemistry"
     ]
   },
-  "English": {
-    colorClass: "english",
+  "English Literature": {
+    colorClass: "english-literature",
     chips: [
       "English Literature Paper 1",
-      "English Literature Paper 2",
+      "English Literature Paper 2"
+    ]
+  },
+  "English Language": {
+    colorClass: "english-language",
+    chips: [
       "English Language Reading",
       "English Language Writing"
     ]
@@ -413,6 +428,12 @@ const subjects = {
     chips: [
       "Geography - Physical Geography",
       "Geography - Human Geography"
+    ]
+  },
+  "Physical Education": {
+    colorClass: "physical-education",
+    chips: [
+      "Physical Education"
     ]
   }
 };
@@ -464,20 +485,30 @@ document.getElementById("login-btn").addEventListener("click", () => {
 
 /* ===== MAIN MENU GENERATION ===== */
 
+/* ===== GENERATE SUBJECT CARDS WITH ACCORDION FUNCTIONALITY ===== */
 function generateSubjectCards() {
   const cardsContainer = document.getElementById("cards-container");
   cardsContainer.innerHTML = "";
-  // Loop through each subject in the subjects object
+  
   Object.keys(subjects).forEach(subjectName => {
     const subjectData = subjects[subjectName];
     const card = document.createElement("div");
     card.classList.add("subject-card", subjectData.colorClass);
     
-    const title = document.createElement("h3");
-    title.textContent = subjectName;
-    card.appendChild(title);
+    // Create header with subject name and a toggle icon (using a simple Unicode arrow for now)
+    const header = document.createElement("div");
+    header.classList.add("card-header");
+    header.innerHTML = `<span>${subjectName}</span><span class="toggle-icon">&#9660;</span>`;
+    // Toggle expand/collapse on header click:
+    header.addEventListener("click", () => {
+      card.classList.toggle("expanded");
+    });
+    card.appendChild(header);
     
-    // Create chips for each section/paper within this subject
+    // Create chips container:
+    const chipsContainer = document.createElement("div");
+    chipsContainer.classList.add("chips-container");
+    
     subjectData.chips.forEach(chipName => {
       const chip = document.createElement("div");
       chip.classList.add("chip");
@@ -487,28 +518,34 @@ function generateSubjectCards() {
       chipTitle.textContent = chipName;
       chip.appendChild(chipTitle);
 
-      // Create container for buttons
       const btnContainer = document.createElement("div");
       btnContainer.classList.add("chip-buttons");
 
-      // Quiz Button
-      const quizBtn = document.createElement("button");
-      quizBtn.textContent = "Quiz";
-      quizBtn.setAttribute("aria-label", "Launch Quiz for " + chipName);
-      quizBtn.addEventListener("click", () => launchQuiz(chipName));
+      // Quiz Button using icon
+      const quizBtn = document.createElement("img");
+      quizBtn.src = "icons/startquiz.svg";
+      quizBtn.alt = "Start Quiz";
+      quizBtn.addEventListener("click", (e) => {
+        e.stopPropagation(); // Prevent toggle on chip click
+        launchQuiz(chipName);
+      });
       btnContainer.appendChild(quizBtn);
 
-      // Info Button
-      const infoBtn = document.createElement("button");
-      infoBtn.textContent = "Info";
-      infoBtn.setAttribute("aria-label", "Show Performance Info for " + chipName);
-      infoBtn.addEventListener("click", () => openInfoModal(chipName));
+      // Info Button using icon
+      const infoBtn = document.createElement("img");
+      infoBtn.src = "icons/quizinfo.svg";
+      infoBtn.alt = "Quiz Info";
+      infoBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openInfoModal(chipName);
+      });
       btnContainer.appendChild(infoBtn);
 
       chip.appendChild(btnContainer);
-      card.appendChild(chip);
+      chipsContainer.appendChild(chip);
     });
-
+    
+    card.appendChild(chipsContainer);
     cardsContainer.appendChild(card);
   });
 }
@@ -516,25 +553,39 @@ function generateSubjectCards() {
 /* ===== QUIZ LOGIC ===== */
 
 // Launch a quiz for a given subject section
+/* ===== LAUNCH QUIZ (with Not Enough Questions Error) ===== */
 function launchQuiz(sectionName) {
-  currentSection = sectionName;
   const bank = questionBanks[sectionName];
-  if (!bank || bank.length === 0) {
-    alert("No questions available for this section.");
+  // Check if enough questions exist
+  if (!bank || bank.length < 10) {
+    sounds.wrong.play();
+    showErrorModal("Not enough questions to generate this quiz.");
     return;
   }
+  currentSection = sectionName;
   currentQuestions = getRandomQuestions(bank);
   currentQuestionIndex = 0;
   score = 0;
   timeLeft = 120;
   firstAttempt = true;
-  // Hide main menu and show quiz modal
   document.getElementById("main-menu").classList.add("hidden");
   document.getElementById("quiz-modal").classList.remove("hidden");
-  // Start the timer
   startTimer();
-  // Display the first question
   displayQuestion();
+}
+
+/* ===== SHOW ERROR MODAL (Not Enough Questions) ===== */
+function showErrorModal(message) {
+  // Reuse the info modal structure; change title and body message, then show it temporarily.
+  document.getElementById("info-title").textContent = "Error";
+  document.getElementById("no-data-msg").classList.add("hidden");
+  document.getElementById("metrics").innerHTML = `<p>${message}</p>`;
+  document.getElementById("progress-chart").classList.add("hidden");
+  document.getElementById("info-modal").classList.remove("hidden");
+  // Optionally hide it after a few seconds:
+  setTimeout(() => {
+    document.getElementById("info-modal").classList.add("hidden");
+  }, 3000);
 }
 
 // Timer function
@@ -586,32 +637,38 @@ function displayQuestion() {
 }
 
 // Evaluate answer selected by user.
+/* ===== UPDATED EVALUATE ANSWER WITH FEEDBACK OVERLAY ===== */
 function evaluateAnswer(selectedIndex, btn) {
   const currentQ = currentQuestions[currentQuestionIndex];
-  // Disable only the clicked button until another attempt is made.
-  // We want to allow re-selection if the answer is wrong.
   if (selectedIndex === currentQ.correctIndex) {
-    // Correct answer
-    if (firstAttempt) {
-      score++;
-    }
-    // Play correct sound and display a green checkmark (using placeholder SVG reference)
+    if (firstAttempt) score++;
     sounds.correct.play();
-    document.getElementById("feedback").innerHTML = `<img src="icons/correct.svg" alt="Correct" /> ${currentQ.explanation}`;
-    // Show 'Next' button (or 'Complete' if last question)
+    // Instead of writing into the regular feedback div, show overlay feedback:
+    showFeedbackOverlay("correct", currentQ.explanation);
     const nextBtn = document.getElementById("next-btn");
     nextBtn.textContent = (currentQuestionIndex === currentQuestions.length - 1) ? "Complete" : "Next";
     nextBtn.classList.remove("hidden");
-    // Disable all choice buttons to prevent further clicks on this question.
     disableChoices();
   } else {
-    // Wrong answer: play wrong sound and show a red X (placeholder SVG)
     sounds.wrong.play();
-    document.getElementById("feedback").innerHTML = `<img src="icons/wrong.svg" alt="Incorrect" />`;
-    firstAttempt = false; // subsequent attempts won’t count points.
-    // Allow the student to try again on the same question.
-    // (We do not disable all buttons so that they can try other options.)
+    showFeedbackOverlay("incorrect", "");
+    firstAttempt = false;
   }
+}
+
+// New helper to show overlay feedback
+function showFeedbackOverlay(type, message) {
+  const overlay = document.getElementById("feedback-overlay");
+  // Choose the appropriate icon based on type:
+  const icon = (type === "correct")
+    ? `<img src="icons/correct.svg" alt="Correct" class="feedback-correct">`
+    : `<img src="icons/wrong.svg" alt="Incorrect" class="feedback-incorrect">`;
+  overlay.innerHTML = icon + (message ? `<p>${message}</p>` : "");
+  overlay.classList.remove("hidden");
+  // Optionally, remove overlay after a short delay (or leave it until next question)
+  setTimeout(() => {
+    overlay.classList.add("hidden");
+  }, 1500);
 }
 
 // Helper to disable all choice buttons for the current question.
@@ -649,14 +706,13 @@ document.getElementById("exit-btn").addEventListener("click", () => {
 
 /* ===== INFO MODAL (Performance Analytics) ===== */
 
+/* ===== INFO MODAL WITH REGRESSION LINE & SCORE TREND ===== */
 function openInfoModal(sectionName) {
-  // Prepare modal title
+  // Fetch only the progress for the given section
   document.getElementById("info-title").textContent = sectionName;
-  // Retrieve progress data from localStorage for this section
   const progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
   const sectionData = progress[sectionName] || [];
   
-  // If less than 2 data points, show a message instead of a graph.
   if (sectionData.length < 2) {
     document.getElementById("progress-chart").classList.add("hidden");
     document.getElementById("no-data-msg").classList.remove("hidden");
@@ -664,42 +720,60 @@ function openInfoModal(sectionName) {
   } else {
     document.getElementById("progress-chart").classList.remove("hidden");
     document.getElementById("no-data-msg").classList.add("hidden");
-    // Prepare data for chart.
-    const labels = sectionData.map((_, i) => `Attempt ${i + 1}`);
+    const labels = sectionData.map((_, i) => (i + 1).toString());
     const scores = sectionData.map(entry => entry.score);
-    const timedOutMarkers = sectionData.map(entry => entry.timedOut);
-
-    // Calculate metrics.
-    const avgScore = (scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2);
-    const lastScore = scores[scores.length - 1];
-
-    document.getElementById("metrics").innerHTML = `
-      <p>Average score: ${avgScore} / 10</p>
-      <p>Last score: ${lastScore} / 10</p>
-    `;
-
-    // Render the chart using Chart.js.
-    const ctx = document.getElementById("progress-chart").getContext('2d');
-    // If a previous chart exists, destroy it (you might want to store a reference globally)
-    if (window.progressChart) {
-      window.progressChart.destroy();
+    // Calculate regression (best fit line)
+    const regression = computeRegression(scores);
+    // Calculate metrics and trend symbol:
+    let trendSymbol = "";
+    if (sectionData.length >= 2) {
+      const last = sectionData[sectionData.length - 1].score;
+      const prev = sectionData[sectionData.length - 2].score;
+      if (last > prev) {
+        trendSymbol = `<span style="color: green; font-weight: bold;"> +</span>`;
+      } else if (last < prev) {
+        trendSymbol = `<span style="color: red; font-weight: bold;"> -</span>`;
+      } else {
+        trendSymbol = `<span style="color: grey; font-weight: bold;"> =</span>`;
+      }
     }
+    document.getElementById("metrics").innerHTML = `
+      <p>Average score: ${(scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2)} / 10</p>
+      <p>Last score: ${scores[scores.length - 1]} / 10${trendSymbol}</p>
+    `;
+    // Render the chart:
+    const ctx = document.getElementById("progress-chart").getContext('2d');
+    if (window.progressChart) window.progressChart.destroy();
     window.progressChart = new Chart(ctx, {
       type: 'line',
       data: {
         labels: labels,
-        datasets: [{
-          label: 'Score',
-          data: scores,
-          fill: false,
-          tension: 0, // straight lines
-          borderColor: 'green',
-          pointBackgroundColor: scores.map((score, i) => timedOutMarkers[i] ? 'red' : 'blue'),
-          pointStyle: scores.map((score, i) => timedOutMarkers[i] ? 'triangle' : 'circle')
-        }]
+        datasets: [
+          {
+            label: 'Score',
+            data: scores,
+            fill: false,
+            tension: 0,
+            borderColor: getSubjectColor(sectionName),
+            pointBackgroundColor: getSubjectColor(sectionName)
+          },
+          {
+            // Best fit regression line dataset (in grey)
+            label: 'Trend',
+            data: regression, // array of regression values
+            fill: false,
+            tension: 0,
+            borderColor: 'grey',
+            borderDash: [5, 5],
+            pointRadius: 0
+          }
+        ]
       },
       options: {
         scales: {
+          x: {
+            title: { display: true, text: 'attempts' }
+          },
           y: {
             min: 0,
             max: 10,
@@ -709,8 +783,44 @@ function openInfoModal(sectionName) {
       }
     });
   }
-  // Show info modal.
   document.getElementById("info-modal").classList.remove("hidden");
+}
+
+// Compute simple linear regression for an array of y values
+function computeRegression(yValues) {
+  const n = yValues.length;
+  const xValues = Array.from({ length: n }, (_, i) => i + 1);
+  const sumX = xValues.reduce((a, b) => a + b, 0);
+  const sumY = yValues.reduce((a, b) => a + b, 0);
+  const meanX = sumX / n;
+  const meanY = sumY / n;
+  let numerator = 0, denominator = 0;
+  xValues.forEach((x, i) => {
+    numerator += (x - meanX) * (yValues[i] - meanY);
+    denominator += (x - meanX) ** 2;
+  });
+  const slope = denominator ? numerator / denominator : 0;
+  const intercept = meanY - slope * meanX;
+  // Generate regression values for each x in xValues
+  return xValues.map(x => Math.round((slope * x + intercept) * 100) / 100);
+}
+
+// Helper to return the subject color based on section name
+function getSubjectColor(sectionName) {
+  // You can adjust this mapping based on your subjects/colors.
+  // For simplicity, here we use the color from the corresponding subject card.
+  for (const subject in subjects) {
+    if (subjects[subject].chips.includes(sectionName)) {
+      const tempDiv = document.createElement('div');
+      tempDiv.classList.add(subjects[subject].colorClass);
+      document.body.appendChild(tempDiv);
+      const style = window.getComputedStyle(tempDiv);
+      const borderColor = style.borderTopColor;
+      document.body.removeChild(tempDiv);
+      return borderColor;
+    }
+  }
+  return 'black';
 }
 
 // Close Info Modal.
