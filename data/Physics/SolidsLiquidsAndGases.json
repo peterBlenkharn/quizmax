@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Which state of matter has a definite shape?",
+    "choices": ["Liquid", "Solid", "Gas", "Plasma"],
+    "correctIndex": 1,
+    "explanation": "Solids have a definite shape and volume."
+  }
+]
