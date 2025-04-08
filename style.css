@@ -1,3 +1,158 @@
+/*NEW STUFF*/
+/* GENERAL & FONT SETUP */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* HEADER (Main Menu Branding) */
+#main-header {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #f0c808, #07a0c3);
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+#main-header h2 {
+  font-size: 2.5em;
+}
+
+/* Subject Cards Container */
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Updated Subject Card Styling with Accordion Behavior */
+.subject-card {
+  background: #fff;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+/* Card header styled for branding and toggle */
+.subject-card .card-header {
+  padding: 15px;
+  font-size: 1.8em;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Icon for toggle (arrow) */
+.subject-card .toggle-icon {
+  transition: transform 0.3s;
+}
+.subject-card.expanded .toggle-icon {
+  transform: rotate(180deg);
+}
+
+/* Chips container hidden by default; expands on click */
+.chips-container {
+  padding: 15px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+}
+.subject-card.expanded .chips-container {
+  display: flex;
+}
+
+/* Chip Styling */
+.chip {
+  background: #e9e9e9;
+  border-radius: 5px;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chip .chip-title {
+  font-weight: bold;
+}
+
+/* Chip Buttons: Now use icons */
+.chip-buttons {
+  display: flex;
+  gap: 10px;
+}
+.chip-buttons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.chip-buttons img:hover {
+  transform: scale(1.1);
+}
+
+/* SUBJECT COLORS */
+/* Adjusted color themes for individual subject cards */
+.maths { border-top: 4px solid #07a0c3; }
+.biology { border-top: 4px solid #8bc34a; }
+.physics { border-top: 4px solid #d64644; }
+.chemistry { border-top: 4px solid #ff5722; }
+.english-literature { border-top: 4px solid #f0c808; }
+.english-language { border-top: 4px solid #fdd835; }
+.geography { border-top: 4px solid #c6812e; }
+.physical-education { border-top: 4px solid #08c448; }
+
+/* Feedback Overlay for Correct and Wrong Answers */
+#feedback-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Adjust the size responsively: */
+  width: 15vw;
+  max-width: 150px;
+  z-index: 2000;
+}
+#feedback-overlay img {
+  width: 100%;
+  height: auto;
+}
+.feedback-correct { /* For correct answer: green fill */
+  /* If using inline SVG you can override fill; if not, replace with a green icon version */
+  filter: invert(32%) sepia(84%) saturate(1210%) hue-rotate(76deg) brightness(93%) contrast(91%);
+}
+.feedback-incorrect { /* For wrong answer: red fill */
+  filter: invert(14%) sepia(92%) saturate(7498%) hue-rotate(358deg) brightness(95%) contrast(119%);
+}
+
+/* Additional spacing adjustments on buttons, inputs etc. remain as before */
+
+/* RESPONSIVE ADJUSTMENTS */
+@media (max-width: 480px) {
+  #main-header h2 {
+    font-size: 2em;
+  }
+  .subject-card {
+    width: 90%;
+  }
+}
+
+/*NEW STUFF*/
+
+
+
 /* Reset & Basic Styling */
 * {
   margin: 0;
@@ -19,6 +174,20 @@ body {
 .error {
   color: red;
   margin-top: 10px;
+}
+
+/* HEADER (Main Menu Branding) */
+#main-header {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, #f0c808, #07a0c3);
+  color: #fff;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+#main-header h2 {
+  font-size: 2.5em;
 }
 
 /* Improved Login Section */
