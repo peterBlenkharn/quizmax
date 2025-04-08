@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is a common cause of erosion?",
+    "choices": ["Wind", "Gravity", "Photosynthesis", "Ecosystems"],
+    "correctIndex": 0,
+    "explanation": "Wind can cause significant erosion in certain areas."
+  }
+]
