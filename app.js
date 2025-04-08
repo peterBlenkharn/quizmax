@@ -147,10 +147,9 @@ function generateSubjectCards() {
 // Launch a quiz for a given chip/section, given its chipName and the parent subject folder (subjectName)
 // This function is now asynchronous to allow fetching the question bank JSON.
 async function launchQuiz(chipName, subjectName) {
-  // Build the filename by removing spaces from the chipName
-  const fileName = chipName.replace(/\s/g, "");
-  // Construct the path according to your folder structure; for example:
-  // For Maths chip "Numbers & Algebra", path will be: data/Maths/Numbers&Algebra.json
+  // Build the filename by transforming the chipName using our helper.
+  const fileName = chipNameToFileName(chipName);
+  // Construct the path according to your folder structure.
   const path = `data/${subjectName}/${fileName}.json`;
   
   try {
@@ -177,6 +176,7 @@ async function launchQuiz(chipName, subjectName) {
     showErrorModal("Error loading questions. Please try again later.");
   }
 }
+
 
 /* ===== SHOW ERROR MODAL (Not Enough Questions) ===== */
 function showErrorModal(message) {
@@ -303,7 +303,6 @@ document.getElementById("exit-btn").addEventListener("click", () => {
   document.getElementById("main-menu").classList.remove("hidden");
 });
 
-/* ===== INFO MODAL (Performance Analytics) ===== */
 
 /* ===== INFO MODAL WITH REGRESSION LINE & SCORE TREND ===== */
 function openInfoModal(sectionName) {
@@ -403,6 +402,13 @@ function computeRegression(yValues) {
   // Generate regression values for each x in xValues
   return xValues.map(x => Math.round((slope * x + intercept) * 100) / 100);
 }
+
+// Helper function to transform a chip name into a file name.
+function chipNameToFileName(chipName) {
+  // Replace any "&" with "And", then remove spaces.
+  return chipName.replace(/&/g, "And").replace(/\s/g, "");
+}
+
 
 // Helper to return the subject color based on section name
 function getSubjectColor(sectionName) {
