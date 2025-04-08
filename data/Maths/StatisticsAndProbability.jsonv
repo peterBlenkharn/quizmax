@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is the probability of a fair coin landing heads up?",
+    "choices": ["25%", "50%", "75%", "100%"],
+    "correctIndex": 1,
+    "explanation": "A fair coin has a 50% chance to land heads up."
+  }
+]
