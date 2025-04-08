@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is the unit of electric current?",
+    "choices": ["Volt", "Watt", "Ampere", "Ohm"],
+    "correctIndex": 2,
+    "explanation": "The unit of electric current is the Ampere."
+  }
+]
