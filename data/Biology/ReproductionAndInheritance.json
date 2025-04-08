@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Which process creates genetic diversity?",
+    "choices": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+    "correctIndex": 1,
+    "explanation": "Meiosis creates genetic diversity."
+  }
+]
