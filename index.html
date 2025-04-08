@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GCSE Quiz App</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Include Chart.js from CDN for the info modal graph -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Login Section -->
+  <div id="login-section">
+    <h1>Welcome to the Quiz App</h1>
+    <p>Please enter the password to continue:</p>
+    <input type="password" id="password" aria-label="Password">
+    <button id="login-btn" aria-label="Login">Login</button>
+    <p id="login-error" class="error" aria-live="polite"></p>
+  </div>
+
+  <!-- Main Menu (Subject Cards) -->
+  <div id="main-menu" class="hidden">
+    <h2>Main Menu</h2>
+    <div id="cards-container">
+      <!-- Subject cards will be generated here by app.js -->
+    </div>
+  </div>
+
+  <!-- Quiz Modal -->
+  <div id="quiz-modal" class="modal hidden" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <span id="quiz-title"></span>
+        <!-- Timer display -->
+        <span id="timer" aria-live="polite"></span>
+      </div>
+      <div id="quiz-body">
+        <!-- Question text -->
+        <p id="question-text"></p>
+        <!-- Choices list -->
+        <ul id="choices-list"></ul>
+        <!-- Feedback section for icons and explanation -->
+        <div id="feedback" aria-live="polite"></div>
+        <!-- Button to progress (labeled 'Next' or 'Complete' at the end) -->
+        <button id="next-btn" class="hidden" aria-label="Next Question">Next</button>
+      </div>
+      <!-- Results Section (displayed after quiz is finished) -->
+      <div id="results" class="hidden">
+        <h3>Quiz Completed</h3>
+        <p id="final-score"></p>
+        <!-- Exit icon/button -->
+        <button id="exit-btn" aria-label="Exit Quiz">Exit</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Modal (Performance Analytics) -->
+  <div id="info-modal" class="modal hidden" aria-modal="true">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="info-title"></h3>
+        <button id="info-close-btn" aria-label="Close Performance Info">X</button>
+      </div>
+      <div class="modal-body">
+        <div id="chart-container">
+          <!-- Canvas for Chart.js -->
+          <canvas id="progress-chart"></canvas>
+        </div>
+        <div id="metrics">
+          <!-- Average score and last score info will be inserted here -->
+        </div>
+        <!-- Fallback message if insufficient data -->
+        <p id="no-data-msg" class="hidden">Do more quizes on this topic for cool data</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
