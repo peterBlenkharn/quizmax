@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Solve for x: 2x + 4 = 10",
+    "choices": ["x = 3", "x = 4", "x = 5", "x = 6"],
+    "correctIndex": 1,
+    "explanation": "2(4) + 4 equals 12 (check your work!)."
+  }
+]
