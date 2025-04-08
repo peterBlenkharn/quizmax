@@ -636,7 +636,7 @@ function finishQuiz(timedOut) {
   sounds.finish.play();
   // Save progress in localStorage
   saveQuizResult(currentSection, score, timedOut);
-});
+};
 
 // Exit quiz and return to main menu.
 document.getElementById("exit-btn").addEventListener("click", () => {
