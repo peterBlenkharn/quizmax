@@ -21,6 +21,10 @@ body {
   margin-top: 10px;
 }
 
+#next-btn {
+  position: relative;
+  z-index: 2100; /* Higher than the feedback overlay, which has z-index: 2000 */
+}
 /* HEADER (Main Menu Branding) */
 #main-header {
   text-align: center;
