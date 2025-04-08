@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What does biotechnology involve?",
+    "choices": [
+      "Software development",
+      "Genetic manipulation of organisms",
+      "Chemical manufacturing",
+      "Astronomical research"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biotechnology involves the use of living systems and organisms to develop products."
+  }
+]
