@@ -403,11 +403,16 @@ function computeRegression(yValues) {
   return xValues.map(x => Math.round((slope * x + intercept) * 100) / 100);
 }
 
-// Helper function to transform a chip name into a file name.
 function chipNameToFileName(chipName) {
-  // Replace any "&" with "And", then remove spaces.
-  return chipName.replace(/&/g, "And").replace(/\s/g, "");
+  // Replace & with "And"
+  let name = chipName.replace(/&/g, "And");
+  // Remove punctuation: remove all characters that are not letters, numbers or whitespace.
+  name = name.replace(/[^\w\s]/g, "");
+  // Remove whitespace
+  name = name.replace(/\s+/g, "");
+  return name;
 }
+
 
 
 // Helper to return the subject color based on section name
