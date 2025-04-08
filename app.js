@@ -1,9 +1,9 @@
-/* ===== GLOBAL VARIABLES & DATA STRUCTURES ===== */
+/* ===== GLOBAL VARIABLES & STATE ===== */
 
 // Hard-coded password for client-side access protection.
 const CORRECT_PASSWORD = "quiz2025";
 
-// Placeholder sound file paths – replace with your actual files in your repository.
+// Placeholder sound file paths – update with your actual paths.
 const sounds = {
   correct: new Audio('sounds/correct.mp3'),
   wrong: new Audio('sounds/wrong.mp3'),
@@ -11,62 +11,55 @@ const sounds = {
   timeout: new Audio('sounds/timeout.mp3')
 };
 
-// Global state variables for quiz session
+// Global state variables for the quiz session.
 let currentSection = "";
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
 let timerInterval = null;
 let timeLeft = 120; // seconds
-
-// Variables for tracking if the current question has been answered correctly on first try
-let firstAttempt = true;
+let firstAttempt = true; // tracks if the current question is answered correctly on the first try
 
 // Global variable to store subjects loaded from JSON.
 let subjects = {};
 
 /* ===== UTILITY FUNCTIONS ===== */
 
-// Randomly select 10 questions (or all available if fewer)
 function getRandomQuestions(bank) {
   const shuffled = bank.sort(() => 0.5 - Math.random());
   return shuffled.slice(0, 10);
 }
 
-/* ===== ASYNCHRONOUS DATA LOADING ===== */
-
-// Load the subjects definition from an external JSON file
-async function loadSubjects() {
-  try {
-    const response = await fetch('data/subjects.json');
-    subjects = await response.json();
-    generateSubjectCards(); // Now generate cards using the loaded subjects
-  } catch (error) {
-    console.error('Error loading subjects:', error);
-  }
-}
-
-// Save quiz result to localStorage
 function saveQuizResult(section, score, timedOut) {
   const progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
   if (!progress[section]) progress[section] = [];
   progress[section].push({
-    score, // score out of 10
-    timedOut, // Boolean: was the quiz ended by timeout?
+    score,
+    timedOut,
     timestamp: new Date().toISOString()
   });
   localStorage.setItem("quizProgress", JSON.stringify(progress));
 }
 
+/* ===== ASYNCHRONOUS DATA LOADING ===== */
+
+async function loadSubjects() {
+  try {
+    const response = await fetch('data/subjects.json');
+    subjects = await response.json();
+    generateSubjectCards(); // Generate cards using the loaded subjects.
+  } catch (error) {
+    console.error('Error loading subjects:', error);
+  }
+}
+
 /* ===== INITIAL SETUP & EVENT LISTENERS ===== */
 
-// Login handling event listener
 document.getElementById("login-btn").addEventListener("click", () => {
   const userPassword = document.getElementById("password").value;
   if (userPassword === CORRECT_PASSWORD) {
     document.getElementById("login-section").classList.add("hidden");
     document.getElementById("main-menu").classList.remove("hidden");
-    // Load subjects from JSON before generating subject cards.
     loadSubjects();
   } else {
     document.getElementById("login-error").textContent = "Incorrect password. Please try again.";
@@ -75,87 +68,122 @@ document.getElementById("login-btn").addEventListener("click", () => {
 
 /* ===== MAIN MENU GENERATION ===== */
 
-/* ===== GENERATE SUBJECT CARDS WITH ACCORDION FUNCTIONALITY ===== */
-// Generate subject cards using the loaded subjects object from JSON
+// Generate subject cards using the loaded subjects object.
 function generateSubjectCards() {
   const cardsContainer = document.getElementById("cards-container");
   cardsContainer.innerHTML = "";
   
-  // Iterate over each subject in the subjects object
   Object.keys(subjects).forEach(subjectName => {
     const subjectData = subjects[subjectName];
     const card = document.createElement("div");
+    // Apply subject color class; styling in CSS will use a solid background with gradient.
     card.classList.add("subject-card", subjectData.colorClass);
     
-    // Create a header with the subject name and a toggle icon for accordion behavior
-    const header = document.createElement("div");
-    header.classList.add("card-header");
-    header.innerHTML = `<span>${subjectName}</span><span class="toggle-icon">&#9660;</span>`;
-    // Toggle expand/collapse on header click
-    header.addEventListener("click", () => {
-      card.classList.toggle("expanded");
+    // Subject icon (assumes an SVG in "icons/" named without spaces, e.g. "Maths.svg")
+    const subjectIcon = document.createElement("img");
+    subjectIcon.src = `icons/${subjectName.replace(/\s/g, "")}.svg`;
+    subjectIcon.alt = subjectName + " Icon";
+    subjectIcon.classList.add("subject-icon");
+    card.appendChild(subjectIcon);
+    
+    // Subject title
+    const title = document.createElement("h3");
+    title.textContent = subjectName;
+    title.classList.add("subject-title");
+    card.appendChild(title);
+    
+    // Expand button that opens the subject modal with this subject's chips
+    const expandBtn = document.createElement("button");
+    expandBtn.textContent = "Explore";
+    expandBtn.classList.add("expand-btn");
+    expandBtn.addEventListener("click", () => {
+      openSubjectModal(subjectName);
     });
-    card.appendChild(header);
+    card.appendChild(expandBtn);
     
-    // Create a container for the chips (sections)
-    const chipsContainer = document.createElement("div");
-    chipsContainer.classList.add("chips-container");
-    
-    subjectData.chips.forEach(chipName => {
-      const chip = document.createElement("div");
-      chip.classList.add("chip");
-
-      const chipTitle = document.createElement("div");
-      chipTitle.classList.add("chip-title");
-      chipTitle.textContent = chipName;
-      chip.appendChild(chipTitle);
-
-      const btnContainer = document.createElement("div");
-      btnContainer.classList.add("chip-buttons");
-
-      // Quiz Button using an icon image; pass both chipName and subjectName.
-      const quizBtn = document.createElement("img");
-      quizBtn.src = "icons/startquiz.svg";
-      quizBtn.alt = "Start Quiz";
-      quizBtn.addEventListener("click", (e) => {
-        e.stopPropagation(); // Prevent toggle on chip click
-        launchQuiz(chipName, subjectName);
-      });
-      btnContainer.appendChild(quizBtn);
-
-      // Info Button using an icon image; similarly, pass chipName and subjectName if needed.
-      const infoBtn = document.createElement("img");
-      infoBtn.src = "icons/quizinfo.svg";
-      infoBtn.alt = "Quiz Info";
-      infoBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        openInfoModal(chipName);
-      });
-      btnContainer.appendChild(infoBtn);
-
-      chip.appendChild(btnContainer);
-      chipsContainer.appendChild(chip);
-    });
-    
-    card.appendChild(chipsContainer);
     cardsContainer.appendChild(card);
   });
 }
 
+/* ===== SUBJECT MODAL ===== */
+
+// Open a modal window that lists all chips for the given subject.
+function openSubjectModal(subjectName) {
+  const subjectData = subjects[subjectName];
+  const modal = document.getElementById("subject-modal");
+  
+  // Clear previous modal content.
+  const modalBody = modal.querySelector(".modal-body");
+  modalBody.innerHTML = "";
+  
+  // Set modal title.
+  modal.querySelector(".modal-header h3").textContent = subjectName;
+  
+  // Create a grid container for chips.
+  const grid = document.createElement("div");
+  grid.classList.add("chips-grid");
+  
+  subjectData.chips.forEach(chipName => {
+    const chip = document.createElement("div");
+    chip.classList.add("chip-modal");
+    
+    const chipTitle = document.createElement("div");
+    chipTitle.classList.add("chip-modal-title");
+    chipTitle.textContent = chipName;
+    chip.appendChild(chipTitle);
+    
+    const btnContainer = document.createElement("div");
+    btnContainer.classList.add("chip-buttons");
+    
+    // Quiz button in modal.
+    const quizBtn = document.createElement("img");
+    quizBtn.src = "icons/startquiz.svg";
+    quizBtn.alt = "Start Quiz";
+    quizBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      closeSubjectModal();
+      launchQuiz(chipName, subjectName);
+    });
+    btnContainer.appendChild(quizBtn);
+    
+    // Info button in modal.
+    const infoBtn = document.createElement("img");
+    infoBtn.src = "icons/quizinfo.svg";
+    infoBtn.alt = "Quiz Info";
+    infoBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      closeSubjectModal();
+      openInfoModal(chipName);
+    });
+    btnContainer.appendChild(infoBtn);
+    
+    chip.appendChild(btnContainer);
+    grid.appendChild(chip);
+  });
+  
+  modalBody.appendChild(grid);
+  modal.classList.remove("hidden");
+}
+
+function closeSubjectModal() {
+  document.getElementById("subject-modal").classList.add("hidden");
+}
+
+// Close subject modal when the modal's close button is clicked.
+document.getElementById("subject-modal-close").addEventListener("click", closeSubjectModal);
+
+
 /* ===== QUIZ LOGIC ===== */
 
-// Launch a quiz for a given chip/section, given its chipName and the parent subject folder (subjectName)
-// This function is now asynchronous to allow fetching the question bank JSON.
+// Launch quiz (modified to load external JSON).
 async function launchQuiz(chipName, subjectName) {
-  // Build the filename by transforming the chipName using our helper.
   const fileName = chipNameToFileName(chipName);
-  // Construct the path according to your folder structure. Adjust if subject folder is case-sensitive.
+  // Construct the path (subject folder names: ensure they match exactly your folder structure)
   const path = `data/${subjectName}/${fileName}.json`;
   
   try {
     const response = await fetch(path);
     const bank = await response.json();
-    // Check if sufficient questions exist
     if (!bank || bank.length < 10) {
       sounds.wrong.play();
       showErrorModal("Not enough questions to generate this quiz.");
@@ -178,19 +206,17 @@ async function launchQuiz(chipName, subjectName) {
 }
 
 
-/* ===== SHOW ERROR MODAL (Not Enough Questions) ===== */
 function showErrorModal(message) {
-  // Reuse the info modal structure to show errors
   document.getElementById("info-title").textContent = "Error";
   document.getElementById("no-data-msg").classList.add("hidden");
   document.getElementById("metrics").innerHTML = `<p>${message}</p>`;
   document.getElementById("progress-chart").classList.add("hidden");
   document.getElementById("info-modal").classList.remove("hidden");
-  // Hide the modal automatically after 3 seconds
   setTimeout(() => {
     document.getElementById("info-modal").classList.add("hidden");
   }, 3000);
 }
+
 
 /* ===== TIMER & DISPLAY LOGIC ===== */
 
