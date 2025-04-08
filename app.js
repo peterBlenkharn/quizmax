@@ -149,11 +149,8 @@ function generateSubjectCards() {
 async function launchQuiz(chipName, subjectName) {
   // Build the filename by transforming the chipName using our helper.
   const fileName = chipNameToFileName(chipName);
-  // Construct the path according to your folder structure.
-  // Assume your folders are named in lower-case; adjust here if needed.
-  const subjectFolder = subjectName.toLowerCase();
-  // Construct the URL using the lower-case subject folder and the file name.
-  const path = `data/${subjectFolder}/${fileName}.json`;
+  // Construct the path according to your folder structure. Adjust if subject folder is case-sensitive.
+  const path = `data/${subjectName}/${fileName}.json`;
   
   try {
     const response = await fetch(path);
@@ -407,13 +404,17 @@ function computeRegression(yValues) {
 }
 
 function chipNameToFileName(chipName) {
-  // Replace "&" with "And", remove punctuation, remove spaces, and convert to lower case.
-  return chipName
-            .replace(/&/g, "And")
-            .replace(/[^\w\s]/g, "")
-            .replace(/\s+/g, "")
-            .toLowerCase();
+  // Replace "&" with "And"
+  let modified = chipName.replace(/&/g, "And");
+  // Remove punctuation (anything not a word character or whitespace)
+  modified = modified.replace(/[^\w\s]/g, "");
+  // Split into words and filter out any empty strings
+  const words = modified.split(/\s+/).filter(word => word.length > 0);
+  // Convert words into PascalCase: first letter uppercase, rest lower-case
+  const pascalCase = words.map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase()).join("");
+  return pascalCase;
 }
+
 
 
 
