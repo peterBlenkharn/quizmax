@@ -1,0 +1,14 @@
+[
+    {
+      question: "Which Shakespeare play is studied in Paper 2?",
+      choices: ["Hamlet", "Macbeth", "Othello", "King Lear"],
+      correctIndex: 0,
+      explanation: "Hamlet is the Shakespeare play examined in Paper 2."
+    },
+    {
+      question: "In addition to Shakespeare, which anthology is covered?",
+      choices: ["Modern Poetry", "Classic Poetry", "Romantic Poetry", "Poetry Anthology"],
+      correctIndex: 3,
+      explanation: "The Poetry Anthology is part of Paper 2."
+    }
+  ]
