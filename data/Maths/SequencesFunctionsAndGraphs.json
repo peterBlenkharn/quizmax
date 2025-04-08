@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is the next number in the sequence: 2, 4, 8, 16, ?",
+    "choices": ["20", "24", "32", "30"],
+    "correctIndex": 2,
+    "explanation": "The sequence doubles, so the next number is 32."
+  }
+]
