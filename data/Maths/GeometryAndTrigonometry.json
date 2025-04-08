@@ -1,8 +1,127 @@
 [
   {
-    "question": "What is the sum of angles in a triangle?",
-    "choices": ["180°", "90°", "360°", "270°"],
+    "question": "In a right triangle, if one acute angle measures 35°, what is the measure of the other acute angle?",
+    "choices": ["45°", "55°", "65°", "75°"],
+    "correctIndex": 1,
+    "explanation": "In a right triangle, the two acute angles add up to 90°. Thus, 90° - 35° = 55°."
+  },
+  {
+    "question": "A right triangle has a hypotenuse of 10 and one leg of length 6. What is the length of the other leg?",
+    "choices": ["4", "6", "8", "10"],
+    "correctIndex": 2,
+    "explanation": "By the Pythagorean theorem: other leg = √(10² - 6²) = √(100 - 36) = √64 = 8."
+  },
+  {
+    "question": "An inscribed angle in a circle measures 40°. What is the measure of the corresponding central angle that subtends the same arc?",
+    "choices": ["40°", "60°", "80°", "100°"],
+    "correctIndex": 2,
+    "explanation": "The central angle is twice the inscribed angle, so 2 × 40° = 80°."
+  },
+  {
+    "question": "What is the area of a circle with a radius of 5? (Express your answer in terms of π)",
+    "choices": ["5π", "10π", "25π", "50π"],
+    "correctIndex": 2,
+    "explanation": "The area of a circle is given by A = πr², so A = π × 5² = 25π."
+  },
+  {
+    "question": "A circle has a circumference of 31.4. Taking π = 3.14, what is its radius?",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "explanation": "Circumference = 2πr, so r = 31.4 / (2 × 3.14) = 5."
+  },
+  {
+    "question": "Find the measure of each interior angle of a regular hexagon.",
+    "choices": ["100°", "110°", "120°", "130°"],
+    "correctIndex": 2,
+    "explanation": "For a regular n-sided polygon, each interior angle = ((n-2) × 180°)/n. For a hexagon: ((6-2)×180)/6 = 120°."
+  },
+  {
+    "question": "Calculate the area of a triangle with a base of 10 cm and a height of 5 cm.",
+    "choices": ["15 cm²", "25 cm²", "30 cm²", "50 cm²"],
+    "correctIndex": 1,
+    "explanation": "Area = 0.5 × base × height = 0.5 × 10 × 5 = 25 cm²."
+  },
+  {
+    "question": "If two chords in a circle are equal in length, which of the following is always true?",
+    "choices": ["Their subtended arcs are equal", "Their central angles are equal", "Both of the above", "None of the above"],
+    "correctIndex": 2,
+    "explanation": "Equal chords in a circle subtend equal arcs and have equal corresponding central angles."
+  },
+  {
+    "question": "Using the sine rule, if in triangle ABC, a = 7, angle A = 30° and angle B = 45°, what is the value of side b?",
+    "choices": ["7", "7√2", "14", "5√2"],
+    "correctIndex": 1,
+    "explanation": "By the sine rule: a/sinA = b/sinB, so b = 7 × (sin45/sin30) = 7 × ((√2/2)/0.5) = 7√2."
+  },
+  {
+    "question": "Find the length of the arc of a circle with radius 10 cm, subtended by a central angle of 60°.",
+    "choices": ["5π cm", "10π/3 cm", "10π/2 cm", "20π/3 cm"],
+    "correctIndex": 1,
+    "explanation": "Arc length = (θ/360) × 2πr = (60/360) × 20π = (1/6) × 20π = 10π/3 cm."
+  },
+  {
+    "question": "In a 30°-60°-90° triangle, if the hypotenuse is 12, what is the length of the side opposite the 60° angle?",
+    "choices": ["6√3", "6", "12", "4√3"],
     "correctIndex": 0,
-    "explanation": "The sum of the angles in a triangle is 180°."
+    "explanation": "In a 30-60-90 triangle, the side opposite the 60° angle is (√3)/2 times the hypotenuse: (√3/2)×12 = 6√3."
+  },
+  {
+    "question": "What is the equation of a circle with center at (3, -4) and a radius of 5?",
+    "choices": [
+      "(x - 3)² + (y + 4)² = 25",
+      "(x + 3)² + (y - 4)² = 25",
+      "(x - 3)² + (y + 4)² = 5",
+      "(x + 3)² + (y - 4)² = 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The equation of a circle is (x - h)² + (y - k)² = r²; here h = 3, k = -4, and r² = 25."
+  },
+  {
+    "question": "A right triangle has one leg measuring 9 and a hypotenuse measuring 15. What is the length of the other leg?",
+    "choices": ["10", "12", "8", "14"],
+    "correctIndex": 1,
+    "explanation": "By the Pythagorean theorem: other leg = √(15² - 9²) = √(225 - 81) = √144 = 12."
+  },
+  {
+    "question": "What is the sum of the interior angles of a pentagon?",
+    "choices": ["360°", "540°", "720°", "900°"],
+    "correctIndex": 1,
+    "explanation": "The sum of interior angles = (n - 2) × 180. For a pentagon: (5 - 2) × 180 = 540°."
+  },
+  {
+    "question": "A line is perpendicular to another line with a gradient of 2. What is the gradient of the perpendicular line?",
+    "choices": ["2", "-2", "1/2", "-1/2"],
+    "correctIndex": 3,
+    "explanation": "The gradient of a line perpendicular to another is the negative reciprocal. Hence, -1/2."
+  },
+  {
+    "question": "Which transformation produces a mirror image of a shape?",
+    "choices": ["Rotation", "Reflection", "Translation", "Enlargement"],
+    "correctIndex": 1,
+    "explanation": "A reflection produces a mirror image of a shape."
+  },
+  {
+    "question": "When two parallel lines are cut by a transversal, which pair of angles are always equal?",
+    "choices": ["Vertical angles", "Alternate interior angles", "Supplementary angles", "Consecutive interior angles"],
+    "correctIndex": 1,
+    "explanation": "Alternate interior angles are equal when two parallel lines are intersected by a transversal."
+  },
+  {
+    "question": "Find the area of a sector with a radius of 4 and a central angle of π/3 radians.",
+    "choices": ["4π/3", "8π/3", "16π/3", "2π/3"],
+    "correctIndex": 1,
+    "explanation": "The area of a sector is (1/2)r²θ = 0.5 × 16 × (π/3) = 8π/3."
+  },
+  {
+    "question": "A triangle has side lengths 7, 24, and 25. Is this triangle a right triangle?",
+    "choices": ["Yes", "No", "Cannot be determined", "Only if 25 is the hypotenuse"],
+    "correctIndex": 0,
+    "explanation": "Since 7² + 24² = 49 + 576 = 625, which equals 25², the triangle is right-angled."
+  },
+  {
+    "question": "Find the perimeter of a square with an area of 64 cm².",
+    "choices": ["16 cm", "24 cm", "28 cm", "32 cm"],
+    "correctIndex": 3,
+    "explanation": "The side length of the square = √64 = 8 cm, so the perimeter = 4 × 8 = 32 cm."
   }
 ]
