@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What creates a magnetic field?",
+    "choices": [
+      "Static electricity",
+      "Movement of electric charges",
+      "Light",
+      "Sound waves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Moving electric charges create a magnetic field."
+  }
+]
