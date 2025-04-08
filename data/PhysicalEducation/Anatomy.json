@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is one benefit of regular physical exercise?",
+    "choices": ["Improved concentration", "Increased screen time", "Reduced heart rate", "Decreased metabolism"],
+    "correctIndex": 0,
+    "explanation": "Regular exercise can improve concentration along with other health benefits."
+  }
+]
