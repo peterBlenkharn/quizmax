@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What does endothermic mean?",
+    "choices": ["Releases heat", "Absorbs heat", "No temperature change", "Creates electricity"],
+    "correctIndex": 1,
+    "explanation": "Endothermic reactions absorb heat."
+  }
+]
