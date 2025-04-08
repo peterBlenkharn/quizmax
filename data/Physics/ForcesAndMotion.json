@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is Newton's Second Law?",
+    "choices": ["F = ma", "E = mc²", "V = IR", "P = IV"],
+    "correctIndex": 0,
+    "explanation": "Newton’s Second Law states force equals mass times acceleration."
+  }
+]
