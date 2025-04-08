@@ -404,14 +404,14 @@ function computeRegression(yValues) {
 }
 
 function chipNameToFileName(chipName) {
-  // Replace & with "And"
-  let name = chipName.replace(/&/g, "And");
-  // Remove punctuation: remove all characters that are not letters, numbers or whitespace.
-  name = name.replace(/[^\w\s]/g, "");
-  // Remove whitespace
-  name = name.replace(/\s+/g, "");
-  return name;
+  // Replace "&" with "And", remove punctuation, remove spaces, and convert to lower case.
+  return chipName
+            .replace(/&/g, "And")
+            .replace(/[^\w\s]/g, "")
+            .replace(/\s+/g, "")
+            .toLowerCase();
 }
+
 
 
 
