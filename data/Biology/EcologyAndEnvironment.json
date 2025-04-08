@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is an ecosystem?",
+    "choices": [
+      "A type of organism",
+      "A community and its environment",
+      "A natural disaster",
+      "A food chain"
+    ],
+    "correctIndex": 1,
+    "explanation": "An ecosystem is a community of living organisms in an environment."
+  }
+]
