@@ -1,0 +1,73 @@
+{
+  "Maths": {
+    "colorClass": "maths",
+    "chips": [
+      "Numbers & Algebra",
+      "Equations, Formulae & Identities",
+      "Sequences, Functions & Graphs",
+      "Geometry & Trigonometry",
+      "Vectors & Transformations",
+      "Statistics & Probability"
+    ]
+  },
+  "Biology": {
+    "colorClass": "biology",
+    "chips": [
+      "Nature & Variety of Organisms",
+      "Structure & Function in Organisms",
+      "Reproduction & Inheritance",
+      "Ecology & Environment",
+      "Use of Biological Resources"
+    ]
+  },
+  "Physics": {
+    "colorClass": "physics",
+    "chips": [
+      "Forces & Motion",
+      "Electricity",
+      "Waves",
+      "Energy Resources & Energy Transfers",
+      "Solids, Liquids & Gases",
+      "Magnetism & Electromagnetism",
+      "Radioactivity & Particles",
+      "Astrophysics"
+    ]
+  },
+  "Chemistry": {
+    "colorClass": "chemistry",
+    "chips": [
+      "Principles of Chemistry",
+      "Inorganic Chemistry",
+      "Physical Chemistry",
+      "Organic Chemistry"
+    ]
+  },
+  "English Literature": {
+    "colorClass": "english-literature",
+    "chips": [
+      "English Literature Paper 1",
+      "English Literature Paper 2"
+    ]
+  },
+  "English Language": {
+    "colorClass": "english-language",
+    "chips": [
+      "English Language Reading",
+      "English Language Writing"
+    ]
+  },
+  "Geography": {
+    "colorClass": "geography",
+    "chips": [
+      "Physical Geography",
+      "Human Geography"
+    ]
+  },
+  "Physical Education": {
+    "colorClass": "physical-education",
+    "chips": [
+      "PE - Anatomy",
+      "PE - Society"
+    ]
+  }
+}
