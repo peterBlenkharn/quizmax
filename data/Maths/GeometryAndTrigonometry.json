@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is the sum of angles in a triangle?",
+    "choices": ["180°", "90°", "360°", "270°"],
+    "correctIndex": 0,
+    "explanation": "The sum of the angles in a triangle is 180°."
+  }
+]
