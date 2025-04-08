@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What factor greatly influences human settlement patterns?",
+    "choices": ["Climate", "Soil type", "Lunar cycles", "Tides"],
+    "correctIndex": 0,
+    "explanation": "Climate is a major factor influencing human settlements."
+  }
+]
