@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What type of radiation is emitted in alpha decay?",
+    "choices": ["Alpha particles", "Beta particles", "Gamma rays", "Neutrons"],
+    "correctIndex": 0,
+    "explanation": "Alpha decay emits alpha particles."
+  }
+]
