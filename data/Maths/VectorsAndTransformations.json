@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Which operation best describes a vector addition?",
+    "choices": ["Subtraction", "Multiplication", "Addition", "Division"],
+    "correctIndex": 2,
+    "explanation": "Vector addition is performed by adding corresponding components."
+  }
+]
