@@ -1,122 +1,222 @@
 [
   {
-    "question": "Solve for x: 3x - 7 = 2x + 5",
-    "choices": ["x = 10", "x = 12", "x = 15", "x = 17"],
-    "correctIndex": 1,
-    "explanation": "Subtract 2x from both sides to get x - 7 = 5, then add 7 to obtain x = 12."
-  },
-  {
-    "question": "Simplify: 4x + 7 - 2x + 3",
-    "choices": ["2x + 10", "6x + 4", "2x + 7", "4x + 10"],
+    "question": "Solve the quadratic equation: x² - 5x + 6 = 0.",
+    "choices": [
+      "x = 2 or x = 3",
+      "x = -2 or x = -3",
+      "x = 1 or x = 6",
+      "x = 4 or x = 1"
+    ],
     "correctIndex": 0,
-    "explanation": "Combine like terms: 4x - 2x = 2x and 7 + 3 = 10, so the expression simplifies to 2x + 10."
+    "explanation": "The equation factors as (x - 2)(x - 3) = 0, so x = 2 or x = 3."
   },
   {
-    "question": "Factorize: x² + 5x + 6",
-    "choices": ["(x+1)(x+6)", "(x+3)(x+2)", "x(x+5)+6", "(x+2)(x+4)"],
-    "correctIndex": 1,
-    "explanation": "x² + 5x + 6 factors as (x + 2)(x + 3) because 2 + 3 = 5 and 2 × 3 = 6."
-  },
-  {
-    "question": "What is the larger solution of the equation x² - 3x - 10 = 0?",
-    "choices": ["-2", "10", "5", "2"],
-    "correctIndex": 2,
-    "explanation": "Factorize the equation as (x - 5)(x + 2) = 0. The solutions are x = 5 and x = -2; the larger is 5."
-  },
-  {
-    "question": "Simplify: (2³ × 2⁴) / 2⁵",
-    "choices": ["2", "4", "8", "16"],
-    "correctIndex": 1,
-    "explanation": "Using exponent laws, (2^(3+4))/2⁵ = 2⁷/2⁵ = 2² = 4."
-  },
-  {
-    "question": "Solve for x: (1/2)x - (1/3) = 1/6",
-    "choices": ["0.5", "1", "1.5", "2"],
-    "correctIndex": 1,
-    "explanation": "Multiply by 6: 3x - 2 = 1, so 3x = 3 and x = 1."
-  },
-  {
-    "question": "Simplify by rationalising the denominator: 2/(3 - √2)",
-    "choices": ["(6+2√2)/7", "(6-2√2)/7", "(2√2-6)/7", "(6+√2)/7"],
+    "question": "Factorize the expression: 2x² + 7x + 3.",
+    "choices": [
+      "(2x + 1)(x + 3)",
+      "(2x + 3)(x + 1)",
+      "(x + 1)(2x + 3)",
+      "(2x + 7)(x + 1)"
+    ],
     "correctIndex": 0,
-    "explanation": "Multiply numerator and denominator by (3+√2) to get: [2(3+√2)]/(9-2) = (6+2√2)/7."
+    "explanation": "Expanding (2x + 1)(x + 3) gives 2x² + 6x + x + 3, which simplifies to 2x² + 7x + 3."
   },
   {
-    "question": "Simplify: (3x² - 2x) - (x² - 4x + 5)",
-    "choices": ["2x² + 2x - 5", "2x² - 2x - 5", "4x² + 2x - 5", "x² + 6x - 5"],
+    "question": "Solve for x: 3(x - 2) = 2(x + 4).",
+    "choices": [
+      "x = 14",
+      "x = 10",
+      "x = 8",
+      "x = 12"
+    ],
     "correctIndex": 0,
-    "explanation": "Distribute the subtraction: 3x² - 2x - x² + 4x - 5 = 2x² + 2x - 5."
+    "explanation": "Expanding gives 3x - 6 = 2x + 8. Subtract 2x to get x - 6 = 8, then add 6: x = 14."
   },
   {
-    "question": "Solve for x and y: x + y = 7 and x - y = 3. What is the value of x?",
-    "choices": ["3", "4", "5", "6"],
-    "correctIndex": 2,
-    "explanation": "Adding the equations gives 2x = 10, so x = 5."
-  },
-  {
-    "question": "If 25% of a number is 15, what is the number?",
-    "choices": ["45", "50", "60", "75"],
-    "correctIndex": 2,
-    "explanation": "Since 25% is 0.25, the number is 15/0.25 = 60."
-  },
-  {
-    "question": "Express 0.375 as a fraction in its simplest form.",
-    "choices": ["3/8", "1/3", "2/5", "3/5"],
+    "question": "Solve for x: 4x + 7 = 3x - 2.",
+    "choices": [
+      "x = -9",
+      "x = 9",
+      "x = 0",
+      "x = -1"
+    ],
     "correctIndex": 0,
-    "explanation": "0.375 = 375/1000, which simplifies to 3/8."
+    "explanation": "Subtract 3x from both sides to get x + 7 = -2, then subtract 7: x = -9."
   },
   {
-    "question": "Simplify: √50",
-    "choices": ["5√2", "2√5", "10√2", "25"],
+    "question": "Simplify the expression: (2x² - 8)/(2x).",
+    "choices": [
+      "(x - 2)(x + 2)/x",
+      "(x + 2)/(x - 2)",
+      "2x - 4",
+      "x - 4"
+    ],
     "correctIndex": 0,
-    "explanation": "√50 = √(25×2) = 5√2."
+    "explanation": "Factor 2 from the numerator: 2(x² - 4), then cancel the common factor with 2x, yielding (x² - 4)/x, which factors to (x - 2)(x + 2)/x."
   },
   {
-    "question": "Solve for x: 2ˣ = 16",
-    "choices": ["2", "3", "4", "5"],
-    "correctIndex": 2,
-    "explanation": "Since 16 = 2⁴, we have 2ˣ = 2⁴, so x = 4."
-  },
-  {
-    "question": "Find the smaller solution of the equation x² - 4x - 5 = 0.",
-    "choices": ["-1", "1", "4", "5"],
+    "question": "Factorize the expression: x² - 9.",
+    "choices": [
+      "(x - 3)(x + 3)",
+      "(x - 9)(x + 1)",
+      "(x - 1)(x + 9)",
+      "(x - 3)²"
+    ],
     "correctIndex": 0,
-    "explanation": "Factorizing gives (x - 5)(x + 1) = 0, so the solutions are x = 5 and x = -1; the smaller is -1."
+    "explanation": "Recognize x² - 9 as a difference of squares: x² - 3² = (x - 3)(x + 3)."
   },
   {
-    "question": "Solve for x: 1/x + 2 = 5",
-    "choices": ["1/3", "3", "1/2", "2/3"],
+    "question": "Using the identity (a + b)² = a² + 2ab + b², calculate (2 + 3)² and verify it equals 2² + 2×2×3 + 3².",
+    "choices": [
+      "25, because 2² + 2×2×3 + 3² = 4 + 12 + 9 = 25",
+      "30, because of different grouping",
+      "20, which is incorrect",
+      "15, which is too low"
+    ],
     "correctIndex": 0,
-    "explanation": "Subtract 2 to get 1/x = 3, hence x = 1/3."
+    "explanation": "Direct calculation: (2+3)² = 5² = 25, and 2² + 2×2×3 + 3² = 4 + 12 + 9 = 25."
   },
   {
-    "question": "If 3(x - 2) = 2x + 1, find x.",
-    "choices": ["5", "6", "7", "8"],
-    "correctIndex": 2,
-    "explanation": "Expanding gives 3x - 6 = 2x + 1, so x = 7."
-  },
-  {
-    "question": "Simplify: 4^(-1) + 4^(-1)",
-    "choices": ["1/2", "2", "1/4", "1/8"],
+    "question": "If the area of a circle is given by A = πr², what is the area when the diameter is 10?",
+    "choices": [
+      "25π",
+      "10π",
+      "50π",
+      "100π"
+    ],
     "correctIndex": 0,
-    "explanation": "Each 4^(-1) equals 1/4, so their sum is 1/4 + 1/4 = 1/2."
+    "explanation": "A diameter of 10 gives a radius of 5. So, A = π × 5² = 25π."
   },
   {
-    "question": "The ratio of a to b is 3:5. If a = 12, find b.",
-    "choices": ["15", "18", "20", "25"],
-    "correctIndex": 2,
-    "explanation": "Using the ratio, b = (12 × 5) / 3 = 20."
-  },
-  {
-    "question": "Simplify: 2(x + 3) - 3(x - 2)",
-    "choices": ["-x + 12", "x + 12", "-x + 6", "5x"],
+    "question": "Solve for x: 1/(x - 2) = 3/4.",
+    "choices": [
+      "10/3",
+      "8/3",
+      "4/3",
+      "3"
+    ],
     "correctIndex": 0,
-    "explanation": "Expand to get 2x + 6 - 3x + 6, which simplifies to -x + 12."
+    "explanation": "Cross-multiply to get 4 = 3(x - 2). Then, 4 = 3x - 6, so 3x = 10 and x = 10/3."
   },
   {
-    "question": "Simplify: (3²)³",
-    "choices": ["9", "27", "729", "2187"],
-    "correctIndex": 2,
-    "explanation": "Using exponent rules, (3²)³ = 3^(2×3) = 3⁶ = 729."
+    "question": "Solve for x: (x/3) + (x/4) = 7.",
+    "choices": [
+      "x = 12",
+      "x = 14",
+      "x = 10",
+      "x = 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Combining fractions: (4x + 3x)/12 = 7, so 7x/12 = 7. Multiply both sides by 12 to get 7x = 84, hence x = 12."
+  },
+  {
+    "question": "Rearrange the formula s = ut + ½at² to solve for t.",
+    "choices": [
+      "t = (-u ± √(u² + 2as)) / a",
+      "t = (u ± √(u² + 2as)) / (½a)",
+      "t = (-u ± √(u² - 2as)) / a",
+      "t = (u ± √(u² - 2as)) / a"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rewriting s = ut + ½at² gives a quadratic in t. Using the quadratic formula yields t = (-u ± √(u² + 2as)) / a."
+  },
+  {
+    "question": "Expand the expression: (x + 4)².",
+    "choices": [
+      "x² + 8x + 16",
+      "x² + 4x + 4",
+      "x² + 2x + 4",
+      "x² + 16"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expanding (x + 4)² gives x² + 2×4×x + 4² = x² + 8x + 16."
+  },
+  {
+    "question": "Solve for x: x³ - 8 = 0.",
+    "choices": [
+      "x = 2",
+      "x = -2",
+      "x = 4",
+      "x = 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "x³ - 8 = 0 implies x³ = 8, so the cube root of 8 is 2."
+  },
+  {
+    "question": "Factorize the expression: 16 - x² using the identity a² - b² = (a - b)(a + b).",
+    "choices": [
+      "(4 - x)(4 + x)",
+      "(16 - x)(16 + x)",
+      "(4 - x²)",
+      "(x - 4)²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Recognize that 16 = 4², so 16 - x² = (4)² - x² = (4 - x)(4 + x)."
+  },
+  {
+    "question": "Solve for x (find the positive solution): 2/(x + 1) = x.",
+    "choices": [
+      "x = 1",
+      "x = -2",
+      "x = 0",
+      "x = 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cross-multiplying gives 2 = x(x + 1) leading to x² + x - 2 = 0, which factors as (x + 2)(x - 1) = 0. The positive solution is x = 1."
+  },
+  {
+    "question": "Verify the identity: (x + y)² - (x - y)² = 4xy.",
+    "choices": [
+      "True, as expanding yields 4xy",
+      "False, it equals 2xy",
+      "False, it equals 0",
+      "True, but only if x = y"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expanding gives x² + 2xy + y² - (x² - 2xy + y²) = 4xy, so the identity holds."
+  },
+  {
+    "question": "Solve for x: √(x + 5) = 3.",
+    "choices": [
+      "x = 4",
+      "x = 9",
+      "x = -4",
+      "x = 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Squaring both sides yields x + 5 = 9, so x = 4."
+  },
+  {
+    "question": "Simplify the expression: (x² - 4) / (x - 2).",
+    "choices": [
+      "x + 2",
+      "x - 2",
+      "x² - 2",
+      "2x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factorize the numerator as (x - 2)(x + 2) and cancel the common (x - 2) term (provided x ≠ 2) to get x + 2."
+  },
+  {
+    "question": "Solve for x: 2x + 3 = 7.",
+    "choices": [
+      "x = 2",
+      "x = 3",
+      "x = 4",
+      "x = 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 3 from both sides to get 2x = 4, then divide by 2 to find x = 2."
+  },
+  {
+    "question": "Solve for x: 5(2x + 3) = 2(5x + 4).",
+    "choices": [
+      "No solution",
+      "x = 7",
+      "x = -7",
+      "x = 0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expanding gives 10x + 15 = 10x + 8. Subtracting 10x from both sides results in 15 = 8, which is false, so there is no solution."
   }
 ]
