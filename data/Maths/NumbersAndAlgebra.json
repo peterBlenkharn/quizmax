@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What is 12 + 15?",
+    "choices": ["27", "25", "30", "22"],
+    "correctIndex": 0,
+    "explanation": "12 + 15 equals 27."
+  }
+]
