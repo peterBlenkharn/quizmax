@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Which element is commonly used in fertilizers?",
+    "choices": ["Sodium", "Phosphorus", "Gold", "Neon"],
+    "correctIndex": 1,
+    "explanation": "Phosphorus is widely used in fertilizers."
+  }
+]
