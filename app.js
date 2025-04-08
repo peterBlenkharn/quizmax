@@ -150,7 +150,10 @@ async function launchQuiz(chipName, subjectName) {
   // Build the filename by transforming the chipName using our helper.
   const fileName = chipNameToFileName(chipName);
   // Construct the path according to your folder structure.
-  const path = `data/${subjectName}/${fileName}.json`;
+  // Assume your folders are named in lower-case; adjust here if needed.
+  const subjectFolder = subjectName.toLowerCase();
+  // Construct the URL using the lower-case subject folder and the file name.
+  const path = `data/${subjectFolder}/${fileName}.json`;
   
   try {
     const response = await fetch(path);
