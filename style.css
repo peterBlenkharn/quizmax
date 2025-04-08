@@ -1,0 +1,178 @@
+/* Reset & Basic Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f2f2f2;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Login Section */
+#login-section {
+  max-width: 400px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Main Menu & Cards Container */
+#main-menu {
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+#cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Subject Card styling */
+.subject-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.subject-card h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Color themes for each subject */
+.maths { border-top: 4px solid blue; }
+.sciences { border-top: 4px solid red; }
+.english { border-top: 4px solid #f0c000; } /* Yellow-ish */
+.geography { border-top: 4px solid orange; }
+
+/* Chip styling inside subject cards */
+.chip {
+  background: #e9e9e9;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.chip .chip-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.chip-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.chip button {
+  flex: 1;
+  padding: 5px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Quiz Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.modal-content {
+  background: #fff;
+  margin: 60px auto;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+/* Quiz Body */
+#choices-list {
+  list-style: none;
+  padding: 0;
+}
+
+#choices-list li {
+  margin: 10px 0;
+}
+
+#choices-list button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background: #fafafa;
+  cursor: pointer;
+}
+
+/* Feedback styling: you can add image icons via background images or inline <img> tags */
+#feedback {
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+/* Timer styling */
+#timer {
+  font-size: 1.2em;
+}
+
+/* When timer < 10 sec, text goes red */
+.timer-warning {
+  color: red;
+}
+
+/* Results Section in Quiz Modal */
+#results {
+  text-align: center;
+}
+
+/* Info Modal specific styling */
+#chart-container {
+  max-width: 500px;
+  margin: auto;
+}
+
+#metrics {
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
