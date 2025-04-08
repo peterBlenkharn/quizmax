@@ -1,0 +1,8 @@
+[
+  {
+    "question": "What property defines the wave’s speed?",
+    "choices": ["Wavelength", "Frequency", "Amplitude", "Period"],
+    "correctIndex": 1,
+    "explanation": "Wave speed is defined by wavelength multiplied by frequency."
+  }
+]
