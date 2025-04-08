@@ -1,0 +1,8 @@
+[
+  {
+    "question": "Which element is a primary component of organic compounds?",
+    "choices": ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
+    "correctIndex": 2,
+    "explanation": "Carbon is the backbone of organic compounds."
+  }
+]
