@@ -59,10 +59,10 @@ body {
 }
 
 /* Color themes for each subject */
-.maths { border-top: 4px solid blue; }
-.sciences { border-top: 4px solid red; }
-.english { border-top: 4px solid #f0c000; } /* Yellow-ish */
-.geography { border-top: 4px solid orange; }
+.maths { border-top: 4px solid #07a0c3; }
+.sciences { border-top: 4px solid #d64644; }
+.english { border-top: 4px solid #f0c808; } /* Yellow-ish */
+.geography { border-top: 4px solid #c6812e; }
 
 /* Chip styling inside subject cards */
 .chip {
