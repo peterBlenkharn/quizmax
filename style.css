@@ -35,45 +35,105 @@ body {
   justify-content: center;
 }
 
-/* Updated Subject Card Styling with Accordion Behavior */
+/* Subject Cards with Solid Background & Gradient */
 .subject-card {
-  background: #fff;
+  background: linear-gradient(135deg, var(--subject-color, #07a0c3), var(--subject-color, #07a0c3));
+  /* Alternatively, if you don’t want to use CSS variables, hard-code your subject colors here */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
   border-radius: 8px;
   width: 300px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  overflow: hidden;
-  transition: transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-/* Card header styled for branding and toggle */
-.subject-card .card-header {
-  padding: 15px;
+.subject-card .subject-icon {
+  max-width: 80px;
+  margin: 0 auto 10px;
+}
+
+.subject-card .subject-title {
   font-size: 1.8em;
-  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.subject-card .expand-btn {
+  background: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
   cursor: pointer;
+  font-size: 1em;
+  color: #333;
+  transition: background 0.3s;
+  margin-top: 15px;
+}
+
+.subject-card .expand-btn:hover {
+  background: rgba(255, 255, 255, 1);
+}
+
+/* Subject Modal Styling */
+#subject-modal .modal-content {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+#subject-modal .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* Icon for toggle (arrow) */
-.subject-card .toggle-icon {
-  transition: transform 0.3s;
-}
-.subject-card.expanded .toggle-icon {
-  transform: rotate(180deg);
+#subject-modal .modal-header h3 {
+  font-size: 2em;
 }
 
-/* Chips container hidden by default; expands on click */
-.chips-container {
-  padding: 15px;
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-}
-.subject-card.expanded .chips-container {
+#subject-modal .chips-grid {
   display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
 }
+
+#subject-modal .chip-modal {
+  background: #e9e9e9;
+  border-radius: 8px;
+  padding: 10px;
+  width: 140px;
+  text-align: center;
+}
+
+#subject-modal .chip-modal-title {
+  font-size: 1em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#subject-modal .chip-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+#subject-modal .chip-buttons img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+#subject-modal .chip-buttons img:hover {
+  transform: scale(1.1);
+}
+
+/* Additional responsive and minor adjustments remain as before */
+
 
 /* Chip Styling */
 .chip {
