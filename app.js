@@ -16,8 +16,11 @@ let currentSection = "";
 let currentQuestions = [];
 let currentQuestionIndex = 0;
 let score = 0;
+
 let timerInterval = null;
-let timeLeft = 120; // seconds
+const totalTime = 180;  // total quiz time in seconds
+let timeLeft = 180; // seconds
+
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
 
 // Global variable to store subjects loaded from JSON.
@@ -272,6 +275,7 @@ function startTimer() {
       timerEl.classList.add("timer-warning");
     }
     timerEl.textContent = `Time: ${timeLeft}s`;
+    updateProgressBar();  // Update progress bar each tick
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
       sounds.timeout.play();
@@ -279,6 +283,13 @@ function startTimer() {
     }
   }, 1000);
 }
+
+function updateProgressBar() {
+  const elapsedTime = totalTime - timeLeft;
+  const percent = (elapsedTime / totalTime) * 100;
+  document.getElementById("time-progress").style.width = percent + '%';
+}
+
 
 
 // Display current question and rebuild answer choices
