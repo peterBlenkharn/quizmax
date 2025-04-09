@@ -225,7 +225,7 @@ body {
   right: 10px;  /* Adjust padding from the right */
   background: transparent;
   border: none;
-  font-size: 1.5em;
+  font-size: 1em;
   color: #fff;  /* Or your desired color */
   cursor: pointer;
 }
@@ -284,7 +284,7 @@ body {
 }
 
 #subject-modal .chip-modal-title {
-  font-size: 1em;
+  font-size: 0.65em;
   margin-bottom: 10px;
   font-weight: bold;
 }
