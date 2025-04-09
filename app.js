@@ -242,6 +242,7 @@ async function launchQuiz(chipName, subjectName) {
     firstAttempt = true;
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
+    updateProgressBarColors(subjectName);
     startTimer();
     displayQuestion();
   } catch (error) {
@@ -275,7 +276,7 @@ function startTimer() {
       timerEl.classList.add("timer-warning");
     }
     timerEl.textContent = `Time: ${timeLeft}s`;
-    updateProgressBarColors(subjectName);  // Update progress bar each tick
+    updateProgressBar();  // Update progress bar each tick
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
       sounds.timeout.play();
