@@ -18,7 +18,6 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 let timerInterval = null;
-const totalTime = 180;  // total quiz time in seconds
 let timeLeft = 180; // seconds
 
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
@@ -239,7 +238,6 @@ async function launchQuiz(chipName, subjectName) {
     currentQuestions = getRandomQuestions(bank);
     currentQuestionIndex = 0;
     score = 0;
-    timeLeft = 120;
     firstAttempt = true;
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
