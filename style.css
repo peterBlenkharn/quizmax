@@ -322,6 +322,7 @@ body {
 
 /* QUIZ MODAL */
 .modal {
+  display: flex;
   position: fixed;
   align-items: center;
   top: 0;
