@@ -117,20 +117,20 @@ function injectSVGs() {
     fetch(src)
       .then(response => response.text())
       .then(svgText => {
-        // Create a temporary container to hold the SVG markup.
         const container = document.createElement('div');
         container.innerHTML = svgText.trim();
-        // Get the first <svg> element in the container.
         const svgElement = container.querySelector('svg');
         if (svgElement) {
-          // Copy over any classes from the <img> to the <svg>.
+          // Remove hardcoded dimensions so that CSS can control sizing.
+          svgElement.removeAttribute("width");
+          svgElement.removeAttribute("height");
+          // Copy classes from the <img> to the <svg>.
           svgElement.classList.add(...img.classList);
-          // Optionally, preserve attributes like alt by setting aria-label.
+          // Optionally, set an aria-label if needed.
           const altText = img.getAttribute('alt');
           if (altText) {
             svgElement.setAttribute('aria-label', altText);
           }
-          // Replace the <img> element with the inline <svg>
           img.parentNode.replaceChild(svgElement, img);
         }
       })
@@ -139,6 +139,7 @@ function injectSVGs() {
       });
   });
 }
+
 
 
 /* ===== SUBJECT MODAL ===== */
