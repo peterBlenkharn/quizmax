@@ -68,7 +68,6 @@ document.getElementById("login-btn").addEventListener("click", () => {
 
 /* ===== MAIN MENU GENERATION ===== */
 
-// Generate subject cards using the loaded subjects object.
 function generateSubjectCards() {
   const cardsContainer = document.getElementById("cards-container");
   cardsContainer.innerHTML = "";
@@ -79,11 +78,13 @@ function generateSubjectCards() {
     // Apply subject color class; styling in CSS will use a solid background with gradient.
     card.classList.add("subject-card", subjectData.colorClass);
     
-    // Subject icon (assumes an SVG in "icons/" named without spaces, e.g. "Maths.svg")
+    // Create subject icon image
     const subjectIcon = document.createElement("img");
-    subjectIcon.src = `icons/${subjectName.replace(/\s/g, "")}.svg`;
+    // Instead of directly setting the src, we set a data-src attribute:
+    subjectIcon.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
     subjectIcon.alt = subjectName + " Icon";
-    subjectIcon.classList.add("subject-icon");
+    // Add the dynamic-svg class so our injection function will replace it with inline SVG.
+    subjectIcon.classList.add("subject-icon", "dynamic-svg");
     card.appendChild(subjectIcon);
     
     // Subject title
@@ -92,7 +93,7 @@ function generateSubjectCards() {
     title.classList.add("subject-title");
     card.appendChild(title);
     
-    //  button that opens the subject modal with this subject's chips
+    // Explore button to open the subject modal
     const expandBtn = document.createElement("button");
     expandBtn.textContent = "Explore";
     expandBtn.classList.add("expand-btn");
@@ -103,7 +104,42 @@ function generateSubjectCards() {
     
     cardsContainer.appendChild(card);
   });
+  
+  // Once cards are generated, inject inline SVGs
+  injectSVGs();
 }
+
+// This function will replace each <img class="dynamic-svg"> with its inline SVG markup.
+function injectSVGs() {
+  const svgImages = document.querySelectorAll('img.dynamic-svg');
+  svgImages.forEach(img => {
+    const src = img.getAttribute('data-src');
+    fetch(src)
+      .then(response => response.text())
+      .then(svgText => {
+        // Create a temporary container to hold the SVG markup.
+        const container = document.createElement('div');
+        container.innerHTML = svgText.trim();
+        // Get the first <svg> element in the container.
+        const svgElement = container.querySelector('svg');
+        if (svgElement) {
+          // Copy over any classes from the <img> to the <svg>.
+          svgElement.classList.add(...img.classList);
+          // Optionally, preserve attributes like alt by setting aria-label.
+          const altText = img.getAttribute('alt');
+          if (altText) {
+            svgElement.setAttribute('aria-label', altText);
+          }
+          // Replace the <img> element with the inline <svg>
+          img.parentNode.replaceChild(svgElement, img);
+        }
+      })
+      .catch(error => {
+        console.error("SVG injection error:", error);
+      });
+  });
+}
+
 
 /* ===== SUBJECT MODAL ===== */
 
