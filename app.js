@@ -244,6 +244,12 @@ async function launchQuiz(chipName, subjectName) {
     document.getElementById("quiz-modal").classList.remove("hidden");
     document.getElementById("main-header").classList.add("hidden");
     updateProgressBarColors(subjectName);
+    // Update background colors based on the subject
+    updateBodyBackground(subjectName);
+    // Activate the quiz mode background animation.
+    document.body.classList.add("quiz-active");
+
+    
     startTimer();
     displayQuestion();
   } catch (error) {
@@ -310,6 +316,22 @@ function updateProgressBarColors(subjectName) {
   const progressBar = document.getElementById("time-progress");
   // Set the background using an inline style:
   progressBar.style.background = `linear-gradient(90deg, ${primaryColor}, ${darkColor})`;
+}
+
+function updateBodyBackground(subjectName) {
+  const subjectData = subjects[subjectName];
+  const tempDiv = document.createElement('div');
+  tempDiv.classList.add(subjectData.colorClass);
+  document.body.appendChild(tempDiv);
+  const style = getComputedStyle(tempDiv);
+  // Retrieve the CSS variables from the subject class (make sure they are defined in your CSS)
+  const primaryColor = style.getPropertyValue('--subject-color').trim();
+  const darkColor = style.getPropertyValue('--subject-color-dark').trim();
+  document.body.removeChild(tempDiv);
+  
+  // Set these as new CSS variables on the body
+  document.body.style.setProperty('--quiz-color1', primaryColor);
+  document.body.style.setProperty('--quiz-color2', darkColor);
 }
 
 
@@ -406,6 +428,7 @@ document.getElementById("exit-btn").addEventListener("click", () => {
   // Show the main menu and restore the header
   document.getElementById("main-menu").classList.remove("hidden");
   document.getElementById("main-header").classList.remove("hidden");
+  document.body.classList.remove("quiz-active");
 });
 
 
