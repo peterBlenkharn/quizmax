@@ -16,10 +16,10 @@ body {
   display: none;
 }
 
-/* Target the inline SVG that ends up inside a .subject-icon element */
-.subject-icon svg {
-  width: 80px;
-  height: auto;
+.subject-icon svg,
+.dynamic-svg svg {
+  width: 80px !important;
+  height: auto !important;
   display: block;
 }
 
