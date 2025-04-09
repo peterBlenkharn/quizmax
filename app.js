@@ -240,12 +240,13 @@ async function launchQuiz(chipName, subjectName) {
     currentQuestionIndex = 0;
     score = 0;
     firstAttempt = true;
+
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
     document.getElementById("main-header").classList.add("hidden");
     updateProgressBarColors(subjectName);
     // Update background colors based on the subject
-    updateBodyBackground(subjectName);
+    startNoiseBackground(subjectName);
     // Activate the quiz mode background animation.
     document.body.classList.add("quiz-active");
 
@@ -332,6 +333,107 @@ function updateBodyBackground(subjectName) {
   // Set these as new CSS variables on the body
   document.body.style.setProperty('--quiz-color1', primaryColor);
   document.body.style.setProperty('--quiz-color2', darkColor);
+}
+
+function startNoiseBackground(subjectName) {
+  // Create (or reuse) a full-screen canvas element for the background.
+  let noiseCanvas = document.getElementById('noise-canvas');
+  if (!noiseCanvas) {
+    noiseCanvas = document.createElement('canvas');
+    noiseCanvas.id = 'noise-canvas';
+    noiseCanvas.style.position = 'fixed';
+    noiseCanvas.style.top = '0';
+    noiseCanvas.style.left = '0';
+    noiseCanvas.style.width = '100%';
+    noiseCanvas.style.height = '100%';
+    noiseCanvas.style.zIndex = '-1';
+    document.body.appendChild(noiseCanvas);
+  }
+  
+  // Match canvas resolution to window size for full coverage.
+  noiseCanvas.width = window.innerWidth;
+  noiseCanvas.height = window.innerHeight;
+  
+  const ctx = noiseCanvas.getContext('2d');
+
+  // Get subject colors using a temporary element.
+  const subjectData = subjects[subjectName];
+  const tempDiv = document.createElement('div');
+  tempDiv.classList.add(subjectData.colorClass);
+  document.body.appendChild(tempDiv);
+  const computed = getComputedStyle(tempDiv);
+  const color1 = computed.getPropertyValue('--subject-color').trim();
+  const color2 = computed.getPropertyValue('--subject-color-dark').trim();
+  document.body.removeChild(tempDiv);
+
+  // Helper to parse hex color to r, g, b.
+  function parseHex(hex) {
+    hex = hex.replace('#', '');
+    if (hex.length === 3) {
+      hex = hex.split('').map(c => c + c).join('');
+    }
+    return {
+      r: parseInt(hex.substr(0, 2), 16),
+      g: parseInt(hex.substr(2, 2), 16),
+      b: parseInt(hex.substr(4, 2), 16)
+    };
+  }
+  
+  const col1 = parseHex(color1);
+  const col2 = parseHex(color2);
+
+  // Linear interpolation helper.
+  function lerp(a, b, t) {
+    return a + (b - a) * t;
+  }
+  
+  // Blend two colors.
+  function blendColors(c1, c2, t) {
+    return {
+      r: Math.round(lerp(c1.r, c2.r, t)),
+      g: Math.round(lerp(c1.g, c2.g, t)),
+      b: Math.round(lerp(c1.b, c2.b, t))
+    };
+  }
+  
+  function toHex(c) {
+    return '#' +
+      ('0' + c.r.toString(16)).slice(-2) +
+      ('0' + c.g.toString(16)).slice(-2) +
+      ('0' + c.b.toString(16)).slice(-2);
+  }
+  
+  let time = 0;
+  const scale = 0.005; // frequency; adjust to taste.
+
+  function renderNoise() {
+    // Create an ImageData object for the canvas.
+    const imageData = ctx.createImageData(noiseCanvas.width, noiseCanvas.height);
+    const data = imageData.data;
+    
+    // Loop over every pixel.
+    for (let y = 0; y < noiseCanvas.height; y++) {
+      for (let x = 0; x < noiseCanvas.width; x++) {
+        // Sample Perlin noise.
+        let noiseValue = Perlin.noise(x * scale, y * scale, time);
+        // Map noise from [-1, 1] to [0, 1]
+        let t = (noiseValue + 1) / 2;
+        // Blend between the two colours.
+        const blended = blendColors(col1, col2, t);
+        const index = (x + y * noiseCanvas.width) * 4;
+        data[index]     = blended.r;
+        data[index + 1] = blended.g;
+        data[index + 2] = blended.b;
+        data[index + 3] = 255;
+      }
+    }
+    
+    ctx.putImageData(imageData, 0, 0);
+    time += 0.01;  // Adjust for the speed of the animation.
+    requestAnimationFrame(renderNoise);
+  }
+  
+  renderNoise();
 }
 
 
@@ -429,6 +531,10 @@ document.getElementById("exit-btn").addEventListener("click", () => {
   document.getElementById("main-menu").classList.remove("hidden");
   document.getElementById("main-header").classList.remove("hidden");
   document.body.classList.remove("quiz-active");
+  const noiseCanvas = document.getElementById("noise-canvas");
+  if(noiseCanvas) {
+    noiseCanvas.remove();
+  }
 });
 
 
