@@ -177,34 +177,42 @@ body.quiz-active {
 .maths {
   --subject-color: #07a0c3;
   --subject-color-dark: #023f4b;
+  --subject-color-lite:#3ad5f8;
 }
 .biology {
   --subject-color: #8bc34a;
   --subject-color-dark: #507029;
+  --subject-color-lite: #b5d98c;
 }
 .physics {
   --subject-color: #d64644;
   --subject-color-dark: #782121;
+  --subject-color-lite: #e89896;
 }
 .chemistry {
   --subject-color: #ff5722;
   --subject-color-dark: #8a2c0f;
+  --subject-color-lite: #ff9d80;
 }
 .english-literature {
   --subject-color: #f0c808;
   --subject-color-dark: #7c6803;
+  --subject-color-lite: #fade52;
 }
 .english-language {
   --subject-color: #fdd835;
   --subject-color-dark: #c89004;
+  --subject-color-lite: #feec9a;
 }
 .geography {
   --subject-color: #c6812e;
   --subject-color-dark: #693e16;
+  --subject-color-lite: #ddab6e;
 }
 .physical-education {
   --subject-color: #08c448;
   --subject-color-dark: #03491d;
+  --subject-color-lite: #3bf77a;
 }
 
 /* SUBJECT MODAL STYLING */
