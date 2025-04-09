@@ -18,6 +18,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 let timerInterval = null;
+let totalTime = 180; //seconds
 let timeLeft = 180; // seconds
 
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
