@@ -198,6 +198,19 @@ body {
   position: relative;
   margin-bottom: 20px;
 }
+
+/* Modal header for subject modal: center the text with a gradient background */
+.modal-subject-header {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  /* The background will be provided by the subject color class via CSS variables */
+  background: linear-gradient(135deg, var(--subject-color), var(--subject-color-dark));
+}
+
 #subject-modal .modal-header h3 {
   width: 100%;
   padding: 10px;
