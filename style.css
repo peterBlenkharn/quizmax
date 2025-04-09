@@ -112,12 +112,14 @@ body {
 }
 
 /* Subject Icon and Title */
+
 .subject-card .subject-icon {
   max-width: 80px;
   margin: 0 auto 10px;
-  /* Darken the icon: adjust brightness */
-  filter: brightness(0.7);
+  color: var(--subject-color-dark);
+  /* Optionally, add filter adjustments if necessary */
 }
+
 .subject-card .subject-title {
   font-size: 1.8em;
   margin-bottom: 15px;
