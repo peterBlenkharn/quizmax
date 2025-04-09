@@ -110,7 +110,7 @@ body {
   padding: 20px;
   border-radius: 8px;
   flex: 1 1 300px;    /* allow growth/shrink with a base of 300px */
-  max-width: 300px;
+  max-width: 500px;
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -195,7 +195,7 @@ body {
 }
 #subject-modal .modal-content {
   width: 80%;
-  max-width: 600px;
+  max-width: 1200px;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
