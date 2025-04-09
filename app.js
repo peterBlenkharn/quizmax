@@ -327,7 +327,7 @@ function updateBodyBackground(subjectName) {
   const style = getComputedStyle(tempDiv);
   // Retrieve the CSS variables from the subject class (make sure they are defined in your CSS)
   const primaryColor = style.getPropertyValue('--subject-color').trim();
-  const darkColor = style.getPropertyValue('--subject-color-dark').trim();
+  const darkColor = style.getPropertyValue('--subject-color-lite').trim();
   document.body.removeChild(tempDiv);
   
   // Set these as new CSS variables on the body
