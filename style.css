@@ -373,3 +373,9 @@ body {
     align-items: center;
   }
 }
+
+#subject-modal.hidden,
+#info-modal.hidden,
+#quiz-modal.hidden {
+  display: none !important;
+}
