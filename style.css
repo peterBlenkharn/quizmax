@@ -199,6 +199,8 @@ body {
 }
 #subject-modal .modal-content {
   width: 80%;
+  height: 70%;
+  max-height: 1200px;
   max-width: 1200px;
   padding: 20px;
   border-radius: 8px;
