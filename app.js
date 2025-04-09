@@ -92,12 +92,12 @@ function generateSubjectCards() {
     title.classList.add("subject-title");
     card.appendChild(title);
     
-    // Expand button that opens the subject modal with this subject's chips
+    //  button that opens the subject modal with this subject's chips
     const expandBtn = document.createElement("button");
     expandBtn.textContent = "Explore";
     expandBtn.classList.add("expand-btn");
     expandBtn.addEventListener("click", () => {
-      (subjectName);
+      openSubjectModal(subjectName);
     });
     card.appendChild(expandBtn);
     
