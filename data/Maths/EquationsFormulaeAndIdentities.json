@@ -8,7 +8,8 @@
       "x = 4 or x = 1"
     ],
     "correctIndex": 0,
-    "explanation": "The equation factors as (x - 2)(x - 3) = 0, so x = 2 or x = 3."
+    "explanation": "The equation factors as (x - 2)(x - 3) = 0, so x = 2 or x = 3.",
+    "difficulty": "hard"
   },
   {
     "question": "Factorize the expression: 2x² + 7x + 3.",
@@ -19,7 +20,8 @@
       "(2x + 7)(x + 1)"
     ],
     "correctIndex": 0,
-    "explanation": "Expanding (2x + 1)(x + 3) gives 2x² + 6x + x + 3, which simplifies to 2x² + 7x + 3."
+    "explanation": "Expanding (2x + 1)(x + 3) gives 2x² + 6x + x + 3, which simplifies to 2x² + 7x + 3.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 3(x - 2) = 2(x + 4).",
@@ -30,7 +32,8 @@
       "x = 12"
     ],
     "correctIndex": 0,
-    "explanation": "Expanding gives 3x - 6 = 2x + 8. Subtract 2x to get x - 6 = 8, then add 6: x = 14."
+    "explanation": "Expanding gives 3x - 6 = 2x + 8. Subtract 2x to get x - 6 = 8, then add 6: x = 14.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 4x + 7 = 3x - 2.",
@@ -41,7 +44,8 @@
       "x = -1"
     ],
     "correctIndex": 0,
-    "explanation": "Subtract 3x from both sides to get x + 7 = -2, then subtract 7: x = -9."
+    "explanation": "Subtract 3x from both sides to get x + 7 = -2, then subtract 7: x = -9.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify the expression: (2x² - 8)/(2x).",
@@ -52,7 +56,8 @@
       "x - 4"
     ],
     "correctIndex": 0,
-    "explanation": "Factor 2 from the numerator: 2(x² - 4), then cancel the common factor with 2x, yielding (x² - 4)/x, which factors to (x - 2)(x + 2)/x."
+    "explanation": "Factor 2 from the numerator: 2(x² - 4), then cancel the common factor with 2x, yielding (x² - 4)/x, which factors to (x - 2)(x + 2)/x.",
+    "difficulty": "hard"
   },
   {
     "question": "Factorize the expression: x² - 9.",
@@ -63,7 +68,8 @@
       "(x - 3)²"
     ],
     "correctIndex": 0,
-    "explanation": "Recognize x² - 9 as a difference of squares: x² - 3² = (x - 3)(x + 3)."
+    "explanation": "Recognize x² - 9 as a difference of squares: x² - 3² = (x - 3)(x + 3).",
+    "difficulty": "hard"
   },
   {
     "question": "Using the identity (a + b)² = a² + 2ab + b², calculate (2 + 3)² and verify it equals 2² + 2×2×3 + 3².",
@@ -74,7 +80,8 @@
       "15, which is too low"
     ],
     "correctIndex": 0,
-    "explanation": "Direct calculation: (2+3)² = 5² = 25, and 2² + 2×2×3 + 3² = 4 + 12 + 9 = 25."
+    "explanation": "Direct calculation: (2+3)² = 5² = 25, and 2² + 2×2×3 + 3² = 4 + 12 + 9 = 25.",
+    "difficulty": "hard"
   },
   {
     "question": "If the area of a circle is given by A = πr², what is the area when the diameter is 10?",
@@ -85,7 +92,8 @@
       "100π"
     ],
     "correctIndex": 0,
-    "explanation": "A diameter of 10 gives a radius of 5. So, A = π × 5² = 25π."
+    "explanation": "A diameter of 10 gives a radius of 5. So, A = π × 5² = 25π.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 1/(x - 2) = 3/4.",
@@ -96,7 +104,8 @@
       "3"
     ],
     "correctIndex": 0,
-    "explanation": "Cross-multiply to get 4 = 3(x - 2). Then, 4 = 3x - 6, so 3x = 10 and x = 10/3."
+    "explanation": "Cross-multiply to get 4 = 3(x - 2). Then, 4 = 3x - 6, so 3x = 10 and x = 10/3.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: (x/3) + (x/4) = 7.",
@@ -107,7 +116,8 @@
       "x = 8"
     ],
     "correctIndex": 0,
-    "explanation": "Combining fractions: (4x + 3x)/12 = 7, so 7x/12 = 7. Multiply both sides by 12 to get 7x = 84, hence x = 12."
+    "explanation": "Combining fractions: (4x + 3x)/12 = 7, so 7x/12 = 7. Multiply both sides by 12 to get 7x = 84, hence x = 12.",
+    "difficulty": "hard"
   },
   {
     "question": "Rearrange the formula s = ut + ½at² to solve for t.",
@@ -118,7 +128,8 @@
       "t = (u ± √(u² - 2as)) / a"
     ],
     "correctIndex": 0,
-    "explanation": "Rewriting s = ut + ½at² gives a quadratic in t. Using the quadratic formula yields t = (-u ± √(u² + 2as)) / a."
+    "explanation": "Rewriting s = ut + ½at² gives a quadratic in t. Using the quadratic formula yields t = (-u ± √(u² + 2as)) / a.",
+    "difficulty": "hard"
   },
   {
     "question": "Expand the expression: (x + 4)².",
@@ -129,7 +140,8 @@
       "x² + 16"
     ],
     "correctIndex": 0,
-    "explanation": "Expanding (x + 4)² gives x² + 2×4×x + 4² = x² + 8x + 16."
+    "explanation": "Expanding (x + 4)² gives x² + 2×4×x + 4² = x² + 8x + 16.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: x³ - 8 = 0.",
@@ -140,7 +152,8 @@
       "x = 8"
     ],
     "correctIndex": 0,
-    "explanation": "x³ - 8 = 0 implies x³ = 8, so the cube root of 8 is 2."
+    "explanation": "x³ - 8 = 0 implies x³ = 8, so the cube root of 8 is 2.",
+    "difficulty": "hard"
   },
   {
     "question": "Factorize the expression: 16 - x² using the identity a² - b² = (a - b)(a + b).",
@@ -151,7 +164,8 @@
       "(x - 4)²"
     ],
     "correctIndex": 0,
-    "explanation": "Recognize that 16 = 4², so 16 - x² = (4)² - x² = (4 - x)(4 + x)."
+    "explanation": "Recognize that 16 = 4², so 16 - x² = (4)² - x² = (4 - x)(4 + x).",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x (find the positive solution): 2/(x + 1) = x.",
@@ -162,7 +176,8 @@
       "x = 2"
     ],
     "correctIndex": 0,
-    "explanation": "Cross-multiplying gives 2 = x(x + 1) leading to x² + x - 2 = 0, which factors as (x + 2)(x - 1) = 0. The positive solution is x = 1."
+    "explanation": "Cross-multiplying gives 2 = x(x + 1) leading to x² + x - 2 = 0, which factors as (x + 2)(x - 1) = 0. The positive solution is x = 1.",
+    "difficulty": "hard"
   },
   {
     "question": "Verify the identity: (x + y)² - (x - y)² = 4xy.",
@@ -173,7 +188,8 @@
       "True, but only if x = y"
     ],
     "correctIndex": 0,
-    "explanation": "Expanding gives x² + 2xy + y² - (x² - 2xy + y²) = 4xy, so the identity holds."
+    "explanation": "Expanding gives x² + 2xy + y² - (x² - 2xy + y²) = 4xy, so the identity holds.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: √(x + 5) = 3.",
@@ -184,7 +200,8 @@
       "x = 3"
     ],
     "correctIndex": 0,
-    "explanation": "Squaring both sides yields x + 5 = 9, so x = 4."
+    "explanation": "Squaring both sides yields x + 5 = 9, so x = 4.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify the expression: (x² - 4) / (x - 2).",
@@ -195,7 +212,8 @@
       "2x"
     ],
     "correctIndex": 0,
-    "explanation": "Factorize the numerator as (x - 2)(x + 2) and cancel the common (x - 2) term (provided x ≠ 2) to get x + 2."
+    "explanation": "Factorize the numerator as (x - 2)(x + 2) and cancel the common (x - 2) term (provided x ≠ 2) to get x + 2.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 2x + 3 = 7.",
@@ -206,7 +224,8 @@
       "x = 1"
     ],
     "correctIndex": 0,
-    "explanation": "Subtract 3 from both sides to get 2x = 4, then divide by 2 to find x = 2."
+    "explanation": "Subtract 3 from both sides to get 2x = 4, then divide by 2 to find x = 2.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 5(2x + 3) = 2(5x + 4).",
@@ -217,6 +236,487 @@
       "x = 0"
     ],
     "correctIndex": 0,
-    "explanation": "Expanding gives 10x + 15 = 10x + 8. Subtracting 10x from both sides results in 15 = 8, which is false, so there is no solution."
+    "explanation": "Expanding gives 10x + 15 = 10x + 8. Subtracting 10x from both sides results in 15 = 8, which is false, so there is no solution.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Solve for x: x + 5 = 10",
+    "choices": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 5 from both sides to get x = 10 − 5, so x = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 2x = 8",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide both sides by 2: x = 8 ÷ 2 = 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x − 7 = 3",
+    "choices": [
+      "5",
+      "10",
+      "0",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add 7 to both sides: x = 3 + 7 = 10.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 3x = 15",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide both sides by 3: x = 15 ÷ 3 = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 2x + 4 = 12",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subtract 4 from both sides (2x = 8) and then divide by 2: x = 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 5x − 5 = 20",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add 5 to get 5x = 25, then divide by 5: x = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x/2 = 3",
+    "choices": [
+      "3",
+      "6",
+      "1.5",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply both sides by 2: x = 3 × 2 = 6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x/4 = 2",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply both sides by 4: x = 2 × 4 = 8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: (x + 3) − x",
+    "choices": [
+      "3",
+      "0",
+      "x",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract x from x + 3 to leave 3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evaluate: (2 + 3)²",
+    "choices": [
+      "20",
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 + 3 = 5, so 5² = 25.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Using the identity (a + b)² = a² + 2ab + b², find (1 + 2)².",
+    "choices": [
+      "9",
+      "4",
+      "7",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 + 2 = 3; thus, 3² = 9.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Factorize: x² − 9",
+    "choices": [
+      "(x + 3)(x − 3)",
+      "(x + 9)(x − 1)",
+      "(x − 3)²",
+      "(x + 3)²"
+    ],
+    "correctIndex": 0,
+    "explanation": "x² − 9 is a difference of two squares: (x + 3)(x − 3).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Factorize: x² + 6x + 9",
+    "choices": [
+      "(x + 3)²",
+      "(x + 6)(x + 1)",
+      "(x + 2)²",
+      "(x + 3)(x + 2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "x² + 6x + 9 factors as (x + 3)².",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Expand: (x + 2)²",
+    "choices": [
+      "x² + 4",
+      "x² + 2x + 4",
+      "x² + 4x + 4",
+      "x² + 2x + 2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Expanding (x + 2)² gives x² + 2×2×x + 2² = x² + 4x + 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Expand: (x − 3)²",
+    "choices": [
+      "x² − 6x + 9",
+      "x² − 3x + 9",
+      "x² + 6x + 9",
+      "x² − 9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expanding (x − 3)² gives x² − 2×3×x + 9 = x² − 6x + 9.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x² = 16 (choose the positive solution)",
+    "choices": [
+      "4",
+      "-4",
+      "8",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "The positive square root of 16 is 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x² = 25 (choose the positive solution)",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "The positive square root of 25 is 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: x² − 4 = 0",
+    "choices": [
+      "x = 2",
+      "x = −2",
+      "x = 2 or x = −2",
+      "x = 4"
+    ],
+    "correctIndex": 2,
+    "explanation": "x² − 4 factors as (x − 2)(x + 2) = 0, so x = 2 or x = −2.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 2x + 3 = 11",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subtract 3 to get 2x = 8; hence x = 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 3x − 2 = 10",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add 2 to get 3x = 12; divide by 3 to obtain x = 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Write the formula for the area of a triangle.",
+    "choices": [
+      "½ × base × height",
+      "base × height",
+      "2 × base × height",
+      "base + height"
+    ],
+    "correctIndex": 0,
+    "explanation": "The area of a triangle is given by ½ × base × height.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Write the formula for the area of a rectangle.",
+    "choices": [
+      "length + width",
+      "length − width",
+      "length × width",
+      "length ÷ width"
+    ],
+    "correctIndex": 2,
+    "explanation": "The area of a rectangle is length multiplied by width.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Write the formula for the circumference of a circle.",
+    "choices": [
+      "2πr",
+      "πr²",
+      "πr",
+      "2r"
+    ],
+    "correctIndex": 0,
+    "explanation": "The circumference of a circle is 2π times the radius.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Write the formula for the area of a circle.",
+    "choices": [
+      "πr",
+      "πr²",
+      "2πr",
+      "2r"
+    ],
+    "correctIndex": 1,
+    "explanation": "The area of a circle is π times the square of the radius.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evaluate: 5 + 2 × 3",
+    "choices": [
+      "21",
+      "11",
+      "7",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply 2 × 3 = 6, then add 5 to get 11.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: 10 − 2 = ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "10 minus 2 equals 8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: 4 + 6 = ?",
+    "choices": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "4 plus 6 equals 10.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: 9 − 3 = ?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "9 minus 3 equals 6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: 3 × 3 = ?",
+    "choices": [
+      "6",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "3 multiplied by 3 equals 9.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve: 12 ÷ 3 = ?",
+    "choices": [
+      "3",
+      "4",
+      "6",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "12 divided by 3 equals 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a = 2 and b = 3, what is a + b?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 + 3 equals 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a = 2 and b = 3, what is a × b?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 multiplied by 3 equals 6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 2x + 3x",
+    "choices": [
+      "5x",
+      "6x",
+      "2x",
+      "x"
+    ],
+    "correctIndex": 0,
+    "explanation": "2x + 3x equals 5x.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 4x − 2x",
+    "choices": [
+      "2x",
+      "x",
+      "6x",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "4x − 2x simplifies to 2x.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 3x = 9",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide by 3: x = 9 ÷ 3 = 3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x/2 = 4",
+    "choices": [
+      "4",
+      "6",
+      "8",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply both sides by 2: x = 4 × 2 = 8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: (x + 1) − 1",
+    "choices": [
+      "x",
+      "1",
+      "x + 1",
+      "x − 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtracting 1 gives x.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Factorize: x² − 4x",
+    "choices": [
+      "x(x − 4)",
+      "x² − 4",
+      "x(x + 4)",
+      "4x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factor out x: x(x − 4).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Expand: x(x + 4)",
+    "choices": [
+      "x² + 4",
+      "x² + 4x",
+      "x² + 8",
+      "x² + x + 4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply to get x² + 4x.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x + x = 10",
+    "choices": [
+      "4",
+      "5",
+      "10",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "x + x = 2x, so 2x = 10 and x = 5.",
+    "difficulty": "easy"
   }
 ]
