@@ -212,10 +212,22 @@ body {
   align-items: center;
   position: relative;
   margin-bottom: 20px;
+  padding: 10px;
 }
 
 #subject-modal .modal-body{
   height: 60%;
+}
+
+#subject-modal #subject-modal-close {
+  position: absolute;
+  top: 10px;    /* Adjust padding from the top */
+  right: 10px;  /* Adjust padding from the right */
+  background: transparent;
+  border: none;
+  font-size: 1.5em;
+  color: #fff;  /* Or your desired color */
+  cursor: pointer;
 }
 
 /* Modal header for subject modal: center the text with a gradient background */
