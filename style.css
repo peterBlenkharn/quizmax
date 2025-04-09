@@ -239,33 +239,44 @@ body {
   text-align: center;
   font-size: 2em;
 }
+/* Use CSS Grid to layout the chips so they fill the modal’s width */
 #subject-modal .chips-grid {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 15px;
-  justify-content: center;
-  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
 }
+
+/* Each chip in the modal will flexibly fill its grid cell and have a percentage-based height */
 #subject-modal .chip-modal {
   background: #e9e9e9;
   border-radius: 8px;
   padding: 10px;
-  width: 140px;
+  /* Remove fixed width; grid will dictate the width */
+  /* Set the height to 25% of the viewport height (or adjust as needed), up to a maximum */
+  height: 25vh;
+  max-height: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between; /* or use 'center' if you want all content centered */
   align-items: center;
   text-align: center;
 }
+
+#subject-modal .chip-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
 #subject-modal .chip-modal-title {
   font-size: 1em;
   margin-bottom: 10px;
   font-weight: bold;
 }
-#subject-modal .chip-buttons {
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-}
+
 #subject-modal .chip-buttons img {
   width: 20px;
   height: 20px;
