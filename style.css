@@ -11,6 +11,22 @@ body {
   padding: 20px;
   line-height: 1.5;
 }
+/* Animated background for quiz mode */
+body.quiz-active {
+  animation: shiftBackground 10s ease infinite;
+}
+
+@keyframes shiftBackground {
+  0% {
+    background: linear-gradient(45deg, var(--quiz-color1), var(--quiz-color2));
+  }
+  50% {
+    background: linear-gradient(45deg, var(--quiz-color2), var(--quiz-color1));
+  }
+  100% {
+    background: linear-gradient(45deg, var(--quiz-color1), var(--quiz-color2));
+  }
+}
 
 .hidden {
   display: none;
