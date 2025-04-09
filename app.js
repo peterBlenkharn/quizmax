@@ -62,6 +62,7 @@ document.getElementById("login-btn").addEventListener("click", () => {
   const userPassword = document.getElementById("password").value;
   if (userPassword === CORRECT_PASSWORD) {
     document.getElementById("login-section").classList.add("hidden");
+    document.getElementById("main-header").classList.remove("hidden");
     document.getElementById("main-menu").classList.remove("hidden");
     loadSubjects();
   } else {
@@ -242,6 +243,7 @@ async function launchQuiz(chipName, subjectName) {
     firstAttempt = true;
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
+    document.getElementById("main-header").classList.add("hidden");
     updateProgressBarColors(subjectName);
     startTimer();
     displayQuestion();
@@ -401,6 +403,10 @@ document.getElementById("exit-btn").addEventListener("click", () => {
   document.getElementById("quiz-body").classList.remove("hidden");
   document.getElementById("results").classList.add("hidden");
   document.getElementById("main-menu").classList.remove("hidden");
+
+  // Show the main menu and restore the header
+  document.getElementById("main-menu").classList.remove("hidden");
+  document.getElementById("main-header").classList.remove("hidden");
 });
 
 
