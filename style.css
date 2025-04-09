@@ -380,6 +380,27 @@ body {
   text-align: center;
 }
 
+/* Progress Bar Container */
+#time-progress-container {
+  width: 100%;
+  height: 20px;  /* set your desired bar height */
+  border-radius: 10px;
+  background: #e0e0e0;  /* light background for the empty portion */
+  box-shadow: inset 0 1px 3px rgba(0,0,0,0.3);
+  overflow: hidden;    /* so the inner fill stays rounded */
+  margin: 15px 0;      /* space above and below the bar */
+}
+
+/* Progress Fill */
+#time-progress {
+  height: 100%;
+  width: 0%;
+  border-radius: 10px 0 0 10px;  /* rounded left side */
+  background: linear-gradient(90deg, var(--subject-color), var(--subject-color-dark));
+  box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+  transition: width 1s linear;
+}
+
 /* RESPONSIVE ADJUSTMENTS */
 @media (max-width: 480px) {
   #main-header h2 {
