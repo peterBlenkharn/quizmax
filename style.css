@@ -132,11 +132,9 @@ body {
   margin-bottom: 15px;
 }
 
-/* Animated Explore Button */
 .subject-card .expand-btn {
   background: linear-gradient(45deg, var(--subject-color), var(--subject-color-dark));
   background-size: 200% 200%;
-  animation: gradientShift 3s ease infinite;
   border: none;
   border-radius: 20px;
   padding: 10px 20px;
@@ -146,7 +144,13 @@ body {
   color: #fff;
   margin-top: 15px;
   transition: background 0.3s;
+  /* Remove animation from here */
 }
+
+.subject-card .expand-btn:hover {
+  animation: gradientShift 3s ease infinite;
+}
+
 @keyframes gradientShift {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
