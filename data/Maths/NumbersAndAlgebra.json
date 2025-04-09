@@ -3,362 +3,120 @@
     "question": "Solve for x: 3x - 7 = 2x + 5",
     "choices": ["x = 10", "x = 12", "x = 15", "x = 17"],
     "correctIndex": 1,
-    "explanation": "Subtract 2x from both sides to get x - 7 = 5, then add 7 to obtain x = 12."
+    "explanation": "Subtract 2x from both sides to get x - 7 = 5, then add 7 to obtain x = 12.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify: 4x + 7 - 2x + 3",
     "choices": ["2x + 10", "6x + 4", "2x + 7", "4x + 10"],
     "correctIndex": 0,
-    "explanation": "Combine like terms: 4x - 2x = 2x and 7 + 3 = 10, so the expression simplifies to 2x + 10."
+    "explanation": "Combine like terms: 4x - 2x = 2x and 7 + 3 = 10, so the expression simplifies to 2x + 10.",
+    "difficulty": "hard"
   },
   {
     "question": "Factorize: x² + 5x + 6",
     "choices": ["(x+1)(x+6)", "(x+3)(x+2)", "x(x+5)+6", "(x+2)(x+4)"],
     "correctIndex": 1,
-    "explanation": "x² + 5x + 6 factors as (x + 2)(x + 3) because 2 + 3 = 5 and 2 × 3 = 6."
+    "explanation": "x² + 5x + 6 factors as (x + 2)(x + 3) because 2 + 3 = 5 and 2 × 3 = 6.",
+    "difficulty": "hard"
   },
   {
     "question": "What is the larger solution of the equation x² - 3x - 10 = 0?",
     "choices": ["-2", "10", "5", "2"],
     "correctIndex": 2,
-    "explanation": "Factorize the equation as (x - 5)(x + 2) = 0. The solutions are x = 5 and x = -2; the larger is 5."
+    "explanation": "Factorize the equation as (x - 5)(x + 2) = 0. The solutions are x = 5 and x = -2; the larger is 5.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify: (2³ × 2⁴) / 2⁵",
     "choices": ["2", "4", "8", "16"],
     "correctIndex": 1,
-    "explanation": "Using exponent laws, (2^(3+4))/2⁵ = 2⁷/2⁵ = 2² = 4."
+    "explanation": "Using exponent laws, (2^(3+4))/2⁵ = 2⁷/2⁵ = 2² = 4.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: (1/2)x - (1/3) = 1/6",
     "choices": ["0.5", "1", "1.5", "2"],
     "correctIndex": 1,
-    "explanation": "Multiply by 6: 3x - 2 = 1, so 3x = 3 and x = 1."
+    "explanation": "Multiply by 6: 3x - 2 = 1, so 3x = 3 and x = 1.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify by rationalising the denominator: 2/(3 - √2)",
     "choices": ["(6+2√2)/7", "(6-2√2)/7", "(2√2-6)/7", "(6+√2)/7"],
     "correctIndex": 0,
-    "explanation": "Multiply numerator and denominator by (3+√2) to get: [2(3+√2)]/(9-2) = (6+2√2)/7."
+    "explanation": "Multiply numerator and denominator by (3+√2) to get: [2(3+√2)]/(9-2) = (6+2√2)/7.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify: (3x² - 2x) - (x² - 4x + 5)",
     "choices": ["2x² + 2x - 5", "2x² - 2x - 5", "4x² + 2x - 5", "x² + 6x - 5"],
     "correctIndex": 0,
-    "explanation": "Distribute the subtraction: 3x² - 2x - x² + 4x - 5 = 2x² + 2x - 5."
+    "explanation": "Distribute the subtraction: 3x² - 2x - x² + 4x - 5 = 2x² + 2x - 5.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x and y: x + y = 7 and x - y = 3. What is the value of x?",
     "choices": ["3", "4", "5", "6"],
     "correctIndex": 2,
-    "explanation": "Adding the equations gives 2x = 10, so x = 5."
+    "explanation": "Adding the equations gives 2x = 10, so x = 5.",
+    "difficulty": "hard"
   },
   {
     "question": "If 25% of a number is 15, what is the number?",
     "choices": ["45", "50", "60", "75"],
     "correctIndex": 2,
-    "explanation": "Since 25% is 0.25, the number is 15/0.25 = 60."
+    "explanation": "Since 25% is 0.25, the number is 15/0.25 = 60.",
+    "difficulty": "hard"
   },
   {
     "question": "Express 0.375 as a fraction in its simplest form.",
     "choices": ["3/8", "1/3", "2/5", "3/5"],
     "correctIndex": 0,
-    "explanation": "0.375 = 375/1000, which simplifies to 3/8."
+    "explanation": "0.375 = 375/1000, which simplifies to 3/8.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify: √50",
     "choices": ["5√2", "2√5", "10√2", "25"],
     "correctIndex": 0,
-    "explanation": "√50 = √(25×2) = 5√2."
+    "explanation": "√50 = √(25×2) = 5√2.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 2ˣ = 16",
     "choices": ["2", "3", "4", "5"],
     "correctIndex": 2,
-    "explanation": "Since 16 = 2⁴, we have 2ˣ = 2⁴, so x = 4."
+    "explanation": "Since 16 = 2⁴, we have 2ˣ = 2⁴, so x = 4.",
+    "difficulty": "hard"
   },
   {
     "question": "Find the smaller solution of the equation x² - 4x - 5 = 0.",
     "choices": ["-1", "1", "4", "5"],
     "correctIndex": 0,
-    "explanation": "Factorizing gives (x - 5)(x + 1) = 0, so the solutions are x = 5 and x = -1; the smaller is -1."
+    "explanation": "Factorizing gives (x - 5)(x + 1) = 0, so the solutions are x = 5 and x = -1; the smaller is -1.",
+    "difficulty": "hard"
   },
   {
     "question": "Solve for x: 1/x + 2 = 5",
     "choices": ["1/3", "3", "1/2", "2/3"],
     "correctIndex": 0,
-    "explanation": "Subtract 2 to get 1/x = 3, hence x = 1/3."
+    "explanation": "Subtract 2 to get 1/x = 3, hence x = 1/3.",
+    "difficulty": "hard"
   },
   {
     "question": "If 3(x - 2) = 2x + 1, find x.",
     "choices": ["5", "6", "7", "8"],
     "correctIndex": 2,
-    "explanation": "Expanding gives 3x - 6 = 2x + 1, so x = 7."
+    "explanation": "Expanding gives 3x - 6 = 2x + 1, so x = 7.",
+    "difficulty": "hard"
   },
   {
     "question": "Simplify: 4^(-1) + 4^(-1)",
     "choices": ["1/2", "2", "1/4", "1/8"],
     "correctIndex": 0,
-    "explanation": "Each 4^(-1) equals 1/4, so their sum is 1/4 + 1/4 = 1/2."
+    "explanation": "Each 4^(-1) equals 1/4, so their sum is 1/4 + 1/4 = 1/2.",
+    "difficulty": "hard"
   },
   {
-    "question": "The ratio of a to b is 3:5. If a = 12, find b.",
-    "choices": ["15", "18", "20", "25"],
-    "correctIndex": 2,
-    "explanation": "Using the ratio, b = (12 × 5) / 3 = 20."
-  },
-  {
-    "question": "Simplify: 2(x + 3) - 3(x - 2)",
-    "choices": ["-x + 12", "x + 12", "-x + 6", "5x"],
-    "correctIndex": 0,
-    "explanation": "Expand to get 2x + 6 - 3x + 6, which simplifies to -x + 12."
-  },
-  {
-    "question": "Simplify: (3²)³",
-    "choices": ["9", "27", "729", "2187"],
-    "correctIndex": 2,
-    "explanation": "Using exponent rules, (3²)³ = 3^(2×3) = 3⁶ = 729."
-  },
-  {
-    "question": "What is 7 + 5?",
-    "choices": ["11", "12", "13", "10"],
-    "correctIndex": 1,
-    "explanation": "7 plus 5 equals 12."
-  },
-  {
-    "question": "What is 15 - 8?",
-    "choices": ["6", "7", "8", "9"],
-    "correctIndex": 1,
-    "explanation": "15 minus 8 equals 7."
-  },
-  {
-    "question": "What is 9 × 3?",
-    "choices": ["27", "26", "28", "29"],
-    "correctIndex": 0,
-    "explanation": "9 times 3 equals 27."
-  },
-  {
-    "question": "What is 20 ÷ 4?",
-    "choices": ["4", "5", "6", "7"],
-    "correctIndex": 1,
-    "explanation": "20 divided by 4 equals 5."
-  },
-  {
-    "question": "What is 0.5 + 1.25?",
-    "choices": ["1.5", "1.75", "1.8", "2.0"],
-    "correctIndex": 1,
-    "explanation": "0.5 plus 1.25 equals 1.75."
-  },
-  {
-    "question": "Simplify: 2/4",
-    "choices": ["1/2", "1/3", "2/3", "1/4"],
-    "correctIndex": 0,
-    "explanation": "2/4 simplifies to 1/2."
-  },
-  {
-    "question": "What is 10% of 100?",
-    "choices": ["5", "10", "15", "20"],
-    "correctIndex": 1,
-    "explanation": "10% of 100 is 10."
-  },
-  {
-    "question": "What is 25% of 80?",
-    "choices": ["15", "16", "20", "25"],
-    "correctIndex": 2,
-    "explanation": "25% of 80 is 20."
-  },
-  {
-    "question": "Solve for x: x + 4 = 9",
-    "choices": ["4", "5", "6", "7"],
-    "correctIndex": 1,
-    "explanation": "x + 4 = 9, so x = 5."
-  },
-  {
-    "question": "Solve for x: 2x = 14",
-    "choices": ["6", "7", "8", "9"],
-    "correctIndex": 1,
-    "explanation": "Dividing both sides by 2 gives x = 7."
-  },
-  {
-    "question": "Solve for x: 5 - x = 2",
-    "choices": ["2", "3", "4", "5"],
-    "correctIndex": 1,
-    "explanation": "Rearranging 5 - x = 2 gives x = 3."
-  },
-  {
-    "question": "Evaluate: 3²",
-    "choices": ["6", "8", "9", "12"],
-    "correctIndex": 2,
-    "explanation": "3 squared is 9."
-  },
-  {
-    "question": "Evaluate: √16",
-    "choices": ["2", "3", "4", "5"],
-    "correctIndex": 2,
-    "explanation": "The square root of 16 is 4."
-  },
-  {
-    "question": "Simplify: 4 + 3 × 2",
-    "choices": ["10", "14", "16", "8"],
-    "correctIndex": 0,
-    "explanation": "Multiplication first: 3×2=6, then 4+6=10."
-  },
-  {
-    "question": "Simplify: (8 - 3) × 2",
-    "choices": ["10", "8", "12", "14"],
-    "correctIndex": 0,
-    "explanation": "Subtract inside the bracket: 8-3=5, then 5×2=10."
-  },
-  {
-    "question": "Solve for x: 3x + 2 = 11",
-    "choices": ["3", "4", "5", "6"],
-    "correctIndex": 0,
-    "explanation": "Subtract 2 to get 3x = 9, so x = 3."
-  },
-  {
-    "question": "What is the reciprocal of 4?",
-    "choices": ["1/4", "4", "2", "1/2"],
-    "correctIndex": 0,
-    "explanation": "The reciprocal of 4 is 1/4."
-  },
-  {
-    "question": "Express 0.75 as a fraction in simplest form.",
-    "choices": ["1/2", "3/4", "2/3", "1/4"],
-    "correctIndex": 1,
-    "explanation": "0.75 equals 3/4 when written as a fraction."
-  },
-  {
-    "question": "Simplify: 6/8",
-    "choices": ["6/8", "3/4", "2/3", "4/5"],
-    "correctIndex": 1,
-    "explanation": "6/8 simplifies to 3/4 after dividing numerator and denominator by 2."
-  },
-  {
-    "question": "Find the value of x: 7x = 35",
-    "choices": ["3", "4", "5", "6"],
-    "correctIndex": 2,
-    "explanation": "Dividing both sides by 7 gives x = 5."
-  },
-  {
-    "question": "Evaluate: 10 - 2 × 3",
-    "choices": ["4", "10", "16", "8"],
-    "correctIndex": 0,
-    "explanation": "2×3=6 and 10-6 equals 4."
-  },
-  {
-    "question": "Simplify: 5 + 5 - 3",
-    "choices": ["7", "8", "9", "10"],
-    "correctIndex": 0,
-    "explanation": "5+5=10, then 10-3 equals 7."
-  },
-  {
-    "question": "What is the remainder when 17 is divided by 5?",
-    "choices": ["2", "3", "4", "1"],
-    "correctIndex": 0,
-    "explanation": "17 divided by 5 is 3 remainder 2."
-  },
-  {
-    "question": "What is 3/4 of 20?",
-    "choices": ["10", "12", "15", "16"],
-    "correctIndex": 2,
-    "explanation": "3/4 multiplied by 20 equals 15."
-  },
-  {
-    "question": "Solve for x: x/2 = 6",
-    "choices": ["10", "11", "12", "13"],
-    "correctIndex": 2,
-    "explanation": "Multiplying both sides by 2 gives x = 12."
-  },
-  {
-    "question": "Find the sum of the first 3 positive integers.",
-    "choices": ["5", "6", "7", "8"],
-    "correctIndex": 1,
-    "explanation": "1 + 2 + 3 equals 6."
-  },
-  {
-    "question": "If a = 3, what is the value of 2a + 4?",
-    "choices": ["8", "9", "10", "11"],
-    "correctIndex": 2,
-    "explanation": "2×3 = 6, and 6 + 4 equals 10."
-  },
-  {
-    "question": "Simplify: 2(3 + 5)",
-    "choices": ["14", "15", "16", "17"],
-    "correctIndex": 2,
-    "explanation": "3 + 5 equals 8, and 2×8 is 16."
-  },
-  {
-    "question": "Solve for x: 2x - 3 = 7",
-    "choices": ["4", "5", "6", "7"],
-    "correctIndex": 1,
-    "explanation": "Add 3 to get 2x = 10, then divide by 2: x = 5."
-  },
-  {
-    "question": "What is the product of 0 and any number?",
-    "choices": ["0", "1", "The number itself", "Undefined"],
-    "correctIndex": 0,
-    "explanation": "Multiplying any number by 0 yields 0."
-  },
-  {
-    "question": "What is the difference between 100 and 45?",
-    "choices": ["55", "65", "35", "45"],
-    "correctIndex": 0,
-    "explanation": "100 minus 45 equals 55."
-  },
-  {
-    "question": "Solve: 8 ÷ 2",
-    "choices": ["2", "3", "4", "5"],
-    "correctIndex": 2,
-    "explanation": "8 divided by 2 equals 4."
-  },
-  {
-    "question": "What is 4²?",
-    "choices": ["8", "12", "16", "20"],
-    "correctIndex": 2,
-    "explanation": "4 squared equals 16."
-  },
-  {
-    "question": "Evaluate: 1/2 × 8",
-    "choices": ["2", "3", "4", "5"],
-    "correctIndex": 2,
-    "explanation": "1/2 of 8 equals 4."
-  },
-  {
-    "question": "Simplify: 9 - 3 - 2",
-    "choices": ["3", "4", "5", "6"],
-    "correctIndex": 1,
-    "explanation": "9 minus 3 is 6, and 6 minus 2 equals 4."
-  },
-  {
-    "question": "What is the least common multiple (LCM) of 3 and 4?",
-    "choices": ["7", "10", "12", "14"],
-    "correctIndex": 2,
-    "explanation": "The LCM of 3 and 4 is 12."
-  },
-  {
-    "question": "What is the greatest common divisor (GCD) of 8 and 12?",
-    "choices": ["2", "3", "4", "6"],
-    "correctIndex": 2,
-    "explanation": "The GCD of 8 and 12 is 4."
-  },
-  {
-    "question": "Express 50% as a decimal.",
-    "choices": ["0.25", "0.5", "0.75", "1.0"],
-    "correctIndex": 1,
-    "explanation": "50% is equivalent to 0.5."
-  },
-  {
-    "question": "Solve for x: x - 2 = 5",
-    "choices": ["5", "6", "7", "8"],
-    "correctIndex": 2,
-    "explanation": "Adding 2 to both sides gives x = 7."
-  },
-  {
-    "question": "What is the difference between the largest and smallest numbers in the set [4, 7, 9]?",
-    "choices": ["3", "4", "5", "6"],
-    "correctIndex": 2,
-    "explanation": "The largest number is 9 and the smallest is 4, so the difference is 5."
-  }
-]
-
-
+    "question": "The ratio of a to b is 3:5. If a
