@@ -275,7 +275,7 @@ function startTimer() {
       timerEl.classList.add("timer-warning");
     }
     timerEl.textContent = `Time: ${timeLeft}s`;
-    updateProgressBar();  // Update progress bar each tick
+    updateProgressBarColors(subjectName);  // Update progress bar each tick
     if (timeLeft <= 0) {
       clearInterval(timerInterval);
       sounds.timeout.play();
@@ -290,6 +290,25 @@ function updateProgressBar() {
   document.getElementById("time-progress").style.width = percent + '%';
 }
 
+function updateProgressBarColors(subjectName) {
+  // Example: if you already store the colors in your subjects object,
+  // you can retrieve them like so:
+  const subjectData = subjects[subjectName];
+  // For example, assume subjectData.colorClass is "maths", and your .maths rule sets:
+  // --subject-color: #07a0c3; and --subject-color-dark: #0492b0;
+  // To get these values dynamically, you could:
+  const tempDiv = document.createElement('div');
+  tempDiv.classList.add(subjectData.colorClass);
+  document.body.appendChild(tempDiv);
+  const style = window.getComputedStyle(tempDiv);
+  const primaryColor = style.getPropertyValue('--subject-color').trim();
+  const darkColor = style.getPropertyValue('--subject-color-dark').trim();
+  document.body.removeChild(tempDiv);
+
+  const progressBar = document.getElementById("time-progress");
+  // Set the background using an inline style:
+  progressBar.style.background = `linear-gradient(90deg, ${primaryColor}, ${darkColor})`;
+}
 
 
 // Display current question and rebuild answer choices
