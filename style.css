@@ -156,35 +156,35 @@ body {
 /* SUBJECT COLORS – Define CSS variables per subject */
 .maths {
   --subject-color: #07a0c3;
-  --subject-color-dark: #0492b0;
+  --subject-color-dark: #023f4b;
 }
 .biology {
   --subject-color: #8bc34a;
-  --subject-color-dark: #7caf3f;
+  --subject-color-dark: #507029;
 }
 .physics {
   --subject-color: #d64644;
-  --subject-color-dark: #c03535;
+  --subject-color-dark: #782121;
 }
 .chemistry {
   --subject-color: #ff5722;
-  --subject-color-dark: #e64a19;
+  --subject-color-dark: #8a2c0f;
 }
 .english-literature {
   --subject-color: #f0c808;
-  --subject-color-dark: #e0ba06;
+  --subject-color-dark: #7c6803;
 }
 .english-language {
   --subject-color: #fdd835;
-  --subject-color-dark: #fbc02d;
+  --subject-color-dark: #c89004;
 }
 .geography {
   --subject-color: #c6812e;
-  --subject-color-dark: #b36b26;
+  --subject-color-dark: #693e16;
 }
 .physical-education {
   --subject-color: #08c448;
-  --subject-color-dark: #06963b;
+  --subject-color-dark: #03491d;
 }
 
 /* SUBJECT MODAL STYLING */
