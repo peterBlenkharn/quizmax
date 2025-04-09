@@ -375,23 +375,37 @@ document.getElementById("exit-btn").addEventListener("click", () => {
 
 /* ===== INFO MODAL WITH REGRESSION LINE & SCORE TREND ===== */
 function openInfoModal(sectionName) {
-  // Fetch only the progress for the given section
+  // Destroy any previously rendered chart.
+  if (window.progressChart) {
+    window.progressChart.destroy();
+    window.progressChart = null;
+  }
+
+  // Update the title for the info modal.
   document.getElementById("info-title").textContent = sectionName;
+
+  // Get progress data for the section.
   const progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
   const sectionData = progress[sectionName] || [];
-  
+
+  // If there's insufficient data (fewer than 2 quiz attempts),
+  // hide the chart and show a message.
   if (sectionData.length < 2) {
     document.getElementById("progress-chart").classList.add("hidden");
     document.getElementById("no-data-msg").classList.remove("hidden");
-    document.getElementById("metrics").innerHTML = "";
+    document.getElementById("metrics").innerHTML = "<p>Do more quizzes on this topic for cool data</p>";
   } else {
+    // With sufficient data, show the chart container.
     document.getElementById("progress-chart").classList.remove("hidden");
     document.getElementById("no-data-msg").classList.add("hidden");
+  
     const labels = sectionData.map((_, i) => (i + 1).toString());
     const scores = sectionData.map(entry => entry.score);
-    // Calculate regression (best fit line)
+  
+    // Calculate regression (best fit line).
     const regression = computeRegression(scores);
-    // Calculate metrics and trend symbol:
+  
+    // Calculate metrics and determine the trend symbol.
     let trendSymbol = "";
     if (sectionData.length >= 2) {
       const last = sectionData[sectionData.length - 1].score;
@@ -404,13 +418,14 @@ function openInfoModal(sectionName) {
         trendSymbol = `<span style="color: grey; font-weight: bold;"> =</span>`;
       }
     }
+  
     document.getElementById("metrics").innerHTML = `
       <p>Average score: ${(scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2)} / 10</p>
       <p>Last score: ${scores[scores.length - 1]} / 10${trendSymbol}</p>
     `;
-    // Render the chart:
+  
+    // Render the chart.
     const ctx = document.getElementById("progress-chart").getContext('2d');
-    if (window.progressChart) window.progressChart.destroy();
     window.progressChart = new Chart(ctx, {
       type: 'line',
       data: {
@@ -425,9 +440,9 @@ function openInfoModal(sectionName) {
             pointBackgroundColor: getSubjectColor(sectionName)
           },
           {
-            // Best fit regression line dataset (in grey)
+            // Regression line dataset
             label: 'Trend',
-            data: regression, // array of regression values
+            data: regression,
             fill: false,
             tension: 0,
             borderColor: 'grey',
@@ -450,6 +465,7 @@ function openInfoModal(sectionName) {
       }
     });
   }
+
   document.getElementById("info-modal").classList.remove("hidden");
 }
 
