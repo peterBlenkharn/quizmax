@@ -97,7 +97,7 @@ function generateSubjectCards() {
     expandBtn.textContent = "Explore";
     expandBtn.classList.add("expand-btn");
     expandBtn.addEventListener("click", () => {
-      openSubjectModal(subjectName);
+      (subjectName);
     });
     card.appendChild(expandBtn);
     
@@ -107,7 +107,6 @@ function generateSubjectCards() {
 
 /* ===== SUBJECT MODAL ===== */
 
-// Open a modal window that lists all chips for the given subject.
 function openSubjectModal(subjectName) {
   const subjectData = subjects[subjectName];
   const modal = document.getElementById("subject-modal");
@@ -116,8 +115,13 @@ function openSubjectModal(subjectName) {
   const modalBody = modal.querySelector(".modal-body");
   modalBody.innerHTML = "";
   
-  // Set modal title.
-  modal.querySelector(".modal-header h3").textContent = subjectName;
+  // Get the header element and set its text.
+  const modalHeader = modal.querySelector(".modal-header h3");
+  modalHeader.textContent = subjectName;
+  // Remove any previously set subject color classes.
+  modalHeader.className = "";
+  // Add a generic header class plus the subject-specific color class.
+  modalHeader.classList.add("modal-subject-header", subjectData.colorClass);
   
   // Create a grid container for chips.
   const grid = document.createElement("div");
@@ -164,6 +168,7 @@ function openSubjectModal(subjectName) {
   modalBody.appendChild(grid);
   modal.classList.remove("hidden");
 }
+
 
 function closeSubjectModal() {
   document.getElementById("subject-modal").classList.add("hidden");
