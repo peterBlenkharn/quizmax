@@ -387,6 +387,13 @@ body.quiz-active {
   background: rgba(0,0,0,0);
 }
 
+#results{
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
 /* Quiz Header Panel */
 #quiz-header-panel {
   display: flex;
