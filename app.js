@@ -484,7 +484,7 @@ function updateQuizHeader(subjectName, chipName) {
 // Display current question and rebuild answer choices
 function displayQuestion() {
   document.getElementById("feedback").innerHTML = "";
-  //document.getElementById("next-btn").classList.add("hidden");
+  document.getElementById("next-btn").classList.add("hidden");
 
   if (currentQuestionIndex >= currentQuestions.length) {
     finishQuiz(false);
