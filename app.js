@@ -21,6 +21,8 @@ let timerInterval = null;
 let totalTime = 180; //seconds
 let timeLeft = 180; // seconds
 
+const perlinScale = 0.05;
+
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
 
 // Global variable to store subjects loaded from JSON.
@@ -404,7 +406,7 @@ function startNoiseBackground(subjectName) {
   }
   
   let time = 0;
-  const scale = 0.005; // frequency; adjust to taste.
+  const scale = perlinScale; // frequency; adjust to taste.
 
   function renderNoise() {
     // Create an ImageData object for the canvas.
