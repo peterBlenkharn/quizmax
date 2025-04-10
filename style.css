@@ -373,12 +373,17 @@ body.quiz-active {
   margin-bottom: 15px;
 }
 
+#quiz-modal .modal-content {
+  background: rgba(0,0,0,0);
+}
+
 /* Quiz Header Panel */
 #quiz-header-panel {
   display: flex;
   align-items: center;
   padding: 10px 15px;
-  margin-bottom: 15px;  /* Adds separation between header panel and the rest of the modal */
+  margin-bottom: 15px; 
+  background: #fff;/* Adds separation between header panel and the rest of the modal */
   /* Optionally, you can set a background color or leave it transparent */
 }
 
@@ -407,6 +412,10 @@ body.quiz-active {
   color: var(--subject-color-dark);
   text-align: left;
   flex-grow: 1;
+}
+
+#quiz-body{
+  background: #fff;
 }
 
 
