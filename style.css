@@ -373,6 +373,51 @@ body.quiz-active {
   margin-bottom: 15px;
 }
 
+/* Quiz Header Panel */
+#quiz-header-panel {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  /* Optionally, you could apply a subtle background if desired */
+  background: #ffffffaa;  /* semi-transparent white, for example */
+  border-radius: 8px;
+}
+
+#quiz-header-panel .header-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, var(--subject-color), var(--subject-color-dark));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+#quiz-header-panel .header-icon img {
+  width: 40px;
+  height: auto;
+  display: block;
+}
+
+#quiz-header-panel .header-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: var(--subject-color-dark);
+  text-align: left;
+  flex-grow: 1;
+}
+
+/* If needed: ensure dynamic SVGs within the header icon are sized */
+.dynamic-svg,
+.header-icon svg {
+  width: 40px !important;
+  height: auto !important;
+  display: block;
+}
+
 /* QUIZ BODY */
 #choices-list {
   list-style: none;
