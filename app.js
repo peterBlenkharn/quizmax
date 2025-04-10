@@ -525,19 +525,19 @@ function evaluateAnswer(selectedIndex, btn) {
   }
 }
 
+
 // Show an overlay for correct or incorrect answers
 function showFeedbackPanel(type, message) {
   const panel = document.getElementById("feedback");
-  // Build the icon HTML based on type:
   const icon = (type === "correct")
     ? `<img src="icons/correct.svg" alt="Correct" class="feedback-correct">`
     : `<img src="icons/wrong.svg" alt="Incorrect" class="feedback-incorrect">`;
   
-  // Update the panel’s inner HTML
-  panel.innerHTML = icon + (message ? `<p>${message}</p>` : "");
+  // Using a <span> around the text helps with alignment.
+  panel.innerHTML = icon + (message ? `<span>${message}</span>` : "");
   panel.classList.remove("hidden");
   
-  // Optionally, automatically hide it after 1.5 seconds.
+  // Optionally, automatically hide the feedback after 1.5 seconds.
   setTimeout(() => {
     panel.classList.add("hidden");
   }, 1500);
