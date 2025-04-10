@@ -21,7 +21,7 @@ let timerInterval = null;
 let totalTime = 180; //seconds
 let timeLeft = 180; // seconds
 
-const perlinScale = 0.05;
+const perlinScale = 0.0005;
 
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
 
