@@ -717,7 +717,7 @@ function loadLottieResultsAnimation() {
     renderer: 'svg',
     loop: true,     // set to false if you want it to play only once
     autoplay: true,
-    path: 'animations/results.json' // the path to your lottie JSON file in your repo
+    path: 'animations/results2.json' // the path to your lottie JSON file in your repo
   });
 }
 
