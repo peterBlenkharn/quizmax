@@ -53,15 +53,14 @@
         <p id="question-text"></p>
         <!-- Choices list -->
         <ul id="choices-list"></ul>
-        <!-- Feedback section for icons and explanation -->
-        <div id="feedback" aria-live="polite"></div>
-
-        <!-- Time Progress Bar -->
+              <!-- Time Progress Bar -->
         <div id="time-progress-container">
           <div id="time-progress"></div>
         </div>
-        
-        <!-- Button to progress (labeled 'Next' or 'Complete' at the end) -->
+      </div>
+              <!-- Feedback section for icons and explanation -->
+      <div id="feedback" aria-live="polite">
+      <!-- Button to progress (labeled 'Next' or 'Complete' at the end) -->
         <button id="next-btn" class="hidden" aria-label="Next Question">Next</button>
       </div>
       <!-- Results Section (displayed after quiz is finished) -->
@@ -109,8 +108,6 @@
   </div>
 </div>
 
-    <!-- Feedback Overlay (for displaying correct/wrong icons and explanations) -->
-  <div id="feedback-overlay" class="hidden"></div>
   <script src="perlin.js"></script>
   <script src="app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
