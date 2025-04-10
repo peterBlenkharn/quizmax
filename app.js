@@ -455,6 +455,7 @@ function updateQuizHeader(subjectName, chipName) {
   const computedStyle = window.getComputedStyle(tempDiv);
   const primaryColor = computedStyle.getPropertyValue('--subject-color').trim();
   const darkColor = computedStyle.getPropertyValue('--subject-color-dark').trim();
+  const liteColor = computedStyle.getPropertyValue('--subject-color-lite').trim();
   document.body.removeChild(tempDiv);
   
   // Set the inline style of the header icon container with a gradient background.
@@ -464,7 +465,7 @@ function updateQuizHeader(subjectName, chipName) {
   headerIconContainer.style.alignItems = "center";
   headerIconContainer.style.justifyContent = "center";
   // Set the container's color so that the icon (using currentColor) adopts the dark hue.
-  headerIconContainer.style.color = darkColor;
+  headerIconContainer.style.color = liteColor;
   
   // Update the dynamic SVG of the icon.
   const iconImg = headerIconContainer.querySelector("img.dynamic-svg");
