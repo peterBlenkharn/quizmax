@@ -473,17 +473,27 @@ body.quiz-active {
   text-align: center;
 }
 
-/* Feedback Panel within quiz modal */
+/* Feedback Panel styling as part of the quiz modal flow */
 #feedback {
   margin: 15px 0;
   padding: 10px;
   text-align: center;
   font-weight: bold;
-  /* Optionally, add a subtle background or border */
   background: rgba(0, 0, 0, 0.05);
   border-radius: 8px;
   transition: opacity 0.3s;
+  min-height: 50px;  /* reserve space so it doesn't push out the layout */
+  overflow: hidden;  /* in case content is too wide */
 }
+
+/* Feedback icon styling – force the icons to a controlled size */
+#feedback img {
+  max-width: 50px;  /* adjust as needed */
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
 
 /* INFO MODAL */
 #info-modal {
