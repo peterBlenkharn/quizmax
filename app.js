@@ -363,7 +363,7 @@ function startNoiseBackground(subjectName) {
   document.body.appendChild(tempDiv);
   const computed = getComputedStyle(tempDiv);
   const color1 = computed.getPropertyValue('--subject-color').trim();
-  const color2 = computed.getPropertyValue('--subject-color-dark').trim();
+  const color2 = computed.getPropertyValue('--subject-color-lite').trim();
   document.body.removeChild(tempDiv);
 
   // Helper to parse hex color to r, g, b.
