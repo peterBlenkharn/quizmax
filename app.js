@@ -246,6 +246,9 @@ async function launchQuiz(chipName, subjectName) {
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
     document.getElementById("main-header").classList.add("hidden");
+
+    updateQuizHeader(subjectName, chipName);
+    
     updateProgressBarColors(subjectName);
     // Update background colors based on the subject
     startNoiseBackground(subjectName);
@@ -436,6 +439,23 @@ function startNoiseBackground(subjectName) {
   }
   
   renderNoise();
+}
+
+function updateQuizHeader(subjectName, chipName) {
+  // Get the header panel elements.
+  const headerPanel = document.getElementById("quiz-header-panel");
+  const headerIcon = headerPanel.querySelector(".header-icon img");
+  const headerTitle = headerPanel.querySelector(".header-title");
+  
+  // Set the dynamic SVG source for the header icon, using the subject's name.
+  headerIcon.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
+  headerIcon.setAttribute("alt", subjectName + " Icon");
+  
+  // Update the header title to display the chip's name (the section title)
+  headerTitle.textContent = chipName;
+  
+  // Call the SVG injection function for this newly added element.
+  injectSVGs();
 }
 
 
