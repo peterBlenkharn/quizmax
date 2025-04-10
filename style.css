@@ -516,6 +516,14 @@ body.quiz-active {
   transition: width 1s linear;
 }
 
+/* Lottie Animation Container inside the Results Panel */
+#lottie-results {
+  width: 200px;  /* Adjust width as needed */
+  height: 200px; /* Adjust height as needed */
+  margin: 0 auto 20px auto;  /* Center horizontally and add bottom margin */
+}
+
+
 /* RESPONSIVE ADJUSTMENTS */
 @media (max-width: 480px) {
   #main-header h2 {
