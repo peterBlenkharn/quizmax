@@ -561,6 +561,8 @@ function finishQuiz(timedOut) {
   sounds.finish.play();
   // Save progress in localStorage
   saveQuizResult(currentSection, score, timedOut);
+  // Load the Lottie animation into the results panel.
+  loadLottieResultsAnimation();
 };
 
 // Exit quiz and return to main menu.
@@ -709,7 +711,15 @@ function chipNameToFileName(chipName) {
   return pascalCase;
 }
 
-
+function loadLottieResultsAnimation() {
+  lottie.loadAnimation({
+    container: document.getElementById('lottie-results'), // the dom element that will contain the animation
+    renderer: 'svg',
+    loop: true,     // set to false if you want it to play only once
+    autoplay: true,
+    path: 'animations/results.json' // the path to your lottie JSON file in your repo
+  });
+}
 
 
 
