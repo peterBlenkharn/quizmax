@@ -371,7 +371,16 @@ body.quiz-active {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
-  padding: 10px, 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  background: #fff;
+}
+
+#question-text{
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 8px;
+  margin-bottom: 15px;
 }
 
 #quiz-modal .modal-content {
@@ -384,7 +393,8 @@ body.quiz-active {
   align-items: center;
   padding: 10px 15px;
   margin-bottom: 15px; 
-  background: #fff;/* Adds separation between header panel and the rest of the modal */
+  background: #fff;
+  border-radius: 8px;/* Adds separation between header panel and the rest of the modal */
   /* Optionally, you can set a background color or leave it transparent */
 }
 
@@ -417,7 +427,8 @@ body.quiz-active {
 
 #quiz-body{
   background: #fff;
-  padding: 10px, 15px;
+  padding: 10px 15px;
+  border-radius: 8px;
 }
 
 
