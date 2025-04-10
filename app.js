@@ -442,21 +442,42 @@ function startNoiseBackground(subjectName) {
 }
 
 function updateQuizHeader(subjectName, chipName) {
-  // Get the header panel elements.
+  // Get the quiz header panel elements.
   const headerPanel = document.getElementById("quiz-header-panel");
-  const headerIcon = headerPanel.querySelector(".header-icon img");
+  const headerIconContainer = headerPanel.querySelector(".header-icon");
   const headerTitle = headerPanel.querySelector(".header-title");
   
-  // Set the dynamic SVG source for the header icon, using the subject's name.
-  headerIcon.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
-  headerIcon.setAttribute("alt", subjectName + " Icon");
+  // Get subject colors from the subject's CSS class.
+  const subjectData = subjects[subjectName];
+  const tempDiv = document.createElement('div');
+  tempDiv.classList.add(subjectData.colorClass);
+  document.body.appendChild(tempDiv);
+  const computedStyle = window.getComputedStyle(tempDiv);
+  const primaryColor = computedStyle.getPropertyValue('--subject-color').trim();
+  const darkColor = computedStyle.getPropertyValue('--subject-color-dark').trim();
+  document.body.removeChild(tempDiv);
   
-  // Update the header title to display the chip's name (the section title)
-  headerTitle.textContent = chipName;
+  // Set the inline style of the header icon container with a gradient background.
+  headerIconContainer.style.background = `linear-gradient(45deg, ${primaryColor}, ${darkColor})`;
+  headerIconContainer.style.borderRadius = "12px";
+  headerIconContainer.style.display = "flex";
+  headerIconContainer.style.alignItems = "center";
+  headerIconContainer.style.justifyContent = "center";
+  // Set the container's color so that the icon (using currentColor) adopts the dark hue.
+  headerIconContainer.style.color = darkColor;
   
-  // Call the SVG injection function for this newly added element.
+  // Update the dynamic SVG of the icon.
+  const iconImg = headerIconContainer.querySelector("img.dynamic-svg");
+  iconImg.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
+  iconImg.setAttribute("alt", subjectName + " Icon");
+  
+  // Re-inject the SVG so the new icon becomes inline.
   injectSVGs();
+  
+  // Update the header title to show the chip/section title.
+  headerTitle.textContent = chipName;
 }
+
 
 
 // Display current question and rebuild answer choices
