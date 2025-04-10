@@ -513,30 +513,36 @@ function evaluateAnswer(selectedIndex, btn) {
   if (selectedIndex === currentQ.correctIndex) {
     if (firstAttempt) score++;
     sounds.correct.play();
-    showFeedbackOverlay("correct", currentQ.explanation);
+    showFeedbackPanel("correct", currentQ.explanation);
     const nextBtn = document.getElementById("next-btn");
     nextBtn.textContent = (currentQuestionIndex === currentQuestions.length - 1) ? "Complete" : "Next";
     nextBtn.classList.remove("hidden");
     disableChoices();
   } else {
     sounds.wrong.play();
-    showFeedbackOverlay("incorrect", "");
+    showFeedbackPanel("incorrect", "");
     firstAttempt = false;
   }
 }
 
 // Show an overlay for correct or incorrect answers
-function showFeedbackOverlay(type, message) {
-  const overlay = document.getElementById("feedback-overlay");
+function showFeedbackPanel(type, message) {
+  const panel = document.getElementById("feedback");
+  // Build the icon HTML based on type:
   const icon = (type === "correct")
     ? `<img src="icons/correct.svg" alt="Correct" class="feedback-correct">`
     : `<img src="icons/wrong.svg" alt="Incorrect" class="feedback-incorrect">`;
-  overlay.innerHTML = icon + (message ? `<p>${message}</p>` : "");
-  overlay.classList.remove("hidden");
+  
+  // Update the panel’s inner HTML
+  panel.innerHTML = icon + (message ? `<p>${message}</p>` : "");
+  panel.classList.remove("hidden");
+  
+  // Optionally, automatically hide it after 1.5 seconds.
   setTimeout(() => {
-    overlay.classList.add("hidden");
+    panel.classList.add("hidden");
   }, 1500);
 }
+
 
 // Disable all answer choice buttons for the current question
 function disableChoices() {
