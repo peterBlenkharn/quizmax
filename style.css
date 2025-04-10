@@ -371,6 +371,7 @@ body.quiz-active {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 15px;
+  padding: 10px, 15px;
 }
 
 #quiz-modal .modal-content {
@@ -416,6 +417,7 @@ body.quiz-active {
 
 #quiz-body{
   background: #fff;
+  padding: 10px, 15px;
 }
 
 
