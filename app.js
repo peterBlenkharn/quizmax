@@ -21,6 +21,8 @@ let timerInterval = null;
 let totalTime = 180; //seconds
 let timeLeft = 180; // seconds
 
+let feedbackTimeoutID = null;
+
 const perlinScale = 0.0005;
 
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
@@ -479,8 +481,6 @@ function updateQuizHeader(subjectName, chipName) {
   headerTitle.textContent = chipName;
 }
 
-
-
 // Display current question and rebuild answer choices
 function displayQuestion() {
   // Clear the feedback panel.
@@ -510,16 +510,13 @@ function displayQuestion() {
   });
 }
 
-
-
-
 // Evaluate the selected answer and show feedback
 function evaluateAnswer(selectedIndex, btn) {
   const currentQ = currentQuestions[currentQuestionIndex];
   if (selectedIndex === currentQ.correctIndex) {
     if (firstAttempt) score++;
     sounds.correct.play();
-    // Call feedback function with autoHide set to false for correct answers.
+    // Show correct answer feedback without auto-hide.
     showFeedbackPanel("correct", currentQ.explanation, false);
     const nextBtn = document.getElementById("next-btn");
     nextBtn.textContent = (currentQuestionIndex === currentQuestions.length - 1) ? "Complete" : "Next";
@@ -527,32 +524,37 @@ function evaluateAnswer(selectedIndex, btn) {
     disableChoices();
   } else {
     sounds.wrong.play();
-    // For wrong answers, auto-hide feedback after 1.5 seconds.
+    // Show wrong answer feedback and auto-hide it.
     showFeedbackPanel("incorrect", "", true);
     firstAttempt = false;
   }
 }
 
-
-
 // Show an overlay for correct or incorrect answers
 function showFeedbackPanel(type, message, autoHide = true) {
+  // Cancel any previous auto-hide timeout.
+  if (feedbackTimeoutID) {
+    clearTimeout(feedbackTimeoutID);
+    feedbackTimeoutID = null;
+  }
+  
   const panel = document.getElementById("feedback");
   const icon = (type === "correct")
     ? `<img src="icons/correct.svg" alt="Correct" class="feedback-correct">`
     : `<img src="icons/wrong.svg" alt="Incorrect" class="feedback-incorrect">`;
   
-  // Wrap the message in a <span> for proper alignment.
   panel.innerHTML = icon + (message ? `<span>${message}</span>` : "");
   panel.classList.remove("hidden");
   
-  // Only auto-hide the feedback if autoHide is true.
+  // Only set the auto-hide timer if autoHide is true.
   if (autoHide) {
-    setTimeout(() => {
+    feedbackTimeoutID = setTimeout(() => {
       panel.classList.add("hidden");
+      feedbackTimeoutID = null;
     }, 1500);
   }
 }
+
 
 
 
