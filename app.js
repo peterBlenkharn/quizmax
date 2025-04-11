@@ -483,19 +483,22 @@ function updateQuizHeader(subjectName, chipName) {
 
 // Display current question and rebuild answer choices
 function displayQuestion() {
-  document.getElementById("feedback").innerHTML = ""; // only clears the feedback panel
-  document.getElementById("next-btn").classList.add("hidden"); // next-btn is still in the DOM
-  
+  // Clear only the feedback section, not the next button container
+  document.getElementById("feedback").innerHTML = "";
+  // Hide the next button – it should be in its own container not being cleared
+  document.getElementById("next-btn").classList.add("hidden");
+
   if (currentQuestionIndex >= currentQuestions.length) {
     finishQuiz(false);
     return;
   }
+
   firstAttempt = true;
   const currentQ = currentQuestions[currentQuestionIndex];
   document.getElementById("question-text").textContent = currentQ.question;
-  
+
   const choicesList = document.getElementById("choices-list");
-  choicesList.innerHTML = "";
+  choicesList.innerHTML = ""; // clear only the choices
   currentQ.choices.forEach((choice, index) => {
     const li = document.createElement("li");
     const btn = document.createElement("button");
@@ -506,6 +509,7 @@ function displayQuestion() {
     choicesList.appendChild(li);
   });
 }
+
 
 
 // Evaluate the selected answer and show feedback
@@ -751,4 +755,14 @@ function getSubjectColor(sectionName) {
 // Close Info Modal.
 document.getElementById("info-close-btn").addEventListener("click", () => {
   document.getElementById("info-modal").classList.add("hidden");
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("next-btn-container").addEventListener("click", (e) => {
+    if (e.target && e.target.id === "next-btn") {
+      currentQuestionIndex++;
+      console.log("Next button clicked (delegated)");
+      displayQuestion();
+    }
+  });
 });
