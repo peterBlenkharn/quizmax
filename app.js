@@ -483,9 +483,9 @@ function updateQuizHeader(subjectName, chipName) {
 
 // Display current question and rebuild answer choices
 function displayQuestion() {
-  document.getElementById("feedback").innerHTML = "";
-  //document.getElementById("next-btn").classList.add("hidden");
-
+  document.getElementById("feedback").innerHTML = ""; // only clears the feedback panel
+  document.getElementById("next-btn").classList.add("hidden"); // next-btn is still in the DOM
+  
   if (currentQuestionIndex >= currentQuestions.length) {
     finishQuiz(false);
     return;
@@ -493,7 +493,7 @@ function displayQuestion() {
   firstAttempt = true;
   const currentQ = currentQuestions[currentQuestionIndex];
   document.getElementById("question-text").textContent = currentQ.question;
-
+  
   const choicesList = document.getElementById("choices-list");
   choicesList.innerHTML = "";
   currentQ.choices.forEach((choice, index) => {
@@ -506,6 +506,7 @@ function displayQuestion() {
     choicesList.appendChild(li);
   });
 }
+
 
 // Evaluate the selected answer and show feedback
 function evaluateAnswer(selectedIndex, btn) {
