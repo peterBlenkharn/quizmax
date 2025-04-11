@@ -37,16 +37,17 @@ function getRandomQuestions(bank) {
   return shuffled.slice(0, 10);
 }
 
-function saveQuizResult(section, score, timedOut) {
-  const progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
-  if (!progress[section]) progress[section] = [];
-  progress[section].push({
-    score,
-    timedOut,
-    timestamp: new Date().toISOString()
-  });
-  localStorage.setItem("quizProgress", JSON.stringify(progress));
-}
+//### DEPRECATED LOCALSTORAGE SOLUTION
+// function saveQuizResult(section, score, timedOut) {
+//   const progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
+//   if (!progress[section]) progress[section] = [];
+//   progress[section].push({
+//     score,
+//     timedOut,
+//     timestamp: new Date().toISOString()
+//   });
+//   localStorage.setItem("quizProgress", JSON.stringify(progress));
+// }
 
 /* ===== ASYNCHRONOUS DATA LOADING ===== */
 
@@ -579,8 +580,8 @@ function finishQuiz(timedOut) {
   document.getElementById("results").classList.remove("hidden");
   document.getElementById("final-score").textContent = `Your score: ${score} / ${currentQuestions.length}`;
   sounds.finish.play();
-  // Save progress in localStorage
-  saveQuizResult(currentSection, score, timedOut);
+  // Save the result data. (timeLeft is your remaining seconds.)
+  saveQuizResultToFirestore(currentSection, score, timedOut, timeLeft);
   // Load the Lottie animation into the results panel.
   loadLottieResultsAnimation();
 };
@@ -760,6 +761,45 @@ function getSubjectColor(sectionName) {
   }
   return 'black';
 }
+
+// Function to save quiz session data to the "quizmaxdata" collection.
+async function saveQuizResultToFirestore(section, score, timedOut, timeRemaining) {
+  // Construct a record for the quiz session.
+  const result = {
+    timestamp: new Date().toISOString(),
+    section: section,                // e.g., "Maths - Numbers & Algebra"
+    correctAnswers: score,
+    secondsRemaining: timeRemaining, // remaining time at quiz completion
+    timedOut: timedOut
+  };
+
+  try {
+    // Use the globally available Firestore reference (firebaseDb)
+    const docRef = await addDoc(collection(window.firebaseDb, "quizmaxdata"), result);
+    console.log("Quiz result saved with ID:", docRef.id);
+  } catch (error) {
+    console.error("Error saving quiz result: ", error);
+  }
+}
+
+// Function to get quiz sessions for a specified section from Firestore.
+async function getQuizSessionsForSection(sectionName) {
+  try {
+    const quizSessionsRef = collection(window.firebaseDb, "quizmaxdata");
+    // Create a query to filter documents by the 'section' field.
+    const q = query(quizSessionsRef, where("section", "==", sectionName));
+    const querySnapshot = await getDocs(q);
+    const sessions = [];
+    querySnapshot.forEach((doc) => {
+      sessions.push(doc.data());
+    });
+    return sessions;
+  } catch (error) {
+    console.error("Error reading quiz sessions:", error);
+    return [];
+  }
+}
+
 
 // Close Info Modal.
 document.getElementById("info-close-btn").addEventListener("click", () => {
