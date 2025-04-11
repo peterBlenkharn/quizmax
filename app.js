@@ -518,35 +518,41 @@ function evaluateAnswer(selectedIndex, btn) {
   if (selectedIndex === currentQ.correctIndex) {
     if (firstAttempt) score++;
     sounds.correct.play();
-    showFeedbackPanel("correct", currentQ.explanation);
+    // Call feedback function with autoHide set to false for correct answers.
+    showFeedbackPanel("correct", currentQ.explanation, false);
     const nextBtn = document.getElementById("next-btn");
     nextBtn.textContent = (currentQuestionIndex === currentQuestions.length - 1) ? "Complete" : "Next";
     nextBtn.classList.remove("hidden");
     disableChoices();
   } else {
     sounds.wrong.play();
-    showFeedbackPanel("incorrect", "");
+    // For wrong answers, auto-hide feedback after 1.5 seconds.
+    showFeedbackPanel("incorrect", "", true);
     firstAttempt = false;
   }
 }
 
 
+
 // Show an overlay for correct or incorrect answers
-function showFeedbackPanel(type, message) {
+function showFeedbackPanel(type, message, autoHide = true) {
   const panel = document.getElementById("feedback");
   const icon = (type === "correct")
     ? `<img src="icons/correct.svg" alt="Correct" class="feedback-correct">`
     : `<img src="icons/wrong.svg" alt="Incorrect" class="feedback-incorrect">`;
   
-  // Using a <span> around the text helps with alignment.
+  // Wrap the message in a <span> for proper alignment.
   panel.innerHTML = icon + (message ? `<span>${message}</span>` : "");
   panel.classList.remove("hidden");
   
-  // Optionally, automatically hide the feedback after 1.5 seconds.
-  setTimeout(() => {
-    panel.classList.add("hidden");
-  }, 1500);
+  // Only auto-hide the feedback if autoHide is true.
+  if (autoHide) {
+    setTimeout(() => {
+      panel.classList.add("hidden");
+    }, 1500);
+  }
 }
+
 
 
 // Disable all answer choice buttons for the current question
