@@ -483,22 +483,22 @@ function updateQuizHeader(subjectName, chipName) {
 
 // Display current question and rebuild answer choices
 function displayQuestion() {
-  // Clear only the feedback section, not the next button container
+  // Clear the feedback panel.
   document.getElementById("feedback").innerHTML = "";
-  // Hide the next button – it should be in its own container not being cleared
+  document.getElementById("feedback").classList.add("hidden");
   document.getElementById("next-btn").classList.add("hidden");
-
+  
   if (currentQuestionIndex >= currentQuestions.length) {
     finishQuiz(false);
     return;
   }
-
+  
   firstAttempt = true;
   const currentQ = currentQuestions[currentQuestionIndex];
   document.getElementById("question-text").textContent = currentQ.question;
-
+  
   const choicesList = document.getElementById("choices-list");
-  choicesList.innerHTML = ""; // clear only the choices
+  choicesList.innerHTML = "";
   currentQ.choices.forEach((choice, index) => {
     const li = document.createElement("li");
     const btn = document.createElement("button");
@@ -509,6 +509,7 @@ function displayQuestion() {
     choicesList.appendChild(li);
   });
 }
+
 
 
 
