@@ -119,32 +119,31 @@
   </div>
 </div>
 
-    <script type="module">
-    // Import the functions you need from the SDKs you need
+  <!-- Firebase SDKs using ES Modules -->
+  <script type="module">
+    // Import only what you need from the modular SDKs.
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
+    import { getFirestore, collection, addDoc, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
   
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    // Your Firebase configuration (replace xxx with your project values)
     const firebaseConfig = {
-      apiKey: "AIzaSyAPNHq7PEBVsTiNvC_8GJOCjBZUP_Cvyi4",
-      authDomain: "quizmax-456507.firebaseapp.com",
-      projectId: "quizmax-456507",
-      storageBucket: "quizmax-456507.firebasestorage.app",
-      messagingSenderId: "562527818377",
-      appId: "1:562527818377:web:ca9b9458827af402066c58",
-      measurementId: "G-X42N6E6LXN"
+      apiKey: "xxx",
+      authDomain: "xxx",
+      projectId: "xxx",
+      storageBucket: "xxx",
+      messagingSenderId: "xxx",
+      appId: "xxx",
+      measurementId: "xxx"
     };
   
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
+    // Initialize Firestore and get a reference to the service.
+    const db = getFirestore(app);
+  
+    // Expose db (and other exports) so you can use them in your app.js if needed.
+    window.firebaseDb = db;
   </script>
-  <script src="perlin.js"></script>
-  <script src="app.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
 
 </body>
 </html>
