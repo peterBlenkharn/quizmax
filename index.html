@@ -123,11 +123,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
   <!-- Firebase SDKs using ES Modules -->
   <script type="module">
-    // Import only what you need from the modular SDKs.
     import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
-    import { getFirestore, collection, addDoc, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
-  
-    // Your Firebase configuration (replace xxx with your project values)
+    import { getFirestore, addDoc, collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
+    
     const firebaseConfig = {
       apiKey: "xxx",
       authDomain: "xxx",
@@ -140,11 +138,15 @@
   
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    // Initialize Firestore and get a reference to the service.
     const db = getFirestore(app);
-  
-    // Expose db (and other exports) so you can use them in your app.js if needed.
+    
+    // Expose Firebase functions to the global scope:
     window.firebaseDb = db;
+    window.addDoc = addDoc;
+    window.collection = collection;
+    window.query = query;
+    window.where = where;
+    window.getDocs = getDocs;
   </script>
 
 </body>
