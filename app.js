@@ -580,9 +580,9 @@ function finishQuiz(timedOut) {
   document.getElementById("results").classList.remove("hidden");
   document.getElementById("final-score").textContent = `Your score: ${score} / ${currentQuestions.length}`;
   sounds.finish.play();
-  testWrite();
+  //testWrite();
   // Save the result data. (timeLeft is your remaining seconds.)
-  //TEMPCOMMENT saveQuizResultToFirestore(currentSection, score, timedOut, timeLeft);
+  saveQuizResultToFirestore(currentSection, score, timedOut, timeLeft);
   // Load the Lottie animation into the results panel.
   loadLottieResultsAnimation();
 };
