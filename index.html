@@ -27,7 +27,7 @@
     
     // Initialize Firebase
     const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
+    const db = getFirestore(app,'quizmaxdata');
     
     // Expose Firebase functions to the global scope:
     window.firebaseDb = db;
