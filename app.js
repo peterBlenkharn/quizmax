@@ -580,11 +580,22 @@ function finishQuiz(timedOut) {
   document.getElementById("results").classList.remove("hidden");
   document.getElementById("final-score").textContent = `Your score: ${score} / ${currentQuestions.length}`;
   sounds.finish.play();
+  testWrite();
   // Save the result data. (timeLeft is your remaining seconds.)
-  saveQuizResultToFirestore(currentSection, score, timedOut, timeLeft);
+  //TEMPCOMMENT saveQuizResultToFirestore(currentSection, score, timedOut, timeLeft);
   // Load the Lottie animation into the results panel.
   loadLottieResultsAnimation();
 };
+
+async function testWrite() {
+  try {
+    const testDoc = { testField: "test value", timestamp: new Date().toISOString() };
+    const docRef = await addDoc(collection(window.firebaseDb, "quizmaxdata"), testDoc);
+    console.log("Test doc saved with ID:", docRef.id);
+  } catch (error) {
+    console.error("Test write error:", error);
+  }
+}
 
 // Exit quiz and return to main menu.
 document.getElementById("exit-btn").addEventListener("click", () => {
