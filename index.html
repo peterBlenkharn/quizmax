@@ -10,7 +10,34 @@
   <!-- Include Chart.js from CDN for the info modal graph -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="icon" href="icons/favicon.png" type="image/png">
-  
+
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+    import { getFirestore, addDoc, collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
+    
+    const firebaseConfig = {
+      apiKey: "xxx",
+      authDomain: "xxx",
+      projectId: "xxx",
+      storageBucket: "xxx",
+      messagingSenderId: "xxx",
+      appId: "xxx",
+      measurementId: "xxx"
+    };
+    
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const db = getFirestore(app);
+    
+    // Expose Firebase functions to the global scope:
+    window.firebaseDb = db;
+    window.addDoc = addDoc;
+    window.collection = collection;
+    window.query = query;
+    window.where = where;
+    window.getDocs = getDocs;
+</script>
+
 </head>
 <body>
   <!-- Login Section -->
@@ -117,32 +144,7 @@
   <script src="app.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie.min.js"></script>
   <!-- Firebase SDKs using ES Modules -->
-  <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
-    import { getFirestore, addDoc, collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore.js";
-    
-    const firebaseConfig = {
-      apiKey: "xxx",
-      authDomain: "xxx",
-      projectId: "xxx",
-      storageBucket: "xxx",
-      messagingSenderId: "xxx",
-      appId: "xxx",
-      measurementId: "xxx"
-    };
-  
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const db = getFirestore(app);
-    
-    // Expose Firebase functions to the global scope:
-    window.firebaseDb = db;
-    window.addDoc = addDoc;
-    window.collection = collection;
-    window.query = query;
-    window.where = where;
-    window.getDocs = getDocs;
-  </script>
+
 
 </body>
 </html>
