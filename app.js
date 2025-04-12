@@ -773,6 +773,8 @@ async function saveQuizResultToFirestore(section, score, timedOut, timeRemaining
     timedOut: timedOut
   };
 
+  console.log("Saving quiz result:", result);
+
   try {
     // Use the globally available Firestore reference (firebaseDb)
     const docRef = await addDoc(collection(window.firebaseDb, "quizmaxdata"), result);
