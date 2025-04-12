@@ -228,6 +228,12 @@ document.getElementById("subject-modal-close").addEventListener("click", closeSu
 
 // Launch quiz (modified to load external JSON).
 async function launchQuiz(chipName, subjectName) {
+
+  timeLeft = totalTime;
+  currentQuestionIndex = 0;
+  score = 0;
+  firstAttempt = true;
+  
   const fileName = chipNameToFileName(chipName);
   // Construct the path (subject folder names: ensure they match exactly your folder structure)
   const path = `data/${subjectName}/${fileName}.json`;
