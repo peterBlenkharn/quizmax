@@ -226,18 +226,15 @@ document.getElementById("subject-modal-close").addEventListener("click", closeSu
 
 /* ===== QUIZ LOGIC ===== */
 
-// Launch quiz (modified to load external JSON).
+// Launch quiz for a given chip/section.
 async function launchQuiz(chipName, subjectName) {
+  // Reset state BEFORE starting a new quiz.
+  resetQuizState();
 
-  timeLeft = totalTime;
-  currentQuestionIndex = 0;
-  score = 0;
-  firstAttempt = true;
-  
+  // Build the filename and set up the data source path.
   const fileName = chipNameToFileName(chipName);
-  // Construct the path (subject folder names: ensure they match exactly your folder structure)
   const path = `data/${subjectName}/${fileName}.json`;
-  
+
   try {
     const response = await fetch(path);
     const bank = await response.json();
@@ -246,25 +243,26 @@ async function launchQuiz(chipName, subjectName) {
       showErrorModal("Not enough questions to generate this quiz.");
       return;
     }
+    
+    // Set the questions and current section.
     currentSection = chipName;
     currentQuestions = getRandomQuestions(bank);
-    currentQuestionIndex = 0;
-    score = 0;
-    firstAttempt = true;
-
+    
+    // Update the UI to hide the main menu and header.
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
     document.getElementById("main-header").classList.add("hidden");
 
+    // Update the quiz header (icon, title) based on the subject and chip.
     updateQuizHeader(subjectName, chipName);
     
+    // Update the progress bar colours.
     updateProgressBarColors(subjectName);
-    // Update background colors based on the subject
+    // Set the background animation for quiz mode.
     startNoiseBackground(subjectName);
-    // Activate the quiz mode background animation.
     document.body.classList.add("quiz-active");
 
-    
+    // Start the timer and display the first question.
     startTimer();
     displayQuestion();
   } catch (error) {
@@ -578,20 +576,47 @@ document.getElementById("next-btn").addEventListener("click", () => {
   displayQuestion();
 });
 
-// End the quiz – parameter timedOut indicates if quiz ended because of timer.
+// Called when the user finishes the quiz
 function finishQuiz(timedOut) {
+  // Stop the timer immediately.
   clearInterval(timerInterval);
-  // Hide quiz body and show results.
+  
+  // Hide the quiz content and show the results panel.
   document.getElementById("quiz-body").classList.add("hidden");
   document.getElementById("results").classList.remove("hidden");
+
+  // Display the final score.
   document.getElementById("final-score").textContent = `Your score: ${score} / ${currentQuestions.length}`;
+  
+  // Play the finish sound.
   sounds.finish.play();
-  //testWrite();
-  // Save the result data. (timeLeft is your remaining seconds.)
+  
+  // Save the result data to Firestore.
   saveQuizResultToFirestore(currentSection, score, timedOut, timeLeft);
+  
   // Load the Lottie animation into the results panel.
   loadLottieResultsAnimation();
-};
+  
+  // Note: Do not reset state here if you wish to let the user see the results and then, when they exit,
+  // perform a full reset. Instead, reset state on exit.
+}
+
+// Helper function to reset quiz state variables.
+function resetQuizState() {
+  currentQuestionIndex = 0;
+  score = 0;
+  timeLeft = totalTime; // Reset the timer to the starting total.
+  firstAttempt = true;
+  if (timerInterval) {
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+  
+  // Clear any lingering feedback.
+  const feedbackPanel = document.getElementById("feedback");
+  feedbackPanel.innerHTML = "";
+  feedbackPanel.classList.add("hidden");
+}
 
 async function testWrite() {
   try {
@@ -605,18 +630,24 @@ async function testWrite() {
 
 // Exit quiz and return to main menu.
 document.getElementById("exit-btn").addEventListener("click", () => {
-  // Reset quiz modal for next time
+  // Reset all quiz state for the next quiz session.
+  resetQuizState();
+  
+  // Hide quiz modal and results panel.
   document.getElementById("quiz-modal").classList.add("hidden");
   document.getElementById("quiz-body").classList.remove("hidden");
   document.getElementById("results").classList.add("hidden");
-  document.getElementById("main-menu").classList.remove("hidden");
-
-  // Show the main menu and restore the header
+  
+  // Restore the main menu and header.
   document.getElementById("main-menu").classList.remove("hidden");
   document.getElementById("main-header").classList.remove("hidden");
+  
+  // Remove the quiz-specific background animation.
   document.body.classList.remove("quiz-active");
+
+  // Remove the noise canvas, if it exists.
   const noiseCanvas = document.getElementById("noise-canvas");
-  if(noiseCanvas) {
+  if (noiseCanvas) {
     noiseCanvas.remove();
   }
 });
