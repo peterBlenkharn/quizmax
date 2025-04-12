@@ -23,7 +23,7 @@ let timeLeft = 180; // seconds
 
 let feedbackTimeoutID = null;
 
-const perlinScale = 0.0005;
+const perlinScale = 0.001;
 
 let firstAttempt = true; // tracks if the current question is answered correctly on the first try
 
