@@ -228,9 +228,15 @@ document.getElementById("subject-modal-close").addEventListener("click", closeSu
 
 // Launch quiz for a given chip/section.
 async function launchQuiz(chipName, subjectName) {
-  // Reset state BEFORE starting a new quiz.
+  // Reset quiz state
   resetQuizState();
 
+  // Make sure the quiz header panel is visible (in case it was hidden during results)
+  const headerPanel = document.getElementById("quiz-header-panel");
+  if (headerPanel) {
+    headerPanel.classList.remove("hidden");
+  }
+  
   // Build the filename and set up the data source path.
   const fileName = chipNameToFileName(chipName);
   const path = `data/${subjectName}/${fileName}.json`;
@@ -244,25 +250,21 @@ async function launchQuiz(chipName, subjectName) {
       return;
     }
     
-    // Set the questions and current section.
     currentSection = chipName;
     currentQuestions = getRandomQuestions(bank);
     
-    // Update the UI to hide the main menu and header.
+    // Update UI: hide main menu and header, show quiz modal.
     document.getElementById("main-menu").classList.add("hidden");
     document.getElementById("quiz-modal").classList.remove("hidden");
     document.getElementById("main-header").classList.add("hidden");
 
-    // Update the quiz header (icon, title) based on the subject and chip.
+    // Update the quiz header (icon and title).
     updateQuizHeader(subjectName, chipName);
     
-    // Update the progress bar colours.
     updateProgressBarColors(subjectName);
-    // Set the background animation for quiz mode.
     startNoiseBackground(subjectName);
     document.body.classList.add("quiz-active");
 
-    // Start the timer and display the first question.
     startTimer();
     displayQuestion();
   } catch (error) {
@@ -449,24 +451,32 @@ function startNoiseBackground(subjectName) {
 }
 
 function updateQuizHeader(subjectName, chipName) {
-  // Get the quiz header panel elements.
+  // Get the quiz header panel element.
   const headerPanel = document.getElementById("quiz-header-panel");
   if (!headerPanel) {
-    console.error("Quiz header panel not found");
+    console.error("Quiz header panel not found!");
     return;
   }
 
-  const headerIconContainer = headerPanel.querySelector(".header-icon");
-  const headerTitle = headerPanel.querySelector(".header-title");
-
-  if (!headerIconContainer || !headerTitle) {
-    console.error("Header icon container or header title not found");
-    return;
+  // Ensure there is a header-icon container; create one if missing.
+  let headerIconContainer = headerPanel.querySelector(".header-icon");
+  if (!headerIconContainer) {
+    headerIconContainer = document.createElement("div");
+    headerIconContainer.classList.add("header-icon");
+    headerPanel.prepend(headerIconContainer);
+  }
+  
+  // Ensure there is a header-title element; create one if missing.
+  let headerTitle = headerPanel.querySelector(".header-title");
+  if (!headerTitle) {
+    headerTitle = document.createElement("div");
+    headerTitle.classList.add("header-title");
+    headerPanel.appendChild(headerTitle);
   }
 
-  // Get subject colors from the subject's CSS class.
+  // Get the subject colors.
   const subjectData = subjects[subjectName];
-  const tempDiv = document.createElement('div');
+  const tempDiv = document.createElement("div");
   tempDiv.classList.add(subjectData.colorClass);
   document.body.appendChild(tempDiv);
   const computedStyle = window.getComputedStyle(tempDiv);
@@ -475,34 +485,26 @@ function updateQuizHeader(subjectName, chipName) {
   const liteColor = computedStyle.getPropertyValue('--subject-color-lite').trim();
   document.body.removeChild(tempDiv);
 
-  // Set the inline style of the header icon container with a gradient background.
+  // Update header-icon container.
   headerIconContainer.style.background = `linear-gradient(45deg, ${primaryColor}, ${darkColor})`;
   headerIconContainer.style.borderRadius = "12px";
   headerIconContainer.style.display = "flex";
   headerIconContainer.style.alignItems = "center";
   headerIconContainer.style.justifyContent = "center";
-  // Set the container's color so that the icon (using currentColor) adopts the desired color.
   headerIconContainer.style.color = liteColor;
 
-  // Update the dynamic SVG of the icon.
-  // Try first to find an existing element with the dynamic-svg class.
+  // Update the dynamic SVG inside header-icon.
   let iconElement = headerIconContainer.querySelector("img.dynamic-svg");
   if (!iconElement) {
-    // If it doesn't exist, try looking for an inline SVG.
-    iconElement = headerIconContainer.querySelector("svg.dynamic-svg");
+    iconElement = document.createElement("img");
+    iconElement.classList.add("dynamic-svg");
+    headerIconContainer.appendChild(iconElement);
   }
-  if (iconElement) {
-    // Update the element's data-src and alt attributes.
-    iconElement.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
-    iconElement.setAttribute("alt", subjectName + " Icon");
-  } else {
-    console.warn("Dynamic SVG element not found in header icon container.");
-  }
-  
-  // Re-inject the SVG so the new icon becomes inline.
+  iconElement.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
+  iconElement.setAttribute("alt", subjectName + " Icon");
   injectSVGs();
 
-  // Update the header title to show the chip/section title.
+  // Update the header title with the chip/section title.
   headerTitle.textContent = chipName;
 }
 
