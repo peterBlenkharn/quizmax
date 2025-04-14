@@ -1,0 +1,84 @@
+{
+  "badges": [
+    {
+      "id": "first_timer",
+      "name": "First Timer",
+      "description": "Awarded for completing your very first quiz.",
+      "criteria": { "quizzesCompleted": 1 },
+      "iconUnawarded": "icons/first_timer_locked.svg",
+      "iconAwarded": "icons/first_timer_unlocked.svg"
+    },
+    {
+      "id": "quiz_master",
+      "name": "Quiz Master",
+      "description": "Scored 100% on a quiz (all answers correct on the first try).",
+      "criteria": { "perfectQuiz": true },
+      "iconUnawarded": "icons/quiz_master_locked.svg",
+      "iconAwarded": "icons/quiz_master_unlocked.svg"
+    },
+    {
+      "id": "speed_demon",
+      "name": "Speed Demon",
+      "description": "Finished a quiz with 50% or more time remaining.",
+      "criteria": { "minTimeRemainingPercent": 50 },
+      "iconUnawarded": "icons/speed_demon_locked.svg",
+      "iconAwarded": "icons/speed_demon_unlocked.svg"
+    },
+    {
+      "id": "persistence_pays",
+      "name": "Persistence Pays",
+      "description": "Answered a question correctly after multiple attempts.",
+      "criteria": { "maxAttempts": 3 },
+      "iconUnawarded": "icons/persistence_pays_locked.svg",
+      "iconAwarded": "icons/persistence_pays_unlocked.svg"
+    },
+    {
+      "id": "hard_question_hero",
+      "name": "Hard Question Hero",
+      "description": "Answered the hard question correctly on the first try.",
+      "criteria": { "hardQuestionSuccess": true },
+      "iconUnawarded": "icons/hard_question_hero_locked.svg",
+      "iconAwarded": "icons/hard_question_hero_unlocked.svg"
+    },
+    {
+      "id": "streak_seeker",
+      "name": "Streak Seeker",
+      "description": "Completed 5 consecutive quizzes without skipping a day.",
+      "criteria": { "consecutiveQuizzes": 5 },
+      "iconUnawarded": "icons/streak_seeker_locked.svg",
+      "iconAwarded": "icons/streak_seeker_unlocked.svg"
+    },
+    {
+      "id": "improvement_guru",
+      "name": "Improvement Guru",
+      "description": "Showed significant improvement compared to the previous quiz.",
+      "criteria": { "improvementPercent": 10 },
+      "iconUnawarded": "icons/improvement_guru_locked.svg",
+      "iconAwarded": "icons/improvement_guru_unlocked.svg"
+    },
+    {
+      "id": "subject_specialist",
+      "name": "Subject Specialist",
+      "description": "Consistently high performance in a specific subject area.",
+      "criteria": { "subjectConsistency": true, "minQuizzes": 3 },
+      "iconUnawarded": "icons/subject_specialist_locked.svg",
+      "iconAwarded": "icons/subject_specialist_unlocked.svg"
+    },
+    {
+      "id": "quiz_marathoner",
+      "name": "Quiz Marathoner",
+      "description": "Completed 10 quizzes overall.",
+      "criteria": { "totalQuizzes": 10 },
+      "iconUnawarded": "icons/quiz_marathoner_locked.svg",
+      "iconAwarded": "icons/quiz_marathoner_unlocked.svg"
+    },
+    {
+      "id": "info_explorer",
+      "name": "Info Explorer",
+      "description": "Frequently reviewed additional info and explanations.",
+      "criteria": { "infoClicks": 5 },
+      "iconUnawarded": "icons/info_explorer_locked.svg",
+      "iconAwarded": "icons/info_explorer_unlocked.svg"
+    }
+  ]
+}
