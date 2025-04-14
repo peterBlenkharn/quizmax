@@ -451,9 +451,19 @@ function startNoiseBackground(subjectName) {
 function updateQuizHeader(subjectName, chipName) {
   // Get the quiz header panel elements.
   const headerPanel = document.getElementById("quiz-header-panel");
+  if (!headerPanel) {
+    console.error("Quiz header panel not found");
+    return;
+  }
+
   const headerIconContainer = headerPanel.querySelector(".header-icon");
   const headerTitle = headerPanel.querySelector(".header-title");
-  
+
+  if (!headerIconContainer || !headerTitle) {
+    console.error("Header icon container or header title not found");
+    return;
+  }
+
   // Get subject colors from the subject's CSS class.
   const subjectData = subjects[subjectName];
   const tempDiv = document.createElement('div');
@@ -464,27 +474,38 @@ function updateQuizHeader(subjectName, chipName) {
   const darkColor = computedStyle.getPropertyValue('--subject-color-dark').trim();
   const liteColor = computedStyle.getPropertyValue('--subject-color-lite').trim();
   document.body.removeChild(tempDiv);
-  
+
   // Set the inline style of the header icon container with a gradient background.
   headerIconContainer.style.background = `linear-gradient(45deg, ${primaryColor}, ${darkColor})`;
   headerIconContainer.style.borderRadius = "12px";
   headerIconContainer.style.display = "flex";
   headerIconContainer.style.alignItems = "center";
   headerIconContainer.style.justifyContent = "center";
-  // Set the container's color so that the icon (using currentColor) adopts the dark hue.
+  // Set the container's color so that the icon (using currentColor) adopts the desired color.
   headerIconContainer.style.color = liteColor;
-  
+
   // Update the dynamic SVG of the icon.
-  const iconImg = headerIconContainer.querySelector("img.dynamic-svg");
-  iconImg.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
-  iconImg.setAttribute("alt", subjectName + " Icon");
+  // Try first to find an existing element with the dynamic-svg class.
+  let iconElement = headerIconContainer.querySelector("img.dynamic-svg");
+  if (!iconElement) {
+    // If it doesn't exist, try looking for an inline SVG.
+    iconElement = headerIconContainer.querySelector("svg.dynamic-svg");
+  }
+  if (iconElement) {
+    // Update the element's data-src and alt attributes.
+    iconElement.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
+    iconElement.setAttribute("alt", subjectName + " Icon");
+  } else {
+    console.warn("Dynamic SVG element not found in header icon container.");
+  }
   
   // Re-inject the SVG so the new icon becomes inline.
   injectSVGs();
-  
+
   // Update the header title to show the chip/section title.
   headerTitle.textContent = chipName;
 }
+
 
 // Display current question and rebuild answer choices
 function displayQuestion() {
