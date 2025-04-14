@@ -541,6 +541,10 @@ function evaluateAnswer(selectedIndex, btn) {
     // Show wrong answer feedback and auto-hide it.
     showFeedbackPanel("incorrect", "", true);
     firstAttempt = false;
+    let quizBodyElement = document.getElementById("quiz-body");
+    quizBodyElement.classList.add('shake');
+    // Remove the class after the animation completes to allow future triggers
+    setTimeout(() => quizBodyElement.classList.remove('shake'), 500);
   }
 }
 
