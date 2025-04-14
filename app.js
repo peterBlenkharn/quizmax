@@ -451,30 +451,12 @@ function startNoiseBackground(subjectName) {
 }
 
 function updateQuizHeader(subjectName, chipName) {
-  // Get the quiz header panel element.
+  // Get the quiz header panel elements.
   const headerPanel = document.getElementById("quiz-header-panel");
-  if (!headerPanel) {
-    console.error("Quiz header panel not found!");
-    return;
-  }
+  const headerIconContainer = headerPanel.querySelector(".header-icon");
+  const headerTitle = headerPanel.querySelector(".header-title");
 
-  // Ensure there is a header-icon container; create one if missing.
-  let headerIconContainer = headerPanel.querySelector(".header-icon");
-  if (!headerIconContainer) {
-    headerIconContainer = document.createElement("div");
-    headerIconContainer.classList.add("header-icon");
-    headerPanel.prepend(headerIconContainer);
-  }
-  
-  // Ensure there is a header-title element; create one if missing.
-  let headerTitle = headerPanel.querySelector(".header-title");
-  if (!headerTitle) {
-    headerTitle = document.createElement("div");
-    headerTitle.classList.add("header-title");
-    headerPanel.appendChild(headerTitle);
-  }
-
-  // Get the subject colors.
+  // Get subject colors from the subject's CSS class.
   const subjectData = subjects[subjectName];
   const tempDiv = document.createElement("div");
   tempDiv.classList.add(subjectData.colorClass);
@@ -485,26 +467,30 @@ function updateQuizHeader(subjectName, chipName) {
   const liteColor = computedStyle.getPropertyValue('--subject-color-lite').trim();
   document.body.removeChild(tempDiv);
 
-  // Update header-icon container.
+  // Set the inline style of the header icon container with a gradient background.
   headerIconContainer.style.background = `linear-gradient(45deg, ${primaryColor}, ${darkColor})`;
   headerIconContainer.style.borderRadius = "12px";
   headerIconContainer.style.display = "flex";
   headerIconContainer.style.alignItems = "center";
   headerIconContainer.style.justifyContent = "center";
+  // Set the container's color so that the icon (using currentColor) adopts the appropriate hue.
   headerIconContainer.style.color = liteColor;
 
-  // Update the dynamic SVG inside header-icon.
-  let iconElement = headerIconContainer.querySelector("img.dynamic-svg");
-  if (!iconElement) {
-    iconElement = document.createElement("img");
-    iconElement.classList.add("dynamic-svg");
-    headerIconContainer.appendChild(iconElement);
-  }
+  // **Overwrite the header icon:**
+  // Remove any previous content of the header-icon container.
+  headerIconContainer.innerHTML = "";
+  // Create a new image element for the dynamic SVG.
+  const iconElement = document.createElement("img");
+  iconElement.classList.add("dynamic-svg");
+  // Use data-src so the injectSVGs function will fetch and inject it as inline SVG.
   iconElement.setAttribute("data-src", `icons/${subjectName.replace(/\s/g, "")}.svg`);
   iconElement.setAttribute("alt", subjectName + " Icon");
+  headerIconContainer.appendChild(iconElement);
+
+  // Re-inject the SVG so that the new icon becomes inline.
   injectSVGs();
 
-  // Update the header title with the chip/section title.
+  // Update the header title to show the section (chip) title.
   headerTitle.textContent = chipName;
 }
 
@@ -804,8 +790,12 @@ function chipNameToFileName(chipName) {
 }
 
 function loadLottieResultsAnimation() {
+  const container = document.getElementById('lottie-results');
+  // Clear any existing content so we don't append multiple animations.
+  container.innerHTML = "";
+  
   lottie.loadAnimation({
-    container: document.getElementById('lottie-results'), // the dom element that will contain the animation
+    container: container, // the dom element that will contain the animation
     renderer: 'svg',
     loop: true,     // set to false if you want it to play only once
     autoplay: true,
