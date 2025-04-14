@@ -33,9 +33,40 @@ let subjects = {};
 /* ===== UTILITY FUNCTIONS ===== */
 
 function getRandomQuestions(bank) {
-  const shuffled = bank.sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, 10);
+  // Filter questions by difficulty
+  const easyQuestions = bank.filter(q => q.difficulty === 'easy');
+  const hardQuestions = bank.filter(q => q.difficulty === 'hard');
+
+  // Ensure there are enough questions in each category.
+  if (easyQuestions.length < 9 || hardQuestions.length < 1) {
+    throw new Error('Not enough questions in one or more difficulty categories.');
+  }
+  
+  // Helper function to shuffle an array using the Fisher-Yates algorithm
+  function shuffle(array) {
+    let currentIndex = array.length, temporaryValue, randomIndex;
+    // While there remain elements to shuffle...
+    while (currentIndex !== 0) {
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
+  }
+
+  // Select 9 random easy and 1 random hard question
+  const selectedEasy = shuffle([...easyQuestions]).slice(0, 9);
+  const selectedHard = shuffle([...hardQuestions]).slice(0, 1);
+
+  // Combine both sets and shuffle again for random order
+  const quizQuestions = shuffle([...selectedEasy, ...selectedHard]);
+  return quizQuestions;
 }
+
 
 //### DEPRECATED LOCALSTORAGE SOLUTION
 // function saveQuizResult(section, score, timedOut) {
