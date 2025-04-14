@@ -662,8 +662,8 @@ document.getElementById("exit-btn").addEventListener("click", () => {
 });
 
 
-/* ===== INFO MODAL WITH REGRESSION LINE & SCORE TREND ===== */
-function openInfoModal(sectionName) {
+// ===== INFO MODAL WITH REGRESSION LINE & SCORE TREND =====
+async function openInfoModal(sectionName) {
   // Destroy any previously rendered chart.
   if (window.progressChart) {
     window.progressChart.destroy();
@@ -673,32 +673,29 @@ function openInfoModal(sectionName) {
   // Update the title for the info modal.
   document.getElementById("info-title").textContent = sectionName;
 
-  // Get progress data for the section.
-  const progress = JSON.parse(localStorage.getItem("quizProgress")) || {};
-  const sectionData = progress[sectionName] || [];
-
-  // If there's insufficient data (fewer than 2 quiz attempts),
-  // hide the chart and show a message.
-  if (sectionData.length < 2) {
+  // Get progress data for the section from Firestore.
+  const sessions = await getQuizSessionsForSection(sectionName);
+  console.log("Fetched sessions:", sessions);
+  
+  // If there's insufficient data (fewer than 2 quiz attempts), hide the chart and show a message.
+  if (sessions.length < 2) {
     document.getElementById("progress-chart").classList.add("hidden");
     document.getElementById("no-data-msg").classList.remove("hidden");
     document.getElementById("metrics").innerHTML = "<p>Do more quizzes on this topic for cool data</p>";
   } else {
-    // With sufficient data, show the chart container.
-    document.getElementById("progress-chart").classList.remove("hidden");
-    document.getElementById("no-data-msg").classList.add("hidden");
-  
-    const labels = sectionData.map((_, i) => (i + 1).toString());
-    const scores = sectionData.map(entry => entry.score);
-  
-    // Calculate regression (best fit line).
+    // With sufficient data, prepare labels and scores.
+    const labels = sessions.map((_, i) => (i + 1).toString());
+    // Assume each session record has a field "correctAnswers"
+    const scores = sessions.map(session => session.correctAnswers);
+
+    // Calculate the regression (best fit line) for the scores.
     const regression = computeRegression(scores);
-  
-    // Calculate metrics and determine the trend symbol.
+
+    // Determine a trend symbol based on the last two scores.
     let trendSymbol = "";
-    if (sectionData.length >= 2) {
-      const last = sectionData[sectionData.length - 1].score;
-      const prev = sectionData[sectionData.length - 2].score;
+    if (sessions.length >= 2) {
+      const last = sessions[sessions.length - 1].correctAnswers;
+      const prev = sessions[sessions.length - 2].correctAnswers;
       if (last > prev) {
         trendSymbol = `<span style="color: green; font-weight: bold;"> +</span>`;
       } else if (last < prev) {
@@ -707,13 +704,18 @@ function openInfoModal(sectionName) {
         trendSymbol = `<span style="color: grey; font-weight: bold;"> =</span>`;
       }
     }
-  
+
+    // Update the metrics display.
     document.getElementById("metrics").innerHTML = `
       <p>Average score: ${(scores.reduce((a, b) => a + b, 0) / scores.length).toFixed(2)} / 10</p>
       <p>Last score: ${scores[scores.length - 1]} / 10${trendSymbol}</p>
     `;
-  
-    // Render the chart.
+
+    // Show the chart container.
+    document.getElementById("progress-chart").classList.remove("hidden");
+    document.getElementById("no-data-msg").classList.add("hidden");
+
+    // Render the chart using Chart.js.
     const ctx = document.getElementById("progress-chart").getContext('2d');
     window.progressChart = new Chart(ctx, {
       type: 'line',
@@ -729,7 +731,6 @@ function openInfoModal(sectionName) {
             pointBackgroundColor: getSubjectColor(sectionName)
           },
           {
-            // Regression line dataset
             label: 'Trend',
             data: regression,
             fill: false,
@@ -755,8 +756,10 @@ function openInfoModal(sectionName) {
     });
   }
 
+  // Finally, show the info modal.
   document.getElementById("info-modal").classList.remove("hidden");
 }
+
 
 // Compute simple linear regression for an array of y values
 function computeRegression(yValues) {
