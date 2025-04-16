@@ -1,1 +1,446 @@
-
+[
+  {
+    "question": "In which Italian city is 'Romeo and Juliet' primarily set?",
+    "choices": [
+      "Verona",
+      "Rome",
+      "Venice",
+      "Milan"
+    ],
+    "correctIndex": 0,
+    "explanation": "The play is set in Verona, Italy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who is Romeo's true love in the play?",
+    "choices": [
+      "Rosaline",
+      "Juliet",
+      "The Nurse",
+      "Mercutio"
+    ],
+    "correctIndex": 1,
+    "explanation": "Romeo abandons his infatuation with Rosaline when he meets and falls in love with Juliet.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary theme of 'Romeo and Juliet'?",
+    "choices": [
+      "Forbidden love",
+      "Revenge",
+      "Ambition",
+      "Friendship"
+    ],
+    "correctIndex": 0,
+    "explanation": "The play centers on the tragedy of forbidden love between two members of feuding families.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The conflict between which two families drives the action in the play?",
+    "choices": [
+      "Montagues and Capulets",
+      "Bennet and Darcy",
+      "Smith and Johnson",
+      "Malfoy and Potter"
+    ],
+    "correctIndex": 0,
+    "explanation": "The bitter feud between the Montagues and Capulets is the root of the tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'star-crossed lovers' in the prologue imply about Romeo and Juliet?",
+    "choices": [
+      "They are meant to be happy together",
+      "Their love is doomed from the start",
+      "They will overcome all obstacles",
+      "They are separated by distance"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phrase 'star-crossed' implies that the lovers' fate is doomed by destiny.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who arranges the secret marriage of Romeo and Juliet?",
+    "choices": [
+      "The Nurse",
+      "Friar Laurence",
+      "Benvolio",
+      "Paris"
+    ],
+    "correctIndex": 1,
+    "explanation": "Friar Laurence marries Romeo and Juliet in secret, hoping to reconcile the feuding families.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who kills Mercutio in the play?",
+    "choices": [
+      "Romeo",
+      "Benvolio",
+      "Tybalt",
+      "Capulet"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tybalt kills Mercutio, which sparks Romeo's revenge and escalates the tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who avenges Mercutio's death by killing Tybalt?",
+    "choices": [
+      "Romeo",
+      "Juliet",
+      "Nurse",
+      "Paris"
+    ],
+    "correctIndex": 0,
+    "explanation": "Romeo kills Tybalt in a fit of rage after Mercutio's death.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Why is Romeo banished from Verona?",
+    "choices": [
+      "For killing Tybalt",
+      "For eloping with Juliet",
+      "For stealing money",
+      "For spying on his family"
+    ],
+    "correctIndex": 0,
+    "explanation": "Romeo is banished because his killing of Tybalt is seen as a grave offense against the Capulet family.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character is known for his witty and humorous remarks?",
+    "choices": [
+      "Mercutio",
+      "Romeo",
+      "Benvolio",
+      "Friar Laurence"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mercutio is celebrated for his quick wit and humorous wordplay throughout the play.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who is Juliet's faithful nurse and confidante?",
+    "choices": [
+      "Lady Capulet",
+      "Nurse",
+      "Mercutio",
+      "Benvolio"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Nurse is a loyal servant and the trusted confidante of Juliet.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How are Romeo and Benvolio related?",
+    "choices": [
+      "Brothers",
+      "Cousins",
+      "Friends",
+      "Enemies"
+    ],
+    "correctIndex": 2,
+    "explanation": "Romeo and Benvolio are close friends who support each other throughout the play.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Romeo first learn about Juliet?",
+    "choices": [
+      "At a masked ball",
+      "From the Nurse",
+      "By reading a letter",
+      "Through a dream"
+    ],
+    "correctIndex": 0,
+    "explanation": "Romeo first sees Juliet at the Capulet's masked ball, which sparks his immediate attraction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character challenges Romeo to a duel in the play?",
+    "choices": [
+      "Tybalt",
+      "Mercutio",
+      "Benvolio",
+      "Paris"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tybalt, Juliet's hot-headed cousin, challenges Romeo, escalating the conflict.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What literary device is employed in the prologue when the lovers are described as 'star-crossed'?",
+    "choices": [
+      "Alliteration",
+      "Metaphor",
+      "Simile",
+      "Hyperbole"
+    ],
+    "correctIndex": 1,
+    "explanation": "Calling the lovers 'star-crossed' is a metaphor that indicates their fate is controlled by the stars.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does Juliet plan to avoid marrying Paris?",
+    "choices": [
+      "By running away",
+      "By faking her death",
+      "By confronting her parents",
+      "By writing a letter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Juliet takes a potion to mimic death, hoping to escape the unwanted marriage with Paris.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'prologue' refer to in 'Romeo and Juliet'?",
+    "choices": [
+      "The final scene of the play",
+      "The introductory speech that outlines the plot",
+      "A soliloquy by a main character",
+      "A chorus that comments on the action"
+    ],
+    "correctIndex": 1,
+    "explanation": "The prologue is the introductory section that sets up the tragic tone and outlines the fate of the lovers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the symbolic significance of poison in the play?",
+    "choices": [
+      "It represents healing and renewal",
+      "It symbolizes the destructive consequences of miscommunication",
+      "It is a metaphor for unrequited love",
+      "It has no symbolic significance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Poison in the play embodies the lethal outcomes of poor communication and impulsive actions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which event is considered the turning point of tragedy in 'Romeo and Juliet'?",
+    "choices": [
+      "The secret wedding",
+      "The duel between Mercutio and Tybalt",
+      "The reconciliation of the families",
+      "The discovery of Juliet's secret"
+    ],
+    "correctIndex": 1,
+    "explanation": "The duel that results in the deaths of Mercutio and Tybalt marks a dramatic shift toward tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character represents the voice of caution and pragmatism in the play?",
+    "choices": [
+      "Friar Laurence",
+      "Tybalt",
+      "Mercutio",
+      "Paris"
+    ],
+    "correctIndex": 0,
+    "explanation": "Friar Laurence consistently advises caution and strives to guide the young lovers with reason.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How is the concept of fate portrayed in 'Romeo and Juliet'?",
+    "choices": [
+      "As irrelevant to the characters' choices",
+      "As a predetermined force evident from the prologue",
+      "As solely the result of social class conflict",
+      "As a minor background element"
+    ],
+    "correctIndex": 1,
+    "explanation": "The prologue’s reference to 'star-crossed lovers' shows that fate plays a significant role in the unfolding tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes Juliet's character?",
+    "choices": [
+      "Impulsive and passionate",
+      "Cautious and reserved",
+      "Selfish and indifferent",
+      "Manipulative and deceitful"
+    ],
+    "correctIndex": 0,
+    "explanation": "Juliet is portrayed as impulsively passionate and determined, despite the constraints placed on her.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of dramatic irony is present when the audience knows about the tragic fate of the lovers while they remain unaware?",
+    "choices": [
+      "Situational irony",
+      "Dramatic irony",
+      "Verbal irony",
+      "Cosmic irony"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dramatic irony occurs when the audience is aware of a truth that the characters do not know, heightening the tragedy.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does the family feud between the Montagues and Capulets primarily symbolize?",
+    "choices": [
+      "The natural order of the universe",
+      "The destructive impact of societal divisions on personal relationships",
+      "The inevitability of death",
+      "The success of individual ambition"
+    ],
+    "correctIndex": 1,
+    "explanation": "The feud represents the deep-seated societal and familial divisions that lead to personal tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What role does the Nurse play in the development of the plot?",
+    "choices": [
+      "She acts as a mediator between the families",
+      "She provides emotional support and comic relief for Juliet",
+      "She opposes Juliet's decisions at every turn",
+      "She encourages Juliet to conform to social expectations"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Nurse is a source of comfort for Juliet and provides both practical help and humor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which literary technique is used when Romeo describes Juliet with references to light?",
+    "choices": [
+      "Personification",
+      "Imagery",
+      "Simile",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 1,
+    "explanation": "Romeo uses vivid imagery to compare Juliet to a source of light, highlighting her beauty and purity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'star-crossed' imply about the fate of Romeo and Juliet?",
+    "choices": [
+      "Their love is supported by the heavens",
+      "Their destiny is doomed from the start",
+      "They are blessed with long-lasting happiness",
+      "They have a supernatural protection"
+    ],
+    "correctIndex": 1,
+    "explanation": "The term 'star-crossed' means that their fate is ill-fated, as if controlled by the stars.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which element of the play most strongly contributes to its tragic structure?",
+    "choices": [
+      "The comedic interludes",
+      "The themes of love and passion",
+      "The miscommunications and impulsive decisions",
+      "The elaborate costumes and settings"
+    ],
+    "correctIndex": 2,
+    "explanation": "The interplay of miscommunication and impulsive choices drives the tragic outcome.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character is most associated with impulsive behavior in the play?",
+    "choices": [
+      "Romeo",
+      "Juliet",
+      "Friar Laurence",
+      "The Nurse"
+    ],
+    "correctIndex": 0,
+    "explanation": "Romeo is known for his impulsive decisions, which contribute significantly to the tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What role does Paris play in 'Romeo and Juliet'?",
+    "choices": [
+      "He is a close friend of Romeo",
+      "He is a suitor chosen by Juliet's parents",
+      "He is Juliet's secret admirer",
+      "He is a mediator between the families"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paris is intended to be Juliet's husband and represents the conventional choice favored by her parents.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which literary device is prominently used in the prologue of the play?",
+    "choices": [
+      "Foreshadowing",
+      "Alliteration",
+      "Onomatopoeia",
+      "Oxymoron"
+    ],
+    "correctIndex": 0,
+    "explanation": "The prologue uses foreshadowing to hint at the tragic fate awaiting the lovers.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does public feuding contribute to the tragedy in the play?",
+    "choices": [
+      "It creates an atmosphere that forces the lovers into secrecy",
+      "It provides comic relief throughout the play",
+      "It leads to political reforms",
+      "It has little impact on the story"
+    ],
+    "correctIndex": 0,
+    "explanation": "The ongoing feud forces Romeo and Juliet to pursue their love in secret, intensifying the tragic consequences when their true situation is revealed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best captures the tragic role of miscommunication in the play?",
+    "choices": [
+      "It is a minor plot device",
+      "It leads directly to the lovers’ untimely deaths",
+      "It creates opportunities for humor",
+      "It strengthens the bonds between characters"
+    ],
+    "correctIndex": 1,
+    "explanation": "The fatal miscommunication regarding Juliet's feigned death is the critical mistake that leads to the ultimate tragedy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Shakespeare use dramatic irony to enhance the impact of the tragedy?",
+    "choices": [
+      "By allowing the characters to know all the truths from the start",
+      "By letting the audience know the tragic fate long before the characters do",
+      "By using humorous dialogue throughout",
+      "By depicting all events as entirely random"
+    ],
+    "correctIndex": 1,
+    "explanation": "The audience’s foreknowledge of the doomed fate creates a tension that amplifies the tragic impact when events unfold.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In what way does the setting of Verona influence the play’s narrative?",
+    "choices": [
+      "It is irrelevant to the unfolding events",
+      "It reflects the intense social and familial divisions fueling the conflict",
+      "It provides a neutral backdrop for the love story",
+      "It simplifies the plot by reducing external conflicts"
+    ],
+    "correctIndex": 1,
+    "explanation": "Verona’s depiction as a divided city mirrors the deep social and familial animosities that propel the tragedy.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which poetic device is used when Romeo exclaims, 'O, she doth teach the torches to burn bright'?",
+    "choices": [
+      "Simile",
+      "Metaphor",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correctIndex": 2,
+    "explanation": "By attributing human qualities to torches, Romeo uses personification to emphasize Juliet’s radiant beauty.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the motif of time contribute to the themes of the play?",
+    "choices": [
+      "It reinforces the brevity of life and love by highlighting how quickly events unfold",
+      "It is used only to measure the lengths of scenes",
+      "It signifies the eternal nature of love",
+      "It distracts from the central conflict of the play"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shakespeare’s frequent references to time emphasize the fleeting and fragile nature of the lovers' relationship, adding urgency to their plight.",
+    "difficulty": "hard"
+  }
+]
