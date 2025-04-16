@@ -1,13 +1,458 @@
 [
   {
-    "question": "What does biotechnology involve?",
+    "question": "Which of the following best defines sustainable use of biological resources?",
     "choices": [
-      "Software development",
-      "Genetic manipulation of organisms",
-      "Chemical manufacturing",
-      "Astronomical research"
+      "Exploiting resources for short‐term profit regardless of future impact",
+      "Using resources in a manner that meets current needs without compromising future generations",
+      "Restricting resource use entirely to prevent environmental damage",
+      "Maximizing production even if it depletes natural ecosystems"
     ],
     "correctIndex": 1,
-    "explanation": "Biotechnology involves the use of living systems and organisms to develop products."
+    "explanation": "Sustainable use involves managing resources so that they remain available for future generations while meeting current needs.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary advantage of crop rotation in sustainable agriculture?",
+    "choices": [
+      "It increases pesticide use to kill pests",
+      "It minimizes soil nutrient depletion and breaks pest cycles",
+      "It ensures a single crop dominates the field",
+      "It reduces water usage by eliminating irrigation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Crop rotation helps to replenish soil nutrients and disrupts the life cycles of pests, lowering the need for chemical interventions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hybridization in crops is mainly used to:",
+    "choices": [
+      "Produce genetically identical plants",
+      "Combine desired traits from different varieties to improve yield and resistance",
+      "Remove all genetic variation in a population",
+      "Increase soil erosion through monoculture practices"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hybridization crosses different varieties to combine favorable traits, such as higher yield and pest resistance.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The production of recombinant insulin using genetically modified bacteria is an example of:",
+    "choices": [
+      "Selective breeding",
+      "Recombinant DNA technology",
+      "Tissue culture propagation",
+      "Traditional hybridization"
+    ],
+    "correctIndex": 1,
+    "explanation": "Recombinant DNA technology involves inserting a human gene into bacteria to produce proteins like insulin.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A decline in genetic diversity in livestock can lead to increased disease susceptibility. Which strategy helps maintain genetic diversity?",
+    "choices": [
+      "Relying on a single high-yield breed",
+      "Implementing rotational breeding programs using multiple breeds",
+      "Cloning elite animals exclusively",
+      "Increasing inbreeding through selective mating"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rotational breeding among diverse breeds helps maintain genetic variation and reduces the risks associated with inbreeding.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In sustainable fisheries management, which indicator is most suggestive of overfishing?",
+    "choices": [
+      "An increase in the population of juvenile fish",
+      "A sustained decline in the recruitment rate of young fish",
+      "Stable fish biomass over time",
+      "An increase in the diversity of fish species"
+    ],
+    "correctIndex": 1,
+    "explanation": "A prolonged decline in the recruitment of juvenile fish indicates that the fish stock is being overexploited.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Biological control in agriculture involves:",
+    "choices": [
+      "The application of chemical pesticides to eliminate pests",
+      "Using natural predators or parasites to control pest populations",
+      "Genetically modifying crops to resist pests",
+      "Manual removal of pests from the field"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biological control employs natural enemies to regulate pest populations in an environmentally sustainable way.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Bioremediation refers to the process of:",
+    "choices": [
+      "Using chemicals to clean polluted sites",
+      "Employing living organisms to detoxify contaminants in the environment",
+      "Filtering water through synthetic membranes",
+      "Physically removing waste from contaminated soil"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bioremediation uses microorganisms or plants to break down and remove pollutants, restoring contaminated environments.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Why can relying on a single crop variety (monoculture) be risky?",
+    "choices": [
+      "It maximizes genetic diversity among crops",
+      "It increases vulnerability to pests and diseases",
+      "It reduces the need for fertilizers",
+      "It promotes better water retention"
+    ],
+    "correctIndex": 1,
+    "explanation": "Monoculture reduces genetic diversity, making crops more susceptible to pests, diseases, and environmental changes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Bioethanol produced from plant biomass is created primarily through which process?",
+    "choices": [
+      "Photosynthesis",
+      "Fermentation",
+      "Hydrolysis",
+      "Distillation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fermentation converts sugars derived from plant biomass into bioethanol, a renewable fuel.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What are biological resources?",
+    "choices": [
+      "Man-made chemicals used in industry",
+      "Living organisms or their derivatives that have economic or social value",
+      "Only wild plants found in nature",
+      "Inorganic materials extracted from the earth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biological resources include living organisms and the products derived from them that are useful for various human purposes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which industry commonly uses yeast fermentation?",
+    "choices": [
+      "Construction",
+      "Food and beverage production",
+      "Automotive",
+      "Mining"
+    ],
+    "correctIndex": 1,
+    "explanation": "Yeast fermentation is crucial in the production of bread, beer, and wine.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Natural rubber is primarily obtained from:",
+    "choices": [
+      "Cocoa trees",
+      "Hevea brasiliensis (rubber tree)",
+      "Pine trees",
+      "Oak trees"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rubber is tapped from the latex of the rubber tree, Hevea brasiliensis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following crops is a major source of carbohydrates worldwide?",
+    "choices": [
+      "Wheat",
+      "Maize",
+      "Rice",
+      "All of the above"
+    ],
+    "correctIndex": 3,
+    "explanation": "Wheat, maize, and rice are staple crops supplying carbohydrates for many populations.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does selective breeding involve?",
+    "choices": [
+      "Allowing random mating among all individuals",
+      "Choosing parents with desirable traits to produce improved offspring",
+      "Cloning individuals to preserve genetic identity",
+      "Crossing species to create hybrids"
+    ],
+    "correctIndex": 1,
+    "explanation": "Selective breeding selects organisms with favorable traits to enhance these traits in future generations.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Genetic engineering involves:",
+    "choices": [
+      "Traditional cross-breeding methods",
+      "Direct manipulation and transfer of genes between organisms",
+      "Using natural predators for pest control",
+      "Manual selection of plant varieties"
+    ],
+    "correctIndex": 1,
+    "explanation": "Genetic engineering uses molecular techniques to directly modify an organism's DNA to achieve desired traits.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Aquaculture is the farming of:",
+    "choices": [
+      "Crops on land",
+      "Fish and other aquatic organisms",
+      "Forests for timber",
+      "Livestock such as cattle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aquaculture involves breeding, rearing, and harvesting aquatic organisms in controlled environments.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which industry makes extensive use of plant fibers such as cotton and flax?",
+    "choices": [
+      "Electronics",
+      "Textiles",
+      "Chemical manufacturing",
+      "Automotive"
+    ],
+    "correctIndex": 1,
+    "explanation": "The textile industry uses natural fibers like cotton and flax to make fabrics.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the purpose of crop rotation?",
+    "choices": [
+      "To deplete soil nutrients quickly",
+      "To maintain soil fertility and disrupt pest cycles",
+      "To maximize short-term yield regardless of sustainability",
+      "To increase soil erosion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Crop rotation prevents soil nutrient depletion and reduces pest infestations by alternating crops.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Biofuels such as biodiesel are produced from:",
+    "choices": [
+      "Fossil fuels",
+      "Plant oils from crops like rapeseed or sunflower",
+      "Mineral oil",
+      "Natural gas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biodiesel is commonly produced from plant-based oils, which are renewable biological resources.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Integrated pest management (IPM) seeks to:",
+    "choices": [
+      "Maximize chemical pesticide use",
+      "Use a combination of biological, mechanical, and chemical methods to control pests",
+      "Eliminate all natural predators",
+      "Rely solely on genetically modified crops"
+    ],
+    "correctIndex": 1,
+    "explanation": "IPM integrates various pest control methods to achieve sustainable management with minimal environmental impact.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Manure is used in agriculture primarily as a:",
+    "choices": [
+      "Pesticide",
+      "Fertilizer",
+      "Insecticide",
+      "Herbicide"
+    ],
+    "correctIndex": 1,
+    "explanation": "Manure is an organic fertilizer that replenishes soil nutrients.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Fermentation in the food industry is used to produce:",
+    "choices": [
+      "Cement",
+      "Bread, beer, and wine",
+      "Textile fibers",
+      "Bioplastics"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fermentation uses microbes like yeast to convert sugars into alcohol and carbon dioxide for food products.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Organic farming is characterized by:",
+    "choices": [
+      "High use of synthetic chemicals",
+      "Emphasis on natural inputs and sustainable practices",
+      "Exclusive use of genetically modified organisms",
+      "Monoculture practices only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Organic farming avoids synthetic chemicals and focuses on sustainable practices that protect the environment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Tissue culture in agriculture is used to:",
+    "choices": [
+      "Produce plants from small tissue samples under controlled conditions",
+      "Measure soil pH",
+      "Harvest rainwater",
+      "Rotate crops in the field"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tissue culture allows for the rapid propagation of plants from small tissue samples in vitro.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Conservation tillage is a practice used to:",
+    "choices": [
+      "Increase soil disturbance",
+      "Reduce soil erosion and maintain organic matter",
+      "Apply more fertilizers",
+      "Enhance monoculture yield"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conservation tillage minimizes soil disturbance, preserving soil structure and moisture.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Medicinal plants are used as a source for:",
+    "choices": [
+      "Synthetic polymers",
+      "Natural product-derived medicines",
+      "Industrial solvents",
+      "Fertilizers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Medicinal plants provide compounds that can be used in the development of pharmaceuticals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Aquaponics integrates aquaculture with:",
+    "choices": [
+      "Hydroponics",
+      "Vertical farming",
+      "Crop rotation",
+      "Organic synthesis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aquaponics combines fish farming (aquaculture) with soilless plant cultivation (hydroponics) in a symbiotic system.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Genetically modified (GM) crops are primarily developed to:",
+    "choices": [
+      "Increase natural biodiversity",
+      "Improve yield, pest resistance, and stress tolerance",
+      "Reduce all genetic variation",
+      "Decrease production costs by eliminating water"
+    ],
+    "correctIndex": 1,
+    "explanation": "GM crops are engineered to enhance performance traits such as yield and pest resistance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main purpose of fertilizer in agriculture?",
+    "choices": [
+      "To provide essential nutrients for plant growth",
+      "To reduce water usage",
+      "To protect plants from insects",
+      "To increase crop rotation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fertilizers supply nutrients like nitrogen, phosphorus, and potassium necessary for plant growth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process converts sugars into ethanol for biofuel production?",
+    "choices": [
+      "Photosynthesis",
+      "Fermentation",
+      "Combustion",
+      "Distillation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fermentation uses microorganisms to convert sugars into ethanol, a renewable biofuel.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'renewable resource' refer to?",
+    "choices": [
+      "A resource that cannot be replenished",
+      "A resource that is man-made",
+      "A resource that can be naturally replenished over a short period",
+      "A resource that is only found in fossil fuels"
+    ],
+    "correctIndex": 2,
+    "explanation": "Renewable resources are naturally replenished, such as solar energy, timber (when sustainably managed), and certain crops.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes the practice of protecting biological diversity while using resources sustainably?",
+    "choices": [
+      "Conservation",
+      "Exploitation",
+      "Deforestation",
+      "Urbanization"
+    ],
+    "correctIndex": 0,
+    "explanation": "Conservation aims to protect biodiversity while ensuring sustainable resource use.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is one of the major challenges in the use of biological resources?",
+    "choices": [
+      "Ensuring long-term sustainability without depleting resources",
+      "Maximizing short-term profit regardless of environmental impact",
+      "Increasing fossil fuel usage",
+      "Reducing genetic diversity intentionally"
+    ],
+    "correctIndex": 0,
+    "explanation": "A major challenge is using resources in a way that meets current needs while preserving them for the future.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which practice helps reduce pesticide usage by utilizing natural predators?",
+    "choices": [
+      "Chemical control",
+      "Biological control",
+      "Mechanical control",
+      "Cultural control"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biological control uses natural predators or parasites to reduce pest populations without chemical pesticides.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which biological resource is commonly used in the production of biodiesel?",
+    "choices": [
+      "Plant oils from rapeseed or sunflower",
+      "Natural gas",
+      "Coal",
+      "Crude oil"
+    ],
+    "correctIndex": 0,
+    "explanation": "Biodiesel is produced from plant oils, a renewable biological resource.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for the farming practice that integrates both crops and livestock?",
+    "choices": [
+      "Monoculture",
+      "Mixed farming",
+      "Hydroponics",
+      "Aquaculture"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mixed farming involves the combination of crop cultivation and livestock rearing to optimize resource use.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main goal of conservation strategies in agriculture?",
+    "choices": [
+      "To increase pesticide usage",
+      "To reduce soil fertility",
+      "To maintain ecosystem balance and resource sustainability",
+      "To eliminate all forms of crop diversity"
+    ],
+    "correctIndex": 2,
+    "explanation": "Conservation strategies aim to preserve biodiversity and ensure that agricultural practices are sustainable.",
+    "difficulty": "easy"
   }
 ]
