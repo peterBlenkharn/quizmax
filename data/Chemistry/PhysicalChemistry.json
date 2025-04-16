@@ -1,8 +1,263 @@
 [
   {
-    "question": "What does endothermic mean?",
-    "choices": ["Releases heat", "Absorbs heat", "No temperature change", "Creates electricity"],
+    "question": "Calculate the theoretical yield of NO₂ in the reaction 2NO + O₂ → 2NO₂ if 30 g of NO (M = 30 g/mol) is used.",
+    "choices": ["30 g", "46 g", "60 g", "75 g"],
     "correctIndex": 1,
-    "explanation": "Endothermic reactions absorb heat."
+    "explanation": "30 g NO = 30/30 = 1 mol. The stoichiometry indicates 1 mol NO yields 1 mol NO₂ (46 g/mol), so 1×46 = 46 g.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A 3.0 g sample of a metal M reacts with fluorine to form its fluoride with formula MF₂. Given M = 24 g/mol and F = 19 g/mol, what mass of MF₂ is produced?",
+    "choices": ["7.75 g", "8.0 g", "6.5 g", "9.0 g"],
+    "correctIndex": 0,
+    "explanation": "Molar mass of MF₂ = 24 + 2×19 = 62 g/mol; moles of M = 3.0/24 = 0.125 mol; mass = 0.125×62 = 7.75 g.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An experiment gives an experimental yield of 45 g when the theoretical yield is 60 g. What is the percentage yield?",
+    "choices": ["65%", "75%", "85%", "95%"],
+    "correctIndex": 1,
+    "explanation": "Percentage yield = (45/60) × 100 = 75%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An endothermic reaction absorbs 100 kJ per mole of reactant. How much energy is absorbed when 3 moles react?",
+    "choices": ["100 kJ", "200 kJ", "300 kJ", "400 kJ"],
+    "correctIndex": 2,
+    "explanation": "Energy absorbed = 3 × 100 kJ = 300 kJ.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A catalyst reduces the activation energy of a reaction from 150 kJ/mol to 100 kJ/mol. By what percentage is the activation energy reduced?",
+    "choices": ["25%", "33%", "50%", "66%"],
+    "correctIndex": 1,
+    "explanation": "Reduction = (150 - 100)/150 × 100 = 33.3% (≈33%).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "For a first‑order reaction with rate constant k = 0.005 s⁻¹, what fraction of the reactant remains after 200 s?",
+    "choices": ["0.37", "0.50", "0.63", "0.72"],
+    "correctIndex": 0,
+    "explanation": "Fraction remaining = exp(–k×t) = exp(–0.005×200) = exp(–1) ≈ 0.37.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "For a reaction where the rate is proportional to the square of the concentration of A, if [A] is doubled, by what factor does the rate increase?",
+    "choices": ["2", "3", "4", "8"],
+    "correctIndex": 2,
+    "explanation": "Since rate ∝ [A]², doubling [A] increases the rate by 2² = 4.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Using the Arrhenius equation, if a reaction has an activation energy of 80 kJ/mol, estimate the factor increase in the rate constant when the temperature rises from 298 K to 308 K. (R = 8.314 J/mol·K)",
+    "choices": ["1.5", "2.0", "2.85", "3.5"],
+    "correctIndex": 2,
+    "explanation": "Using k ∝ exp(–Ea/RT), the ratio k₂/k₁ ≈ exp[(80000/8.314)×(1/298 – 1/308)] ≈ exp(1.048) ≈ 2.85.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A battery rated at 12 V and 50 Ah is used to power a 600 W device. How long will the battery operate?",
+    "choices": ["0.5 hour", "1 hour", "2 hours", "2.5 hours"],
+    "correctIndex": 1,
+    "explanation": "Battery energy = 12 V × 50 Ah = 600 Wh; time = 600 Wh / 600 W = 1 hour.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A fuel has an energy content of 45 MJ/kg and is burned in an engine with 30% efficiency. How much useful energy is produced per kg of fuel?",
+    "choices": ["10.5 MJ/kg", "13.5 MJ/kg", "15 MJ/kg", "20 MJ/kg"],
+    "correctIndex": 1,
+    "explanation": "Useful energy = 45 MJ/kg × 0.30 = 13.5 MJ/kg.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the SI unit of energy?",
+    "choices": ["Joule", "Watt", "Newton", "Calorie"],
+    "correctIndex": 0,
+    "explanation": "Energy is measured in Joules (J).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit of power?",
+    "choices": ["Joule", "Watt", "Newton", "Volt"],
+    "correctIndex": 1,
+    "explanation": "Power is measured in Watts (W).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes the ratio of useful energy output to energy input?",
+    "choices": ["Efficiency", "Yield", "Purity", "Thermal energy"],
+    "correctIndex": 0,
+    "explanation": "Efficiency is the ratio of useful energy output to the total energy input.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which gas law relates pressure and volume at constant temperature?",
+    "choices": ["Charles' Law", "Boyle's Law", "Gay-Lussac's Law", "Avogadro's Law"],
+    "correctIndex": 1,
+    "explanation": "Boyle's Law states that pressure is inversely proportional to volume at constant temperature.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In an ideal gas, at constant volume, what happens to the pressure when the temperature increases?",
+    "choices": ["Pressure decreases", "Pressure remains constant", "Pressure increases", "Pressure first increases then decreases"],
+    "correctIndex": 2,
+    "explanation": "At constant volume, pressure is directly proportional to temperature.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How is percentage yield calculated?",
+    "choices": ["(Theoretical yield / Actual yield) × 100", "(Actual yield / Theoretical yield) × 100", "(Actual yield − Theoretical yield) × 100", "(Actual yield / Reactant mass) × 100"],
+    "correctIndex": 1,
+    "explanation": "Percentage yield = (Actual yield / Theoretical yield) × 100.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the mole represent in chemistry?",
+    "choices": ["Number of atoms in a sample", "6.02×10²³ particles", "The mass of a substance", "A unit of volume"],
+    "correctIndex": 1,
+    "explanation": "A mole represents 6.02×10²³ particles (Avogadro's number).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Avogadro's number is approximately:",
+    "choices": ["6.02×10²³", "3.00×10⁸", "1.00×10⁶", "9.81"],
+    "correctIndex": 0,
+    "explanation": "Avogadro's number is approximately 6.02×10²³.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process is endothermic?",
+    "choices": ["Combustion", "Condensation", "Melting", "Freezing"],
+    "correctIndex": 2,
+    "explanation": "Melting is an endothermic process where a solid absorbs heat to become liquid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a chemical reaction, the substance that limits the formation of products is the:",
+    "choices": ["Excess reactant", "Limiting reactant", "Catalyst", "By-product"],
+    "correctIndex": 1,
+    "explanation": "The limiting reactant determines the maximum amount of product formed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a balanced chemical equation demonstrate?",
+    "choices": ["Conservation of energy", "Conservation of mass", "Conservation of volume", "Conservation of momentum"],
+    "correctIndex": 1,
+    "explanation": "A balanced equation shows that mass (and atoms) is conserved in a reaction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of bond is formed when electrons are transferred between atoms?",
+    "choices": ["Covalent bond", "Ionic bond", "Metallic bond", "Hydrogen bond"],
+    "correctIndex": 1,
+    "explanation": "Ionic bonds result from the transfer of electrons, creating oppositely charged ions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A covalent bond is characterized by the:",
+    "choices": ["Transfer of electrons", "Sharing of electrons", "Electrostatic attraction", "Formation of ions"],
+    "correctIndex": 1,
+    "explanation": "Covalent bonds involve sharing of electrons between atoms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which separation technique can be used to separate a solid from a liquid?",
+    "choices": ["Distillation", "Filtration", "Chromatography", "Decantation"],
+    "correctIndex": 1,
+    "explanation": "Filtration separates a solid from a liquid by passing the mixture through a filter.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "choices": ["H₂O", "HO₂", "H₂O₂", "OH"],
+    "correctIndex": 0,
+    "explanation": "Water is composed of 2 hydrogen atoms and 1 oxygen atom: H₂O.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which technique is used to determine the empirical formula of a compound from combustion analysis?",
+    "choices": ["Chromatography", "Mass spectrometry", "Combustion analysis", "Distillation"],
+    "correctIndex": 2,
+    "explanation": "Combustion analysis measures the amounts of CO₂ and H₂O produced, from which the empirical formula can be deduced.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which unit is used to measure the mass of one mole of a substance?",
+    "choices": ["Mole", "Gram per mole", "Kilogram", "Joule"],
+    "correctIndex": 1,
+    "explanation": "Molar mass is expressed in grams per mole (g/mol).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the definition of a catalyst in a chemical reaction?",
+    "choices": [
+      "A substance that is consumed during the reaction",
+      "A substance that increases the reaction rate without being consumed",
+      "A substance that changes the equilibrium position",
+      "A substance that lowers the temperature of the reaction"
+    ],
+    "correctIndex": 1,
+    "explanation": "A catalyst speeds up a reaction without being permanently changed or consumed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the empirical formula?",
+    "choices": [
+      "The simplest whole-number ratio of elements in a compound",
+      "The actual number of atoms in a molecule",
+      "The average formula mass of a compound",
+      "A measure of the compound's reactivity"
+    ],
+    "correctIndex": 0,
+    "explanation": "The empirical formula represents the simplest whole-number ratio of the elements present.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the molecular formula show that the empirical formula does not?",
+    "choices": [
+      "The simplest ratio of atoms",
+      "The actual number of each type of atom in a molecule",
+      "The percentage yield of a reaction",
+      "The type of chemical bonds present"
+    ],
+    "correctIndex": 1,
+    "explanation": "The molecular formula gives the exact number of atoms in a molecule, which may be a multiple of the empirical formula.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which law relates the volumes and molar ratios of gases at constant temperature and pressure?",
+    "choices": [
+      "Charles' Law",
+      "Boyle's Law",
+      "Avogadro's Law",
+      "Gay-Lussac's Law"
+    ],
+    "correctIndex": 2,
+    "explanation": "Avogadro's Law states that equal volumes of gases contain equal numbers of moles at constant temperature and pressure.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which equation correctly represents a balanced chemical equation for the combustion of methane (CH₄)?",
+    "choices": [
+      "CH₄ + O₂ → CO₂ + H₂O",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O",
+      "CH₄ + 3O₂ → CO₂ + 2H₂O",
+      "CH₄ + 4O₂ → CO₂ + 2H₂O"
+    ],
+    "correctIndex": 1,
+    "explanation": "The balanced combustion equation for methane is CH₄ + 2O₂ → CO₂ + 2H₂O.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the definition of stoichiometry?",
+    "choices": [
+      "The study of reaction rates",
+      "The calculation of relative quantities of reactants and products",
+      "The study of energy changes in reactions",
+      "The determination of chemical equilibrium"
+    ],
+    "correctIndex": 1,
+    "explanation": "Stoichiometry involves calculating the relative quantities",
+    "difficulty": "easy"
   }
 ]
