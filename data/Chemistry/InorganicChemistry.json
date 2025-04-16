@@ -1,8 +1,329 @@
 [
   {
-    "question": "Which element is commonly used in fertilizers?",
-    "choices": ["Sodium", "Phosphorus", "Gold", "Neon"],
+    "question": "In the extraction of zinc from zinc oxide (ZnO) using carbon, the reaction is: ZnO + C → Zn + CO. If 65.0 g of zinc is produced, what mass of ZnO was consumed? (Atomic masses: Zn = 65 g/mol, O = 16 g/mol, C = 12 g/mol)",
+    "choices": ["65.0 g", "81.0 g", "100.0 g", "130.0 g"],
     "correctIndex": 1,
-    "explanation": "Phosphorus is widely used in fertilizers."
+    "explanation": "ZnO molar mass = 65 + 16 = 81 g/mol. One mole ZnO yields one mole Zn (65 g). To obtain 65 g Zn, 81 g ZnO is required.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Consider the reaction: 2Mg + O2 → 2MgO. If 6.0 g of magnesium reacts completely, how many grams of oxygen are consumed? (Atomic mass Mg = 24 g/mol, O2 = 32 g/mol)",
+    "choices": ["2.0 g", "4.0 g", "6.0 g", "8.0 g"],
+    "correctIndex": 1,
+    "explanation": "Moles of Mg = 6.0/24 = 0.25 mol. Reaction stoichiometry: 2 mol Mg : 1 mol O2, so moles of O2 = 0.25/2 = 0.125 mol; mass O2 = 0.125 × 32 = 4.0 g.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An ionic compound containing a metal M and a halogen X is found to be 30.0% metal by mass. If the atomic masses are M = 23 g/mol and X = 35.5 g/mol, what is the empirical formula of the compound?",
+    "choices": ["MX", "M2X3", "MX2", "M3X2"],
+    "correctIndex": 1,
+    "explanation": "Assume a 100 g sample: 30.0 g M (30.0/23 ≈ 1.30 mol) and 70.0 g X (70.0/35.5 ≈ 1.97 mol). The mole ratio is approximately 1.30:1.97 ≈ 2:3 after multiplying by ~1.5, so the empirical formula is M2X3.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An unknown metal oxide decomposes on heating. A 20.0 g sample of the oxide yields 12.0 g of metal. What percentage of the oxide’s mass is oxygen?",
+    "choices": ["20%", "30%", "40%", "50%"],
+    "correctIndex": 2,
+    "explanation": "Oxygen mass = 20.0 g - 12.0 g = 8.0 g, so percentage oxygen = (8.0/20.0) × 100 = 40%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A galvanic cell is constructed using a zinc electrode in ZnSO4 solution and a copper electrode in CuSO4 solution. Given the standard electrode potentials: Zn²⁺/Zn = -0.76 V and Cu²⁺/Cu = +0.34 V, what is the standard cell potential?",
+    "choices": ["0.10 V", "0.90 V", "1.10 V", "1.50 V"],
+    "correctIndex": 2,
+    "explanation": "Standard cell potential = E(cathode) - E(anode) = 0.34 V - (-0.76 V) = 1.10 V.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which periodic trend explains why elements in the same group exhibit similar chemical properties?",
+    "choices": [
+      "Similar valence electron configurations",
+      "Identical atomic masses",
+      "Equal numbers of neutrons",
+      "The same melting points"
+    ],
+    "correctIndex": 0,
+    "explanation": "Elements in the same group have similar valence electron configurations, which leads to similar chemical behavior.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the reaction 2KClO₃ → 2KCl + 3O₂, what mass of oxygen is released when 122.6 g of KClO₃ decomposes? (Molar mass KClO₃ = 122.6 g/mol, O₂ = 32 g/mol)",
+    "choices": ["32.0 g", "48.0 g", "64.0 g", "80.0 g"],
+    "correctIndex": 1,
+    "explanation": "Moles of KClO₃ = 122.6/122.6 = 1; moles of O₂ produced = (3/2) = 1.5; mass of O₂ = 1.5 × 32 = 48.0 g.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "When a metal reacts with a non‑metal to form an ionic compound, which factor primarily determines the lattice energy?",
+    "choices": [
+      "The electronegativity difference",
+      "The charges on the ions and the distance between them",
+      "The physical state of the reactants",
+      "The reaction temperature"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lattice energy depends primarily on the magnitude of the ionic charges and the distance (ionic radii) between them.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A sample of calcium carbonate (CaCO₃) decomposes on heating: CaCO₃ → CaO + CO₂. If 44.0 g of CO₂ is produced, what mass of CaCO₃ decomposed? (Molar masses: CaCO₃ = 100 g/mol, CO₂ = 44 g/mol)",
+    "choices": ["44.0 g", "50.0 g", "100.0 g", "112.0 g"],
+    "correctIndex": 2,
+    "explanation": "One mole of CaCO₃ (100 g) produces one mole of CO₂ (44 g). Thus, 44.0 g CO₂ comes from 100 g CaCO₃.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the reaction 2Na + Cl₂ → 2NaCl, if 4.0 g of sodium reacts completely, how many grams of chlorine gas (Cl₂, Molar mass ≈71 g/mol) are required? (Na atomic mass ≈23 g/mol)",
+    "choices": ["3.0 g", "4.0 g", "6.2 g", "8.0 g"],
+    "correctIndex": 2,
+    "explanation": "Moles of Na = 4.0/23 ≈ 0.174 mol. The reaction requires half as many moles of Cl₂, so moles Cl₂ = 0.174/2 = 0.087; mass = 0.087×71 ≈ 6.2 g.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An ionic compound contains 28.6% metal M (atomic mass 40 g/mol) and 71.4% non‑metal X (atomic mass 35.5 g/mol). What is its empirical formula?",
+    "choices": ["MX", "MX₂", "M₂X₃", "MX₃"],
+    "correctIndex": 3,
+    "explanation": "For a 100 g sample: M = 28.6 g (0.715 mol) and X = 71.4 g (2.01 mol); mole ratio ≈1:2.81, which rounds to 1:3, so the empirical formula is MX₃.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which statement best defines an element?",
+    "choices": [
+      "A pure substance composed of two or more compounds",
+      "A pure substance that cannot be broken down into a simpler substance by chemical means",
+      "A mixture of two or more substances",
+      "A compound made up of a fixed ratio of atoms"
+    ],
+    "correctIndex": 1,
+    "explanation": "An element is a pure substance that cannot be chemically separated into simpler substances.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A substance that consists of two or more elements chemically combined in a fixed ratio is called a:",
+    "choices": [
+      "Mixture",
+      "Compound",
+      "Solution",
+      "Alloy"
+    ],
+    "correctIndex": 1,
+    "explanation": "A compound is formed when two or more elements combine chemically in a fixed ratio.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which method is used to physically separate a solid from a liquid in a mixture?",
+    "choices": [
+      "Distillation",
+      "Filtration",
+      "Chromatography",
+      "Centrifugation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Filtration is used to separate a solid from a liquid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the empirical formula of a compound represent?",
+    "choices": [
+      "The actual number of atoms in a molecule",
+      "The simplest whole-number ratio of the elements present",
+      "The molecular mass of the compound",
+      "The arrangement of atoms in the molecule"
+    ],
+    "correctIndex": 1,
+    "explanation": "The empirical formula gives the simplest whole-number ratio of elements in a compound.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which unit is used to measure the amount of substance?",
+    "choices": [
+      "Mole (mol)",
+      "Gram (g)",
+      "Liter (L)",
+      "Pascal (Pa)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The mole is the SI unit for the amount of substance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Avogadro's number is approximately:",
+    "choices": [
+      "6.02×10²³",
+      "3.00×10⁸",
+      "1.00×10⁶",
+      "9.81×10¹"
+    ],
+    "correctIndex": 0,
+    "explanation": "Avogadro's number is approximately 6.02×10²³ particles per mole.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of bond is formed when electrons are transferred from one atom to another?",
+    "choices": [
+      "Covalent bond",
+      "Ionic bond",
+      "Metallic bond",
+      "Hydrogen bond"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ionic bonds form when electrons are transferred between atoms, producing ions that attract each other.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A covalent bond is characterized by:",
+    "choices": [
+      "The sharing of electrons between atoms",
+      "The transfer of electrons between atoms",
+      "The attraction between oppositely charged ions",
+      "The attraction between metal atoms"
+    ],
+    "correctIndex": 0,
+    "explanation": "Covalent bonds form when atoms share electrons in order to attain a full outer shell.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter has a definite shape and a definite volume?",
+    "choices": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Plasma"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solids have both a fixed shape and fixed volume due to the close packing of their particles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes the physical mixture of two or more substances that are not chemically combined?",
+    "choices": [
+      "Compound",
+      "Solution",
+      "Mixture",
+      "Alloy"
+    ],
+    "correctIndex": 2,
+    "explanation": "A mixture is a physical combination of two or more substances that retains the properties of its components.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which separation technique involves heating a liquid mixture to separate components based on different boiling points?",
+    "choices": [
+      "Filtration",
+      "Chromatography",
+      "Distillation",
+      "Centrifugation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Distillation separates liquids based on differences in their boiling points.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the chemical formula for water?",
+    "choices": [
+      "H₂O",
+      "HO₂",
+      "OH",
+      "H₂O₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Water has the chemical formula H₂O.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following correctly shows the balanced equation for the reaction of sodium with chlorine to form sodium chloride?",
+    "choices": [
+      "Na + Cl₂ → NaCl",
+      "2Na + Cl₂ → 2NaCl",
+      "Na₂ + Cl₂ → 2NaCl",
+      "2Na + 2Cl → 2NaCl"
+    ],
+    "correctIndex": 1,
+    "explanation": "The balanced equation is: 2Na + Cl₂ → 2NaCl.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a chemical reaction that releases heat, the process is said to be:",
+    "choices": [
+      "Endothermic",
+      "Exothermic",
+      "Isothermal",
+      "Adiabatic"
+    ],
+    "correctIndex": 1,
+    "explanation": "Exothermic reactions release heat to the surroundings.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process is used to obtain a metal from its ore by heating with a reducing agent?",
+    "choices": [
+      "Electrolysis",
+      "Smelting",
+      "Distillation",
+      "Crystallization"
+    ],
+    "correctIndex": 1,
+    "explanation": "Smelting is the process of extracting a metal from its ore using heat and a reducing agent.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The percentage yield of a reaction is calculated using:",
+    "choices": [
+      "(Theoretical yield / Actual yield) × 100",
+      "(Actual yield / Theoretical yield) × 100",
+      "(Actual yield - Theoretical yield) × 100",
+      "(Actual yield / Reactant mass) × 100"
+    ],
+    "correctIndex": 1,
+    "explanation": "Percentage yield = (Actual yield / Theoretical yield) × 100.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'molar mass' refer to?",
+    "choices": [
+      "The mass of a single molecule",
+      "The mass of one mole of a substance",
+      "The number of moles in a compound",
+      "The volume occupied by one mole of a gas"
+    ],
+    "correctIndex": 1,
+    "explanation": "Molar mass is the mass of one mole of a substance, expressed in g/mol.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a characteristic property of metals?",
+    "choices": [
+      "Low melting points",
+      "Poor electrical conductivity",
+      "Malleability",
+      "Brittleness"
+    ],
+    "correctIndex": 2,
+    "explanation": "Metals are generally malleable, meaning they can be hammered into thin sheets.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the typical charge on an ion formed by a Group 17 element?",
+    "choices": [
+      "-1",
+      "+1",
+      "-2",
+      "+2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Group 17 elements (halogens) typically gain one electron to form an ion with a -1 charge.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property of a substance can be used to distinguish between a compound and a mixture?",
+    "choices": [
+      "Fixed melting and boiling points",
+      "Ability to conduct electricity in any state",
+      "Solubility in water",
+      "Magnetic properties"
+    ],
+    "correctIndex": 0,
+    "explanation": "A compound has fixed melting and boiling points, while a mixture does not.",
+    "difficulty": "easy"
   }
 ]
