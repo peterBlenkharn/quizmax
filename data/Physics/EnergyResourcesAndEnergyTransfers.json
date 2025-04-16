@@ -1,13 +1,360 @@
 [
   {
-    "question": "What is the principle of conservation of energy?",
+    "question": "A nuclear power station produces 800 MW of electrical power at 33% efficiency. What is the total thermal power generated?",
+    "choices": ["2424 MW", "2640 MW", "2000 MW", "800 MW"],
+    "correctIndex": 0,
+    "explanation": "Thermal power = Electrical power / Efficiency = 800 / 0.33 ≈ 2424 MW.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A solar panel with an area of 2 m² and an efficiency of 15% receives solar radiation of 1000 W/m². What is its maximum electrical power output?",
+    "choices": ["300 W", "200 W", "250 W", "350 W"],
+    "correctIndex": 0,
+    "explanation": "Output = Area × Insolation × Efficiency = 2 × 1000 × 0.15 = 300 W.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A 100 g block of metal (specific heat 0.9 J/g°C) at 100°C is immersed in 200 g of water (specific heat 4.18 J/g°C) at 20°C. What is the final equilibrium temperature (assume no heat loss)?",
+    "choices": ["27.8°C", "30.0°C", "25.0°C", "35.0°C"],
+    "correctIndex": 0,
+    "explanation": "Using conservation of energy: 0.1×0.9×(100–T) = 0.2×4.18×(T–20). Solving gives T ≈ 27.8°C.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A thermal engine operates between reservoirs at 600°C and 100°C. What is its maximum theoretical efficiency?",
+    "choices": ["57.2%", "45.0%", "62.5%", "50.0%"],
+    "correctIndex": 0,
+    "explanation": "Convert temperatures to Kelvin: 600°C = 873 K, 100°C = 373 K; Carnot efficiency = 1 - (373/873) ≈ 57.2%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A wind turbine with a swept area of 50 m² operates in a wind of 10 m/s. With air density 1.225 kg/m³ and using the Betz limit (16/27 ≈ 59.3%), what is the maximum power extractable?",
+    "choices": ["18.15 kW", "15.00 kW", "20.00 kW", "12.50 kW"],
+    "correctIndex": 0,
+    "explanation": "Power in wind = (1/2)×1.225×50×10³ = 30625 W. Maximum extractable = 0.593 × 30625 ≈ 18148 W or 18.15 kW.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A 1500 W appliance operates for 3 hours per day. What is its energy consumption per month (assume 30 days)?",
+    "choices": ["135 kWh", "150 kWh", "120 kWh", "180 kWh"],
+    "correctIndex": 0,
+    "explanation": "Daily consumption = 1500 W × 3 h = 4500 Wh = 4.5 kWh; Monthly = 4.5 kWh × 30 = 135 kWh.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a thermal power station, 1 kg of steam produces 2.3 MJ of work when generated with 8 MJ of thermal energy. What is the conversion efficiency?",
+    "choices": ["28.8%", "35.0%", "22.5%", "40.0%"],
+    "correctIndex": 0,
+    "explanation": "Efficiency = (2.3 MJ / 8 MJ) × 100 ≈ 28.8%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A battery rated at 12 V and 50 Ah is used to power a 600 W device. How long will the battery last?",
+    "choices": ["1 hour", "0.5 hour", "2 hours", "1.5 hours"],
+    "correctIndex": 0,
+    "explanation": "Battery energy = 12 V × 50 Ah = 600 Wh. Operating time = 600 Wh / 600 W = 1 hour.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A hydroelectric dam generates 500 MW of power using water falling through a height of 100 m. What is the mass flow rate required? (Assume g = 10 m/s²)",
+    "choices": ["500,000 kg/s", "250,000 kg/s", "1,000,000 kg/s", "750,000 kg/s"],
+    "correctIndex": 0,
+    "explanation": "Using P = ṁ × g × h, ṁ = 500×10^6 / (10×100) = 500,000 kg/s.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A fuel has an energy content of 45 MJ/kg and is burned in an engine with an efficiency of 30%. How much useful energy is produced per kg of fuel?",
+    "choices": ["13.5 MJ/kg", "15 MJ/kg", "10 MJ/kg", "20 MJ/kg"],
+    "correctIndex": 0,
+    "explanation": "Useful energy = 45 MJ/kg × 0.30 = 13.5 MJ/kg.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the SI unit of energy?",
+    "choices": ["Joule", "Watt", "Newton", "Calorie"],
+    "correctIndex": 0,
+    "explanation": "Energy is measured in Joules (J).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit of power?",
+    "choices": ["Joule", "Watt", "Newton", "Volt"],
+    "correctIndex": 1,
+    "explanation": "Power is measured in Watts (W).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Efficiency of a machine is defined as the ratio of:",
+    "choices": ["Useful output energy to input energy", "Input energy to output energy", "Output power to input power", "Energy loss to input energy"],
+    "correctIndex": 0,
+    "explanation": "Efficiency is the ratio of useful energy output to the total energy input.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a renewable energy resource?",
+    "choices": ["Oil", "Coal", "Solar", "Natural gas"],
+    "correctIndex": 2,
+    "explanation": "Solar energy is renewable, while oil, coal, and natural gas are non-renewable fossil fuels.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Fossil fuels store energy primarily in the form of:",
+    "choices": ["Nuclear energy", "Chemical energy", "Thermal energy", "Kinetic energy"],
+    "correctIndex": 1,
+    "explanation": "Fossil fuels store chemical energy that can be released via combustion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a hydroelectric power station, the potential energy of water is converted into which type of energy first?",
+    "choices": ["Electrical", "Mechanical", "Chemical", "Thermal"],
+    "correctIndex": 1,
+    "explanation": "Water’s potential energy is first converted to mechanical energy as it drives turbines.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Electrical energy consumption in households is usually measured in:",
+    "choices": ["Joules", "Watts", "Kilowatt-hours", "Newtons"],
+    "correctIndex": 2,
+    "explanation": "Energy consumption is commonly measured in kilowatt-hours (kWh).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which quantity measures the rate at which energy is transferred?",
+    "choices": ["Energy", "Power", "Force", "Momentum"],
+    "correctIndex": 1,
+    "explanation": "Power is the rate of energy transfer, measured in Watts.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the Carnot efficiency of a heat engine operating between temperatures T_hot and T_cold (in Kelvin)?",
     "choices": [
-      "Energy cannot be created or destroyed",
-      "Energy is always lost",
-      "Energy decreases over time",
-      "Energy is relative"
+      "1 - (T_hot/T_cold)",
+      "T_hot - T_cold",
+      "1 - (T_cold/T_hot)",
+      "(T_hot/T_cold) - 1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Carnot efficiency is given by 1 - (T_cold/T_hot).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solar panel efficiency is the ratio of electrical output to:",
+    "choices": ["Incident solar energy", "Reflected energy", "Thermal energy produced", "Mechanical energy"],
+    "correctIndex": 0,
+    "explanation": "It measures the fraction of incident solar energy that is converted to electrical energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A typical residential solar panel has a power output of approximately:",
+    "choices": ["100 W", "250 W", "500 W", "1000 W"],
+    "correctIndex": 1,
+    "explanation": "Residential panels typically produce around 250 W under standard conditions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a combustion engine, energy conversion occurs from:",
+    "choices": ["Chemical to mechanical", "Electrical to thermal", "Mechanical to electrical", "Thermal to nuclear"],
+    "correctIndex": 0,
+    "explanation": "Combustion engines convert chemical energy from fuel into mechanical energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Thermal energy is the energy related to the:",
+    "choices": [
+      "Random motion of atoms and molecules",
+      "Gravitational pull",
+      "Electrical charge",
+      "Magnetic field"
     ],
     "correctIndex": 0,
-    "explanation": "Energy cannot be created or destroyed – only transformed."
+    "explanation": "Thermal energy is the energy of random molecular motion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary purpose of a condenser in a thermal power plant?",
+    "choices": [
+      "To convert steam back to water",
+      "To increase steam pressure",
+      "To generate electrical energy",
+      "To cool the turbine blades"
+    ],
+    "correctIndex": 0,
+    "explanation": "A condenser cools steam to convert it back into water, allowing the cycle to continue.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is NOT considered a renewable energy source?",
+    "choices": ["Wind", "Solar", "Coal", "Hydro"],
+    "correctIndex": 2,
+    "explanation": "Coal is a fossil fuel and is non-renewable.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Energy conservation refers to:",
+    "choices": [
+      "Using energy inefficiently",
+      "Reducing energy consumption by improving efficiency",
+      "Increasing production of fossil fuels",
+      "Maximizing energy waste"
+    ],
+    "correctIndex": 1,
+    "explanation": "Energy conservation means reducing energy consumption through efficient usage and management.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is used to measure electrical energy consumption in a household?",
+    "choices": [
+      "Ammeter",
+      "Electric meter",
+      "Voltmeter",
+      "Ohmmeter"
+    ],
+    "correctIndex": 1,
+    "explanation": "An electric meter measures the total electrical energy consumed, typically in kWh.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which renewable energy source harnesses heat from the Earth's interior?",
+    "choices": [
+      "Solar energy",
+      "Wind energy",
+      "Geothermal energy",
+      "Biomass"
+    ],
+    "correctIndex": 2,
+    "explanation": "Geothermal energy comes from the heat stored beneath the Earth's surface.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a nuclear power plant, which energy conversion takes place first?",
+    "choices": [
+      "Electrical to thermal",
+      "Thermal to mechanical",
+      "Nuclear to thermal",
+      "Mechanical to electrical"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nuclear fission releases energy as thermal energy, which is then converted to mechanical and finally electrical energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The process of converting AC to DC is known as:",
+    "choices": [
+      "Modulation",
+      "Rectification",
+      "Inversion",
+      "Amplification"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rectification is the conversion of alternating current (AC) to direct current (DC).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of battery is commonly used in modern solar energy storage systems?",
+    "choices": [
+      "Alkaline",
+      "Lithium-ion",
+      "Nickel-cadmium",
+      "Lead-acid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lithium-ion batteries are popular for solar energy storage due to their high energy density and efficiency.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which energy resource is considered non-renewable?",
+    "choices": [
+      "Wind",
+      "Solar",
+      "Oil",
+      "Hydro"
+    ],
+    "correctIndex": 2,
+    "explanation": "Oil is a non-renewable resource, unlike wind, solar, and hydro which are renewable.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Energy density is defined as the amount of energy stored per unit:",
+    "choices": [
+      "Volume",
+      "Mass",
+      "Time",
+      "Area"
+    ],
+    "correctIndex": 1,
+    "explanation": "Energy density is typically expressed as energy per unit mass (e.g. MJ/kg).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which unit is typically used to express the energy density of fuels?",
+    "choices": [
+      "Watts per kilogram",
+      "Joules per kilogram",
+      "Newtons per square meter",
+      "Kilowatt-hours per liter"
+    ],
+    "correctIndex": 1,
+    "explanation": "Energy density is usually expressed in Joules per kilogram (J/kg) or MJ/kg.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which mode of heat transfer occurs via direct contact between molecules?",
+    "choices": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "All of the above"
+    ],
+    "correctIndex": 0,
+    "explanation": "Conduction is the heat transfer that occurs through direct contact between molecules.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Convection is the process by which heat is transferred through:",
+    "choices": [
+      "Direct contact",
+      "Electromagnetic waves",
+      "The movement of fluids",
+      "None of the above"
+    ],
+    "correctIndex": 2,
+    "explanation": "Convection transfers heat through the bulk movement of fluids (liquids or gases).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Radiation transfers energy through:",
+    "choices": [
+      "Direct contact",
+      "Electromagnetic waves",
+      "Fluid motion",
+      "Mechanical waves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radiation is the transfer of energy by electromagnetic waves and does not require a medium.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If the speed of a wave doubles while its frequency remains constant, what happens to its wavelength?",
+    "choices": [
+      "It doubles",
+      "It halves",
+      "It remains the same",
+      "It increases by a factor of four"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since wave speed v = f × λ, if f is constant and v doubles, then λ must double.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What property of a light wave primarily determines its color?",
+    "choices": [
+      "Amplitude",
+      "Frequency",
+      "Speed",
+      "Wavelength"
+    ],
+    "correctIndex": 1,
+    "explanation": "In light waves, frequency (or equivalently wavelength) determines the color.",
+    "difficulty": "easy"
   }
 ]
