@@ -1,8 +1,482 @@
 [
   {
-    "question": "What is the primary component of stars?",
-    "choices": ["Helium", "Hydrogen", "Carbon", "Iron"],
+    "question": "A planet orbits its star at a distance of 1.5×10¹¹ m and the star's mass is 2×10³⁰ kg. Calculate its orbital speed using Newton's law of gravitation.",
+    "choices": [
+      "3.0×10⁴ m/s",
+      "2.5×10⁴ m/s",
+      "3.5×10⁴ m/s",
+      "2.0×10⁴ m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Using v = √(GM/R), with G ≈ 6.67×10⁻¹¹ Nm²/kg², v ≈ √((6.67×10⁻¹¹×2×10³⁰)/(1.5×10¹¹)) ≈ √(8.89×10⁸) ≈ 3.0×10⁴ m/s.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If a star’s radius doubles while its surface temperature remains unchanged, by what factor does its luminosity increase?",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "16"
+    ],
     "correctIndex": 1,
-    "explanation": "Stars are primarily made of hydrogen."
+    "explanation": "Luminosity ∝ R² (for constant temperature). Doubling R increases luminosity by 2² = 4.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A binary star system with an orbital period of 2 years and a separation of 2 AU is observed. Using Kepler’s Third Law (in appropriate units where P² = a³/M with M in solar masses), estimate the total mass of the system.",
+    "choices": [
+      "1 M☉",
+      "2 M☉",
+      "4 M☉",
+      "8 M☉"
+    ],
+    "correctIndex": 1,
+    "explanation": "With P = 2 yrs, a = 2 AU, then 2² = 4 and 2³ = 8 so mass M = 8/4 = 2 M☉.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A supernova releases 10⁴⁴ J of energy. If 10% is carried away by neutrinos, how much energy do the neutrinos carry?",
+    "choices": [
+      "10⁴³ J",
+      "10⁴² J",
+      "10⁴⁴ J",
+      "10⁴⁵ J"
+    ],
+    "correctIndex": 0,
+    "explanation": "10% of 10⁴⁴ J is 0.1×10⁴⁴ = 10⁴³ J.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to Hubble’s Law, if a galaxy is receding at 7000 km/s and Hubble's constant is 70 km/s/Mpc, what is its distance?",
+    "choices": [
+      "50 Mpc",
+      "100 Mpc",
+      "150 Mpc",
+      "200 Mpc"
+    ],
+    "correctIndex": 1,
+    "explanation": "Distance = Velocity / H₀ = 7000 km/s ÷ 70 km/s/Mpc = 100 Mpc.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A star has an absolute magnitude of 4 and an apparent magnitude of 9. Using the distance modulus formula, what is its distance in parsecs?",
+    "choices": [
+      "50 pc",
+      "75 pc",
+      "100 pc",
+      "125 pc"
+    ],
+    "correctIndex": 2,
+    "explanation": "m − M = 5 log₁₀(d) − 5 → 9 − 4 = 5 log₁₀(d) − 5, so 5 log₁₀(d) = 10, log₁₀(d) = 2, hence d = 10² = 100 pc.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A nearby star exhibits a parallax angle of 0.2 arcseconds. What is its distance in parsecs?",
+    "choices": [
+      "2 pc",
+      "5 pc",
+      "10 pc",
+      "20 pc"
+    ],
+    "correctIndex": 1,
+    "explanation": "Distance in parsecs = 1/(parallax in arcseconds) = 1/0.2 = 5 pc.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A spacecraft travels at 0.1c relative to Earth. What is the time dilation factor (γ) experienced by the spacecraft? (Use γ = 1/√(1−v²/c²))",
+    "choices": [
+      "1.005",
+      "1.05",
+      "1.10",
+      "1.50"
+    ],
+    "correctIndex": 0,
+    "explanation": "For v = 0.1c, v²/c² = 0.01, so γ = 1/√(0.99) ≈ 1.005.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If a galaxy's redshift (z) is 0.2, by what percentage has its wavelength increased due to the Doppler effect?",
+    "choices": [
+      "10%",
+      "20%",
+      "30%",
+      "40%"
+    ],
+    "correctIndex": 1,
+    "explanation": "A redshift of 0.2 indicates the wavelength is 20% longer than at emission.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A star's surface temperature increases by 15% while its radius remains constant. Approximately by what percentage does its luminosity increase? (Luminosity ∝ T⁴)",
+    "choices": [
+      "15%",
+      "30%",
+      "50%",
+      "75%"
+    ],
+    "correctIndex": 3,
+    "explanation": "Luminosity ∝ T⁴, so the factor increase is (1.15)⁴ ≈ 1.75, i.e. a 75% increase.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a galaxy?",
+    "choices": [
+      "A large system of stars, gas, dust, and dark matter bound by gravity",
+      "A cluster of planets orbiting a star",
+      "A single nebula in space",
+      "A type of star that burns very brightly"
+    ],
+    "correctIndex": 0,
+    "explanation": "A galaxy is a gravitationally bound system composed of billions of stars, gas, dust, and dark matter.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary source of energy for the Earth?",
+    "choices": [
+      "The Moon",
+      "The Earth's core",
+      "The Sun",
+      "Fossil fuels"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Sun is the main source of energy for the Earth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is an astronomical unit (AU)?",
+    "choices": [
+      "The distance between the Earth and the Moon",
+      "The average distance between the Earth and the Sun",
+      "The distance light travels in one year",
+      "A unit of mass in astronomy"
+    ],
+    "correctIndex": 1,
+    "explanation": "1 AU is defined as the average distance between the Earth and the Sun, approximately 150 million km.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which body orbits the Earth?",
+    "choices": [
+      "The Sun",
+      "Mars",
+      "The Moon",
+      "Venus"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Moon orbits the Earth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a light year?",
+    "choices": [
+      "The time light takes to travel one year",
+      "The distance light travels in one year",
+      "The measurement of brightness of a star",
+      "A unit of mass"
+    ],
+    "correctIndex": 1,
+    "explanation": "A light year is the distance that light travels in one year, approximately 9.46×10¹² km.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an example of a nebula?",
+    "choices": [
+      "The Milky Way",
+      "The Orion Nebula",
+      "The Andromeda Galaxy",
+      "The Crab Nebula only"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Orion Nebula is a well-known example of a nebula.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a supernova?",
+    "choices": [
+      "The collapse of a planet",
+      "A massive explosion marking the death of a star",
+      "The formation of a new galaxy",
+      "A type of neutron star"
+    ],
+    "correctIndex": 1,
+    "explanation": "A supernova is a massive explosion that occurs when a star ends its life cycle.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of our galaxy?",
+    "choices": [
+      "Andromeda",
+      "Whirlpool",
+      "Milky Way",
+      "Sombrero"
+    ],
+    "correctIndex": 2,
+    "explanation": "Our galaxy is called the Milky Way.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does redshift indicate in an astronomical context?",
+    "choices": [
+      "An object is moving toward the observer",
+      "An object is stationary",
+      "An object is moving away from the observer",
+      "The object is rotating rapidly"
+    ],
+    "correctIndex": 2,
+    "explanation": "Redshift indicates that the wavelength of light has increased due to the object moving away from the observer.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hubble’s Law relates the recessional velocity of galaxies to their:",
+    "choices": [
+      "Mass",
+      "Distance",
+      "Brightness",
+      "Size"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hubble’s Law states that the recessional velocity of galaxies is directly proportional to their distance from us.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument is primarily used to observe distant celestial objects?",
+    "choices": [
+      "Microscope",
+      "Telescope",
+      "Spectrometer",
+      "Barometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Telescopes are used to observe distant stars, galaxies, and other celestial objects.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The color of a star is primarily determined by its:",
+    "choices": [
+      "Size",
+      "Temperature",
+      "Distance",
+      "Age"
+    ],
+    "correctIndex": 1,
+    "explanation": "A star’s surface temperature determines its color.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a parsec?",
+    "choices": [
+      "The distance light travels in one year",
+      "The distance at which one astronomical unit subtends an angle of one arcsecond",
+      "A unit of mass",
+      "A type of star cluster"
+    ],
+    "correctIndex": 1,
+    "explanation": "A parsec is defined as the distance at which 1 AU subtends an angle of 1 arcsecond, approximately 3.26 light years.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What causes a star to twinkle when observed from Earth?",
+    "choices": [
+      "The star's rotation",
+      "Atmospheric turbulence",
+      "The Doppler effect",
+      "Intrinsic brightness variations"
+    ],
+    "correctIndex": 1,
+    "explanation": "Twinkling (scintillation) is caused by the Earth's atmosphere, which refracts starlight erratically.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Sun is a:",
+    "choices": [
+      "Planet",
+      "Moon",
+      "Star",
+      "Asteroid"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Sun is a star – a massive, luminous ball of plasma.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes the boundary around a black hole beyond which nothing can escape?",
+    "choices": [
+      "Event horizon",
+      "Accretion disk",
+      "Schwarzschild radius",
+      "Photon sphere"
+    ],
+    "correctIndex": 0,
+    "explanation": "The event horizon is the boundary around a black hole beyond which light and matter cannot escape.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process called by which elements are formed in the interior of stars?",
+    "choices": [
+      "Radioactive decay",
+      "Nucleosynthesis",
+      "Fusion",
+      "Fission"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nucleosynthesis is the process of creating new atomic nuclei from pre-existing nucleons (protons and neutrons) in stars.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes a system of two stars orbiting a common center of mass?",
+    "choices": [
+      "Binary star system",
+      "Multiple star system",
+      "Galaxy",
+      "Nebula"
+    ],
+    "correctIndex": 0,
+    "explanation": "A binary star system consists of two stars orbiting around their common center of mass.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for a very luminous active nucleus of a galaxy?",
+    "choices": [
+      "Quasar",
+      "Pulsar",
+      "Nebula",
+      "Supernova"
+    ],
+    "correctIndex": 0,
+    "explanation": "A quasar is a highly luminous active galactic nucleus powered by accretion of matter onto a supermassive black hole.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the approximate speed of light in a vacuum?",
+    "choices": [
+      "3×10⁸ m/s",
+      "3×10⁶ m/s",
+      "3×10⁵ m/s",
+      "3×10⁴ m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speed of light in a vacuum is approximately 3×10⁸ m/s.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary cause of redshift observed in distant galaxies?",
+    "choices": [
+      "Gravitational forces within galaxies",
+      "The expansion of the Universe",
+      "Doppler effect due to local motions",
+      "Absorption by intergalactic dust"
+    ],
+    "correctIndex": 1,
+    "explanation": "Redshift in distant galaxies is mainly caused by the expansion of the Universe.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the phenomenon called where light from a moving source is shifted to longer wavelengths?",
+    "choices": [
+      "Blue shift",
+      "Redshift",
+      "Diffraction",
+      "Dispersion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Redshift is the shift of light to longer (redder) wavelengths, often due to the Doppler effect or cosmic expansion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'absolute magnitude' refer to?",
+    "choices": [
+      "The brightness of a star as seen from Earth",
+      "The intrinsic brightness of a star, standardized to a distance of 10 parsecs",
+      "The apparent color of a star",
+      "The distance of a star from Earth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Absolute magnitude is the intrinsic brightness of a star, defined as its apparent magnitude if it were placed at 10 parsecs away.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for the change in wavelength or frequency of light due to the motion of the source relative to the observer?",
+    "choices": [
+      "Doppler effect",
+      "Reflection",
+      "Refraction",
+      "Interference"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Doppler effect causes a shift in wavelength or frequency of light from a moving source.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes the distance light travels in one year?",
+    "choices": [
+      "Parsec",
+      "Light year",
+      "Astronomical Unit",
+      "Kilometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A light year is the distance that light travels in one year.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which scale is used to measure the brightness of stars?",
+    "choices": [
+      "The Richter scale",
+      "The magnitude scale",
+      "The decibel scale",
+      "The Kelvin scale"
+    ],
+    "correctIndex": 1,
+    "explanation": "The magnitude scale is used to quantify the brightness of stars.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary reason astronomical observations are often made in the infrared or radio wavelengths rather than visible light?",
+    "choices": [
+      "To avoid interference from the Earth's atmosphere",
+      "Because visible light cannot travel through space",
+      "To see through cosmic dust clouds",
+      "Because infrared and radio waves are faster than visible light"
+    ],
+    "correctIndex": 2,
+    "explanation": "Infrared and radio wavelengths can penetrate dust clouds better than visible light, allowing us to observe regions otherwise hidden.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main energy source for nuclear fusion in stars?",
+    "choices": [
+      "Chemical reactions",
+      "Gravitational contraction",
+      "Fusion of hydrogen nuclei",
+      "Radioactive decay"
+    ],
+    "correctIndex": 2,
+    "explanation": "Stars generate energy by fusing hydrogen nuclei into helium, releasing a tremendous amount of energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What astronomical phenomenon can be used to measure distances using parallax?",
+    "choices": [
+      "The Earth's orbit around the Sun",
+      "The rotation of the Milky Way",
+      "The pulsation of Cepheid variables",
+      "The Doppler shift of galaxies"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stellar parallax uses the Earth's orbit as a baseline to measure the apparent shift in position of nearby stars.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes a black hole?",
+    "choices": [
+      "A region of space where gravity is so strong that nothing, not even light, can escape",
+      "A dense cloud of gas and dust",
+      "A supermassive star in its final stage",
+      "An area with no matter at all"
+    ],
+    "correctIndex": 0,
+    "explanation": "A black hole is a region in space where gravity is extremely strong, preventing any matter or radiation from escaping.",
+    "difficulty": "easy"
   }
 ]
