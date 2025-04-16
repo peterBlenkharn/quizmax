@@ -1,13 +1,275 @@
 [
   {
-    "question": "What is taxonomy?",
-    "choices": [
-      "The study of cells",
-      "Classification of organisms",
-      "Plant biology",
-      "Evolutionary history"
-    ],
+    "question": "Which of the following is NOT a universal characteristic of living organisms?",
+    "choices": ["They require nutrition", "They respire", "They crystallize", "They reproduce"],
+    "correctIndex": 2,
+    "explanation": "Crystallization is not a characteristic of life, whereas all living organisms require nutrition, respire, and reproduce.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which cellular feature distinguishes eukaryotic cells from prokaryotic cells?",
+    "choices": ["A cell membrane", "Ribosomes", "A defined nucleus", "Cytoplasm"],
+    "correctIndex": 2,
+    "explanation": "Eukaryotic cells have a well-defined nucleus while prokaryotic cells do not.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Viruses are not regarded as living organisms because they:",
+    "choices": ["Lack genetic material", "Cannot reproduce independently", "Have no protein coat", "Do not contain water"],
     "correctIndex": 1,
-    "explanation": "Taxonomy is the classification of organisms."
+    "explanation": "Viruses can only reproduce by infecting a host cell; thus, they are not considered independently living.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which carbohydrate is the primary storage form in plants?",
+    "choices": ["Glycogen", "Starch", "Cellulose", "Sucrose"],
+    "correctIndex": 1,
+    "explanation": "Plants store carbohydrates as starch, while animals typically use glycogen.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Bacteria are classified as:",
+    "choices": ["Eukaryotes", "Prokaryotes", "Fungi", "Protoctists"],
+    "correctIndex": 1,
+    "explanation": "Bacteria are prokaryotic organisms; they lack a true nucleus and membrane-bound organelles.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which characteristic is common to all living organisms?",
+    "choices": ["They perform photosynthesis", "They all require nutrition", "They have a cell wall", "They are multicellular"],
+    "correctIndex": 1,
+    "explanation": "Every living organism requires nutrition to provide the energy needed for growth, metabolism, and repair.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which statement is FALSE regarding eukaryotic cells?",
+    "choices": ["They contain mitochondria", "They have a defined nucleus", "Their DNA is circular", "They are found in plants and animals"],
+    "correctIndex": 2,
+    "explanation": "In eukaryotic cells, the DNA is typically linear, not circular.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Pathogens can include all of the following EXCEPT:",
+    "choices": ["Viruses", "Bacteria", "Fungi", "Plants"],
+    "correctIndex": 3,
+    "explanation": "Pathogens are disease‑causing agents and include viruses, bacteria, fungi, and protoctists, but not plants.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In living organisms, homeostasis refers to:",
+    "choices": ["Movement towards nutrients", "Regulation of internal conditions", "Rapid reproduction", "Growth and development"],
+    "correctIndex": 1,
+    "explanation": "Homeostasis is the process by which organisms maintain stable internal conditions despite external changes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which characteristic most fundamentally distinguishes living organisms from non‑living matter?",
+    "choices": ["Growth", "Reproduction", "Response to stimuli", "Excretion"],
+    "correctIndex": 1,
+    "explanation": "The ability to reproduce and pass genetic information is considered a fundamental hallmark of life.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "All living organisms require a source of nutrition. Which process describes the intake of nutrients?",
+    "choices": ["Absorption", "Respiration", "Excretion", "Response"],
+    "correctIndex": 0,
+    "explanation": "Absorption is the process by which nutrients are taken into the organism’s body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process provides energy by converting food into usable forms in cells?",
+    "choices": ["Respiration", "Photosynthesis", "Excretion", "Reproduction"],
+    "correctIndex": 0,
+    "explanation": "Respiration converts biochemical energy from food molecules into ATP.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What process is responsible for the removal of waste products from a living organism?",
+    "choices": ["Ingestion", "Respiration", "Excretion", "Photosynthesis"],
+    "correctIndex": 2,
+    "explanation": "Excretion is the process by which organisms eliminate waste material.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'grow and develop' mean in living organisms?",
+    "choices": ["Remain the same size", "Increase in size and change form", "Only increase in size", "Only age without physical change"],
+    "correctIndex": 1,
+    "explanation": "Growth and development mean that organisms not only increase in size but also undergo changes in form and structure.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Reproduction is essential for survival. Which of the following best defines reproduction?",
+    "choices": ["Producing energy", "Creating new individuals", "Taking in nutrients", "Eliminating waste"],
+    "correctIndex": 1,
+    "explanation": "Reproduction is the process by which organisms produce new individuals, ensuring the continuity of the species.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a characteristic unique to plants compared to animals?",
+    "choices": ["Multicellularity", "Nervous coordination", "Cell walls made of cellulose", "Movement"],
+    "correctIndex": 2,
+    "explanation": "Plant cells have cell walls made of cellulose, a feature not found in animal cells.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do animals primarily store excess carbohydrate?",
+    "choices": ["Starch", "Cellulose", "Glycogen", "Sucrose"],
+    "correctIndex": 2,
+    "explanation": "Animals store excess carbohydrate in the form of glycogen.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Fungi differ from plants in that fungi:",
+    "choices": ["Perform photosynthesis", "Have cell walls made of chitin", "Store energy as starch", "Contain chloroplasts"],
+    "correctIndex": 1,
+    "explanation": "Fungal cell walls are made of chitin, not cellulose, and they do not perform photosynthesis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Protoctists are generally:",
+    "choices": ["Multicellular organisms", "Single-celled organisms", "Bacteria", "Fungi"],
+    "correctIndex": 1,
+    "explanation": "Protoctists are primarily single-celled organisms, though some may form simple colonies.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which feature is typical of prokaryotic cells such as bacteria?",
+    "choices": ["They contain a nucleus", "They have linear DNA", "They have a circular chromosome", "They contain chloroplasts"],
+    "correctIndex": 2,
+    "explanation": "Prokaryotic cells lack a nucleus and typically contain a circular chromosome.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pathogens are defined as organisms that:",
+    "choices": ["Support plant growth", "Cause disease", "Aid digestion", "Facilitate reproduction"],
+    "correctIndex": 1,
+    "explanation": "Pathogens are organisms—such as certain bacteria, fungi, protoctists, and viruses—that cause diseases.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an example of a eukaryotic organism?",
+    "choices": ["Bacteria", "Archaea", "Protozoa", "Virus"],
+    "correctIndex": 2,
+    "explanation": "Protozoa are eukaryotic organisms, meaning they have a true nucleus and membrane‑bound organelles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Living organisms control their internal conditions through a process known as:",
+    "choices": ["Homeostasis", "Metabolism", "Excretion", "Reproduction"],
+    "correctIndex": 0,
+    "explanation": "Homeostasis is the maintenance of a stable internal environment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which group of organisms can perform photosynthesis?",
+    "choices": ["Animals", "Bacteria (only some)", "Fungi", "Protoctists such as Chlorella"],
+    "correctIndex": 3,
+    "explanation": "Some protoctists like Chlorella perform photosynthesis, as do plants.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In plants, what is the primary location for photosynthesis?",
+    "choices": ["Roots", "Stems", "Leaves", "Flowers"],
+    "correctIndex": 2,
+    "explanation": "Photosynthesis primarily occurs in the chloroplast-rich cells of leaves.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following correctly describes a characteristic of animals?",
+    "choices": ["They have cell walls", "They are all immobile", "They have nervous coordination", "They perform photosynthesis"],
+    "correctIndex": 2,
+    "explanation": "Animals generally have a nervous system that allows for coordination and movement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Fungi obtain nutrients by secreting enzymes that break down food externally. This method is called:",
+    "choices": ["Endotrophic nutrition", "Saprotrophic nutrition", "Autotrophic nutrition", "Parasitic nutrition"],
+    "correctIndex": 1,
+    "explanation": "Saprotrophic nutrition is where fungi digest nutrients outside their bodies and then absorb them.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of genetic material do viruses contain?",
+    "choices": ["Both DNA and RNA (but only one type per virus)", "Only DNA", "Only RNA", "Protein"],
+    "correctIndex": 0,
+    "explanation": "Viruses contain either DNA or RNA as their genetic material, but not both.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What distinguishes plant cells from animal cells?",
+    "choices": ["Plant cells do not have a nucleus", "Plant cells have chloroplasts and a cell wall", "Animal cells store energy as starch", "Animal cells perform photosynthesis"],
+    "correctIndex": 1,
+    "explanation": "Plant cells uniquely contain chloroplasts for photosynthesis and cell walls made of cellulose.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes a living organism's ability to make copies of itself?",
+    "choices": ["Growth", "Reproduction", "Metabolism", "Homeostasis"],
+    "correctIndex": 1,
+    "explanation": "Reproduction is the process by which living organisms produce new individuals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'prokaryote' mean?",
+    "choices": ["A cell with a true nucleus", "A cell with membrane-bound organelles", "A cell lacking a nucleus", "A multicellular organism"],
+    "correctIndex": 2,
+    "explanation": "Prokaryotes are organisms whose cells do not have a nucleus or other membrane-bound organelles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is NOT one of the eight fundamental characteristics shared by living organisms?",
+    "choices": ["Nutrition", "Respiration", "Reproduction", "Inertness"],
+    "correctIndex": 3,
+    "explanation": "Inertness is not a characteristic of life; all living organisms require nutrition, respiration, and reproduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which group includes both unicellular and multicellular organisms?",
+    "choices": ["Animals", "Fungi", "Protoctists", "Bacteria"],
+    "correctIndex": 2,
+    "explanation": "Protoctists include a wide variety of organisms, some of which are unicellular and some multicellular.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process in living organisms involves the release of energy from food?",
+    "choices": ["Photosynthesis", "Respiration", "Excretion", "Reproduction"],
+    "correctIndex": 1,
+    "explanation": "Respiration converts food energy into ATP, the cellular energy currency.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which substance is commonly used by animals to store carbohydrate energy?",
+    "choices": ["Starch", "Glycogen", "Cellulose", "Chitin"],
+    "correctIndex": 1,
+    "explanation": "Animals store carbohydrates primarily as glycogen.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of organism is typically responsible for causing diseases?",
+    "choices": ["Pathogens", "Producers", "Consumers", "Decomposers"],
+    "correctIndex": 0,
+    "explanation": "Pathogens are disease-causing organisms, which can include bacteria, viruses, fungi, and protoctists.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How do living organisms maintain a stable internal environment?",
+    "choices": ["By being passive", "Through homeostasis", "By constant movement", "By rapid growth"],
+    "correctIndex": 1,
+    "explanation": "Homeostasis is the process by which organisms regulate their internal environment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a characteristic of both plants and animals?",
+    "choices": ["They have cell walls", "They reproduce", "They perform photosynthesis", "They have chloroplasts"],
+    "correctIndex": 1,
+    "explanation": "Both plants and animals reproduce, although the mechanisms may differ.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following groups is known to be non-living by most definitions?",
+    "choices": ["Bacteria", "Fungi", "Viruses", "Plants"],
+    "correctIndex": 2,
+    "explanation": "Viruses are generally not considered living organisms because they cannot reproduce independently.",
+    "difficulty": "easy"
   }
 ]
