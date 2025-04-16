@@ -1,1 +1,387 @@
+[
+  {
+    "question": "Who wrote 'Holy Thursday'?",
+    "choices": [
+      "William Blake",
+      "John Keats",
+      "Anne Brontë",
+      "Gerard Manley Hopkins"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Holy Thursday' is written by William Blake.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 'Holy Thursday', the children are compared to which of the following?",
+    "choices": [
+      "Stars",
+      "Lambs",
+      "Angels",
+      "Roses"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blake describes the children using the metaphor 'multitude of lambs' to imply their innocence.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which central theme is explored in John Keats's 'When I have fears that I may cease to be'?",
+    "choices": [
+      "The beauty of nature",
+      "Fame and mortality",
+      "Romantic love",
+      "Social injustice"
+    ],
+    "correctIndex": 1,
+    "explanation": "The poem expresses Keats's fear of dying before fulfilling his creative potential, focusing on fame and mortality.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the form of 'When I have fears that I may cease to be'?",
+    "choices": [
+      "Sonnet",
+      "Ballad",
+      "Free verse",
+      "Ode"
+    ],
+    "correctIndex": 0,
+    "explanation": "Keats's poem is structured as a 14-line sonnet.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 'The Bluebell' by Anne Brontë, the bluebell most closely symbolizes:",
+    "choices": [
+      "Childhood innocence",
+      "Bitter regret",
+      "Mourning",
+      "Renewal"
+    ],
+    "correctIndex": 0,
+    "explanation": "The poem uses the bluebell as a symbol of cherished, nostalgic childhood and innocence.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which line from the anthology reflects the poet’s fear of not fulfilling creative promise?",
+    "choices": [
+      "\"And the hum of multitudes was there\"",
+      "\"That I shall never look upon thee more\"",
+      "\"I am five, wading out into deep sunny grass\"",
+      "\"A candle lit at noon\""
+    ],
+    "correctIndex": 1,
+    "explanation": "The line 'That I shall never look upon thee more' from Keats’s sonnet expresses his fear of loss and missed creative opportunity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which poem contemplates the fleeting nature of youth and the inevitability of aging?",
+    "choices": [
+      "Holy Thursday",
+      "Spring and Fall: to a Young Child",
+      "When I have fears that I may cease to be",
+      "Ode"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Spring and Fall: to a Young Child' explores the sorrow of growing older and losing youthful innocence.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 'Holy Thursday', what literary device is used when referring to the children as 'flowers'?",
+    "choices": [
+      "Simile",
+      "Metaphor",
+      "Alliteration",
+      "Hyperbole"
+    ],
+    "correctIndex": 1,
+    "explanation": "Blake uses a metaphor by comparing the children to 'flowers of London town' to emphasize their beauty and fragility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which poem celebrates the creative spirit with the famous lines, \"We are the music-makers, / And we are the dreamers of dreams\"?",
+    "choices": [
+      "Holy Thursday",
+      "When I have fears that I may cease to be",
+      "Ode",
+      "The Bluebell"
+    ],
+    "correctIndex": 2,
+    "explanation": "The poem 'Ode' by Arthur O'Shaughnessy extols the power of imaginative dreamers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 'Holy Thursday', how is the societal structure represented?",
+    "choices": [
+      "As harmonious and egalitarian",
+      "As divided and oppressive",
+      "As chaotic and unstructured",
+      "As purely celebratory"
+    ],
+    "correctIndex": 0,
+    "explanation": "The poem presents the children in a collective, almost angelic, manner suggesting an idealized, harmonious view of community.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which poet’s work in the anthology reflects on the inevitability of creative loss due to death?",
+    "choices": [
+      "John Keats",
+      "William Blake",
+      "Anne Brontë",
+      "Arthur O'Shaughnessy"
+    ],
+    "correctIndex": 0,
+    "explanation": "John Keats's 'When I have fears that I may cease to be' meditates on creative loss and mortality.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The phrase 'multitude of lambs' in 'Holy Thursday' is an example of which literary device?",
+    "choices": [
+      "Metonymy",
+      "Metaphor",
+      "Oxymoron",
+      "Onomatopoeia"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phrase is a metaphor comparing the children to lambs, symbolizing their innocence and purity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 'Spring and Fall: to a Young Child', what natural element is used as a metaphor for the passage of time?",
+    "choices": [
+      "Falling leaves",
+      "Rising sun",
+      "Flowing river",
+      "Changing sky"
+    ],
+    "correctIndex": 0,
+    "explanation": "Falling leaves are used as a metaphor for aging and the inevitable loss of youthful beauty.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which recurring theme is central to the Youth & Age anthology?",
+    "choices": [
+      "Technological advancement",
+      "The fleeting nature of youth",
+      "Political revolution",
+      "Historical memory"
+    ],
+    "correctIndex": 1,
+    "explanation": "Many poems in the collection reflect on the passing of time and the ephemeral nature of youth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Keats's 'When I have fears', what does the 'pen' symbolize?",
+    "choices": [
+      "The power of creativity",
+      "The inevitability of death",
+      "The burden of responsibility",
+      "The simplicity of life"
+    ],
+    "correctIndex": 0,
+    "explanation": "The pen symbolizes creative potential, which Keats fears will be cut short by an untimely death.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does Blake use repetition in 'Holy Thursday' to enhance the poem’s theme?",
+    "choices": [
+      "It creates a sense of boredom",
+      "It reinforces the unity and collective innocence of the children",
+      "It diminishes the impact of key images",
+      "It introduces unnecessary complexity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Repetition in the poem creates a rhythmic, almost incantatory effect that emphasizes collective identity and innocence.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the effect of the light imagery in 'Holy Thursday'?",
+    "choices": [
+      "It highlights the harshness of the urban environment",
+      "It contrasts the purity of the children with the corruption of society",
+      "It suggests that the children are overwhelmed by brightness",
+      "It is used to create a somber, muted tone"
+    ],
+    "correctIndex": 1,
+    "explanation": "The use of light imagery contrasts the innocence of the children with the darker, oppressive elements of society.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In 'The Bluebell', which sensory image primarily evokes nostalgia?",
+    "choices": [
+      "The soft fragrance of the bluebell",
+      "The vibrant sound of a summer's day",
+      "The touch of cool, dewy grass",
+      "The sight of a solitary bluebell"
+    ],
+    "correctIndex": 3,
+    "explanation": "The sight of the solitary bluebell serves as a powerful visual symbol of nostalgic recollections of youth.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which structural element is characteristic of a sonnet?",
+    "choices": [
+      "Twelve lines with a fixed rhyme scheme",
+      "Fourteen lines and a volta",
+      "Free verse with no set structure",
+      "Stanzas of four lines each"
+    ],
+    "correctIndex": 1,
+    "explanation": "A sonnet typically consists of fourteen lines and includes a volta (a turn in argument or theme).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In 'Midnight on the Great Western', the free verse form most contributes to which aspect of the poem?",
+    "choices": [
+      "Its rhythmic predictability",
+      "The chaotic and reflective mood of the journey",
+      "A sense of strict order and formality",
+      "A playful, sing-song quality"
+    ],
+    "correctIndex": 1,
+    "explanation": "The free verse form mirrors the unpredictable and reflective nature of the journey, enhancing the poem's melancholic tone.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Arthur O'Shaughnessy’s 'Ode', what does the phrase \"dreamers of dreams\" imply?",
+    "choices": [
+      "That dreamers are unrealistic",
+      "That the creative spirit has limitless potential",
+      "That dreams are fleeting and insignificant",
+      "That dreams lead to inevitable failure"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phrase celebrates the limitless imaginative power of dreamers who shape culture and innovation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does Keats express his internal conflict about the passage of time in 'When I have fears'?",
+    "choices": [
+      "By using cheerful and upbeat language",
+      "Through melancholy diction paired with urgent imagery",
+      "By ignoring the concept of time entirely",
+      "Through repetitive, monotonous phrasing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Keats blends melancholy diction with urgent imagery to convey his anxiety over the inevitable loss of creative potential as time passes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which recurring motif in the Youth & Age anthology most encapsulates the theme of transience?",
+    "choices": [
+      "The use of mythological allusions",
+      "The depiction of nature's cycles, such as falling leaves",
+      "The celebration of technological progress",
+      "The focus on interpersonal relationships"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nature’s cycles, such as falling leaves, are a common motif used to symbolize the transient nature of youth and the passage of time.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What overall effect does the contrast between youthful optimism and the reality of aging have in the poems?",
+    "choices": [
+      "It creates a lighthearted and humorous tone",
+      "It evokes a poignant, reflective mood about life's fleeting nature",
+      "It minimizes the importance of memory",
+      "It encourages a rejection of tradition"
+    ],
+    "correctIndex": 1,
+    "explanation": "The contrast deepens the emotional impact by highlighting the bittersweet passage from youth to maturity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which poet from the anthology is best known for meditating on mortality in his work?",
+    "choices": [
+      "John Keats",
+      "William Blake",
+      "Anne Brontë",
+      "Gerard Manley Hopkins"
+    ],
+    "correctIndex": 0,
+    "explanation": "John Keats is renowned for his meditations on mortality and the ephemeral nature of life in poems like 'When I have fears that I may cease to be'.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phrase in 'Holy Thursday' underscores the unity of the children?",
+    "choices": [
+      "\"Their innocent faces clean\"",
+      "\"Walking two and two\"",
+      "\"With wands as white as snow\"",
+      "\"Like Thames waters flow\""
+    ],
+    "correctIndex": 1,
+    "explanation": "The phrase 'walking two and two' suggests that the children move in a coordinated, unified manner.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the Youth & Age anthology, which poem is structured as a sonnet?",
+    "choices": [
+      "\"Holy Thursday\"",
+      "\"When I have fears that I may cease to be\"",
+      "\"The Bluebell\"",
+      "\"Spring and Fall: to a Young Child\""
+    ],
+    "correctIndex": 1,
+    "explanation": "\"When I have fears that I may cease to be\" is a sonnet, following the traditional 14-line form.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which poetic device is demonstrated by the line \"And the hum of multitudes was there\" in 'Holy Thursday'?",
+    "choices": [
+      "Alliteration",
+      "Imagery",
+      "Assonance",
+      "Consonance"
+    ],
+    "correctIndex": 1,
+    "explanation": "The line evokes a vivid sensory image, contributing to the overall atmosphere of the scene.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the predominant tone in 'Spring and Fall: to a Young Child'?",
+    "choices": [
+      "Joyful and exuberant",
+      "Melancholic and reflective",
+      "Angry and defiant",
+      "Optimistic and hopeful"
+    ],
+    "correctIndex": 1,
+    "explanation": "The tone is melancholic as the poem reflects on the sorrow and inevitability of growing older.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Arthur O'Shaughnessy’s 'Ode', which quality is most celebrated?",
+    "choices": [
+      "The futility of dreams",
+      "The power and potential of the creative spirit",
+      "The darkness of modern society",
+      "The decline of traditional values"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 'Ode' celebrates the enduring, visionary power of those who dream and create.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these best describes the imagery used in 'When I have fears that I may cease to be'?",
+    "choices": [
+      "Bright and joyful imagery",
+      "Dark and foreboding imagery",
+      "Melancholic and introspective imagery",
+      "Minimalist and abstract imagery"
+    ],
+    "correctIndex": 2,
+    "explanation": "Keats uses melancholic and introspective imagery to express his anxieties about mortality.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the recurring imagery of nature in the anthology primarily symbolize?",
+    "choices": [
+      "The chaos of modern life",
+      "The eternal struggle for power",
+      "The cycle of life, growth, and decay",
+      "The rise of industrialization"
+    ],
+    "correctIndex": 2,
+    "explanation": "Natural imagery is used to symbolize the cyclical nature of life and the inevitable progression from youth to age.",
+    "difficulty": "easy"
+  }
+]
 
