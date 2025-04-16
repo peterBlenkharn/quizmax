@@ -1,8 +1,420 @@
 [
   {
-    "question": "What property defines the wave’s speed?",
-    "choices": ["Wavelength", "Frequency", "Amplitude", "Period"],
+    "question": "A water wave travels with a speed of 1.8 m/s. If its frequency is 0.5 Hz, what is its wavelength?",
+    "choices": ["3.6 m", "2.7 m", "1.8 m", "4.0 m"],
+    "correctIndex": 0,
+    "explanation": "Using the formula v = f × λ, the wavelength is λ = v / f = 1.8 / 0.5 = 3.6 m.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a double-slit experiment, the slit separation is 0.2 mm and the screen is 1.5 m away. If light of wavelength 600 nm is used, what is the distance between the central maximum and the first bright fringe?",
+    "choices": ["2.5 mm", "4.5 mm", "6.5 mm", "8.5 mm"],
     "correctIndex": 1,
-    "explanation": "Wave speed is defined by wavelength multiplied by frequency."
+    "explanation": "The fringe spacing is given by y = (λ × L) / d = (600×10⁻⁹ m × 1.5 m) / (0.2×10⁻³ m) ≈ 4.5 mm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A stationary sound source emits 500 Hz. If a listener moves toward the source at 30 m/s (with the speed of sound being 340 m/s), what is the observed frequency?",
+    "choices": ["500 Hz", "544 Hz", "580 Hz", "620 Hz"],
+    "correctIndex": 1,
+    "explanation": "For a moving listener, f' = f × (v + v_obs) / v = 500 × (340 + 30) / 340 ≈ 544 Hz.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Light passes from air (n = 1.00) into water (n = 1.33) at an incident angle of 45°. Using Snell’s law, calculate the angle of refraction.",
+    "choices": ["25.0°", "32.0°", "40.0°", "45.0°"],
+    "correctIndex": 1,
+    "explanation": "Snell's law gives sin r = (n_air/n_water) × sin(45°) = (1/1.33) × 0.7071 ≈ 0.531; hence r ≈ 32.0°.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a single-slit diffraction experiment, light of wavelength 500 nm passes through a slit 0.1 mm wide. What is the angular position of the first minimum?",
+    "choices": ["0.15°", "0.29°", "0.50°", "0.75°"],
+    "correctIndex": 1,
+    "explanation": "The first minimum occurs when a · sinθ = λ, so sinθ = λ / a = (500×10⁻⁹ m)/(0.1×10⁻³ m) = 0.005, hence θ ≈ 0.29°.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A transverse wave on a string has a frequency of 8 Hz and a wavelength of 0.75 m. If the mass per unit length of the string is 0.02 kg/m, what is the tension in the string?",
+    "choices": ["0.72 N", "1.2 N", "2.0 N", "3.6 N"],
+    "correctIndex": 0,
+    "explanation": "The wave speed v = f × λ = 8 × 0.75 = 6 m/s. Using v = √(T/μ), we get T = μv² = 0.02 × (6)² = 0.02 × 36 = 0.72 N.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A source emits a sound at 1000 Hz. If a listener moves away from the source at 10 m/s (v_sound = 340 m/s), what is the observed frequency?",
+    "choices": ["971 Hz", "980 Hz", "1000 Hz", "1020 Hz"],
+    "correctIndex": 0,
+    "explanation": "For a receding observer, f' = f × (v / (v + v_obs)) = 1000 × (340 / 350) ≈ 971 Hz.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Standing waves are observed in a string fixed at both ends with a length of 1.2 m. For the third harmonic, what is the wavelength of the standing wave?",
+    "choices": ["0.8 m", "1.2 m", "1.6 m", "2.4 m"],
+    "correctIndex": 0,
+    "explanation": "For a string fixed at both ends, the wavelength of the nᵗʰ harmonic is λ = 2L/n. For the third harmonic, λ = (2×1.2)/3 = 0.8 m.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If the fundamental frequency (first harmonic) of a string fixed at both ends is 80 Hz, what is the frequency of the third harmonic?",
+    "choices": ["160 Hz", "200 Hz", "240 Hz", "320 Hz"],
+    "correctIndex": 2,
+    "explanation": "The frequency of the nᵗʰ harmonic is n times the fundamental frequency. Thus, the third harmonic is 3×80 = 240 Hz.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A light wave in a vacuum has a wavelength of 600 nm. Calculate its frequency. (Use c = 3×10⁸ m/s)",
+    "choices": ["5×10¹⁴ Hz", "1×10¹⁴ Hz", "3×10¹⁴ Hz", "6×10¹⁴ Hz"],
+    "correctIndex": 0,
+    "explanation": "Frequency is calculated by f = c / λ = (3×10⁸ m/s) / (600×10⁻⁹ m) = 5×10¹⁴ Hz.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following best describes a wave?",
+    "choices": [
+      "A disturbance that transfers energy from one point to another without the permanent transfer of matter",
+      "A permanent movement of particles across a medium",
+      "A stationary vibration with no energy transfer",
+      "A type of particle that moves in a straight line"
+    ],
+    "correctIndex": 0,
+    "explanation": "A wave is a disturbance that transfers energy through a medium without any permanent displacement of the medium.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The wavelength of a wave is defined as the distance between:",
+    "choices": [
+      "Two consecutive peaks (crests)",
+      "A peak and the next trough",
+      "Two adjacent troughs",
+      "The total distance the wave travels in one second"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wavelength is the distance between two consecutive points in phase, typically measured from crest to crest.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which quantity describes how many cycles a wave completes per second?",
+    "choices": [
+      "Amplitude",
+      "Frequency",
+      "Wavelength",
+      "Speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Frequency is defined as the number of oscillations or cycles per second and is measured in Hertz (Hz).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the standard unit of frequency?",
+    "choices": [
+      "Hertz (Hz)",
+      "Meter (m)",
+      "Second (s)",
+      "Joule (J)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Frequency is measured in Hertz (Hz), where 1 Hz equals one cycle per second.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The amplitude of a wave refers to its:",
+    "choices": [
+      "Wavelength",
+      "Frequency",
+      "Maximum displacement from the equilibrium position",
+      "Speed of propagation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Amplitude is the maximum displacement of points on a wave from their equilibrium position and is related to the energy carried by the wave.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which equation correctly relates the speed (v), frequency (f), and wavelength (λ) of a wave?",
+    "choices": [
+      "v = f × λ",
+      "v = f + λ",
+      "v = f - λ",
+      "v = f / λ"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speed of a wave is the product of its frequency and wavelength: v = f × λ.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Sound waves are classified as which type of wave?",
+    "choices": [
+      "Transverse",
+      "Longitudinal",
+      "Surface",
+      "Electromagnetic"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sound waves are longitudinal waves, meaning the oscillation of particles occurs parallel to the direction of wave propagation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Light waves are an example of:",
+    "choices": [
+      "Mechanical waves",
+      "Electromagnetic waves",
+      "Longitudinal waves",
+      "Sound waves"
+    ],
+    "correctIndex": 1,
+    "explanation": "Light waves do not require a medium; they are electromagnetic waves.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the speed of light in a vacuum?",
+    "choices": [
+      "3×10⁸ m/s",
+      "3×10⁶ m/s",
+      "3×10⁵ m/s",
+      "3×10⁴ m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The speed of light in a vacuum is approximately 3×10⁸ m/s.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Diffraction is best described as the:",
+    "choices": [
+      "Bending of waves around obstacles",
+      "Change in speed of waves in different media",
+      "Reflection of waves off surfaces",
+      "Absorption of waves by materials"
+    ],
+    "correctIndex": 0,
+    "explanation": "Diffraction is the bending and spreading of waves around obstacles or through openings.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When two waves of the same frequency and amplitude meet, the phenomenon of superposition can produce:",
+    "choices": [
+      "Interference",
+      "Diffraction",
+      "Reflection",
+      "Refraction"
+    ],
+    "correctIndex": 0,
+    "explanation": "Superposition leads to interference, where waves add or cancel each other depending on their phase relationship.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens to the wavelength of a wave if its frequency increases, assuming the wave speed remains constant?",
+    "choices": [
+      "The wavelength increases",
+      "The wavelength decreases",
+      "The wavelength remains constant",
+      "The wavelength doubles"
+    ],
+    "correctIndex": 1,
+    "explanation": "For a constant wave speed, an increase in frequency means the wavelength must decrease (v = f × λ).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for the bending of light as it passes through a prism to create a spectrum of colors?",
+    "choices": [
+      "Diffraction",
+      "Dispersion",
+      "Reflection",
+      "Polarization"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dispersion is the process by which light is separated into its constituent wavelengths (colors) as it passes through a prism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which part of a wave determines its brightness (in light waves) or loudness (in sound waves)?",
+    "choices": [
+      "Frequency",
+      "Wavelength",
+      "Amplitude",
+      "Speed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Amplitude is associated with the energy of the wave, which affects brightness in light or loudness in sound.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phenomenon causes a shift in the frequency of a wave due to the motion of the source or observer?",
+    "choices": [
+      "Interference",
+      "Doppler effect",
+      "Diffraction",
+      "Refraction"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Doppler effect is observed as a shift in frequency when there is relative motion between the source and observer.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term used for a wave that results from the combination of two or more waves traveling in the same direction?",
+    "choices": [
+      "Standing wave",
+      "Traveling wave",
+      "Interference pattern",
+      "Beat"
+    ],
+    "correctIndex": 2,
+    "explanation": "An interference pattern is produced when waves combine (superpose), which may result in regions of constructive or destructive interference.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a standing wave?",
+    "choices": [
+      "A wave that travels without energy transfer",
+      "A wave that remains in a constant position with nodes and antinodes due to interference",
+      "A wave that diffracts around obstacles",
+      "A wave that only exists in a vacuum"
+    ],
+    "correctIndex": 1,
+    "explanation": "Standing waves are formed by the interference of two waves traveling in opposite directions, resulting in fixed nodes and antinodes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the unit of wavelength?",
+    "choices": [
+      "Hertz (Hz)",
+      "Meter (m)",
+      "Second (s)",
+      "Joule (J)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wavelength is a measure of distance and is typically measured in meters (m).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phenomenon is responsible for the bending of light as it passes from one medium to another?",
+    "choices": [
+      "Reflection",
+      "Diffraction",
+      "Refraction",
+      "Interference"
+    ],
+    "correctIndex": 2,
+    "explanation": "Refraction is the bending of light as it passes from one medium to another due to a change in its speed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the context of electromagnetic waves, which region of the spectrum has the longest wavelengths?",
+    "choices": [
+      "Gamma rays",
+      "Ultraviolet rays",
+      "Infrared waves",
+      "Radio waves"
+    ],
+    "correctIndex": 3,
+    "explanation": "Radio waves have the longest wavelengths in the electromagnetic spectrum.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument is used to measure the frequency of a sound wave?",
+    "choices": [
+      "A voltmeter",
+      "A frequency counter",
+      "An ammeter",
+      "A barometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A frequency counter is used to directly measure the frequency of a sound wave.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If the speed of a wave is doubled while its frequency remains constant, what happens to its wavelength?",
+    "choices": [
+      "It doubles",
+      "It halves",
+      "It remains the same",
+      "It increases by a factor of four"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since v = f × λ, if the speed doubles while frequency remains constant, the wavelength must also double.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of wave can travel through a vacuum?",
+    "choices": [
+      "Sound waves",
+      "Water waves",
+      "Electromagnetic waves",
+      "Mechanical waves"
+    ],
+    "correctIndex": 2,
+    "explanation": "Electromagnetic waves do not require a medium and can travel through a vacuum.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the effect of increasing the amplitude of a wave, assuming other parameters remain constant?",
+    "choices": [
+      "It increases the energy of the wave",
+      "It increases the frequency",
+      "It changes the wavelength",
+      "It slows down the wave"
+    ],
+    "correctIndex": 0,
+    "explanation": "A larger amplitude means the wave carries more energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property of a wave determines its pitch (in sound) or color (in light)?",
+    "choices": [
+      "Amplitude",
+      "Frequency",
+      "Wavelength",
+      "Speed"
+    ],
+    "correctIndex": 1,
+    "explanation": "Frequency determines pitch in sound and, along with wavelength, determines color in light.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When light passes through a narrow slit and spreads out, this phenomenon is called:",
+    "choices": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Interference"
+    ],
+    "correctIndex": 2,
+    "explanation": "Diffraction refers to the bending and spreading of waves as they pass through a narrow opening.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the relationship between wave speed, frequency, and wavelength?",
+    "choices": [
+      "Speed = Frequency / Wavelength",
+      "Speed = Wavelength × Frequency",
+      "Frequency = Speed + Wavelength",
+      "Wavelength = Speed - Frequency"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wave speed is the product of frequency and wavelength (v = f × λ).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a vacuum, if the frequency of a light wave is 6×10¹⁴ Hz, what is its wavelength? (c = 3×10⁸ m/s)",
+    "choices": [
+      "500 nm", 
+      "600 nm", 
+      "700 nm", 
+      "800 nm"
+    ],
+    "correctIndex": 0,
+    "explanation": "Wavelength = c / f = 3×10⁸ / 6×10¹⁴ = 5×10⁻⁷ m, or 500 nm.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes electromagnetic radiation?",
+    "choices": [
+      "Waves that require a medium to travel",
+      "Longitudinal waves in solids",
+      "Waves consisting of oscillating electric and magnetic fields",
+      "Mechanical waves produced by vibrating objects"
+    ],
+    "correctIndex": 2,
+    "explanation": "Electromagnetic radiation consists of oscillating electric and magnetic fields and can travel through a vacuum.",
+    "difficulty": "easy"
   }
 ]
