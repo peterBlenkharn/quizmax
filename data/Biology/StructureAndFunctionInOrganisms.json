@@ -1,13 +1,482 @@
 [
   {
-    "question": "What is the function of the cell membrane?",
+    "question": "Which of the following best explains why the presence of rough endoplasmic reticulum (RER) is crucial for secretory cells?",
     "choices": [
-      "DNA replication",
-      "Energy production",
-      "Controls entry and exit of substances",
-      "Protein synthesis"
+      "It synthesizes lipids for cell membranes",
+      "It is studded with ribosomes which produce proteins for secretion",
+      "It degrades misfolded proteins",
+      "It stores carbohydrates for energy"
+    ],
+    "correctIndex": 1,
+    "explanation": "The rough ER is covered with ribosomes that produce proteins destined for secretion.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In comparing plant and animal cells, which structure is exclusively found in plant cells?",
+    "choices": [
+      "Nucleus",
+      "Chloroplast",
+      "Mitochondrion",
+      "Ribosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chloroplasts are unique to plant cells and are responsible for photosynthesis.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which component of the cell is primarily responsible for maintaining the rigid structure of plant cells?",
+    "choices": [
+      "Cell membrane",
+      "Vacuole",
+      "Cell wall",
+      "Cytoskeleton"
     ],
     "correctIndex": 2,
-    "explanation": "The cell membrane controls what enters and exits the cell."
+    "explanation": "The cell wall, composed mainly of cellulose, provides structural support and protection in plant cells.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which feature distinguishes eukaryotic cells from prokaryotic cells regarding genetic material?",
+    "choices": [
+      "Presence of a membrane-bound nucleus",
+      "A single circular DNA molecule",
+      "Absence of ribosomes",
+      "Presence of plasmids only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Eukaryotic cells have a true nucleus that houses their DNA, whereas prokaryotic cells do not.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which process describes the movement of water across a selectively permeable membrane driven by solute concentration differences?",
+    "choices": [
+      "Active transport",
+      "Osmosis",
+      "Facilitated diffusion",
+      "Simple diffusion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Osmosis is the passive movement of water from an area of low solute concentration to an area of high solute concentration through a semipermeable membrane.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "When comparing the functions of the smooth and rough endoplasmic reticula, which statement is accurate?",
+    "choices": [
+      "Smooth ER synthesizes proteins for secretion",
+      "Rough ER synthesizes lipids and detoxifies chemicals",
+      "Smooth ER is involved in lipid synthesis and detoxification, while rough ER synthesizes proteins",
+      "Both ER types synthesize proteins equally"
+    ],
+    "correctIndex": 2,
+    "explanation": "Smooth ER participates in lipid synthesis and detoxification, whereas rough ER is studded with ribosomes for protein synthesis.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary function of the cytoskeleton in eukaryotic cells?",
+    "choices": [
+      "DNA replication",
+      "Protein synthesis",
+      "Structural support and intracellular transport",
+      "Energy production"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cytoskeleton provides structural support, maintains cell shape, and facilitates intracellular transport.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which cellular structure contains digestive enzymes that break down macromolecules and cellular debris?",
+    "choices": [
+      "Mitochondrion",
+      "Lysosome",
+      "Nucleus",
+      "Golgi apparatus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lysosomes contain hydrolytic enzymes that digest waste and macromolecules inside the cell.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do plant cells primarily contribute to the structural integrity of the organism?",
+    "choices": [
+      "By having flexible cell membranes",
+      "By storing water in vacuoles",
+      "Through rigid cell walls composed of cellulose",
+      "By producing soft tissues"
+    ],
+    "correctIndex": 2,
+    "explanation": "Plant cells rely on rigid cell walls made of cellulose to maintain structure and support the plant.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which organelle is responsible for packaging and modifying proteins for secretion?",
+    "choices": [
+      "Rough endoplasmic reticulum",
+      "Golgi apparatus",
+      "Smooth endoplasmic reticulum",
+      "Lysosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Golgi apparatus modifies, sorts, and packages proteins into vesicles for secretion or transport.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the basic unit of life?",
+    "choices": [
+      "Cell",
+      "Atom",
+      "Molecule",
+      "Organ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cells are the smallest units that exhibit the characteristics of life.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organelle contains the cell's genetic material in eukaryotic cells?",
+    "choices": [
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome",
+      "Chloroplast"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nucleus houses DNA, which is the genetic material controlling the cell.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary function of the cell membrane?",
+    "choices": [
+      "Provide structural support",
+      "Control the passage of substances into and out of the cell",
+      "Produce energy",
+      "Store nutrients"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cell membrane is selectively permeable and regulates what enters and exits the cell.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organelle is known as the 'powerhouse' of the cell?",
+    "choices": [
+      "Nucleus",
+      "Mitochondrion",
+      "Chloroplast",
+      "Ribosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mitochondria are the primary sites of ATP production through cellular respiration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In plant cells, which structure is found that is not present in animal cells?",
+    "choices": [
+      "Mitochondria",
+      "Cell membrane",
+      "Chloroplasts",
+      "Ribosomes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Chloroplasts are unique to plant cells and are necessary for photosynthesis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What component gives plant cells their rigidity?",
+    "choices": [
+      "Cell membrane",
+      "Chloroplast",
+      "Cell wall",
+      "Cytoplasm"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cell wall, made of cellulose, provides rigidity and structural support in plant cells.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main function of ribosomes?",
+    "choices": [
+      "Protein synthesis",
+      "Lipid synthesis",
+      "DNA storage",
+      "Energy production"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ribosomes are responsible for synthesizing proteins by translating mRNA.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process describes the passive movement of water across a cell membrane?",
+    "choices": [
+      "Active transport",
+      "Osmosis",
+      "Facilitated diffusion",
+      "Simple diffusion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Osmosis is the passive movement of water from an area of low solute concentration to high solute concentration through a semipermeable membrane.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary function of vacuoles in plant cells?",
+    "choices": [
+      "Protein synthesis",
+      "Store water and nutrients",
+      "Generate ATP",
+      "Produce chlorophyll"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vacuoles in plant cells store water, nutrients, and waste products.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What are tissues?",
+    "choices": [
+      "Groups of similar cells performing specific functions",
+      "Collections of organs",
+      "Individual cells",
+      "Clusters of atoms"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tissues are groups of similar cells that work together to perform a specific function.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is an organ?",
+    "choices": [
+      "A collection of cells",
+      "A group of tissues performing a specific function",
+      "An individual cell",
+      "A body system"
+    ],
+    "correctIndex": 1,
+    "explanation": "An organ is made up of different tissues working together to perform specific functions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which level of organization directly follows cells?",
+    "choices": [
+      "Tissues",
+      "Organs",
+      "Organ systems",
+      "Organelles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cells combine to form tissues, which in turn form organs and systems.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which system in animals is primarily responsible for movement?",
+    "choices": [
+      "Circulatory system",
+      "Nervous system",
+      "Muscular system",
+      "Respiratory system"
+    ],
+    "correctIndex": 2,
+    "explanation": "The muscular system contracts to produce movement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary role of the nucleus in a cell?",
+    "choices": [
+      "Protein synthesis",
+      "Storage and expression of genetic material",
+      "ATP production",
+      "Cellular digestion"
+    ],
+    "correctIndex": 1,
+    "explanation": "The nucleus contains the cell's DNA and controls its activities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organelle is responsible for photosynthesis?",
+    "choices": [
+      "Mitochondrion",
+      "Chloroplast",
+      "Nucleus",
+      "Golgi apparatus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chloroplasts contain chlorophyll and are the sites of photosynthesis in plant cells.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The cytoskeleton in eukaryotic cells is primarily composed of:",
+    "choices": [
+      "Lipids",
+      "Microtubules and microfilaments",
+      "DNA and RNA",
+      "Proteins in the nucleus"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cytoskeleton consists of microtubules, microfilaments, and intermediate filaments that provide structure and facilitate intracellular transport.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of cell lacks a nucleus?",
+    "choices": [
+      "Animal cell",
+      "Plant cell",
+      "Bacterial cell",
+      "Fungal cell"
+    ],
+    "correctIndex": 2,
+    "explanation": "Bacterial cells are prokaryotic and do not have a true nucleus.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary function of the Golgi apparatus?",
+    "choices": [
+      "Protein packaging and modification",
+      "ATP production",
+      "Genetic storage",
+      "Lipid synthesis"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Golgi apparatus processes and packages proteins and lipids for transport within or outside the cell.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes the selective permeability of the cell membrane?",
+    "choices": [
+      "It allows all substances to pass freely",
+      "It restricts all substances from entering or leaving",
+      "It permits only certain substances to pass in or out",
+      "It dissolves unwanted molecules"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cell membrane is selectively permeable, meaning it regulates the entry and exit of substances.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which tissue type lines the surfaces and cavities of organs in animals?",
+    "choices": [
+      "Connective tissue",
+      "Muscle tissue",
+      "Epithelial tissue",
+      "Nervous tissue"
+    ],
+    "correctIndex": 2,
+    "explanation": "Epithelial tissue forms the outer layer of body surfaces and lines internal cavities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary storage form of excess carbohydrate in animals?",
+    "choices": [
+      "Starch",
+      "Glycogen",
+      "Cellulose",
+      "Chitin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Animals store excess carbohydrate in the form of glycogen.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What defines a tissue?",
+    "choices": [
+      "A group of similar cells working together",
+      "A collection of different organs",
+      "A single cell",
+      "A type of organelle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tissues are groups of similar cells that work collectively to perform a specific function.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which level of biological organization is the largest?",
+    "choices": [
+      "Cells",
+      "Tissues",
+      "Organs",
+      "Organ systems"
+    ],
+    "correctIndex": 3,
+    "explanation": "Organ systems are the highest level of organization, comprising multiple organs working together.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organelle is primarily involved in synthesizing proteins that are not secreted?",
+    "choices": [
+      "Ribosome",
+      "Rough endoplasmic reticulum",
+      "Golgi apparatus",
+      "Smooth endoplasmic reticulum"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ribosomes (either free in the cytoplasm or attached to the RER) synthesize proteins; free ribosomes mainly make proteins for use within the cell.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which statement best describes the difference between plant and animal cells?",
+    "choices": [
+      "Both have chloroplasts, but only plants have cell walls",
+      "Animal cells have a nucleus, while plant cells do not",
+      "Plant cells have chloroplasts and a cell wall; animal cells do not",
+      "Animal cells contain starch, while plant cells store glycogen"
+    ],
+    "correctIndex": 2,
+    "explanation": "Plant cells possess chloroplasts and a cell wall; animal cells lack these structures.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Cells carry out all life processes. Which of the following is not a basic characteristic of living organisms?",
+    "choices": [
+      "Nutrition",
+      "Respiration",
+      "Crystallization",
+      "Reproduction"
+    ],
+    "correctIndex": 2,
+    "explanation": "Crystallization is not a characteristic of life; all living organisms require nutrition, respiration, and reproduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process in cells involves the passage of substances from high to low concentration without energy expenditure?",
+    "choices": [
+      "Active transport",
+      "Facilitated diffusion",
+      "Osmosis",
+      "Endocytosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Facilitated diffusion transports substances down their concentration gradient without using energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the function of the nucleus in a eukaryotic cell?",
+    "choices": [
+      "Protein synthesis",
+      "Energy production",
+      "Storing genetic information",
+      "Detoxification"
+    ],
+    "correctIndex": 2,
+    "explanation": "The nucleus stores the cell's DNA and regulates gene expression.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organelle is known for its role in ATP production?",
+    "choices": [
+      "Chloroplast",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mitochondria produce ATP through cellular respiration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a multicellular organism, cells that perform a specific function are said to be:",
+    "choices": [
+      "Undifferentiated",
+      "Specialized",
+      "Pluripotent",
+      "Stem cells"
+    ],
+    "correctIndex": 1,
+    "explanation": "Specialized cells are differentiated to perform specific functions within an organism.",
+    "difficulty": "easy"
   }
 ]
