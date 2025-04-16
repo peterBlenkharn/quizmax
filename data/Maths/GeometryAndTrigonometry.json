@@ -1,5 +1,329 @@
 [
   {
+    "question": "In triangle ABC, side AB = 10 cm, angle A = 45° and angle B = 60°. Find the length of side BC using the sine rule.",
+    "choices": ["7.3 cm", "8.0 cm", "7.7 cm", "8.3 cm"],
+    "correctIndex": 0,
+    "explanation": "Angle C = 180° - (45° + 60°) = 75°. By the sine rule, BC = AB × (sin 45° / sin 75°) ≈ 10 × (0.7071/0.9659) ≈ 7.3 cm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A chord in a circle of radius 12 cm subtends a central angle of 90°. Calculate the length of the chord.",
+    "choices": ["16.0 cm", "17.0 cm", "18.0 cm", "15.5 cm"],
+    "correctIndex": 1,
+    "explanation": "Chord length = 2r sin(θ/2) = 2×12×sin45° ≈ 24×0.7071 ≈ 17.0 cm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two similar triangles have areas in the ratio 9:16. If a side in the smaller triangle is 5 cm, what is the corresponding side in the larger triangle?",
+    "choices": ["6.25 cm", "6.67 cm", "7.2 cm", "8.0 cm"],
+    "correctIndex": 1,
+    "explanation": "The ratio of corresponding sides is the square root of the area ratio, i.e. √(9/16) = 3/4. Thus, the larger side = 5 × (4/3) ≈ 6.67 cm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A regular hexagon has an area of 54√3 cm². Find its side length (Area = (3√3/2) s²).",
+    "choices": ["5 cm", "6 cm", "7 cm", "8 cm"],
+    "correctIndex": 1,
+    "explanation": "Set (3√3/2) s² = 54√3. Dividing both sides by √3 gives (3/2) s² = 54, so s² = 54×(2/3)=36; thus s = 6 cm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A circle has an area of 154 cm² (use π = 22/7). What is its diameter?",
+    "choices": ["12 cm", "14 cm", "16 cm", "18 cm"],
+    "correctIndex": 1,
+    "explanation": "Area = (22/7) r² = 154 → r² = (154×7)/22 = 49, so r = 7 cm and diameter = 14 cm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In triangle ABC, with AB = 7 cm, AC = 9 cm, and angle A = 60°, calculate the area of the triangle.",
+    "choices": ["27.3 cm²", "28.0 cm²", "26.5 cm²", "30.0 cm²"],
+    "correctIndex": 0,
+    "explanation": "Area = ½ × AB × AC × sin A = ½×7×9×sin60° ≈ 31.5×0.866 ≈ 27.3 cm².",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two chords in a circle intersect. One chord is divided into segments of 3 cm and 4 cm. If one segment of the other chord is 2 cm long, find the length of its other segment.",
+    "choices": ["4 cm", "6 cm", "7 cm", "8 cm"],
+    "correctIndex": 1,
+    "explanation": "By the intersecting chords theorem: (3 × 4) = (2 × x), so x = 6 cm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Find the equation of the perpendicular bisector of the segment joining (2, 3) and (6, 7).",
+    "choices": ["y = -x + 9", "y = x + 1", "y = -x + 5", "y = x - 1"],
+    "correctIndex": 0,
+    "explanation": "Midpoint = ((2+6)/2, (3+7)/2) = (4, 5). Slope of segment = (7-3)/(6-2) = 1, so perpendicular slope = -1. Equation: y - 5 = -1(x - 4) → y = -x + 9.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The points (1, 2), (4, k), and (7, 8) are collinear. Find the value of k.",
+    "choices": ["3", "5", "7", "9"],
+    "correctIndex": 1,
+    "explanation": "Collinearity requires equal slopes. Slope from (1,2) to (7,8) = (8-2)/(7-1)=1. So (k - 2)/(4 - 1)=1, hence k = 5.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If two similar polygons have a scale factor of 1:3, what is the ratio of their areas?",
+    "choices": ["1:3", "1:6", "1:9", "1:12"],
+    "correctIndex": 2,
+    "explanation": "Area ratio equals the square of the side ratio: (1²):(3²)=1:9.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the sum of the interior angles of a triangle?",
+    "choices": ["90°", "180°", "270°", "360°"],
+    "correctIndex": 1,
+    "explanation": "The sum of the interior angles of a triangle is 180°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the measure of each interior angle in an equilateral triangle?",
+    "choices": ["30°", "45°", "60°", "90°"],
+    "correctIndex": 2,
+    "explanation": "All interior angles in an equilateral triangle measure 60°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "All radii in a circle have which property?",
+    "choices": ["They are equal", "They vary in length", "They are parallel", "They are perpendicular"],
+    "correctIndex": 0,
+    "explanation": "Every radius in a circle has the same length.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the formula for the area of a circle?",
+    "choices": ["πr", "πr²", "2πr", "πd"],
+    "correctIndex": 1,
+    "explanation": "The area of a circle is given by πr².",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the formula for the circumference of a circle?",
+    "choices": ["πr", "πr²", "2πr", "πd"],
+    "correctIndex": 2,
+    "explanation": "The circumference of a circle is 2πr.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which theorem relates the sides of a right-angled triangle?",
+    "choices": ["Pythagoras' theorem", "Sine rule", "Cosine rule", "Angle Bisector theorem"],
+    "correctIndex": 0,
+    "explanation": "Pythagoras' theorem states that in a right triangle, a²+b²=c².",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the measure of each exterior angle of a regular pentagon?",
+    "choices": ["60°", "72°", "90°", "108°"],
+    "correctIndex": 1,
+    "explanation": "Exterior angle = 360°/5 = 72°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A square has a side length of 4 cm. What is its area?",
+    "choices": ["8 cm²", "12 cm²", "16 cm²", "20 cm²"],
+    "correctIndex": 2,
+    "explanation": "Area = side² = 4² = 16 cm².",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the perimeter of a rectangle with length 10 cm and width 5 cm?",
+    "choices": ["15 cm", "20 cm", "30 cm", "50 cm"],
+    "correctIndex": 2,
+    "explanation": "Perimeter = 2 × (length + width) = 2 × (10 + 5) = 30 cm.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many sides does a decagon have?",
+    "choices": ["8", "9", "10", "11"],
+    "correctIndex": 2,
+    "explanation": "A decagon has 10 sides.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the area of a triangle with base 6 cm and height 4 cm?",
+    "choices": ["12 cm²", "14 cm²", "18 cm²", "24 cm²"],
+    "correctIndex": 0,
+    "explanation": "Area = ½ × base × height = ½ × 6 × 4 = 12 cm².",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which polygon has all sides and all angles equal?",
+    "choices": ["Rectangle", "Parallelogram", "Square", "Trapezium"],
+    "correctIndex": 2,
+    "explanation": "A square has all sides equal and all angles 90°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "An angle inscribed in a semicircle is always:",
+    "choices": ["45°", "60°", "90°", "180°"],
+    "correctIndex": 2,
+    "explanation": "An inscribed angle in a semicircle is a right angle (90°).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which triangle has one angle exactly 90°?",
+    "choices": ["Acute triangle", "Right triangle", "Obtuse triangle", "Equilateral triangle"],
+    "correctIndex": 1,
+    "explanation": "A triangle with a 90° angle is a right triangle.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the measure of each interior angle of a regular hexagon?",
+    "choices": ["90°", "100°", "120°", "140°"],
+    "correctIndex": 2,
+    "explanation": "Interior angle of a regular hexagon = ((6-2)×180)/6 = 120°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a parallelogram, the opposite sides are:",
+    "choices": ["Parallel and equal", "Equal but not parallel", "Perpendicular and equal", "Neither equal nor parallel"],
+    "correctIndex": 0,
+    "explanation": "Opposite sides in a parallelogram are both parallel and equal in length.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the sum of the interior angles of a quadrilateral?",
+    "choices": ["180°", "360°", "540°", "720°"],
+    "correctIndex": 1,
+    "explanation": "The sum of the interior angles of a quadrilateral is 360°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A circle is divided into 8 equal sectors. What is the measure of the central angle of each sector?",
+    "choices": ["30°", "45°", "60°", "90°"],
+    "correctIndex": 1,
+    "explanation": "Central angle = 360°/8 = 45°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A radius drawn to the point of tangency is always:",
+    "choices": ["Parallel to the tangent", "Perpendicular to the tangent", "At 45° to the tangent", "Equal to the tangent"],
+    "correctIndex": 1,
+    "explanation": "A radius to a tangent is perpendicular to the tangent.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the measure of each exterior angle of a regular octagon?",
+    "choices": ["30°", "45°", "60°", "90°"],
+    "correctIndex": 1,
+    "explanation": "Exterior angle = 360°/8 = 45°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes a line that touches a circle at exactly one point?",
+    "choices": ["Secant", "Chord", "Tangent", "Radius"],
+    "correctIndex": 2,
+    "explanation": "A tangent is a line that touches a circle at one point only.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If two parallel lines are cut by a transversal, the corresponding angles are:",
+    "choices": ["Equal", "Supplementary", "Complementary", "Unequal"],
+    "correctIndex": 0,
+    "explanation": "Corresponding angles formed by a transversal with parallel lines are equal.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the name of a five-sided polygon?",
+    "choices": ["Triangle", "Quadrilateral", "Pentagon", "Hexagon"],
+    "correctIndex": 2,
+    "explanation": "A polygon with five sides is a pentagon.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a right triangle, if one acute angle is 35°, what is the measure of the other acute angle?",
+    "choices": ["35°", "45°", "55°", "65°"],
+    "correctIndex": 2,
+    "explanation": "The two acute angles sum to 90°, so the other angle is 90° - 35° = 55°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the formula for the area of a trapezium?",
+    "choices": ["(a+b)/2 × h", "a×b×h", "½(a+b)×h", "a+b×h"],
+    "correctIndex": 2,
+    "explanation": "Area of a trapezium = ½ × (sum of parallel sides) × height.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If two angles of a triangle are 30° and 70°, what is the third angle?",
+    "choices": ["80°", "90°", "100°", "110°"],
+    "correctIndex": 0,
+    "explanation": "Sum of angles = 180°; third angle = 180 - 30 - 70 = 80°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What are complementary angles?",
+    "choices": ["Angles that sum to 90°", "Angles that sum to 180°", "Angles that are equal", "Angles that are supplementary"],
+    "correctIndex": 0,
+    "explanation": "Complementary angles are two angles whose sum is 90°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What are supplementary angles?",
+    "choices": ["Angles that sum to 90°", "Angles that sum to 180°", "Angles that are equal", "Angles that sum to 360°"],
+    "correctIndex": 1,
+    "explanation": "Supplementary angles are two angles whose sum is 180°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In an isosceles triangle, which sides are equal?",
+    "choices": ["Base angles", "Legs", "Base", "None of these"],
+    "correctIndex": 1,
+    "explanation": "In an isosceles triangle, the two legs (non‑base sides) are equal.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the distance formula for two points (x₁, y₁) and (x₂, y₂) in the coordinate plane?",
+    "choices": ["|x₂ - x₁| + |y₂ - y₁|", "√[(x₂ - x₁)² + (y₂ - y₁)²]", "(x₂ - x₁)² + (y₂ - y₁)²", "√(x₂ - x₁) + √(y₂ - y₁)"],
+    "correctIndex": 1,
+    "explanation": "The distance between two points is given by √[(x₂ - x₁)² + (y₂ - y₁)²].",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for a quadrilateral with at least one pair of parallel sides?",
+    "choices": ["Square", "Rectangle", "Trapezium", "Rhombus"],
+    "correctIndex": 2,
+    "explanation": "A trapezium is defined as a quadrilateral with at least one pair of parallel sides.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the equation of a circle with center (0,0) and radius 5?",
+    "choices": ["x² + y² = 5", "x² + y² = 25", "x² + y² = 10", "x² + y² = 50"],
+    "correctIndex": 1,
+    "explanation": "The equation of a circle centered at (0,0) with radius r is x² + y² = r²; thus, x² + y² = 25.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which theorem states that the angle in a semicircle is a right angle?",
+    "choices": ["Pythagoras’ theorem", "Thales’ theorem", "Angle Bisector theorem", "Inscribed Angle theorem"],
+    "correctIndex": 1,
+    "explanation": "Thales’ theorem states that an angle inscribed in a semicircle is 90°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is true for the diagonals of a rectangle?",
+    "choices": ["They are equal in length", "They are perpendicular", "They bisect one another and are unequal", "They are parallel"],
+    "correctIndex": 0,
+    "explanation": "In a rectangle, the diagonals are equal in length and bisect each other.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the sum of the exterior angles of any polygon?",
+    "choices": ["180°", "270°", "360°", "400°"],
+    "correctIndex": 2,
+    "explanation": "The sum of the exterior angles of any polygon is always 360°.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which theorem is used to relate the sides of a right triangle?",
+    "choices": ["Pythagoras' theorem", "Sine rule", "Cosine rule", "Tangent rule"],
+    "correctIndex": 0,
+    "explanation": "Pythagoras' theorem relates the squares of the sides in a right triangle.",
+    "difficulty": "easy"
+  }
+]
+[
+  {
     "question": "Find the 10th term of an arithmetic sequence with first term 5 and common difference 3.",
     "choices": ["32", "35", "38", "41"],
     "correctIndex": 0,
