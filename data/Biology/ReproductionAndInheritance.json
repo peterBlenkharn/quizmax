@@ -1,8 +1,722 @@
 [
   {
-    "question": "Which process creates genetic diversity?",
-    "choices": ["Mitosis", "Meiosis", "Binary fission", "Budding"],
+    "question": "Which process during meiosis is primarily responsible for increasing genetic variation in gametes?",
+    "choices": [
+      "Binary fission",
+      "Mitosis",
+      "Crossing over during prophase I",
+      "Fusion of gametes"
+    ],
+    "correctIndex": 2,
+    "explanation": "Crossing over during prophase I of meiosis shuffles genetic material between homologous chromosomes, increasing variation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a cross between a heterozygous dominant (Aa) individual and a homozygous recessive (aa) individual, what is the expected genotypic ratio of the offspring?",
+    "choices": [
+      "1:1",
+      "3:1",
+      "1:2",
+      "2:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "A heterozygote (Aa) crossed with a homozygous recessive (aa) yields 50% heterozygous (Aa) and 50% homozygous recessive (aa), a 1:1 ratio.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which form of cell division produces gametes with half the number of chromosomes?",
+    "choices": [
+      "Mitosis",
+      "Meiosis",
+      "Binary fission",
+      "Budding"
+    ],
     "correctIndex": 1,
-    "explanation": "Meiosis creates genetic diversity."
+    "explanation": "Meiosis is the type of cell division that produces haploid gametes for sexual reproduction.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a monohybrid cross between two heterozygotes, what is the typical phenotypic ratio for a trait showing complete dominance?",
+    "choices": [
+      "1:1",
+      "3:1",
+      "2:1",
+      "1:2"
+    ],
+    "correctIndex": 1,
+    "explanation": "A monohybrid cross (Aa x Aa) for a trait with complete dominance yields a 3:1 phenotypic ratio (three showing the dominant trait for every one showing the recessive trait).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "During a dihybrid cross of two heterozygous individuals, what is the expected phenotypic ratio for two independently assorting traits with complete dominance?",
+    "choices": [
+      "9:3:3:1",
+      "3:1",
+      "1:1:1:1",
+      "2:1:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "A dihybrid cross (AaBb x AaBb) typically produces a 9:3:3:1 ratio of phenotypes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which term describes reproduction that does not involve the fusion of gametes?",
+    "choices": [
+      "Sexual reproduction",
+      "Asexual reproduction",
+      "Biparental reproduction",
+      "Meiotic reproduction"
+    ],
+    "correctIndex": 1,
+    "explanation": "Asexual reproduction involves only one parent and does not require the fusion of gametes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In genetics, the term 'genotype' refers to:",
+    "choices": [
+      "An organism's observable traits",
+      "The environment affecting an organism",
+      "The genetic constitution of an organism",
+      "The method of reproduction"
+    ],
+    "correctIndex": 2,
+    "explanation": "Genotype is the genetic makeup of an organism, which determines its inherited characteristics.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which term best describes the inheritance of traits controlled by more than one gene?",
+    "choices": [
+      "Simple Mendelian inheritance",
+      "Polygenic inheritance",
+      "Incomplete dominance",
+      "Codominance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Polygenic inheritance involves several genes contributing to a single phenotype, resulting in continuous variation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In X‑linked recessive inheritance, what proportion of the sons of a carrier female are expected to be affected?",
+    "choices": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sons inherit their X‑chromosome from their mother, so approximately 50% of the sons will receive the defective gene if the mother is heterozygous.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In codominance, how are the alleles expressed in the phenotype?",
+    "choices": [
+      "One allele completely masks the other",
+      "Both alleles are expressed equally",
+      "The phenotype is a blend of both alleles",
+      "Only the recessive allele is expressed"
+    ],
+    "correctIndex": 1,
+    "explanation": "In codominance, both alleles are fully and equally expressed in the phenotype.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What type of reproduction involves the fusion of male and female gametes?",
+    "choices": [
+      "Asexual reproduction",
+      "Sexual reproduction",
+      "Binary fission",
+      "Budding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sexual reproduction involves the fusion of gametes from two parents.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process produces gametes with half the normal chromosome number?",
+    "choices": [
+      "Mitosis",
+      "Meiosis",
+      "Fission",
+      "Budding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Meiosis produces haploid gametes used in sexual reproduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The observable traits of an organism are known as its:",
+    "choices": [
+      "Genotype",
+      "Phenotype",
+      "Allele",
+      "Chromosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phenotype refers to the observable physical and physiological traits of an organism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a Punnett square used for?",
+    "choices": [
+      "Calculating energy in cells",
+      "Predicting the outcome of genetic crosses",
+      "Measuring cell size",
+      "Determining cell structure"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Punnett square is a diagram used to predict the genotype and phenotype probabilities in a genetic cross.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In humans, the fusion of a sperm and an egg results in the formation of a:",
+    "choices": [
+      "Zygote",
+      "Blastula",
+      "Embryo",
+      "Fetus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fertilization forms a zygote, the single cell that will develop into an embryo.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many chromosomes are present in a typical human somatic cell?",
+    "choices": [
+      "23",
+      "46",
+      "69",
+      "92"
+    ],
+    "correctIndex": 1,
+    "explanation": "Human somatic cells are diploid and contain 46 chromosomes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "An organism that produces genetically identical offspring is said to reproduce via:",
+    "choices": [
+      "Sexual reproduction",
+      "Asexual reproduction",
+      "Biparental reproduction",
+      "Meiosis"
+    ],
+    "correctIndex": 1,
+    "explanation": "Asexual reproduction produces offspring that are genetically identical to the parent.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a Punnett square predict?",
+    "choices": [
+      "The physical appearance of an organism",
+      "The ratios of genotypes and phenotypes in offspring",
+      "The rate of cellular respiration",
+      "The energy released during a reaction"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Punnett square is used to predict the likely genotype and phenotype ratios among offspring from a genetic cross.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term refers to the genetic composition of an organism?",
+    "choices": [
+      "Phenotype",
+      "Genotype",
+      "Allele",
+      "Chromatin"
+    ],
+    "correctIndex": 1,
+    "explanation": "Genotype is the genetic makeup that is passed from parents to offspring.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A 3:1 phenotypic ratio in a monohybrid cross indicates what inheritance pattern?",
+    "choices": [
+      "Incomplete dominance",
+      "Codominance",
+      "Simple dominant-recessive inheritance",
+      "Polygenic inheritance"
+    ],
+    "correctIndex": 2,
+    "explanation": "A 3:1 ratio is typical of simple Mendelian dominant-recessive inheritance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a heterozygous genotype contain?",
+    "choices": [
+      "Two identical alleles",
+      "Two different alleles",
+      "Only recessive alleles",
+      "Only dominant alleles"
+    ],
+    "correctIndex": 1,
+    "explanation": "A heterozygous genotype has two different alleles for a particular gene.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a dihybrid cross, which ratio is typically predicted for phenotypes under independent assortment?",
+    "choices": [
+      "9:3:3:1",
+      "3:1",
+      "2:2:1:1",
+      "1:1:1:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "A dihybrid cross of two heterozygotes typically yields a phenotypic ratio of 9:3:3:1.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of inheritance is shown when neither allele is completely dominant?",
+    "choices": [
+      "Incomplete dominance",
+      "Codominance",
+      "Simple dominance",
+      "Polygenic inheritance"
+    ],
+    "correctIndex": 0,
+    "explanation": "Incomplete dominance results in a blending phenotype when heterozygous, as neither allele is completely dominant.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In codominant inheritance, the heterozygous phenotype is:",
+    "choices": [
+      "A blend of the two homozygous phenotypes",
+      "Identical to one of the homozygous phenotypes",
+      "A combination where both alleles are fully expressed",
+      "Randomly determined"
+    ],
+    "correctIndex": 2,
+    "explanation": "In codominance, both alleles are expressed equally, resulting in a phenotype that shows both traits distinctly.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ratio best represents the genotypic outcome of a monohybrid cross between two heterozygotes?",
+    "choices": [
+      "1:2:1",
+      "3:1",
+      "2:1",
+      "1:1"
+    ],
+    "correctIndex": 0,
+    "explanation": "A monohybrid cross (Aa x Aa) gives a genotypic ratio of 1 (AA) : 2 (Aa) : 1 (aa).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process is responsible for reducing the chromosome number by half in gametes?",
+    "choices": [
+      "Mitosis",
+      "Meiosis",
+      "Fusion",
+      "Fission"
+    ],
+    "correctIndex": 1,
+    "explanation": "Meiosis reduces the chromosome number by half, producing haploid gametes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "During fertilization, what is formed by the union of the male and female gametes?",
+    "choices": [
+      "Embryo",
+      "Zygote",
+      "Blastula",
+      "Fetus"
+    ],
+    "correctIndex": 1,
+    "explanation": "The union of a sperm and an egg forms a zygote, the first cell of a new organism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which structure in the reproductive system produces sperm in males?",
+    "choices": [
+      "Ovary",
+      "Testis",
+      "Uterus",
+      "Fallopian tube"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sperm is produced in the testes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which structure in the reproductive system produces eggs in females?",
+    "choices": [
+      "Testis",
+      "Ovary",
+      "Uterus",
+      "Cervix"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eggs (ova) are produced in the ovaries.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main purpose of sexual reproduction?",
+    "choices": [
+      "To produce clones",
+      "To generate genetic variation",
+      "To conserve energy",
+      "To create identical offspring"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sexual reproduction mixes genetic material from two parents, leading to genetic variation among offspring.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which tool is commonly used by geneticists to predict inheritance patterns?",
+    "choices": [
+      "Microscope",
+      "Punnett square",
+      "Calculator",
+      "Thermometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Punnett square is used to predict the outcomes of genetic crosses.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a homozygous genotype mean?",
+    "choices": [
+      "Two identical alleles",
+      "Two different alleles",
+      "One dominant and one recessive allele",
+      "No alleles"
+    ],
+    "correctIndex": 0,
+    "explanation": "A homozygous genotype contains two identical alleles for a given gene.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which statement best defines inheritance?",
+    "choices": [
+      "The process by which traits are passed from parents to offspring",
+      "The blending of parental traits",
+      "A temporary change in phenotype",
+      "The adaptation of an organism"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inheritance is the mechanism by which genetic traits are transmitted from parents to their offspring.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The observable physical traits of an organism are collectively known as its:",
+    "choices": [
+      "Genotype",
+      "Phenotype",
+      "Karyotype",
+      "Allele"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phenotype is the collection of an organism's observable characteristics.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which inheritance pattern is displayed when a heterozygous individual exhibits a phenotype that is intermediate between the two homozygotes?",
+    "choices": [
+      "Complete dominance",
+      "Incomplete dominance",
+      "Codominance",
+      "X-linked inheritance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Incomplete dominance results in an intermediate phenotype when the heterozygote does not completely resemble either homozygote.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a cross between a homozygous dominant and a homozygous recessive individual, all offspring will be:",
+    "choices": [
+      "Heterozygous",
+      "Homozygous dominant",
+      "Homozygous recessive",
+      "A mix of dominant and recessive"
+    ],
+    "correctIndex": 0,
+    "explanation": "Crossing a homozygous dominant with a homozygous recessive individual results in all heterozygous offspring.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes the total set of genetic information in an organism?",
+    "choices": [
+      "Genome",
+      "Chromosome",
+      "Gene pool",
+      "Karyotype"
+    ],
+    "correctIndex": 0,
+    "explanation": "The genome is the complete set of genetic material in an organism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the function of meiosis in sexual reproduction?",
+    "choices": [
+      "To produce genetically identical cells",
+      "To reduce the chromosome number by half",
+      "To increase cell size",
+      "To eliminate mutations"
+    ],
+    "correctIndex": 1,
+    "explanation": "Meiosis reduces the chromosome number by half, ensuring that the offspring have the correct number of chromosomes when gametes fuse.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ratio is expected from a monohybrid cross between two heterozygotes?",
+    "choices": [
+      "1:2:1 (genotypic)",
+      "3:1 (phenotypic)",
+      "Both A and B",
+      "Neither"
+    ],
+    "correctIndex": 2,
+    "explanation": "A cross between two heterozygotes (Aa x Aa) yields a 1:2:1 genotypic ratio and a 3:1 phenotypic ratio (if one allele is completely dominant), so both ratios are observed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which structure carries genetic information from one generation to the next?",
+    "choices": [
+      "Nucleus",
+      "Mitochondrion",
+      "Ribosome",
+      "Cell membrane"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nucleus, which houses DNA, is the structure that carries genetic information.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is NOT a method of asexual reproduction?",
+    "choices": [
+      "Binary fission",
+      "Budding",
+      "Fragmentation",
+      "Fertilization"
+    ],
+    "correctIndex": 3,
+    "explanation": "Fertilization involves the fusion of gametes, and is a process of sexual reproduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term refers to the physical expression of an organism's genetic makeup?",
+    "choices": [
+      "Genotype",
+      "Phenotype",
+      "Karyotype",
+      "Chromosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "Phenotype is the observable manifestation of an organism’s genetic makeup.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process results in the formation of a zygote?",
+    "choices": [
+      "Fertilization",
+      "Mitosis",
+      "Meiosis",
+      "Binary fission"
+    ],
+    "correctIndex": 0,
+    "explanation": "Fertilization is the fusion of sperm and egg to form a zygote.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes a Punnett square?",
+    "choices": [
+      "A tool to calculate energy changes",
+      "A diagram to predict genetic outcomes",
+      "A method for measuring cell size",
+      "A chart for planetary motion"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Punnett square is a grid used to predict the genotypic and phenotypic outcomes of genetic crosses.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following represents a heterozygous genotype?",
+    "choices": [
+      "AA",
+      "aa",
+      "Aa",
+      "A-a"
+    ],
+    "correctIndex": 2,
+    "explanation": "The genotype 'Aa' is heterozygous, containing two different alleles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In genetics, what does the term 'allele' mean?",
+    "choices": [
+      "A variant form of a gene",
+      "A complete set of chromosomes",
+      "A type of cell",
+      "A genetic disease"
+    ],
+    "correctIndex": 0,
+    "explanation": "An allele is an alternative form of a gene that may result in different traits.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the outcome of a cross between a homozygous dominant and a homozygous recessive individual?",
+    "choices": [
+      "All offspring are heterozygous",
+      "All offspring are homozygous dominant",
+      "All offspring are homozygous recessive",
+      "Offspring vary between dominant and recessive"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cross yields 100% heterozygous offspring because each receives one dominant and one recessive allele.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes the inherited characteristics of an organism?",
+    "choices": [
+      "Phenotype",
+      "Genotype",
+      "Karyotype",
+      "Morphotype"
+    ],
+    "correctIndex": 1,
+    "explanation": "Genotype refers to the full set of genetic material that an organism inherits from its parents.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process increases genetic diversity in sexually reproducing populations?",
+    "choices": [
+      "Cloning",
+      "Crossing over",
+      "Binary fission",
+      "Budding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Crossing over during meiosis shuffles genetic material, leading to increased genetic diversity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which concept explains the predictable ratios of traits in Mendelian inheritance?",
+    "choices": [
+      "Law of segregation",
+      "Law of evolution",
+      "Law of conservation",
+      "Law of adaptation"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Law of Segregation states that allele pairs segregate equally into gametes, leading to predictable ratios.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a trait is controlled by a single gene with a dominant and a recessive allele, which term describes an organism with two different alleles?",
+    "choices": [
+      "Homozygous",
+      "Heterozygous",
+      "Co-dominant",
+      "Polygenic"
+    ],
+    "correctIndex": 1,
+    "explanation": "An organism with two different alleles for a trait is heterozygous.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'genetic variation' refer to?",
+    "choices": [
+      "Differences in environmental factors",
+      "Differences in the DNA sequences among individuals",
+      "The process of cell division",
+      "Uniformity within a species"
+    ],
+    "correctIndex": 1,
+    "explanation": "Genetic variation refers to the differences in DNA among individuals within a population.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which tool is often used to visually represent the outcomes of genetic crosses?",
+    "choices": [
+      "Bar graph",
+      "Punnett square",
+      "Line graph",
+      "Scatter plot"
+    ],
+    "correctIndex": 1,
+    "explanation": "A Punnett square is a common tool for predicting and visually representing genetic cross outcomes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a monohybrid cross (Aa x Aa), what percentage of the offspring are expected to be homozygous recessive?",
+    "choices": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correctIndex": 0,
+    "explanation": "In the cross Aa x Aa, 25% of the offspring are homozygous recessive (aa).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following statements is true regarding asexual reproduction?",
+    "choices": [
+      "It always increases genetic diversity",
+      "It produces offspring genetically identical to the parent",
+      "It requires the fusion of gametes",
+      "It occurs only in animals"
+    ],
+    "correctIndex": 1,
+    "explanation": "Asexual reproduction produces genetically identical offspring since there is no mixing of genetic material from two individuals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term refers to the physical appearance or traits of an organism?",
+    "choices": [
+      "Genotype",
+      "Phenotype",
+      "Allele",
+      "Chromosome"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phenotype is the observable set of characteristics of an organism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ratio is typically observed as the phenotypic ratio in a monohybrid cross with complete dominance?",
+    "choices": [
+      "1:1",
+      "3:1",
+      "1:2:1",
+      "2:1"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 3:1 phenotypic ratio is observed when one allele completely dominates the other in a heterozygous cross.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process is unique to sexual reproduction and contributes to genetic diversity?",
+    "choices": [
+      "Mitosis",
+      "Meiosis",
+      "Budding",
+      "Cloning"
+    ],
+    "correctIndex": 1,
+    "explanation": "Meiosis involves processes (like crossing over and independent assortment) that create genetic diversity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between homozygous and heterozygous individuals?",
+    "choices": [
+      "Homozygous individuals have identical alleles; heterozygous have different alleles",
+      "Homozygous individuals are always dominant; heterozygous are always recessive",
+      "There is no difference",
+      "Heterozygous individuals produce identical offspring"
+    ],
+    "correctIndex": 0,
+    "explanation": "Homozygous individuals have two identical alleles, whereas heterozygous individuals have two different alleles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which cell division mechanism is involved in growth and repair in multicellular organisms?",
+    "choices": [
+      "Meiosis",
+      "Mitosis",
+      "Binary fission",
+      "Budding"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mitosis is responsible for somatic cell division, leading to growth and repair.",
+    "difficulty": "easy"
   }
 ]
