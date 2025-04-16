@@ -1,8 +1,368 @@
 [
   {
-    "question": "What is an atom?",
-    "choices": ["A small molecule", "The basic unit of matter", "A chemical reaction", "A compound"],
+    "question": "Calculate the relative atomic mass of an element that has two isotopes: one with a mass of 10 u at 20% abundance and another with a mass of 11 u at 80% abundance.",
+    "choices": ["10.8", "10.7", "10.9", "11.0"],
+    "correctIndex": 0,
+    "explanation": "Average mass = 0.2×10 + 0.8×11 = 2 + 8.8 = 10.8 u.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A compound has an empirical formula CH2 and a molar mass of 56 g/mol. What is its molecular formula?",
+    "choices": ["C4H8", "C3H6", "C2H4", "C5H10"],
+    "correctIndex": 0,
+    "explanation": "Empirical unit CH2 has molar mass of 14 g/mol. Factor = 56/14 = 4, so the molecular formula is C4H8.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following methods would best separate a mixture of sand and salt?",
+    "choices": ["Filtration", "Magnetic separation", "Decantation followed by evaporation", "Centrifugation"],
+    "correctIndex": 2,
+    "explanation": "Dissolve the salt in water, decant/filter the sand, then evaporate the water to retrieve salt.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Given the balanced equation 2H2 + O2 → 2H2O, calculate the mass of water produced from 4.0 g of hydrogen gas (H2). (Molar mass H2 = 2 g/mol, H2O = 18 g/mol)",
+    "choices": ["36 g", "18 g", "72 g", "9 g"],
+    "correctIndex": 0,
+    "explanation": "Moles of H2 = 4.0/2 = 2 mol. From stoichiometry, 2 mol H2 yield 2 mol H2O; mass = 2×18 = 36 g.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A reaction theoretically produces 8.0 g of product but only 6.0 g is obtained experimentally. What is the percentage yield?",
+    "choices": ["75%", "80%", "85%", "90%"],
+    "correctIndex": 0,
+    "explanation": "Percentage yield = (6.0/8.0) × 100 = 75%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An ionic compound has the formula MX2 and a formula mass of 120 g/mol. If the atomic mass of M is 40 g/mol, what is the atomic mass of X?",
+    "choices": ["40 g/mol", "30 g/mol", "20 g/mol", "50 g/mol"],
+    "correctIndex": 0,
+    "explanation": "Formula mass = M + 2X; 40 + 2X = 120, so 2X = 80 and X = 40 g/mol.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A pure substance has a sharp melting point of 80°C. A mixture melts over a range of 75–85°C. What does this indicate?",
+    "choices": ["It is pure", "It is impure", "It has a high boiling point", "It is an element"],
     "correctIndex": 1,
-    "explanation": "An atom is the basic unit of matter."
+    "explanation": "A melting range rather than a sharp point indicates the sample is impure.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "An element in Group 1 of the periodic table loses one electron to form an ion. What is the charge of this ion?",
+    "choices": ["+1", "-1", "+2", "0"],
+    "correctIndex": 0,
+    "explanation": "Group 1 elements form ions by losing one electron, resulting in a +1 charge.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the formula for aluminum oxide?",
+    "choices": ["Al2O3", "AlO", "AlO3", "Al2O"],
+    "correctIndex": 0,
+    "explanation": "Aluminum oxide is composed of two aluminum atoms and three oxygen atoms: Al2O3.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A combustion analysis of a hydrocarbon sample yields 3.00 g of CO2 and 1.20 g of H2O from a 1.50 g sample. What is the empirical formula of the hydrocarbon?",
+    "choices": ["CH2", "C2H4", "CH4", "C2H6"],
+    "correctIndex": 0,
+    "explanation": "Moles of C from CO2 = 3.00 g/44 g/mol ≈ 0.0682; moles of H from H2O = (1.20 g/18 g/mol)×2 ≈ 0.1333; ratio C:H ≈ 0.0682:0.1333 ≈ 1:1.96 ≈ CH2.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which state of matter has a fixed shape and a fixed volume?",
+    "choices": ["Solid", "Liquid", "Gas", "Plasma"],
+    "correctIndex": 0,
+    "explanation": "Solids have both a fixed shape and fixed volume due to the close packing of their particles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter has a fixed volume but takes the shape of its container?",
+    "choices": ["Solid", "Liquid", "Gas", "Plasma"],
+    "correctIndex": 1,
+    "explanation": "Liquids have a fixed volume but adopt the shape of their container.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter has neither a fixed shape nor a fixed volume?",
+    "choices": ["Solid", "Liquid", "Gas", "Colloid"],
+    "correctIndex": 2,
+    "explanation": "Gases have neither fixed shape nor fixed volume because their particles are widely separated.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process in which a solid turns into a liquid called?",
+    "choices": ["Condensation", "Melting", "Sublimation", "Evaporation"],
+    "correctIndex": 1,
+    "explanation": "Melting is the process in which a solid becomes a liquid upon heating.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is boiling?",
+    "choices": ["Liquid to gas", "Solid to liquid", "Gas to liquid", "Solid to gas"],
+    "correctIndex": 0,
+    "explanation": "Boiling is the process of a liquid changing into a gas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is condensation?",
+    "choices": ["Gas to liquid", "Liquid to solid", "Solid to gas", "Liquid to plasma"],
+    "correctIndex": 0,
+    "explanation": "Condensation is the change of state from gas to liquid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is freezing?",
+    "choices": ["Liquid to solid", "Solid to liquid", "Gas to liquid", "Sublimation"],
+    "correctIndex": 0,
+    "explanation": "Freezing is the process in which a liquid turns into a solid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is sublimation?",
+    "choices": ["Solid to gas", "Liquid to gas", "Gas to solid", "Solid to liquid"],
+    "correctIndex": 0,
+    "explanation": "Sublimation is the direct transition from a solid state to a gas state without passing through a liquid phase.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How is an element defined?",
+    "choices": [
+      "A pure substance consisting of two or more compounds",
+      "A mixture of different substances",
+      "A pure substance made up of only one type of atom",
+      "A substance that can be broken down into simpler substances"
+    ],
+    "correctIndex": 2,
+    "explanation": "An element is a pure substance consisting of one type of atom.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a compound?",
+    "choices": [
+      "A substance composed of elements chemically combined in a fixed ratio",
+      "A physical mixture of elements",
+      "A solution with varying composition",
+      "A mixture that can be separated by physical means"
+    ],
+    "correctIndex": 0,
+    "explanation": "A compound is a substance formed when two or more elements chemically combine in a fixed ratio.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a mixture?",
+    "choices": [
+      "A chemical combination of elements",
+      "A pure substance",
+      "A physical combination of two or more substances that can be separated by physical means",
+      "A compound with a fixed composition"
+    ],
+    "correctIndex": 2,
+    "explanation": "A mixture is a physical blend of two or more substances that are not chemically bonded.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the atomic number of an element represent?",
+    "choices": [
+      "The number of neutrons in the nucleus",
+      "The number of electrons in a neutral atom",
+      "The number of protons in the nucleus",
+      "The sum of protons and neutrons"
+    ],
+    "correctIndex": 2,
+    "explanation": "Atomic number is defined as the number of protons in an atom’s nucleus.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the mass number of an atom?",
+    "choices": [
+      "The number of electrons",
+      "The number of protons",
+      "The sum of protons and neutrons",
+      "The atomic number multiplied by two"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mass number is the total number of protons and neutrons in the nucleus.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is an isotope?",
+    "choices": [
+      "Atoms of different elements with the same mass number",
+      "Atoms of the same element with different numbers of neutrons",
+      "Ions of an element with different charges",
+      "Molecules with different molecular weights"
+    ],
+    "correctIndex": 1,
+    "explanation": "Isotopes are atoms of the same element that have different numbers of neutrons.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How are elements arranged in the Periodic Table?",
+    "choices": [
+      "By increasing atomic mass",
+      "By increasing atomic number",
+      "By chemical reactivity",
+      "Randomly"
+    ],
+    "correctIndex": 1,
+    "explanation": "Elements are arranged in order of increasing atomic number.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In which group of the Periodic Table are the noble gases found?",
+    "choices": [
+      "Group 1",
+      "Group 2",
+      "Group 0",
+      "Group 17"
+    ],
+    "correctIndex": 2,
+    "explanation": "Noble gases are located in Group 0 of the Periodic Table.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a chemical formula represent?",
+    "choices": [
+      "The types and numbers of atoms in a compound",
+      "The mass of each element in a compound",
+      "The physical state of the compound",
+      "The method used to synthesize the compound"
+    ],
+    "correctIndex": 0,
+    "explanation": "A chemical formula shows the types and numbers of atoms present in a compound.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the mole (mol)?",
+    "choices": [
+      "A unit of mass",
+      "A unit of volume",
+      "A unit for the amount of a substance",
+      "A unit of energy"
+    ],
+    "correctIndex": 2,
+    "explanation": "A mole is the SI unit used to measure the amount of substance, equal to 6.02×10²³ particles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Avogadro's number?",
+    "choices": [
+      "6.02×10²³",
+      "3.00×10⁸",
+      "1.00×10⁶",
+      "9.81"
+    ],
+    "correctIndex": 0,
+    "explanation": "Avogadro's number, 6.02×10²³, is the number of particles in one mole of substance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a balanced chemical equation ensure?",
+    "choices": [
+      "Equal mass on both sides",
+      "Equal numbers of molecules on both sides",
+      "Conservation of energy only",
+      "That the reaction will go to completion"
+    ],
+    "correctIndex": 0,
+    "explanation": "A balanced chemical equation shows that mass (and number of atoms for each element) is conserved in a reaction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the empirical formula of a compound?",
+    "choices": [
+      "The simplest whole-number ratio of atoms in a compound",
+      "The actual number of atoms in one molecule",
+      "The formula representing the compound's mass",
+      "The chemical formula used in textbooks"
+    ],
+    "correctIndex": 0,
+    "explanation": "The empirical formula is the simplest whole-number ratio of the elements in a compound.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the difference between an empirical formula and a molecular formula?",
+    "choices": [
+      "The empirical formula shows the simplest ratio, while the molecular formula shows the actual number of atoms in a molecule",
+      "They are identical",
+      "The molecular formula is always half the empirical formula",
+      "The empirical formula includes water of crystallization"
+    ],
+    "correctIndex": 0,
+    "explanation": "An empirical formula represents the simplest ratio, while the molecular formula indicates the actual number of atoms in a molecule.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How is percentage yield calculated in a chemical reaction?",
+    "choices": [
+      "(Theoretical yield / Actual yield) × 100",
+      "(Actual yield / Theoretical yield) × 100",
+      "(Actual yield − Theoretical yield) × 100",
+      "(Actual yield / Reactant mass) × 100"
+    ],
+    "correctIndex": 1,
+    "explanation": "Percentage yield is calculated as (Actual yield / Theoretical yield) × 100.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is an ionic bond?",
+    "choices": [
+      "A bond formed by the sharing of electrons",
+      "A bond formed by the transfer of electrons",
+      "A bond formed by hydrogen bonds",
+      "A bond formed by the overlap of atomic orbitals"
+    ],
+    "correctIndex": 1,
+    "explanation": "An ionic bond is formed when electrons are transferred from one atom to another, forming oppositely charged ions that attract each other.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a covalent bond?",
+    "choices": [
+      "A bond formed by the transfer of electrons",
+      "A bond formed by the sharing of electrons",
+      "A bond formed by ionic attraction",
+      "A bond due to metallic bonding"
+    ],
+    "correctIndex": 1,
+    "explanation": "A covalent bond is formed when two atoms share one or more pairs of electrons.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which separation technique is used to separate liquids with different boiling points?",
+    "choices": [
+      "Filtration",
+      "Chromatography",
+      "Distillation",
+      "Decantation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Distillation separates liquids based on differences in their boiling points.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is paper chromatography used for?",
+    "choices": [
+      "Separating mixtures based on solubility",
+      "Separating the components of a mixture by their differing affinities for a stationary phase and solvent",
+      "Measuring the boiling points of liquids",
+      "Determining the melting point of compounds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Paper chromatography separates substances based on differences in their solubility and movement on paper.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is crystallization?",
+    "choices": [
+      "A method to separate mixtures by evaporating the solvent",
+      "A process to purify a solid by dissolving it and allowing it to form pure crystals upon cooling",
+      "A technique to measure particle size",
+      "A method for determining molecular weight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Crystallization is a purification technique where a solution is cooled to allow formation of pure crystals.",
+    "difficulty": "easy"
   }
 ]
