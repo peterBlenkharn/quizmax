@@ -1,1 +1,506 @@
-
+[
+  {
+    "question": "Who is the mysterious visitor in 'An Inspector Calls'?",
+    "choices": [
+      "Inspector Goole",
+      "Inspector Morse",
+      "Inspector Gadget",
+      "Inspector Javert"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inspector Goole is the enigmatic figure whose investigation forms the core of the play.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which family is under scrutiny by Inspector Goole?",
+    "choices": [
+      "The Crofts",
+      "The Birling family",
+      "The Darlings",
+      "The Smiths"
+    ],
+    "correctIndex": 1,
+    "explanation": "The entire play focuses on the Birling family and their connections to Eva Smith.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Eva Smith represents which social group in the play?",
+    "choices": [
+      "The aristocracy",
+      "The exploited working class",
+      "The middle class",
+      "The bureaucrats"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eva Smith is a symbol of the exploited working class whose suffering is a consequence of upper‐class indifference.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character is most unrepentant about her role in Eva Smith’s downfall?",
+    "choices": [
+      "Sheila Birling",
+      "Mrs. Birling",
+      "Gerald Croft",
+      "Mr. Birling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mrs. Birling is depicted as cold and remorseless, refusing to acknowledge her responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character undergoes the most significant change in attitude during the play?",
+    "choices": [
+      "Mr. Birling",
+      "Sheila Birling",
+      "Gerald Croft",
+      "Eric Birling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sheila transforms from a naive, self‐centred young woman to someone who recognizes her moral responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the central theme of 'An Inspector Calls'?",
+    "choices": [
+      "The inevitability of fate",
+      "Social responsibility and collective guilt",
+      "The romance between the characters",
+      "The conflict between science and religion"
+    ],
+    "correctIndex": 1,
+    "explanation": "The play explores how every individual’s actions affect others, emphasizing shared social responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Inspector Goole primarily question the family?",
+    "choices": [
+      "Through formal legal procedures",
+      "With pointed and morally charged questions",
+      "By using humor and sarcasm",
+      "Through written interrogations"
+    ],
+    "correctIndex": 1,
+    "explanation": "His questioning is direct, challenging, and loaded with moral implications that unsettle the family.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character is noted for minimizing the family’s role in Eva Smith’s fate?",
+    "choices": [
+      "Eric Birling",
+      "Mrs. Birling",
+      "Sheila Birling",
+      "Gerald Croft"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mrs. Birling consistently denies any personal responsibility for Eva Smith's misfortune.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What message does Inspector Goole emphasize throughout the play?",
+    "choices": [
+      "That only the strong survive",
+      "That we are all responsible for each other",
+      "That technology will solve social problems",
+      "That wealth equals power"
+    ],
+    "correctIndex": 1,
+    "explanation": "His repeated assertion underlines the play’s central idea of collective responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The line 'We are all responsible for each other' is an example of which literary device?",
+    "choices": [
+      "Metaphor",
+      "Alliteration",
+      "Repetition",
+      "Simile"
+    ],
+    "correctIndex": 2,
+    "explanation": "Its repeated use reinforces the theme and creates a memorable, rhythmic refrain throughout the play.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Mr. Birling view marriage in the play?",
+    "choices": [
+      "As a sacred institution based on love",
+      "As a business arrangement",
+      "As a minor social formality",
+      "As a political alliance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mr. Birling sees marriage largely in terms of social and business benefits rather than emotional connection.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which future event does Mr. Birling boast will never occur?",
+    "choices": [
+      "Economic recession",
+      "A world war",
+      "Mass unemployment",
+      "Political reform"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mr. Birling confidently asserts that there will be no war, which is an ironic foreshadowing given history.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where does most of the action in 'An Inspector Calls' take place?",
+    "choices": [
+      "On a train",
+      "At the Birling family home",
+      "In a courtroom",
+      "At a factory"
+    ],
+    "correctIndex": 1,
+    "explanation": "The majority of the play unfolds in the Birling family’s dining room, making it an intimate setting for the drama.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Inspector Goole’s visit primarily disrupt in the Birling household?",
+    "choices": [
+      "Their financial affairs",
+      "Their carefree complacency and self-importance",
+      "Their routine dinner plans",
+      "Their social gatherings"
+    ],
+    "correctIndex": 1,
+    "explanation": "His visit forces the family to confront their moral failings, shattering their complacency.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character in the play represents the moral awakening of the younger generation?",
+    "choices": [
+      "Mrs. Birling",
+      "Mr. Birling",
+      "Sheila Birling",
+      "Gerald Croft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sheila's growing remorse and awareness reflect the hopeful potential of the younger generation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What social issue is most directly critiqued in 'An Inspector Calls'?",
+    "choices": [
+      "Religious intolerance",
+      "Class inequality",
+      "Environmental degradation",
+      "Technological isolation"
+    ],
+    "correctIndex": 1,
+    "explanation": "The play offers a scathing critique of class divisions and the neglect of social responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which narrative technique is notably used by Priestley to build suspense in the play?",
+    "choices": [
+      "Flashbacks",
+      "Dramatic irony",
+      "Foreshadowing",
+      "Stream of consciousness"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dramatic irony pervades the play, as the audience becomes aware of the impending consequences before the characters do.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which pair of characters in the play demonstrates a clear generational divide?",
+    "choices": [
+      "Sheila and Eric vs. Mr. and Mrs. Birling",
+      "Gerald Croft and Eric Birling",
+      "Mrs. Birling and Gerald Croft",
+      "Inspector Goole and Mr. Birling"
+    ],
+    "correctIndex": 0,
+    "explanation": "The younger generation (Sheila and Eric) displays remorse and moral awareness, in stark contrast to the older generation’s self-righteous attitudes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How is the tone of the Inspector best described?",
+    "choices": [
+      "Warm and jovial",
+      "Stern and authoritative",
+      "Casual and indifferent",
+      "Light-hearted and humorous"
+    ],
+    "correctIndex": 1,
+    "explanation": "Inspector Goole's tone is consistently stern and authoritative, lending gravity to his moral critiques.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the Inspector’s final speech urge the audience to consider?",
+    "choices": [
+      "The importance of family traditions",
+      "Individual gain over collective good",
+      "Their own role in a wider society",
+      "The inevitability of technological progress"
+    ],
+    "correctIndex": 2,
+    "explanation": "The final speech is a call for introspection about collective responsibility in society.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What aspect of the play highlights the hypocrisy of the upper class?",
+    "choices": [
+      "Their lavish spending on holidays",
+      "Their refusal to acknowledge the impact of their actions on the vulnerable",
+      "Their enthusiasm for sports",
+      "Their strict adherence to legal procedures"
+    ],
+    "correctIndex": 1,
+    "explanation": "The play repeatedly exposes how the upper class denies any moral responsibility for the suffering of those less fortunate.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Priestley use the character of Gerald Croft in the play?",
+    "choices": [
+      "To represent the ideal of integrity",
+      "To show the hidden complexities and moral ambiguities within the upper class",
+      "To provide comic relief",
+      "To symbolize the working class"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gerald Croft's character is used to demonstrate that even those who appear respectable can harbor questionable morals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What recurring motif in the play emphasizes the theme of interconnectedness?",
+    "choices": [
+      "The repeated references to money",
+      "The references to clocks and time",
+      "The repeated mention of responsibility",
+      "The depiction of a storm"
+    ],
+    "correctIndex": 2,
+    "explanation": "The recurring emphasis on responsibility highlights the central message that every individual's actions affect others.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Inspector Goole’s ambiguity about his own origins serves to:",
+    "choices": [
+      "Enhance his realistic character portrayal",
+      "Undermine the play’s dramatic tension",
+      "Heighten the allegorical and moral dimensions of his character",
+      "Confuse the audience about the plot"
+    ],
+    "correctIndex": 2,
+    "explanation": "His mysterious background contributes to the symbolic nature of his role as the bearer of moral truth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character first attempts to challenge Inspector Goole’s authority?",
+    "choices": [
+      "Mrs. Birling",
+      "Mr. Birling",
+      "Sheila Birling",
+      "Eric Birling"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mr. Birling is the one who initially dismisses and challenges the Inspector’s moral claims.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The play 'An Inspector Calls' is best described as a:",
+    "choices": [
+      "Romantic tragedy",
+      "Social mystery drama",
+      "Historical epic",
+      "Science fiction narrative"
+    ],
+    "correctIndex": 1,
+    "explanation": "The play is a social mystery drama that uncovers the darker side of class and responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which dramatic technique does Priestley use to build tension as the Inspector questions the family?",
+    "choices": [
+      "Non-linear narration",
+      "Breaking the fourth wall",
+      "Delayed revelation of each character’s secret",
+      "Use of soliloquies"
+    ],
+    "correctIndex": 2,
+    "explanation": "By gradually revealing each character's involvement in Eva Smith's fate, the tension escalates throughout the play.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What realization do the younger characters come to by the end of the play?",
+    "choices": [
+      "That wealth is the ultimate measure of success",
+      "That individual actions have negligible impact",
+      "That they share a collective responsibility for society",
+      "That the past cannot be changed"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sheila and Eric, in particular, recognize how their actions contributed to Eva Smith's downfall and the broader social injustice.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does the play critique the capitalist mindset?",
+    "choices": [
+      "By focusing solely on the personal failings of a single character",
+      "By highlighting the self-serving attitudes of the older generation",
+      "By showing that capitalism leads to technological advances",
+      "By endorsing individualistic success"
+    ],
+    "correctIndex": 1,
+    "explanation": "The play criticizes the capitalist mindset through the dismissive, self-centered views of characters like Mr. Birling and Mrs. Birling.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is used repeatedly by the Inspector to force the characters to reflect on their actions?",
+    "choices": [
+      "A series of flashbacks",
+      "A moral monologue questioning their collective responsibility",
+      "A detailed diary",
+      "An anonymous letter"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Inspector’s relentless questioning serves as a moral monologue that forces each family member to confront their complicity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a key aspect of Priestley’s message in the play?",
+    "choices": [
+      "That ignorance is bliss",
+      "That personal wealth exempts one from responsibility",
+      "That everyone’s actions contribute to the collective welfare",
+      "That the legal system is infallible"
+    ],
+    "correctIndex": 2,
+    "explanation": "Priestley’s message centers on the idea that no one is an island—the actions of each individual have a direct impact on the community.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character’s attitude remains largely unchanged throughout the play?",
+    "choices": [
+      "Sheila Birling",
+      "Eric Birling",
+      "Mrs. Birling",
+      "The Inspector"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mrs. Birling remains obstinate and unyielding, never accepting any fault in her actions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes the dramatic irony in 'An Inspector Calls'?",
+    "choices": [
+      "The audience knows the true consequences of the Birlings’ actions while they remain oblivious",
+      "The Inspector reveals his identity at the beginning",
+      "The play consistently uses flashbacks to reveal the truth",
+      "All characters express remorse from the start"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dramatic irony is present because the audience is aware of the larger consequences and interconnectedness of the family’s actions long before the characters fully grasp their impact.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the play’s structure contribute to its overall message?",
+    "choices": [
+      "It begins and ends with a comedic scene",
+      "It uses a chronological narrative without interruption",
+      "It gradually reveals each family member's complicity in Eva Smith's fate",
+      "It focuses exclusively on one character’s point of view"
+    ],
+    "correctIndex": 2,
+    "explanation": "The progressive disclosure of each character’s involvement forces both the characters and the audience to acknowledge that all are implicated in societal injustice.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Inspector Goole's ambiguous origins serve to make him appear as:",
+    "choices": [
+      "A typical police officer",
+      "A supernatural or symbolic figure",
+      "A comedic character",
+      "A representative of government bureaucracy"
+    ],
+    "correctIndex": 1,
+    "explanation": "His mysterious background and otherworldly mannerisms contribute to his symbolic role as the embodiment of social conscience and justice.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the effect of the Inspector’s final line on the audience?",
+    "choices": [
+      "It provides a clear resolution to the plot",
+      "It serves as a moral reminder for the audience to reflect on their own actions",
+      "It confuses the audience about the events of the play",
+      "It shifts the focus to romantic subplots"
+    ],
+    "correctIndex": 1,
+    "explanation": "The final line is a direct appeal to the audience, urging them to consider their own roles in society and the importance of mutual responsibility.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which character’s transformation most clearly supports Priestley’s socialist message?",
+    "choices": [
+      "Mr. Birling",
+      "Mrs. Birling",
+      "Sheila Birling",
+      "Gerald Croft"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sheila’s evolution from a naïve, self-indulgent individual to someone who recognizes her social responsibility exemplifies the moral awakening that Priestley advocates.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does Priestley use language to contrast the attitudes of the older and younger generations?",
+    "choices": [
+      "By giving both generations identical dialogue",
+      "By using formal language for the young and informal language for the old",
+      "By having the younger characters speak more reflectively and remorsefully, while the older ones use dismissive and self-righteous language",
+      "By portraying the older characters as humorous and the younger characters as serious"
+    ],
+    "correctIndex": 2,
+    "explanation": "The contrasting language styles highlight the moral gap between the generations and reinforce the theme of social responsibility.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In what way does the Inspector's approach force the characters to confront their past actions?",
+    "choices": [
+      "He uses physical evidence to expose their secrets",
+      "He calmly ignores their denials",
+      "He asks probing, moral questions that reveal the impact of their actions on Eva Smith",
+      "He compliments their achievements to lull them into a false sense of security"
+    ],
+    "correctIndex": 2,
+    "explanation": "His method of questioning compels each character to examine the consequences of their actions, thereby exposing their moral failings.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which aspect of Mrs. Birling’s behavior most directly critiques the upper class’s social attitudes?",
+    "choices": [
+      "Her warm hospitality",
+      "Her charitable actions",
+      "Her refusal to accept any personal responsibility",
+      "Her compliance with social norms"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mrs. Birling's cold indifference and denial of responsibility are used by Priestley to highlight the callousness of the upper classes.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the Inspector’s interrogation style contribute to the play’s dramatic tension?",
+    "choices": [
+      "By using humor to ease the mood",
+      "By allowing the family to talk freely without interruption",
+      "By systematically dismantling each character’s justifications, leaving them exposed",
+      "By relying on lengthy monologues that delay responses"
+    ],
+    "correctIndex": 2,
+    "explanation": "His persistent and methodical questioning gradually breaks down the characters’ defenses, thereby heightening the dramatic tension.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which message does Priestley ultimately want the audience to take away from 'An Inspector Calls'?",
+    "choices": [
+      "That individual success is paramount",
+      "That social inequality is inevitable",
+      "That every individual has a role to play in the well-being of society",
+      "That the past is unchangeable"
+    ],
+    "correctIndex": 2,
+    "explanation": "Priestley’s central message is one of collective responsibility: that every action, however small, affects the fabric of society.",
+    "difficulty": "hard"
+  }
+]
