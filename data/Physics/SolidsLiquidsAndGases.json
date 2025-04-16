@@ -1,8 +1,457 @@
 [
   {
-    "question": "Which state of matter has a definite shape?",
-    "choices": ["Liquid", "Solid", "Gas", "Plasma"],
+    "question": "A solid has a density of 8000 kg/m³. If a cube of this solid has a side length of 0.05 m, what is its mass?",
+    "choices": ["0.5 kg", "1 kg", "1.5 kg", "2 kg"],
     "correctIndex": 1,
-    "explanation": "Solids have a definite shape and volume."
+    "explanation": "The volume of the cube is V = 0.05³ = 0.000125 m³, so mass = density × volume = 8000 × 0.000125 = 1 kg.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A gas in a rigid container has a pressure of 100 kPa at 300 K. If the temperature increases to 450 K, what is the new pressure (assuming ideal gas behavior)?",
+    "choices": ["120 kPa", "150 kPa", "180 kPa", "200 kPa"],
+    "correctIndex": 1,
+    "explanation": "At constant volume, P ∝ T. Thus, P₂ = 100 × (450/300) = 150 kPa.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Using Boyle’s law, if 0.250 m³ of a gas at 100 kPa is compressed to a pressure of 400 kPa at constant temperature, what is the new volume?",
+    "choices": ["0.0625 m³", "0.125 m³", "0.100 m³", "0.200 m³"],
+    "correctIndex": 0,
+    "explanation": "Boyle’s Law: P₁V₁ = P₂V₂, hence V₂ = (100 × 0.250)/400 = 0.0625 m³.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A liquid has a coefficient of thermal expansion of 4.5×10⁻⁴ °C⁻¹. What is the percentage increase in its volume when the temperature rises by 20°C?",
+    "choices": ["0.45%", "0.9%", "1.8%", "2.5%"],
+    "correctIndex": 1,
+    "explanation": "Percentage increase = β × ΔT = 4.5×10⁻⁴ × 20 = 0.009, which is 0.9%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A material has a linear expansion coefficient of 12×10⁻⁶ °C⁻¹. Assuming isotropic expansion, by what approximate percentage does its volume increase when heated by 100°C?",
+    "choices": ["0.36%", "0.12%", "1.2%", "3.6%"],
+    "correctIndex": 0,
+    "explanation": "Volume expansion coefficient ≈ 3 × (linear coefficient) = 36×10⁻⁶. Thus, increase = 36×10⁻⁶ × 100 = 0.0036 or 0.36%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two solids have the same density, but one is crystalline and the other is amorphous. Which property is most likely to differ significantly between them?",
+    "choices": [
+      "Electrical conductivity",
+      "Melting behavior",
+      "Chemical composition",
+      "Density"
+    ],
+    "correctIndex": 1,
+    "explanation": "Crystalline solids have a well‑ordered structure and exhibit a sharp melting point, whereas amorphous solids soften over a range of temperatures.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "According to the kinetic theory of gases, which statement best describes the behavior of gas molecules?",
+    "choices": [
+      "Gas molecules are in constant random motion and collide elastically",
+      "Gas molecules are stationary until acted upon by an external force",
+      "Gas molecules are bound by strong intermolecular forces",
+      "Gas molecules move only in straight lines without collision"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kinetic theory states that gas molecules move randomly and collisions are elastic.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "For a gas at constant temperature, what happens to the average kinetic energy of its molecules if the pressure increases due to a decrease in volume?",
+    "choices": [
+      "It increases", 
+      "It decreases", 
+      "It remains the same", 
+      "It doubles"
+    ],
+    "correctIndex": 2,
+    "explanation": "At constant temperature, the average kinetic energy remains constant even though pressure increases.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A gas at constant volume is heated. What is the effect on its pressure?",
+    "choices": [
+      "Pressure increases", 
+      "Pressure decreases", 
+      "Pressure remains constant", 
+      "Pressure first increases then decreases"
+    ],
+    "correctIndex": 0,
+    "explanation": "At constant volume, pressure increases proportionally with temperature (Gay-Lussac’s law).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A liquid with high viscosity will:",
+    "choices": [
+      "Flow quickly", 
+      "Flow slowly", 
+      "Evaporate rapidly", 
+      "Have low density"
+    ],
+    "correctIndex": 1,
+    "explanation": "High viscosity means the liquid resists flow and will move slowly.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which state of matter has both a fixed shape and fixed volume?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "Plasma"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solids have a fixed shape and fixed volume due to the tight packing of their particles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter has a fixed volume but no fixed shape?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "Plasma"
+    ],
+    "correctIndex": 1,
+    "explanation": "Liquids have a fixed volume but take the shape of their container.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Density is defined as:",
+    "choices": [
+      "Mass divided by volume", 
+      "Volume divided by mass", 
+      "Mass multiplied by volume", 
+      "Force divided by area"
+    ],
+    "correctIndex": 0,
+    "explanation": "Density = mass/volume.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter is most compressible?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "Plasma"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gases are highly compressible compared to liquids and solids.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the kinetic theory of matter, particles in a gas:",
+    "choices": [
+      "Move in an orderly pattern", 
+      "Are in constant random motion", 
+      "Remain fixed in position", 
+      "Vibrate in place only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gas particles move randomly and independently, with high kinetic energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which law relates pressure and volume of a gas at constant temperature?",
+    "choices": [
+      "Charles' Law", 
+      "Boyle's Law", 
+      "Avogadro's Law", 
+      "Gay-Lussac's Law"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boyle's Law states that P ∝ 1/V for a given mass of gas at constant temperature.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property of a substance is defined as the amount of matter per unit volume?",
+    "choices": [
+      "Mass", 
+      "Density", 
+      "Volume", 
+      "Weight"
+    ],
+    "correctIndex": 1,
+    "explanation": "Density is a measure of mass per unit volume.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter generally exhibits the highest rate of molecular motion?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "Bose-Einstein condensate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gas particles have the highest molecular motion due to weaker intermolecular forces.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'viscosity' refer to?",
+    "choices": [
+      "The density of a liquid", 
+      "The resistance of a liquid to flow", 
+      "The boiling point of a liquid", 
+      "The thermal conductivity of a liquid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Viscosity is a measure of a fluid’s resistance to flow.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is NOT a characteristic of gases?",
+    "choices": [
+      "Indefinite shape", 
+      "Indefinite volume", 
+      "High compressibility", 
+      "High density"
+    ],
+    "correctIndex": 3,
+    "explanation": "Gases generally have low density compared to solids and liquids.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What process describes the change from a liquid state to a gaseous state?",
+    "choices": [
+      "Condensation", 
+      "Evaporation", 
+      "Sublimation", 
+      "Deposition"
+    ],
+    "correctIndex": 1,
+    "explanation": "Evaporation is the process where molecules escape from the surface of a liquid to become gas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is sublimation?",
+    "choices": [
+      "Direct transition from solid to gas", 
+      "Transition from liquid to solid", 
+      "Transition from gas to liquid", 
+      "Direct transition from gas to solid"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sublimation is the direct change from the solid state to the gaseous state without passing through the liquid state.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which factor does NOT significantly affect the pressure exerted by a gas?",
+    "choices": [
+      "Temperature", 
+      "Volume", 
+      "Mass of the gas", 
+      "Color of the container"
+    ],
+    "correctIndex": 3,
+    "explanation": "The color of the container does not affect gas pressure; pressure depends on temperature, volume, and the amount of gas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best explains why liquids are nearly incompressible?",
+    "choices": [
+      "Molecules in a liquid are far apart",
+      "Molecules in a liquid are closely packed with little empty space",
+      "Liquids have a fixed shape",
+      "Liquids have high molecular speeds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Liquid molecules are closely packed, leaving little space to compress the substance further.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The process by which a substance changes from a gas to a liquid is called:",
+    "choices": [
+      "Condensation", 
+      "Deposition", 
+      "Evaporation", 
+      "Sublimation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Condensation is the conversion of gas into liquid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a key assumption of the kinetic molecular theory for gases?",
+    "choices": [
+      "Gas molecules are stationary until heated", 
+      "Gas molecules move continuously and randomly, colliding elastically", 
+      "Gas molecules attract each other strongly", 
+      "Gas molecules have fixed positions relative to each other"
+    ],
+    "correctIndex": 1,
+    "explanation": "The kinetic molecular theory assumes that gas molecules move in random, continuous motion with elastic collisions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter has the highest density, in general?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "They all have the same density"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solids typically have the highest density due to tightly packed particles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary reason that gases expand to fill any container?",
+    "choices": [
+      "Due to strong intermolecular forces",
+      "Because of their random motion and low particle density",
+      "Because they have a fixed shape",
+      "Due to gravitational forces"
+    ],
+    "correctIndex": 1,
+    "explanation": "The random, high-speed motion of gas molecules, combined with large spaces between them, causes gases to expand and fill their container.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following processes is an endothermic change of state?",
+    "choices": [
+      "Freezing", 
+      "Condensation", 
+      "Melting", 
+      "Deposition"
+    ],
+    "correctIndex": 2,
+    "explanation": "Melting (fusion) is an endothermic process that requires heat energy to change a solid into a liquid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When water freezes to form ice, does its density increase or decrease?",
+    "choices": [
+      "Increase", 
+      "Decrease", 
+      "Remain the same", 
+      "First increase then decrease"
+    ],
+    "correctIndex": 1,
+    "explanation": "Water expands upon freezing, so its density decreases.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes an amorphous solid?",
+    "choices": [
+      "A solid with long-range order", 
+      "A solid with no long-range order", 
+      "A liquid with high viscosity", 
+      "A crystalline solid with defects"
+    ],
+    "correctIndex": 1,
+    "explanation": "Amorphous solids lack long-range order in their particle arrangement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process describes the change from the liquid state to the solid state?",
+    "choices": [
+      "Condensation", 
+      "Freezing", 
+      "Sublimation", 
+      "Vaporization"
+    ],
+    "correctIndex": 1,
+    "explanation": "Freezing is the process in which a liquid becomes a solid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the boiling point of water at standard atmospheric pressure (1 atm)?",
+    "choices": [
+      "50°C", 
+      "75°C", 
+      "100°C", 
+      "125°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "At 1 atm, water boils at 100°C.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which property determines whether a substance is considered a liquid?",
+    "choices": [
+      "Definite shape and definite volume", 
+      "Definite volume but no definite shape", 
+      "No definite volume and no definite shape", 
+      "High compressibility"
+    ],
+    "correctIndex": 1,
+    "explanation": "Liquids have a fixed volume but take the shape of their container.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which law describes the inverse relationship between the pressure and volume of a gas at constant temperature?",
+    "choices": [
+      "Charles' Law", 
+      "Boyle's Law", 
+      "Avogadro's Law", 
+      "Gay-Lussac's Law"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boyle's Law states that for a given amount of gas at constant temperature, the pressure and volume are inversely proportional.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'compressibility' refer to?",
+    "choices": [
+      "The ability of a substance to absorb heat", 
+      "The ability of a substance to change its volume under pressure", 
+      "The ability of a substance to conduct electricity", 
+      "The ability of a substance to reflect light"
+    ],
+    "correctIndex": 1,
+    "explanation": "Compressibility is a measure of how much a substance's volume decreases under pressure. Gases are highly compressible compared to liquids and solids.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter is used as the standard for defining pressure in Pascals (Pa)?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "Plasma"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gas pressure is commonly measured in Pascals (Pa), where 1 Pa = 1 N/m².",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What phenomenon causes water to rise in a thin tube inserted into a liquid?",
+    "choices": [
+      "Capillary action", 
+      "Evaporation", 
+      "Condensation", 
+      "Sublimation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Capillary action is the ability of a liquid to flow in narrow spaces against gravity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes the energy associated with the motion of particles in a substance?",
+    "choices": [
+      "Potential energy", 
+      "Kinetic energy", 
+      "Thermal energy", 
+      "Chemical energy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thermal energy is the total kinetic energy due to the random motion of particles in a substance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state of matter typically has the highest compressibility?",
+    "choices": [
+      "Solid", 
+      "Liquid", 
+      "Gas", 
+      "Bose-Einstein condensate"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gases are much more compressible than liquids or solids because of the large spaces between their molecules.",
+    "difficulty": "easy"
   }
 ]
