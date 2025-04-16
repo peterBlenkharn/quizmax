@@ -1,127 +1,352 @@
 [
   {
-    "question": "What is the mean of the dataset [3, 7, 7, 10, 15]?",
-    "choices": ["7.4", "8.4", "9.0", "8.2"],
+    "question": "A data set has five values: 3, 7, 7, 10, and x. If the mean is 8, what is x?",
+    "choices": ["12", "13", "14", "15"],
     "correctIndex": 1,
-    "explanation": "Sum the data: 3 + 7 + 7 + 10 + 15 = 42, then divide by the number of values (5): 42/5 = 8.4."
+    "explanation": "The total sum must be 8×5 = 40. Since 3+7+7+10 = 27, x = 40 – 27 = 13.",
+    "difficulty": "hard"
   },
   {
-    "question": "What is the median of the dataset [2, 4, 6, 8, 10]?",
-    "choices": ["4", "6", "8", "7"],
-    "correctIndex": 1,
-    "explanation": "The median is the middle value when the data is ordered. In this set, the middle value is 6."
+    "question": "A grouped frequency table for exam scores has classes: 50–60 (f=5), 60–70 (f=15), 70–80 (f=20), and 80–90 (f=10). Estimate the median score.",
+    "choices": ["67.5", "70.0", "72.5", "75.0"],
+    "correctIndex": 2,
+    "explanation": "n = 50 so n/2 = 25. The cumulative frequencies are: 5, 20, 40, 50. The median falls in the 70–80 group. Using the formula: Median = 70 + ((25-20)/20)*10 = 70 + 2.5 = 72.5.",
+    "difficulty": "hard"
   },
   {
-    "question": "In a normal distribution, approximately what percentage of the data falls within 1 standard deviation from the mean?",
-    "choices": ["50%", "68%", "95%", "99.7%"],
-    "correctIndex": 1,
-    "explanation": "About 68% of the data in a normal distribution falls within one standard deviation from the mean."
-  },
-  {
-    "question": "If the probability of an event occurring is 0.3, what is the probability that it does not occur?",
-    "choices": ["0.3", "0.7", "1.3", "0.5"],
-    "correctIndex": 1,
-    "explanation": "The probability of the event not occurring is 1 - 0.3 = 0.7."
-  },
-  {
-    "question": "A fair coin is tossed 3 times. What is the probability of getting exactly two heads?",
-    "choices": ["1/8", "3/8", "1/2", "5/8"],
-    "correctIndex": 1,
-    "explanation": "There are 3 ways to get exactly two heads (C(3,2)=3) and a total of 2³ = 8 possible outcomes; therefore, the probability is 3/8."
-  },
-  {
-    "question": "Two dice are rolled. What is the probability of obtaining a sum of 7?",
-    "choices": ["1/6", "1/8", "1/9", "1/12"],
+    "question": "A bag contains 3 red, 4 blue, and 5 green marbles. Two marbles are drawn without replacement. What is the probability that both are blue?",
+    "choices": ["1/11", "1/9", "1/4", "1/6"],
     "correctIndex": 0,
-    "explanation": "There are 6 favorable outcomes out of 36 possible when rolling two dice, so the probability is 6/36, which simplifies to 1/6."
+    "explanation": "Probability = (4/12)×(3/11) = 1/11.",
+    "difficulty": "hard"
   },
   {
-    "question": "A bag contains 5 red, 3 blue, and 2 green balls. If one ball is drawn at random, what is the probability that it is blue?",
-    "choices": ["1/2", "3/10", "3/8", "2/5"],
+    "question": "Three coins are flipped. What is the probability of exactly 2 heads occurring?",
+    "choices": ["1/4", "3/8", "1/2", "5/8"],
     "correctIndex": 1,
-    "explanation": "There are a total of 10 balls. The probability of drawing a blue ball is 3/10."
+    "explanation": "There are 8 total outcomes and C(3,2) = 3 ways to get exactly 2 heads, so probability = 3/8.",
+    "difficulty": "hard"
   },
   {
-    "question": "In a dataset, what does the term 'mode' refer to?",
-    "choices": ["The arithmetic mean", "The most frequent value", "The middle value", "The range of the data"],
-    "correctIndex": 1,
-    "explanation": "The mode is the value that appears most frequently in the dataset."
+    "question": "Using the binomial theorem, find the coefficient of x³ in the expansion of (2x + 3)⁵.",
+    "choices": ["120", "360", "720", "840"],
+    "correctIndex": 2,
+    "explanation": "Coefficient = C(5,3) × (2)³ × (3)² = 10 × 8 × 9 = 720.",
+    "difficulty": "hard"
   },
   {
-    "question": "What is the range of the dataset [4, 8, 10, 15, 18]?",
-    "choices": ["14", "15", "16", "18"],
+    "question": "A survey of 200 people shows 80 like chocolate, 120 like vanilla, and 60 like both. What is the probability that a randomly selected person likes either chocolate or vanilla?",
+    "choices": ["0.6", "0.65", "0.7", "0.75"],
+    "correctIndex": 2,
+    "explanation": "Using inclusion–exclusion: (80 + 120 – 60) / 200 = 140/200 = 0.7.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a class of 30 students, 18 passed Maths and 15 passed English; 10 passed both. How many passed at least one subject?",
+    "choices": ["23", "25", "27", "28"],
     "correctIndex": 0,
-    "explanation": "The range is the difference between the largest and smallest values: 18 - 4 = 14."
+    "explanation": "Using the formula: 18 + 15 – 10 = 23 students.",
+    "difficulty": "hard"
   },
   {
-    "question": "A survey of 100 people found that 60 people prefer coffee over tea. What is the probability that a randomly selected person prefers coffee?",
+    "question": "Find the mean of the data set: {12, 15, 18, 20, 25}.",
+    "choices": ["16", "18", "19", "20"],
+    "correctIndex": 1,
+    "explanation": "Mean = (12+15+18+20+25)/5 = 90/5 = 18.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A spinner is divided into 8 equal sections numbered 1 to 8. What is the probability of getting a number greater than 5?",
+    "choices": ["1/4", "3/8", "1/2", "5/8"],
+    "correctIndex": 1,
+    "explanation": "Numbers greater than 5 are 6, 7, 8. So probability = 3/8.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a survey of 100 students, 40% play football, 30% play basketball, and 20% play both. What is the probability that a randomly chosen student plays either football or basketball?",
+    "choices": ["0.4", "0.5", "0.6", "0.7"],
+    "correctIndex": 1,
+    "explanation": "Probability = 0.4 + 0.3 – 0.2 = 0.5.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the mode of the data set {4, 5, 5, 6, 7}?",
+    "choices": ["4", "5", "6", "7"],
+    "correctIndex": 1,
+    "explanation": "The mode is the value that appears most frequently: 5 appears twice.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the median of the data set {3, 8, 10}?",
+    "choices": ["3", "8", "10", "None"],
+    "correctIndex": 1,
+    "explanation": "The median is the middle value, which is 8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the mean of the data set {2, 4, 6}?",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 1,
+    "explanation": "Mean = (2+4+6)/3 = 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A fair coin is tossed. What is the probability of getting a head?",
+    "choices": ["1/2", "1/3", "1/4", "1/6"],
+    "correctIndex": 0,
+    "explanation": "A fair coin has 2 outcomes, so the probability of heads is 1/2.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a die is rolled, what is the probability of obtaining a number less than 5?",
+    "choices": ["1/2", "1/3", "2/3", "3/4"],
+    "correctIndex": 2,
+    "explanation": "Numbers less than 5 are 1, 2, 3, 4; probability = 4/6 = 2/3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the range of the data set {7, 12, 15, 20}?",
+    "choices": ["13", "14", "15", "20"],
+    "correctIndex": 0,
+    "explanation": "Range = maximum - minimum = 20 – 7 = 13.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A spinner has 4 equal sectors numbered 1 to 4. What is the probability of landing on an even number?",
+    "choices": ["1/4", "1/2", "3/4", "1"],
+    "correctIndex": 1,
+    "explanation": "Even numbers are 2 and 4, so probability = 2/4 = 1/2.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the formula for the probability of an event A occurring?",
+    "choices": ["P(A) = favorable outcomes / total outcomes", "P(A) = total outcomes / favorable outcomes", "P(A) = favorable outcomes - total outcomes", "P(A) = total outcomes - favorable outcomes"],
+    "correctIndex": 0,
+    "explanation": "Probability is defined as the number of favorable outcomes divided by the total number of outcomes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If the chance of rain on a day is 20%, what is the probability that it will not rain?",
+    "choices": ["0.2", "0.4", "0.6", "0.8"],
+    "correctIndex": 3,
+    "explanation": "Probability of no rain = 1 – 0.2 = 0.8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which measure of central tendency is most affected by outliers?",
+    "choices": ["Mean", "Median", "Mode", "Range"],
+    "correctIndex": 0,
+    "explanation": "The mean is highly sensitive to extreme values.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If P(A) = 0.3 and P(B) = 0.4 for mutually exclusive events, what is P(A or B)?",
+    "choices": ["0.3", "0.4", "0.7", "0.12"],
+    "correctIndex": 2,
+    "explanation": "For mutually exclusive events, add the probabilities: 0.3 + 0.4 = 0.7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the mean of the data set {3, 5, 7, 9, 11}?",
+    "choices": ["5", "7", "9", "11"],
+    "correctIndex": 1,
+    "explanation": "Mean = (3+5+7+9+11) / 5 = 35/5 = 7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the mode of the data set {1, 2, 2, 3, 4}?",
+    "choices": ["1", "2", "3", "4"],
+    "correctIndex": 1,
+    "explanation": "The mode is 2, as it appears most frequently.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A bag contains balls numbered 1 to 10. What is the probability of drawing a ball with a number greater than 7?",
+    "choices": ["1/10", "3/10", "1/2", "7/10"],
+    "correctIndex": 1,
+    "explanation": "Numbers greater than 7 are 8, 9, and 10, so probability = 3/10.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If two events are independent, how is P(A and B) calculated?",
+    "choices": ["P(A) + P(B)", "P(A) − P(B)", "P(A) × P(B)", "P(A) / P(B)"],
+    "correctIndex": 2,
+    "explanation": "For independent events, the probability of both occurring is the product of their probabilities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The median of a data set divides it into two equal parts. What percentage of data is at least at the median?",
+    "choices": ["25%", "50%", "75%", "100%"],
+    "correctIndex": 1,
+    "explanation": "By definition, at least 50% of the data is at or above the median.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If the smallest value is 4 and the largest is 18, what is the range of the data set?",
+    "choices": ["12", "14", "16", "18"],
+    "correctIndex": 1,
+    "explanation": "Range = 18 - 4 = 14.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a box of 20 bulbs, 4 are defective. What is the probability that a randomly selected bulb is not defective?",
+    "choices": ["0.2", "0.4", "0.6", "0.8"],
+    "correctIndex": 3,
+    "explanation": "Non-defective bulbs = 16, so probability = 16/20 = 0.8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do we call an event with a probability of 0?",
+    "choices": ["Certain event", "Likely event", "Impossible event", "Uncertain event"],
+    "correctIndex": 2,
+    "explanation": "An event with a probability of 0 is impossible.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the probability of rolling a 3 on a fair six-sided die?",
+    "choices": ["1/6", "1/3", "1/2", "1/4"],
+    "correctIndex": 0,
+    "explanation": "There is one favorable outcome out of 6, so probability = 1/6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a frequency distribution, what does 'spread' usually refer to?",
+    "choices": ["Mean", "Median", "Mode", "Range"],
+    "correctIndex": 3,
+    "explanation": "Spread is generally measured by the range, i.e., the difference between the maximum and minimum values.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a cumulative frequency graph used to estimate?",
+    "choices": ["Mean", "Mode", "Median", "Range"],
+    "correctIndex": 2,
+    "explanation": "Cumulative frequency graphs are commonly used to estimate the median of a data set.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a survey, if 40% of respondents prefer tea, what is the probability that a randomly chosen respondent prefers coffee?",
     "choices": ["0.4", "0.5", "0.6", "0.7"],
     "correctIndex": 2,
-    "explanation": "The probability is the number of people who prefer coffee divided by the total number of people: 60/100 = 0.6."
+    "explanation": "Assuming only tea and coffee are chosen, 100% - 40% = 60% prefer coffee.",
+    "difficulty": "easy"
   },
   {
-    "question": "What does the standard deviation measure in a dataset?",
-    "choices": ["The average value", "The variability in the data", "The central tendency", "The range of the data"],
+    "question": "In a frequency table, what does 'frequency' mean?",
+    "choices": ["The average value", "The count of occurrences", "The range", "The sum"],
     "correctIndex": 1,
-    "explanation": "Standard deviation measures how much the data values differ from the mean, reflecting the data's variability."
+    "explanation": "Frequency is the number of times a data value or range occurs.",
+    "difficulty": "easy"
   },
   {
-    "question": "In a probability experiment, events A and B are independent. If P(A) = 0.5 and P(B) = 0.4, what is P(A and B)?",
-    "choices": ["0.20", "0.90", "0.70", "0.10"],
-    "correctIndex": 0,
-    "explanation": "For independent events, P(A and B) = P(A) × P(B) = 0.5 × 0.4 = 0.20."
-  },
-  {
-    "question": "What is the probability of drawing an Ace from a standard 52-card deck?",
-    "choices": ["1/13", "1/12", "1/10", "1/11"],
-    "correctIndex": 0,
-    "explanation": "There are 4 Aces in a 52-card deck, so the probability is 4/52, which simplifies to 1/13."
-  },
-  {
-    "question": "If 20% of a class of 50 students failed an exam, how many students failed?",
-    "choices": ["5", "8", "10", "12"],
+    "question": "A box contains 3 red, 2 green, and 5 blue balls. How many balls are there in total?",
+    "choices": ["8", "9", "10", "11"],
     "correctIndex": 2,
-    "explanation": "20% of 50 is (0.20 × 50) = 10 students."
+    "explanation": "Total = 3 + 2 + 5 = 10.",
+    "difficulty": "easy"
   },
   {
-    "question": "In a dataset, if the first quartile (Q1) is 10 and the third quartile (Q3) is 25, what is the interquartile range (IQR)?",
-    "choices": ["15", "10", "25", "35"],
-    "correctIndex": 0,
-    "explanation": "IQR is calculated as Q3 - Q1 = 25 - 10 = 15."
+    "question": "An experiment is repeated 100 times and an event occurs 25 times. What is the experimental probability?",
+    "choices": ["0.15", "0.25", "0.35", "0.45"],
+    "correctIndex": 1,
+    "explanation": "Experimental probability = 25/100 = 0.25.",
+    "difficulty": "easy"
   },
   {
-    "question": "What is a probability distribution?",
-    "choices": [
-      "A function that describes all the possible outcomes with their probabilities",
-      "A measure of central tendency",
-      "A type of statistical graph",
-      "A summary statistic"
-    ],
-    "correctIndex": 0,
-    "explanation": "A probability distribution is a function that assigns probabilities to all possible outcomes of a random experiment."
+    "question": "In a sample of 50, if 10 students are left‑handed, what percentage are left‑handed?",
+    "choices": ["10%", "20%", "30%", "40%"],
+    "correctIndex": 1,
+    "explanation": "Percentage = (10/50)*100 = 20%.",
+    "difficulty": "easy"
   },
   {
-    "question": "A coin is flipped 4 times. What is the probability of getting exactly 3 heads?",
-    "choices": ["1/4", "1/2", "3/4", "1/8"],
-    "correctIndex": 0,
-    "explanation": "Using the binomial formula: C(4,3)=4, and the total outcomes are 2⁴ = 16. So the probability is 4/16 = 1/4."
+    "question": "When two events cannot occur at the same time, they are called:",
+    "choices": ["Independent", "Mutually exclusive", "Combined", "Contingent"],
+    "correctIndex": 1,
+    "explanation": "Events that cannot occur simultaneously are mutually exclusive.",
+    "difficulty": "easy"
   },
   {
-    "question": "Which measure of central tendency is most affected by extreme values?",
-    "choices": ["Mean", "Median", "Mode", "Interquartile Range"],
+    "question": "If 70% of people favor a policy, what is the probability that a randomly chosen person does not favor it?",
+    "choices": ["0.3", "0.5", "0.7", "0.9"],
     "correctIndex": 0,
-    "explanation": "The mean is sensitive to extreme values (outliers) and can be skewed by them."
+    "explanation": "Probability (not favoring) = 1 – 0.7 = 0.3.",
+    "difficulty": "easy"
   },
   {
-    "question": "In a box with 4 white and 6 black balls, if two balls are drawn without replacement, what is the probability that both balls are white?",
-    "choices": ["2/15", "4/15", "1/5", "2/10"],
-    "correctIndex": 0,
-    "explanation": "The probability for the first white ball is 4/10 and then 3/9 for the second white ball. Multiply them: (4/10) × (3/9) = 12/90 = 2/15."
+    "question": "The interquartile range (IQR) of a data set is defined as:",
+    "choices": ["Mean minus median", "Q3 minus Q1", "Maximum minus minimum", "Median minus mode"],
+    "correctIndex": 1,
+    "explanation": "IQR = Q3 – Q1.",
+    "difficulty": "easy"
   },
   {
-    "question": "What does a probability of 0 indicate?",
-    "choices": ["An impossible event", "A sure event", "An event that is not defined", "An event with a 50/50 chance"],
-    "correctIndex": 0,
-    "explanation": "A probability of 0 means that the event cannot happen; it is impossible."
+    "question": "In a standard deck of 52 cards, what is the probability of drawing a heart?",
+    "choices": ["1/2", "1/3", "1/4", "1/5"],
+    "correctIndex": 2,
+    "explanation": "There are 13 hearts in 52 cards, so probability = 13/52 = 1/4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which measure of central tendency is least affected by outliers?",
+    "choices": ["Mean", "Median", "Mode", "Range"],
+    "correctIndex": 1,
+    "explanation": "The median is less affected by extreme values compared to the mean.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If 2 out of 5 students are absent, what percentage of the class is present?",
+    "choices": ["40%", "50%", "60%", "80%"],
+    "correctIndex": 2,
+    "explanation": "Present = 5 – 2 = 3; (3/5)*100 = 60%.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which symbol is commonly used to denote the sample mean?",
+    "choices": ["x", "x̄", "μ", "M"],
+    "correctIndex": 1,
+    "explanation": "The sample mean is represented as x̄.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A spinner is divided into 10 equal parts. What is the probability of landing on the section labeled 7?",
+    "choices": ["1/5", "1/10", "1/2", "1/20"],
+    "correctIndex": 1,
+    "explanation": "Probability = 1/10 as there is one favorable outcome out of 10.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A box-and-whisker plot displays which of the following?",
+    "choices": ["Only the mean", "Only the range", "The median, quartiles, and range", "Only the median and mode"],
+    "correctIndex": 2,
+    "explanation": "A box-and-whisker plot shows the five‑number summary: minimum, Q1, median, Q3, and maximum.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In the data set {2, 3, 3, 4, 5}, what is the mode?",
+    "choices": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "explanation": "The mode is 3 as it appears twice.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Cumulative frequency is defined as:",
+    "choices": ["The sum of all frequencies", "The running total of frequencies", "The difference between consecutive frequencies", "The maximum frequency"],
+    "correctIndex": 1,
+    "explanation": "Cumulative frequency is the running total of frequencies up to a given point.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a normal distribution, approximately what percentage of the data lies within one standard deviation of the mean?",
+    "choices": ["50%", "68%", "75%", "95%"],
+    "correctIndex": 1,
+    "explanation": "About 68% of the data in a normal distribution lies within ±1 standard deviation of the mean.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Theoretical probability is defined as:",
+    "choices": ["The probability based on experimentation", "The probability calculated from all possible outcomes", "An estimated probability", "The probability of a repeated event"],
+    "correctIndex": 1,
+    "explanation": "Theoretical probability is calculated using the ratio of favorable outcomes to all possible outcomes.",
+    "difficulty": "easy"
   }
 ]
