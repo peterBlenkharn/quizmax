@@ -1,13 +1,446 @@
 [
   {
-    "question": "What is an ecosystem?",
+    "question": "Which of the following best explains the concept of carrying capacity in an ecosystem?",
     "choices": [
-      "A type of organism",
-      "A community and its environment",
-      "A natural disaster",
-      "A food chain"
+      "The maximum biomass the ecosystem can produce",
+      "The maximum population size an environment can sustain over time",
+      "The rate at which an environment regenerates resources",
+      "The maximum number of trophic levels in an ecosystem"
     ],
     "correctIndex": 1,
-    "explanation": "An ecosystem is a community of living organisms in an environment."
+    "explanation": "Carrying capacity is defined as the maximum number of individuals that an environment can sustainably support without degradation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a trophic pyramid, why is only about 10% of energy transferred from one trophic level to the next?",
+    "choices": [
+      "Because most of the energy is absorbed by producers",
+      "Due to energy losses as heat, waste, and metabolic processes at each level",
+      "Because consumers are more efficient than producers",
+      "Because energy accumulates in the environment"
+    ],
+    "correctIndex": 1,
+    "explanation": "Energy is lost as heat and through metabolic processes at each trophic level, so only about 10% is passed on to the next level.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the intermediate disturbance hypothesis explain biodiversity?",
+    "choices": [
+      "High disturbances always reduce species diversity",
+      "Low disturbances lead to a stable ecosystem with low diversity",
+      "Intermediate disturbances prevent competitive exclusion, allowing multiple species to coexist",
+      "No disturbance is required for maximal biodiversity"
+    ],
+    "correctIndex": 2,
+    "explanation": "Intermediate levels of disturbance prevent dominant species from monopolizing resources, allowing a higher number of species to coexist.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which factor is most directly responsible for a decline in biodiversity in a disturbed habitat?",
+    "choices": [
+      "Habitat fragmentation and loss of resources",
+      "Increase in predator numbers",
+      "Higher ambient temperatures",
+      "Greater sunlight exposure"
+    ],
+    "correctIndex": 0,
+    "explanation": "Habitat fragmentation reduces available living space and resources, leading to reduced biodiversity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does an ecological niche differ from a habitat?",
+    "choices": [
+      "A niche describes an organism’s role; a habitat is the physical environment where it lives",
+      "A niche is the physical space; a habitat is the organism’s feeding behavior",
+      "They are the same concept",
+      "A niche only applies to predators, while a habitat applies to all organisms"
+    ],
+    "correctIndex": 0,
+    "explanation": "A habitat is the physical area an organism lives in, while a niche describes its ecological role, including resource use and interactions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which statement best describes the competitive exclusion principle?",
+    "choices": [
+      "Two species competing for the same resources cannot stably coexist in the same niche",
+      "Species always share resources equally to maximize biodiversity",
+      "Competition increases the genetic diversity of an ecosystem",
+      "Exclusion only occurs between predators"
+    ],
+    "correctIndex": 0,
+    "explanation": "The competitive exclusion principle states that two species competing for identical resources cannot coexist indefinitely; one will outcompete the other.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If a keystone species is removed from a food web, what is the most likely outcome?",
+    "choices": [
+      "An increase in biodiversity due to reduced competition",
+      "Cascading effects that may lead to a decline in biodiversity",
+      "Little or no change in ecosystem structure",
+      "Immediate collapse of the entire ecosystem"
+    ],
+    "correctIndex": 1,
+    "explanation": "Keystone species play a disproportionately large role in maintaining ecosystem structure; their removal can cause cascading changes and reduced biodiversity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How do invasive species typically alter ecosystem dynamics?",
+    "choices": [
+      "They increase resource availability for all native species",
+      "They outcompete native species and disrupt existing ecological relationships",
+      "They only have short-term effects on the ecosystem",
+      "They always become the dominant producers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Invasive species often outcompete native species for resources, disrupt food webs, and alter ecosystem function.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which process is most responsible for the biogeochemical cycling of nitrogen?",
+    "choices": [
+      "Nitrogen fixation by bacteria converting atmospheric nitrogen to ammonia",
+      "Photosynthesis in plants converting nitrogen to nitrates",
+      "Respiration in animals releasing nitrogen gas",
+      "Evaporation of nitrogen from the soil"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nitrogen fixation, performed by bacteria (and some archaea), converts inert atmospheric nitrogen (N₂) into ammonia, a form usable by plants.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Why is only a small fraction of energy available to top predators in an ecosystem?",
+    "choices": [
+      "Energy is entirely conserved between trophic levels",
+      "Large losses occur at each trophic level due to metabolic processes and heat dissipation",
+      "Top predators do not require much energy",
+      "Energy accumulates as biomass in lower trophic levels"
+    ],
+    "correctIndex": 1,
+    "explanation": "At each transfer of energy from one trophic level to the next, a significant portion is lost as heat and waste, leaving top predators with only a small fraction of the original energy.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is an ecosystem?",
+    "choices": [
+      "A community of living organisms and the non‑living components of their environment interacting as a system",
+      "A group of similar species living in the same area",
+      "Only the living parts of an environment",
+      "The layers of the atmosphere"
+    ],
+    "correctIndex": 0,
+    "explanation": "An ecosystem includes both the community of living organisms and the abiotic factors in their environment, which interact as a unified system.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does biodiversity refer to?",
+    "choices": [
+      "The number of individual organisms in an ecosystem",
+      "The variety of living species in an ecosystem",
+      "The total biomass of an ecosystem",
+      "The age of an ecosystem"
+    ],
+    "correctIndex": 1,
+    "explanation": "Biodiversity is the variety of living species, both in terms of number and variety, in a given area.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a food chain?",
+    "choices": [
+      "A diagram showing the flow of energy from one organism to another in an ecosystem",
+      "A method of classifying animals by size",
+      "A cycle that describes nutrient recycling",
+      "A group of similar organisms"
+    ],
+    "correctIndex": 0,
+    "explanation": "A food chain is a linear sequence that shows how energy and nutrients pass from producers to consumers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organism is typically found at the base of a food chain?",
+    "choices": [
+      "Primary consumers",
+      "Producers",
+      "Secondary consumers",
+      "Tertiary consumers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Producers, such as plants and algae, form the base of the food chain by producing energy through photosynthesis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of a decomposer in an ecosystem?",
+    "choices": [
+      "To photosynthesize",
+      "To consume and break down dead organic matter",
+      "To act as a top predator",
+      "To produce oxygen"
+    ],
+    "correctIndex": 1,
+    "explanation": "Decomposers break down dead material, recycling nutrients back into the ecosystem.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is meant by 'trophic level'?",
+    "choices": [
+      "The physical size of an organism",
+      "The position an organism occupies in a food chain",
+      "The chemical composition of an organism",
+      "The rate of growth of an organism"
+    ],
+    "correctIndex": 1,
+    "explanation": "A trophic level indicates an organism's position in the food chain (e.g. producer, primary consumer, etc.).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In an energy pyramid, what is the main reason for decreasing energy levels at higher trophic levels?",
+    "choices": [
+      "Energy increases at each trophic level",
+      "Energy is lost mainly as heat during metabolic processes",
+      "Energy is stored as biomass without loss",
+      "Energy is gained from external sources at higher levels"
+    ],
+    "correctIndex": 1,
+    "explanation": "Most energy is lost as heat in metabolic processes at each trophic level, so less is available to higher levels.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'niche' refer to in ecology?",
+    "choices": [
+      "The physical area where an organism lives",
+      "The role and position an organism has in its environment",
+      "The number of species in an area",
+      "The rate of reproduction of a species"
+    ],
+    "correctIndex": 1,
+    "explanation": "An ecological niche describes an organism’s functional role and its interactions within the ecosystem, including how it obtains resources and interacts with other species.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary impact of habitat fragmentation on biodiversity?",
+    "choices": [
+      "It increases gene flow between populations",
+      "It creates isolated patches that may reduce species survival",
+      "It improves the quality of habitats",
+      "It increases the available resources"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fragmentation divides an ecosystem into smaller isolated patches, which can reduce biodiversity and increase extinction risk.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes a species that is native to a specific location and found nowhere else?",
+    "choices": [
+      "Invasive",
+      "Endemic",
+      "Exotic",
+      "Cosmopolitan"
+    ],
+    "correctIndex": 1,
+    "explanation": "An endemic species is unique to a defined geographic location.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a food web?",
+    "choices": [
+      "A single linear food chain",
+      "A network of interconnecting food chains within an ecosystem",
+      "A diagram showing energy transfer in a single species",
+      "A list of predators in an ecosystem"
+    ],
+    "correctIndex": 1,
+    "explanation": "A food web is a complex network of interconnected food chains in an ecosystem.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary role of producers in an ecosystem?",
+    "choices": [
+      "To absorb nutrients from the soil",
+      "To produce energy-rich organic compounds through photosynthesis",
+      "To decompose organic matter",
+      "To consume other organisms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Producers, such as plants, capture solar energy and convert it to chemical energy through photosynthesis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a biotic component of an ecosystem?",
+    "choices": [
+      "Water",
+      "Soil",
+      "Plants",
+      "Temperature"
+    ],
+    "correctIndex": 2,
+    "explanation": "Biotic components are the living parts of an ecosystem, such as plants, animals, and microorganisms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an abiotic factor?",
+    "choices": [
+      "Insects",
+      "Fungi",
+      "Air temperature",
+      "Bacteria"
+    ],
+    "correctIndex": 2,
+    "explanation": "Abiotic factors are the non‑living components of an ecosystem, such as temperature, water, and sunlight.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'population density' refer to?",
+    "choices": [
+      "The total number of individuals in an ecosystem",
+      "The number of individuals per unit area",
+      "The diversity of species in a community",
+      "The distribution of biomass"
+    ],
+    "correctIndex": 1,
+    "explanation": "Population density is defined as the number of individuals per unit area or volume.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main purpose of ecological succession?",
+    "choices": [
+      "To maintain constant biodiversity",
+      "To show how ecosystems change and develop over time",
+      "To eliminate invasive species",
+      "To balance predator-prey numbers"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ecological succession describes the gradual process of change and development in an ecosystem over time.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an example of mutualism?",
+    "choices": [
+      "A tick feeding on a mammal",
+      "Bees pollinating flowers",
+      "A parasitic worm infecting a fish",
+      "Lichen as a combination of fungus and alga where both benefit"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lichen is a classic example of mutualism, where both the fungus and the alga benefit from the association.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term describes a decrease in species numbers when conditions become unfavorable?",
+    "choices": [
+      "Population explosion",
+      "Biodiversity",
+      "Population decline",
+      "Succession"
+    ],
+    "correctIndex": 2,
+    "explanation": "Population decline refers to a reduction in the number of individuals of a species due to adverse conditions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the term for species that are capable of surviving in a wide range of environmental conditions?",
+    "choices": [
+      "Endemic species",
+      "Stenohaline species",
+      "Eurythermal species",
+      "Invasive species"
+    ],
+    "correctIndex": 2,
+    "explanation": "Eurythermal species are able to tolerate a wide range of temperatures and environmental conditions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes an invasive species?",
+    "choices": [
+      "A species that is native to an area",
+      "A species that is introduced and spreads rapidly, often harming native species",
+      "A species that only lives in captivity",
+      "A species that is genetically modified"
+    ],
+    "correctIndex": 1,
+    "explanation": "An invasive species is one that is introduced to a new environment, where it spreads rapidly and can cause damage to native ecosystems.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'biomass' refer to?",
+    "choices": [
+      "The total mass of living matter in an area",
+      "The number of species in an ecosystem",
+      "The amount of energy produced by plants",
+      "The weight of a single organism"
+    ],
+    "correctIndex": 0,
+    "explanation": "Biomass is the total mass of living organisms in a given area or ecosystem.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main energy source for almost all ecosystems?",
+    "choices": [
+      "Fossil fuels",
+      "Solar energy",
+      "Geothermal energy",
+      "Wind energy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solar energy is the primary energy source driving photosynthesis and energy flow in most ecosystems.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes a food web?",
+    "choices": [
+      "A series of predator-prey interactions forming a single chain",
+      "A complex network of interconnected food chains",
+      "A graph of population density over time",
+      "A list of decomposers in an ecosystem"
+    ],
+    "correctIndex": 1,
+    "explanation": "A food web is a network that shows how different food chains in an ecosystem interconnect.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the effect of deforestation on an ecosystem's biodiversity?",
+    "choices": [
+      "It increases biodiversity by creating new habitats",
+      "It reduces biodiversity due to habitat loss",
+      "It has no effect on biodiversity",
+      "It only affects abiotic factors"
+    ],
+    "correctIndex": 1,
+    "explanation": "Deforestation removes habitats, often leading to a decrease in biodiversity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term refers to a long-term equilibrium in which species composition remains relatively stable?",
+    "choices": [
+      "Ecological succession",
+      "Steady state",
+      "Community climax",
+      "Population explosion"
+    ],
+    "correctIndex": 2,
+    "explanation": "A climax community represents a stable state of an ecosystem after succession, with relatively little change in species composition.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main purpose of conservation efforts in ecology?",
+    "choices": [
+      "To increase industrial development",
+      "To preserve biodiversity and maintain ecosystem functions",
+      "To eliminate all predators",
+      "To promote monocultures in agriculture"
+    ],
+    "correctIndex": 1,
+    "explanation": "Conservation aims to protect biodiversity and ensure ecosystems continue to function effectively.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'succession' refer to in an ecosystem?",
+    "choices": [
+      "The random extinction of species",
+      "The orderly sequence of changes in community structure over time",
+      "The process of energy transfer in food chains",
+      "The genetic change in populations"
+    ],
+    "correctIndex": 1,
+    "explanation": "Succession is the gradual process by which ecosystems change and develop over time.",
+    "difficulty": "easy"
   }
 ]
