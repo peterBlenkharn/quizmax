@@ -1,132 +1,261 @@
 [
   {
-    "question": "In an arithmetic sequence with first term 5 and common difference 3, what is the 7th term?",
-    "choices": ["20", "23", "24", "26"],
-    "correctIndex": 1,
-    "explanation": "The nth term of an arithmetic sequence is given by aₙ = a₁ + (n - 1)d. Here, a₇ = 5 + 6×3 = 23."
+    "question": "Find the 10th term of an arithmetic sequence with first term 5 and common difference 3.",
+    "choices": ["32", "35", "38", "41"],
+    "correctIndex": 0,
+    "explanation": "10th term = a + (n-1)d = 5 + 9×3 = 32.",
+    "difficulty": "hard"
   },
   {
-    "question": "What is the sum of the first 8 terms of the arithmetic sequence 2, 5, 8, ...?",
-    "choices": ["96", "100", "104", "108"],
+    "question": "The sum of the first 15 terms of an arithmetic sequence is 150 and the first term is 3. What is the common difference?",
+    "choices": ["0", "1", "2", "3"],
     "correctIndex": 1,
-    "explanation": "Use Sₙ = n/2 × (first term + last term). The 8th term is 2 + 7×3 = 23 so S₈ = 8/2 × (2+23) = 4×25 = 100."
+    "explanation": "Using S_n = n/2(2a + (n–1)d): 15/2(6 + 14d)=150; 15(6+14d)=300; 6+14d=20 so d=1.",
+    "difficulty": "hard"
   },
   {
-    "question": "In a geometric sequence with first term 3 and common ratio 2, what is the 5th term?",
-    "choices": ["32", "40", "48", "64"],
+    "question": "A geometric sequence has first term 4 and common ratio 3. What is the 5th term?",
+    "choices": ["81", "162", "324", "486"],
     "correctIndex": 2,
-    "explanation": "The nth term of a geometric sequence is given by aₙ = a₁ × r^(n-1). Here, a₅ = 3 × 2⁴ = 3 × 16 = 48."
+    "explanation": "5th term = 4×3^(4)=4×81=324.",
+    "difficulty": "hard"
   },
   {
-    "question": "What is the sum of the first 4 terms of a geometric sequence with first term 4 and common ratio 3?",
-    "choices": ["80", "120", "160", "200"],
+    "question": "For the function f(x) = 2x² - 3x + 5, find f(3).",
+    "choices": ["14", "15", "16", "17"],
+    "correctIndex": 0,
+    "explanation": "f(3)=2×9-3×3+5=18-9+5=14.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Determine the domain of the function f(x) = 1/(x-2).",
+    "choices": ["x > 2", "x < 2", "x ≠ 0", "x ≠ 2"],
+    "correctIndex": 3,
+    "explanation": "The denominator x-2 must not be zero, so x ≠ 2.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the y-intercept of the line y = 3x - 7?",
+    "choices": ["-7", "7", "3", "0"],
+    "correctIndex": 0,
+    "explanation": "The y-intercept occurs when x = 0: y = 3×0 - 7 = -7.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Find the value of k if the function f(x) = x² + k has a minimum value of -4.",
+    "choices": ["-4", "4", "0", "-2"],
+    "correctIndex": 0,
+    "explanation": "For f(x)=x²+k, the minimum occurs at x = 0; hence f(0)=k must equal -4.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The line passing through the points (2,5) and (4,9) is given by y = mx + c. What is the value of m?",
+    "choices": ["1", "3", "2", "4"],
     "correctIndex": 2,
-    "explanation": "Using Sₙ = a( rⁿ − 1)/(r − 1) for r ≠ 1. Here, S₄ = 4 × (3⁴ − 1)/(3 − 1) = 4×(81−1)/2 = 4×80/2 = 160."
+    "explanation": "Slope m = (9-5)/(4-2)=4/2=2.",
+    "difficulty": "hard"
   },
   {
-    "question": "If f(x) = 2x − 5, what is f(7)?",
-    "choices": ["9", "7", "10", "12"],
-    "correctIndex": 0,
-    "explanation": "Substitute 7 into f(x): 2×7 − 5 = 14 − 5 = 9."
+    "question": "In a sequence defined by aₙ = 2n + 1, what is the sum of the first 10 terms?",
+    "choices": ["110", "120", "130", "140"],
+    "correctIndex": 1,
+    "explanation": "Sum = Σ(2n+1) from n=1 to 10 = 2×55 + 10 = 120.",
+    "difficulty": "hard"
   },
   {
-    "question": "Which of the following is the inverse function of f(x) = 3x + 1?",
-    "choices": ["f⁻¹(x) = (x − 1)/3", "f⁻¹(x) = 3x − 1", "f⁻¹(x) = (x + 1)/3", "f⁻¹(x) = x/3"],
-    "correctIndex": 0,
-    "explanation": "To find the inverse, swap x and y in y = 3x + 1 and solve for y: y = (x − 1)/3."
+    "question": "Simplify the function f(x) = (x² - 9)/(x-3) for x ≠ 3.",
+    "choices": ["x - 3", "x + 3", "x² - 9", "1/(x+3)"],
+    "correctIndex": 3,
+    "explanation": "Factor numerator: (x-3)(x+3); cancel (x-3), so f(x)=x+3.",
+    "difficulty": "hard"
   },
   {
-    "question": "For the function g(x) = x² − 4, what are the x-intercepts?",
-    "choices": ["x = 2 and x = −2", "x = 4 and x = −4", "x = 2", "x = −2"],
-    "correctIndex": 0,
-    "explanation": "Set g(x) = 0: x² − 4 = 0 factors to (x − 2)(x + 2) = 0, so x = 2 and x = −2."
+    "question": "What is the common difference in the arithmetic sequence 5, 8, 11, 14, ...?",
+    "choices": ["2", "3", "4", "5"],
+    "correctIndex": 1,
+    "explanation": "Each term increases by 3.",
+    "difficulty": "easy"
   },
   {
-    "question": "Which graph best represents the function f(x) = |x|?",
-    "choices": [
-      "A V-shaped graph with vertex at (0,0) opening upwards",
-      "A U-shaped curve opening upwards",
-      "A straight line passing through the origin",
-      "A horizontal line"
-    ],
-    "correctIndex": 0,
-    "explanation": "The absolute value function creates a V-shaped graph with its vertex at the origin."
-  },
-  {
-    "question": "If h(x) = x³, what is h(–2)?",
-    "choices": ["–8", "8", "–6", "6"],
-    "correctIndex": 0,
-    "explanation": "Compute h(–2): (–2)³ = –8."
-  },
-  {
-    "question": "What is the composite function f(g(x)) if f(x) = x + 3 and g(x) = 2x?",
-    "choices": ["2x + 3", "2x + 6", "x + 3", "x + 6"],
-    "correctIndex": 0,
-    "explanation": "f(g(x)) = f(2x) = 2x + 3."
-  },
-  {
-    "question": "Find the domain of f(x) = √(x − 4).",
-    "choices": ["x ≥ 0", "x > 4", "x ≥ 4", "x < 4"],
+    "question": "What is the next term in the geometric sequence 2, 4, 8, 16, ...?",
+    "choices": ["24", "28", "32", "36"],
     "correctIndex": 2,
-    "explanation": "The square root is defined when the radicand is non-negative: x − 4 ≥ 0, so x ≥ 4."
+    "explanation": "Each term is doubled; 16×2=32.",
+    "difficulty": "easy"
   },
   {
-    "question": "What is the range of the function f(x) = x²?",
-    "choices": ["x ≥ 0", "x > 0", "all real numbers", "x ≤ 0"],
-    "correctIndex": 0,
-    "explanation": "Since squaring any real number produces a non-negative result, the range is [0, ∞)."
+    "question": "In a geometric sequence with first term 3 and common ratio 2, what is the 4th term?",
+    "choices": ["18", "6", "12", "24"],
+    "correctIndex": 3,
+    "explanation": "4th term = 3×2^(3)=3×8=24.",
+    "difficulty": "easy"
   },
   {
-    "question": "What transformation does f(x) = (x − 2)² + 3 represent compared to f(x) = x²?",
-    "choices": [
-      "A shift right 2 units and up 3 units",
-      "A shift left 2 units and down 3 units",
-      "A shift right 3 units and up 2 units",
-      "A reflection across the y-axis"
-    ],
-    "correctIndex": 0,
-    "explanation": "Replacing x with (x − 2) shifts the graph right by 2 and adding 3 shifts it up by 3."
+    "question": "For the function f(x)=x²+1, what is f(2)?",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "explanation": "f(2)=2²+1=4+1=5.",
+    "difficulty": "easy"
   },
   {
-    "question": "The line represented by f(x) = 2x + 1 is straight. What is its slope?",
-    "choices": ["1", "2", "1/2", "0"],
+    "question": "What is the y-intercept of the line y = 2x + 3?",
+    "choices": ["0", "2", "3", "5"],
+    "correctIndex": 2,
+    "explanation": "When x=0, y=3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the slope of the line given by y = -4x + 7?",
+    "choices": ["4", "-4", "7", "-7"],
     "correctIndex": 1,
-    "explanation": "In the line equation y = mx + b, m is the slope. Here, m = 2."
+    "explanation": "The slope is the coefficient of x, which is -4.",
+    "difficulty": "easy"
   },
   {
-    "question": "For an arithmetic sequence defined by a₁ = 7 and common difference d = −2, what is the 5th term?",
-    "choices": ["–1", "1", "3", "5"],
+    "question": "If f(x) = 3x - 2, what is f(0)?",
+    "choices": ["-2", "0", "2", "3"],
     "correctIndex": 0,
-    "explanation": "a₅ = 7 + (5 − 1) × (−2) = 7 − 8 = −1."
+    "explanation": "f(0)=3×0 -2 = -2.",
+    "difficulty": "easy"
   },
   {
-    "question": "In a geometric sequence, if the second term is 6 and the common ratio is 3, what is the first term?",
-    "choices": ["2", "3", "6", "9"],
+    "question": "Solve f(x) = 0 for the function f(x) = x + 5.",
+    "choices": ["5", "-5", "0", "1"],
+    "correctIndex": 1,
+    "explanation": "x + 5 = 0 implies x = -5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of function is f(x) = 2x² - 3x + 1?",
+    "choices": ["Linear", "Quadratic", "Exponential", "Logarithmic"],
+    "correctIndex": 1,
+    "explanation": "This is a quadratic function because it is of the form ax²+bx+c.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which function represents a straight line?",
+    "choices": ["f(x)=x²", "f(x)=2x+1", "f(x)=log x", "f(x)=e^x"],
+    "correctIndex": 1,
+    "explanation": "f(x)=2x+1 is linear.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the even function among the following:",
+    "choices": ["f(x)=x+1", "f(x)=x²", "f(x)=x³", "f(x)=√x"],
+    "correctIndex": 1,
+    "explanation": "f(x)=x² is even because f(x)=f(–x).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The graph of y = |x| is an example of what type of graph?",
+    "choices": ["V-shaped", "U-shaped", "Straight line", "Parabolic"],
     "correctIndex": 0,
-    "explanation": "The second term equals the first term times the ratio, so a₁ = 6/3 = 2."
+    "explanation": "The absolute value graph is V‑shaped.",
+    "difficulty": "easy"
   },
   {
-    "question": "Determine the sum of the first 6 terms of a geometric sequence with first term 2 and common ratio 2.",
-    "choices": ["124", "126", "128", "130"],
+    "question": "What is the domain of the function f(x) = √(x-2)?",
+    "choices": ["x > 2", "x ≥ 2", "x ≤ 2", "All real numbers"],
     "correctIndex": 1,
-    "explanation": "Use Sₙ = a × (rⁿ − 1)/(r − 1): S₆ = 2×(2⁶−1)/(2−1) = 2×(64−1) = 2×63 = 126."
+    "explanation": "√(x-2) is defined when x-2 ≥ 0, so x ≥ 2.",
+    "difficulty": "easy"
   },
   {
-    "question": "If f(x) = x² + 2x + 1, what is its factorized form?",
-    "choices": ["(x + 1)²", "(x + 2)(x + 1)", "(x − 1)²", "(x + 1)(x − 1)"],
+    "question": "If f(x)=2^x, what is f(3)?",
+    "choices": ["6", "7", "8", "9"],
+    "correctIndex": 2,
+    "explanation": "f(3)=2^3=8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What are the x- and y-intercepts of the line y = -2x + 6?",
+    "choices": ["(3, 0) and (0, 6)", "(0, 3) and (6, 0)", "(2, 0) and (0, 4)", "None of these"],
     "correctIndex": 0,
-    "explanation": "x² + 2x + 1 factors as (x + 1)²."
+    "explanation": "x-intercept: solve -2x+6=0, x=3; y-intercept: (0,6).",
+    "difficulty": "easy"
   },
   {
-    "question": "What is the y-intercept of the line f(x) = −3x + 7?",
-    "choices": ["−3", "7", "3", "0"],
-    "correctIndex": 1,
-    "explanation": "The y-intercept is the constant term, which is 7."
+    "question": "Find the general term aₙ of the arithmetic sequence with first term 7 and common difference 4.",
+    "choices": ["4n + 3", "4n + 7", "7n + 4", "7n - 4"],
+    "correctIndex": 0,
+    "explanation": "aₙ = a + (n–1)d = 7 + 4(n–1)=4n + 3.",
+    "difficulty": "easy"
   },
   {
-    "question": "For the rational function f(x) = (x + 2)/(x − 3), what is the vertical asymptote?",
-    "choices": ["x = −2", "x = 3", "y = 3", "y = −2"],
+    "question": "If f(x) = x³, what is f(–2)?",
+    "choices": ["8", "-8", "4", "-4"],
     "correctIndex": 1,
-    "explanation": "The vertical asymptote occurs where the denominator is zero: x − 3 = 0, so x = 3."
+    "explanation": "f(–2)= (–2)³ = –8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What transformation does the graph of f(x)= (x-3)² represent compared to y=x²?",
+    "choices": ["Shift left by 3", "Shift right by 3", "Shift up by 3", "Shift down by 3"],
+    "correctIndex": 1,
+    "explanation": "It shifts the graph 3 units to the right.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the value of k if f(x) = kx passes through the point (4, 12).",
+    "choices": ["2", "3", "4", "6"],
+    "correctIndex": 1,
+    "explanation": "k = 12/4 = 3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which function represents a parabola opening downward?",
+    "choices": ["f(x)=x²", "f(x)=-x²", "f(x)=x", "f(x)=-x"],
+    "correctIndex": 1,
+    "explanation": "A negative coefficient for x² indicates a downward-opening parabola.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the vertex of the parabola given by f(x)= (x-2)² + 3.",
+    "choices": ["(2, 3)", "(3, 2)", "(-2, 3)", "(2, -3)"],
+    "correctIndex": 0,
+    "explanation": "The vertex form f(x)=(x-h)²+k gives vertex (h, k); here (2, 3).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "For the function f(x)= 3(x+1) - 5, what is f(0)?",
+    "choices": ["-2", "2", "3", "5"],
+    "correctIndex": 0,
+    "explanation": "f(0)=3(0+1)-5=3-5=-2.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of graph is represented by the function y = 1/x?",
+    "choices": ["Linear", "Parabolic", "Hyperbola", "Exponential"],
+    "correctIndex": 2,
+    "explanation": "The graph of y = 1/x is a hyperbola.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the sum of the first 4 terms of the geometric sequence with first term 2 and common ratio 3.",
+    "choices": ["78", "80", "82", "84"],
+    "correctIndex": 1,
+    "explanation": "Terms: 2, 6, 18, 54; sum = 2+6+18+54 = 80.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If f(x)=|x|, what is f(-7)?",
+    "choices": ["7", "-7", "0", "14"],
+    "correctIndex": 0,
+    "explanation": "The absolute value of -7 is 7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "For the arithmetic sequence: 10, 15, 20, …, what is the 8th term?",
+    "choices": ["40", "45", "50", "55"],
+    "correctIndex": 1,
+    "explanation": "aₙ=10+(n-1)×5, so a₈=10+7×5=45.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the range of the function f(x)= 2x - 3, where x is any real number?",
+    "choices": ["x ≥ -3", "y > 0", "All real numbers", "y ≥ -3"],
+    "correctIndex": 2,
+    "explanation": "A linear function with nonzero slope has a range of all real numbers.",
+    "difficulty": "easy"
   }
 ]
