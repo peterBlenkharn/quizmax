@@ -1,8 +1,457 @@
 [
   {
-    "question": "Which element is a primary component of organic compounds?",
-    "choices": ["Oxygen", "Nitrogen", "Carbon", "Hydrogen"],
+    "question": "Calculate the percentage composition of carbon in hexane (C₆H₁₄).",
+    "choices": ["70.0%", "75.0%", "83.7%", "90.0%"],
     "correctIndex": 2,
-    "explanation": "Carbon is the backbone of organic compounds."
+    "explanation": "Molar mass of hexane = (6×12) + (14×1) = 72 + 14 = 86 g/mol. Carbon mass = 72 g. Percentage = (72/86)×100 ≈ 83.7%.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The IUPAC name '2-methylpropane' refers to which molecular formula?",
+    "choices": ["C3H8", "C4H10", "C5H12", "C6H14"],
+    "correctIndex": 1,
+    "explanation": "2‑Methylpropane (isobutane) has the formula C4H10.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In the electrophilic addition reaction of HBr to an alkene, what is the mechanism followed?",
+    "choices": ["SN1", "SN2", "Electrophilic addition", "Radical substitution"],
+    "correctIndex": 2,
+    "explanation": "Alkenes react with hydrogen halides via an electrophilic addition mechanism.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A compound with molecular formula C3H6O could be either an aldehyde or a ketone. Which of the following is a ketone?",
+    "choices": ["Propanal", "Acetone", "Propan-1-ol", "Allyl alcohol"],
+    "correctIndex": 1,
+    "explanation": "Acetone (CH₃COCH₃) is the ketone isomer of C3H6O, while propanal (CH₃CH2CHO) is an aldehyde.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which reaction converts an alcohol into an alkene?",
+    "choices": ["Oxidation", "Dehydration", "Hydrogenation", "Halogenation"],
+    "correctIndex": 1,
+    "explanation": "Dehydration removes water from the alcohol, forming an alkene.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A nucleophilic substitution reaction in an alkyl halide that occurs via a two-step mechanism is called:",
+    "choices": ["SN1", "SN2", "E1", "E2"],
+    "correctIndex": 0,
+    "explanation": "The SN1 mechanism involves formation of a carbocation intermediate in two distinct steps.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Oxidation of a secondary alcohol typically produces which type of compound?",
+    "choices": ["Aldehyde", "Ketone", "Carboxylic acid", "Ester"],
+    "correctIndex": 1,
+    "explanation": "Secondary alcohols oxidize to yield ketones.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In an E2 elimination reaction, what is the main role of the strong base?",
+    "choices": ["It acts as a nucleophile", "It abstracts a proton to form a double bond", "It donates a proton", "It generates a carbocation"],
+    "correctIndex": 1,
+    "explanation": "A strong base removes a proton, resulting in the formation of a double bond via an E2 mechanism.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which functional group is characteristic of esters?",
+    "choices": ["–COOH", "–COO–", "–OH", "–CHO"],
+    "correctIndex": 1,
+    "explanation": "Esters contain the –COO– functional group.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following compounds is classified as aromatic?",
+    "choices": ["Benzene", "Cyclohexane", "But-1-ene", "Ethane"],
+    "correctIndex": 0,
+    "explanation": "Benzene is an aromatic compound with a conjugated ring system.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the general formula for alkanes?",
+    "choices": ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙH₂ₙ₊₁OH"],
+    "correctIndex": 0,
+    "explanation": "Alkanes follow the formula CₙH₂ₙ₊₂.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the simplest alkene?",
+    "choices": ["Ethene", "Propene", "Butene", "Ethane"],
+    "correctIndex": 0,
+    "explanation": "Ethene (C2H4) is the simplest alkene.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which compound is an alcohol?",
+    "choices": ["Methane", "Ethanol", "Propene", "Butane"],
+    "correctIndex": 1,
+    "explanation": "Ethanol (C2H5OH) is an alcohol.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the IUPAC name for CH₃CH₂OH?",
+    "choices": ["Methanol", "Ethanol", "Propanol", "Butanol"],
+    "correctIndex": 1,
+    "explanation": "CH₃CH₂OH is ethanol.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What functional group is present in an aldehyde?",
+    "choices": ["–CHO", "–COOH", "–OH", "–NH2"],
+    "correctIndex": 0,
+    "explanation": "Aldehydes contain the –CHO group.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the common name for CH₃COCH₃?",
+    "choices": ["Propanone", "Butanone", "Acetone", "Ethyl methyl ketone"],
+    "correctIndex": 2,
+    "explanation": "CH₃COCH₃ is commonly known as acetone.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a halogenoalkane?",
+    "choices": ["CH₃CH₂OH", "CH₃CH₂Cl", "CH₃COOH", "CH₃CH₂CH₂OH"],
+    "correctIndex": 1,
+    "explanation": "CH₃CH₂Cl is an alkyl halide (halogenoalkane).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "But-2-ene exists in two stereoisomeric forms. What type of isomerism does this represent?",
+    "choices": ["Chain isomerism", "Geometrical isomerism", "Optical isomerism", "Functional isomerism"],
+    "correctIndex": 1,
+    "explanation": "But-2-ene exhibits geometrical (cis-trans) isomerism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reaction involves the addition of hydrogen to convert an alkene into an alkane?",
+    "choices": ["Combustion", "Hydrogenation", "Dehydration", "Halogenation"],
+    "correctIndex": 1,
+    "explanation": "Hydrogenation adds H₂ to an alkene to form an alkane.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the IUPAC name for the compound CH₃CH₂CH₂OH?",
+    "choices": ["Methanol", "Ethanol", "Propanol", "Butanol"],
+    "correctIndex": 2,
+    "explanation": "CH₃CH₂CH₂OH is propan-1-ol (commonly known as propanol).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'isomer' mean?",
+    "choices": [
+      "Compounds with the same molecular formula but different structures",
+      "Compounds with different molecular formulas",
+      "Compounds with identical physical properties",
+      "Compounds with the same functional group only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Isomers are compounds that have the same molecular formula but different structures.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A compound formed by joining two small molecules with the loss of a water molecule is said to be formed by:",
+    "choices": ["Dehydration synthesis", "Hydrolysis", "Oxidation", "Reduction"],
+    "correctIndex": 0,
+    "explanation": "Dehydration synthesis (or condensation) involves joining molecules with the loss of water.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following reactions is characteristic of alkenes?",
+    "choices": ["Substitution", "Addition", "Elimination", "Combustion"],
+    "correctIndex": 1,
+    "explanation": "Alkenes typically undergo addition reactions due to the presence of a carbon–carbon double bond.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which functional group is found in ketones?",
+    "choices": ["–COOH", "–CHO", "–CO–", "–OH"],
+    "correctIndex": 2,
+    "explanation": "Ketones contain the carbonyl group (–CO–) bonded to two carbon atoms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the simplest carboxylic acid?",
+    "choices": ["Formic acid", "Acetic acid", "Propionic acid", "Butyric acid"],
+    "correctIndex": 0,
+    "explanation": "Formic acid (HCOOH) is the simplest carboxylic acid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which compound contains a carbon–carbon triple bond?",
+    "choices": ["Ethene", "Ethyne", "Ethane", "Ethanol"],
+    "correctIndex": 1,
+    "explanation": "Ethyne (acetylene, C₂H₂) has a triple bond between the carbon atoms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the functional group characteristic of alcohols?",
+    "choices": ["–OH", "–COOH", "–CHO", "–NH₂"],
+    "correctIndex": 0,
+    "explanation": "Alcohols possess the hydroxyl (–OH) functional group.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following compounds is an example of an ester?",
+    "choices": ["CH₃COOH", "CH₃OH", "CH₃COOCH₂CH₃", "CH₃CH₂OH"],
+    "correctIndex": 2,
+    "explanation": "CH₃COOCH₂CH₃ (ethyl acetate) is an ester.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organic compound is used as a solvent in nail polish removers?",
+    "choices": ["Benzene", "Acetone", "Methanol", "Ethanol"],
+    "correctIndex": 1,
+    "explanation": "Acetone is commonly used as a solvent in nail polish removers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the common name for an organic compound with the formula CH₄?",
+    "choices": ["Ethane", "Propane", "Methane", "Butane"],
+    "correctIndex": 2,
+    "explanation": "CH₄ is methane.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'saturation' mean in the context of organic compounds?",
+    "choices": [
+      "The compound contains only single bonds",
+      "The compound contains one or more double bonds",
+      "The compound is a mixture of two compounds",
+      "The compound contains only triple bonds"
+    ],
+    "correctIndex": 0,
+    "explanation": "A saturated compound contains only single bonds.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of isomerism involves compounds having the same connectivity but different spatial arrangements?",
+    "choices": [
+      "Structural isomerism",
+      "Geometrical isomerism",
+      "Optical isomerism",
+      "Conformational isomerism"
+    ],
+    "correctIndex": 1,
+    "explanation": "Geometrical isomerism (cis–trans) involves different spatial arrangements about a double bond.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the process called when a compound absorbs water to form a hydrate?",
+    "choices": [
+      "Dehydration",
+      "Hydrolysis",
+      "Hydration",
+      "Condensation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Hydration is the process where a compound absorbs water to form a hydrate.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a characteristic property of aromatic compounds?",
+    "choices": [
+      "They have a high reactivity towards nucleophilic substitution",
+      "They exhibit resonance stabilization",
+      "They always have a sweet smell",
+      "They contain only single bonds"
+    ],
+    "correctIndex": 1,
+    "explanation": "Aromatic compounds are stabilized by delocalized electrons (resonance), which gives them unique reactivity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these compounds is a primary alcohol?",
+    "choices": [
+      "CH₃CH₂OH",
+      "CH₃CHOHCH₃",
+      "(CH₃)₃COH",
+      "CH₃OH"
+    ],
+    "correctIndex": 0,
+    "explanation": "CH₃CH₂OH (ethanol) is a primary alcohol because the –OH group is attached to a carbon bonded to one other carbon.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reaction mechanism is typical for the substitution of a halogen in an alkyl halide via a direct attack of a nucleophile in one step?",
+    "choices": [
+      "SN1",
+      "SN2",
+      "E1",
+      "E2"
+    ],
+    "correctIndex": 1,
+    "explanation": "The SN2 mechanism involves a one‑step direct nucleophilic attack, leading to inversion of configuration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which functional group is found in carboxylic acids?",
+    "choices": [
+      "–COOH",
+      "–OH",
+      "–COO–",
+      "–CHO"
+    ],
+    "correctIndex": 0,
+    "explanation": "Carboxylic acids contain the –COOH group.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the IUPAC name for CH₃CH₂CH₂CH₂OH?",
+    "choices": [
+      "Butanol",
+      "Propanol",
+      "Pentanol",
+      "Ethanol"
+    ],
+    "correctIndex": 0,
+    "explanation": "CH₃CH₂CH₂CH₂OH is 1-butanol (commonly called butanol).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following compounds is a ketone?",
+    "choices": [
+      "CH₃CHO",
+      "CH₃COCH₃",
+      "CH₃CH₂OH",
+      "CH₃COOH"
+    ],
+    "correctIndex": 1,
+    "explanation": "CH₃COCH₃ (acetone) is a ketone, having a carbonyl group (C=O) bonded to two carbon atoms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the general formula for alkenes?",
+    "choices": [
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ₊₁OH"
+    ],
+    "correctIndex": 1,
+    "explanation": "Alkenes generally follow the formula CₙH₂ₙ.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which process involves the addition of water to an alkene?",
+    "choices": [
+      "Dehydration",
+      "Hydration",
+      "Hydrolysis",
+      "Oxidation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hydration is the process of adding water (H₂O) to an alkene to produce an alcohol.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What functional group is characteristic of amines?",
+    "choices": [
+      "–COOH",
+      "–NH₂",
+      "–OH",
+      "–CHO"
+    ],
+    "correctIndex": 1,
+    "explanation": "Amines contain the –NH₂ group.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which organic compound is commonly used as a solvent and is a major component of many nail polish removers?",
+    "choices": [
+      "Benzene",
+      "Toluene",
+      "Acetone",
+      "Chloroform"
+    ],
+    "correctIndex": 2,
+    "explanation": "Acetone is widely used as an organic solvent in nail polish removers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of isomerism involves molecules that are non-superimposable mirror images?",
+    "choices": [
+      "Geometrical isomerism",
+      "Structural isomerism",
+      "Optical isomerism",
+      "Conformational isomerism"
+    ],
+    "correctIndex": 2,
+    "explanation": "Optical isomers are non-superimposable mirror images (enantiomers) of each other.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the common name for C₂H₂?",
+    "choices": [
+      "Ethane",
+      "Ethene",
+      "Ethyne",
+      "Acetylene"
+    ],
+    "correctIndex": 2,
+    "explanation": "C₂H₂ is ethyne, commonly known as acetylene.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reaction involves the removal of water from two reacting molecules?",
+    "choices": [
+      "Hydrolysis",
+      "Condensation",
+      "Dehydration synthesis",
+      "Oxidation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Dehydration synthesis (or condensation) is the reaction in which water is removed as two molecules combine.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which functional group is found in ethers?",
+    "choices": [
+      "–OH", 
+      "–COOH", 
+      "–O–", 
+      "–NH₂"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ethers have an oxygen atom bonded to two alkyl or aryl groups, represented as –O–.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the IUPAC name of CH₃CH₂CH₂CH₃?",
+    "choices": [
+      "Butane", 
+      "Propane", 
+      "Pentane", 
+      "Hexane"
+    ],
+    "correctIndex": 0,
+    "explanation": "CH₃CH₂CH₂CH₃ is butane.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which reaction converts an alkene into an alkane?",
+    "choices": [
+      "Hydrogenation", 
+      "Oxidation", 
+      "Dehydration", 
+      "Halogenation"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydrogenation adds hydrogen (H₂) across the double bond in alkenes to form alkanes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which compound is known as isopropyl alcohol?",
+    "choices": [
+      "Propan-1-ol", 
+      "Propan-2-ol", 
+      "Butan-1-ol", 
+      "Ethanol"
+    ],
+    "correctIndex": 1,
+    "explanation": "Propan-2-ol is commonly known as isopropyl alcohol.",
+    "difficulty": "easy"
   }
 ]
