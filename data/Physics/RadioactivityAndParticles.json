@@ -1,8 +1,437 @@
 [
   {
-    "question": "What type of radiation is emitted in alpha decay?",
-    "choices": ["Alpha particles", "Beta particles", "Gamma rays", "Neutrons"],
+    "question": "A radioactive isotope has a half-life of 8 days. What fraction of the sample remains after 24 days?",
+    "choices": ["1/2", "1/4", "1/8", "1/16"],
+    "correctIndex": 2,
+    "explanation": "After 24 days, which is three half-lives, the fraction remaining is (1/2)^3 = 1/8.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A 50 g sample of a radioactive substance decays to 25 g in 6 days. What is its half-life?",
+    "choices": ["3 days", "6 days", "12 days", "18 days"],
+    "correctIndex": 1,
+    "explanation": "The sample halves in mass over 6 days, so its half-life is 6 days.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A radioactive source emits alpha particles with an energy of 5 MeV per decay. If a detector registers 10^6 decays per second, what is the total energy released per second in joules? (1 eV = 1.6×10⁻¹⁹ J)",
+    "choices": ["8×10⁻⁷ J", "8×10⁻⁵ J", "8×10⁻³ J", "8×10⁻¹ J"],
     "correctIndex": 0,
-    "explanation": "Alpha decay emits alpha particles."
+    "explanation": "Each decay releases 5×10⁶ eV = 5×10⁶ × 1.6×10⁻¹⁹ J = 8×10⁻¹³ J. Thus, 10^6 decays/s yield 8×10⁻¹³ × 10^6 = 8×10⁻⁷ J/s.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Using N = N₀(½)^(t/T₁/₂), if an initial sample of 1.2×10⁶ atoms decays to 1.5×10⁵ atoms in 20 days, what is the half-life?",
+    "choices": ["6.67 days", "8 days", "10 days", "12 days"],
+    "correctIndex": 0,
+    "explanation": "1.5×10⁵/1.2×10⁶ = 0.125 = (½)^(20/T₁/₂). Since 0.125 = (½)^3, then 20/T₁/₂ = 3 so T₁/₂ = 20/3 ≈ 6.67 days.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "For a radioactive substance with decay constant k, which relationship correctly defines the half-life (T₁/₂)?",
+    "choices": [
+      "T₁/₂ = ln(2) / k",
+      "T₁/₂ = k / ln(2)",
+      "T₁/₂ = 2 / k",
+      "T₁/₂ = k × ln(2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The half-life of a first‑order radioactive decay process is given by T₁/₂ = ln(2)/k.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Beta-minus decay results in the emission of which particle?",
+    "choices": ["Alpha particle", "Electron", "Positron", "Gamma ray"],
+    "correctIndex": 1,
+    "explanation": "In beta-minus decay, a neutron converts into a proton with the emission of an electron and an antineutrino.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which type of radiation is known for its high penetrating power?",
+    "choices": ["Alpha particles", "Beta particles", "Gamma rays", "Neutrons"],
+    "correctIndex": 2,
+    "explanation": "Gamma rays have high penetrating power compared to charged particles like alpha and beta particles.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A radioactive sample with an initial activity of 2000 Bq has a half-life of 5 days. What is its activity after 10 days?",
+    "choices": ["500 Bq", "1000 Bq", "250 Bq", "125 Bq"],
+    "correctIndex": 0,
+    "explanation": "After 10 days (two half-lives), the activity is 2000 × (½)² = 2000 × 1/4 = 500 Bq.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A Geiger counter registers an average of 80 counts per minute for a radioactive source. According to Poisson statistics, what is the approximate standard deviation in counts per minute?",
+    "choices": ["4", "8", "9", "√80 (~8.94)"],
+    "correctIndex": 3,
+    "explanation": "For Poisson statistics, the standard deviation is approximately the square root of the average; √80 ≈ 8.94 counts.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a nuclear reactor, increasing the concentration of control rods will:",
+    "choices": ["Increase the power output", "Decrease the power output", "Have no effect", "Make the reaction unstable"],
+    "correctIndex": 1,
+    "explanation": "Control rods absorb neutrons; increasing their concentration slows the chain reaction, thereby decreasing power output.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Radioactivity is defined as:",
+    "choices": [
+      "The emission of radiation by unstable atomic nuclei",
+      "The absorption of radiation by a material",
+      "The process of nuclear fusion",
+      "The scattering of light by small particles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Radioactivity is the spontaneous emission of particles or electromagnetic radiation as a result of unstable atomic nuclei decaying.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of particle is emitted during alpha decay?",
+    "choices": [
+      "Helium nucleus",
+      "Electron",
+      "Positron",
+      "Neutron"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alpha decay emits an alpha particle, which is a helium nucleus (2 protons and 2 neutrons).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "During beta-minus decay, which particle is emitted?",
+    "choices": [
+      "Alpha particle",
+      "Electron",
+      "Positron",
+      "Gamma ray"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beta-minus decay involves the emission of an electron and an antineutrino.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Gamma radiation is best described as:",
+    "choices": [
+      "High-energy photons",
+      "Heavy, charged particles",
+      "Low-energy electrons",
+      "Neutral particles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Gamma rays are high-energy electromagnetic radiation (photons) without mass or charge.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What instrument is used to measure levels of ionizing radiation?",
+    "choices": [
+      "Thermometer",
+      "Barometer",
+      "Geiger counter",
+      "Spectrometer"
+    ],
+    "correctIndex": 2,
+    "explanation": "A Geiger counter detects and measures ionizing radiation such as alpha, beta, and gamma radiation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The half-life of a radioactive substance is the time required for:",
+    "choices": [
+      "Half of the original atoms to decay",
+      "All atoms to decay",
+      "The energy output to halve",
+      "The sample mass to double"
+    ],
+    "correctIndex": 0,
+    "explanation": "Half-life is defined as the time needed for half of the radioactive atoms in a sample to decay.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit for radioactivity?",
+    "choices": [
+      "Gray",
+      "Sievert",
+      "Becquerel",
+      "Curie"
+    ],
+    "correctIndex": 2,
+    "explanation": "The SI unit of radioactivity is the Becquerel (Bq), which equals one disintegration per second.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the unit used to measure the absorbed dose of radiation?",
+    "choices": [
+      "Becquerel",
+      "Gray",
+      "Sievert",
+      "Newton"
+    ],
+    "correctIndex": 1,
+    "explanation": "The absorbed dose is measured in Grays (Gy), where 1 Gy equals 1 J/kg.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of radiation has the lowest penetrating ability?",
+    "choices": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "X-rays"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alpha particles are the least penetrating; they can be stopped by a sheet of paper or even the outer dead layer of skin.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Positron emission is associated with which type of decay?",
+    "choices": [
+      "Beta-plus decay",
+      "Alpha decay",
+      "Gamma decay",
+      "Neutron decay"
+    ],
+    "correctIndex": 0,
+    "explanation": "Positron emission, or beta-plus decay, occurs when a proton converts to a neutron and emits a positron and a neutrino.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following statements is true about gamma rays?",
+    "choices": [
+      "They are heavy and positively charged",
+      "They are high-energy electromagnetic radiation",
+      "They are easily stopped by a sheet of paper",
+      "They have a long half-life in radioactive decay"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gamma rays are high-energy photons with no mass or charge and have great penetrating power.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of nuclear reaction releases energy by splitting a heavy nucleus?",
+    "choices": [
+      "Nuclear fusion",
+      "Radioactive decay",
+      "Nuclear fission",
+      "Alpha decay"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nuclear fission splits a heavy nucleus into lighter nuclei, releasing energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In nuclear fusion, energy is produced by:",
+    "choices": [
+      "Splitting heavy nuclei",
+      "Combining light nuclei to form a heavier nucleus",
+      "Electron capture",
+      "Gamma emission"
+    ],
+    "correctIndex": 1,
+    "explanation": "Nuclear fusion occurs when light nuclei combine to form a heavier nucleus, releasing energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which particle is electrically neutral?",
+    "choices": [
+      "Proton",
+      "Electron",
+      "Neutron",
+      "Positron"
+    ],
+    "correctIndex": 2,
+    "explanation": "Neutrons carry no electrical charge.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Radioactive dating is a technique used to determine the age of:",
+    "choices": [
+      "Living organisms",
+      "Fossils and rocks",
+      "Modern buildings",
+      "Weather patterns"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radioactive dating uses the known decay rates of isotopes to estimate the age of fossils and rocks.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which decay process results in the release of a helium nucleus?",
+    "choices": [
+      "Alpha decay",
+      "Beta decay",
+      "Gamma decay",
+      "Positron emission"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alpha decay involves the emission of a helium nucleus (2 protons and 2 neutrons).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The activity of a radioactive source (measured in Bq) represents:",
+    "choices": [
+      "The number of decays per second",
+      "The energy of each decay",
+      "The half-life of the material",
+      "The mass of the sample"
+    ],
+    "correctIndex": 0,
+    "explanation": "Activity, measured in Becquerels, is the number of nuclear disintegrations per second.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of radiation is most commonly used in medical diagnostic imaging such as X-rays?",
+    "choices": [
+      "Alpha radiation",
+      "Beta radiation",
+      "Gamma radiation",
+      "Neutron radiation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gamma rays, which are high-energy electromagnetic radiation, are commonly used in medical imaging.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which particle is responsible for the beta-minus decay process?",
+    "choices": [
+      "Alpha particle",
+      "Electron",
+      "Positron",
+      "Neutron",
+    ],
+    "correctIndex": 1,
+    "explanation": "Beta-minus decay involves the emission of an electron (and an antineutrino).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The term 'decay constant' (k) is related to the half-life (T₁/₂) by which formula?",
+    "choices": [
+      "T₁/₂ = ln(2)/k",
+      "T₁/₂ = k/ln(2)",
+      "T₁/₂ = k × ln(2)",
+      "T₁/₂ = 2k"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a first‑order decay process, the relationship is T₁/₂ = ln(2)/k.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A radioactive sample has an initial activity of 5000 Bq and a half-life of 10 hours. After 30 hours, approximately what is its activity?",
+    "choices": [
+      "625 Bq",
+      "1250 Bq",
+      "2500 Bq",
+      "3125 Bq"
+    ],
+    "correctIndex": 0,
+    "explanation": "After 30 hours (three half-lives), the activity will be 5000/(2^3) = 5000/8 = 625 Bq.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of radiation has the greatest ionizing power?",
+    "choices": [
+      "Alpha particles",
+      "Beta particles",
+      "Gamma rays",
+      "X-rays"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alpha particles, due to their large mass and charge, have a high ionizing power.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument is typically used to measure the dose equivalent (biological effect) of radiation?",
+    "choices": [
+      "Thermometer",
+      "Dosimeter",
+      "Barometer",
+      "Spectrometer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A dosimeter measures the dose equivalent, typically in sieverts, which reflects the biological impact of radiation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which particle is emitted during beta-plus decay?",
+    "choices": [
+      "Electron",
+      "Positron",
+      "Alpha particle",
+      "Neutron"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beta-plus decay involves the emission of a positron from the nucleus.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Radioactive decay follows which type of kinetics?",
+    "choices": [
+      "Zero‑order kinetics",
+      "First‑order kinetics",
+      "Second‑order kinetics",
+      "Third‑order kinetics"
+    ],
+    "correctIndex": 1,
+    "explanation": "Radioactive decay is a first‑order process where the rate of decay is proportional to the amount of substance present.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'specific activity' mean in radioactivity?",
+    "choices": [
+      "Activity per unit mass of the radioactive substance",
+      "Total activity of the sample",
+      "The number of decays per second",
+      "The energy released per decay"
+    ],
+    "correctIndex": 0,
+    "explanation": "Specific activity is defined as the activity per unit mass of a radioactive material.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A sample with high specific activity implies that:",
+    "choices": [
+      "It has a long half-life",
+      "It has a high rate of decay per unit mass",
+      "It contains a large mass of material",
+      "It is safe to handle without precautions"
+    ],
+    "correctIndex": 1,
+    "explanation": "High specific activity means that a large number of decays occur per unit mass, often due to a short half-life.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes the unit 'curie' (Ci)?",
+    "choices": [
+      "A measure of absorbed dose",
+      "A measure of the number of decays per second",
+      "A measure of the energy per decay",
+      "A measure of ionization efficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "The curie is a unit of radioactivity defined as 3.7×10^10 decays per second.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the typical method used to shield against beta radiation?",
+    "choices": [
+      "A sheet of paper",
+      "A thin sheet of metal (like aluminum)",
+      "A thick lead shield",
+      "A wooden barrier"
+    ],
+    "correctIndex": 1,
+    "explanation": "Beta particles can be effectively shielded by a thin sheet of metal, such as aluminum.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a non‑living particle that can initiate a nuclear chain reaction?",
+    "choices": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Positron"
+    ],
+    "correctIndex": 1,
+    "explanation": "Neutrons, being uncharged, can penetrate nuclei and induce fission, initiating chain reactions.",
+    "difficulty": "easy"
   }
 ]
