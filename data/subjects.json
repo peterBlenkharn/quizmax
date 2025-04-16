@@ -45,8 +45,10 @@
   "English Literature": {
     "colorClass": "english-literature",
     "chips": [
-      "English Literature Paper 1",
-      "English Literature Paper 2"
+      "Romeo & Juliet",
+      "Poetry Anthology",
+      "An Inspector Calls",
+      "A Christmas Carol"
     ]
   },
   "English Language": {
@@ -60,7 +62,11 @@
     "colorClass": "geography",
     "chips": [
       "Physical Geography",
-      "Human Geography"
+      "Human Geography",
+      "Leeds Case Study",
+      "Lagos Case Study",
+      "Ethiopia Case Study",
+      "Antarctica Case Study"
     ]
   },
   "Physical Education": {
