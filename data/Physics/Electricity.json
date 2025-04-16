@@ -1,8 +1,380 @@
 [
   {
-    "question": "What is the unit of electric current?",
-    "choices": ["Volt", "Watt", "Ampere", "Ohm"],
-    "correctIndex": 2,
-    "explanation": "The unit of electric current is the Ampere."
+    "question": "A circuit contains two resistors of 4 Ω and 6 Ω connected in series across a 20 V battery. What is the current flowing through the circuit?",
+    "choices": ["1 A", "2 A", "3 A", "4 A"],
+    "correctIndex": 1,
+    "explanation": "Total resistance = 4 + 6 = 10 Ω, and by Ohm's Law, I = V/R = 20/10 = 2 A.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two resistors, 12 Ω and 4 Ω, are connected in parallel. Calculate the equivalent resistance.",
+    "choices": ["3 Ω", "4 Ω", "6 Ω", "8 Ω"],
+    "correctIndex": 0,
+    "explanation": "1/Req = 1/12 + 1/4 = 1/12 + 3/12 = 4/12, so Req = 12/4 = 3 Ω.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A resistor of 10 Ω is connected to a 12 V battery. What is the power dissipated by this resistor?",
+    "choices": ["14.4 W", "12 W", "10 W", "20 W"],
+    "correctIndex": 0,
+    "explanation": "Using P = V²/R, P = (12²)/10 = 144/10 = 14.4 W.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A device draws 0.5 A when connected to a 9 V battery. Calculate the electrical energy transferred by this device in 2 minutes.",
+    "choices": ["540 J", "600 J", "720 J", "480 J"],
+    "correctIndex": 0,
+    "explanation": "Energy E = I × V × t = 0.5 × 9 × 120 = 540 J (with 2 minutes = 120 s).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If a circuit has a total resistance of 8 Ω and the current is 3 A, what is the voltage across the circuit?",
+    "choices": ["24 V", "16 V", "20 V", "30 V"],
+    "correctIndex": 0,
+    "explanation": "Using V = I × R, V = 3 × 8 = 24 V.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In a series circuit with three resistors of 2 Ω, 3 Ω, and 5 Ω connected to a 50 V source, what is the current in the circuit?",
+    "choices": ["5 A", "4 A", "6 A", "3 A"],
+    "correctIndex": 0,
+    "explanation": "Total resistance = 2 + 3 + 5 = 10 Ω; therefore I = 50/10 = 5 A.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A heater rated at 2000 W is connected to a 230 V supply. What current does the heater draw?",
+    "choices": ["8.7 A", "10.5 A", "6.5 A", "12 A"],
+    "correctIndex": 0,
+    "explanation": "Current I = P/V = 2000/230 ≈ 8.7 A.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two resistors are connected in parallel and yield an equivalent resistance of 2 Ω. If one resistor is 3 Ω, what is the value of the other resistor?",
+    "choices": ["6 Ω", "4 Ω", "5 Ω", "3 Ω"],
+    "correctIndex": 0,
+    "explanation": "Using 1/Req = 1/R1 + 1/R2 with Req = 2 Ω and R1 = 3 Ω: 1/R2 = 1/2 - 1/3 = (3-2)/6 = 1/6, so R2 = 6 Ω.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Calculate the energy used by an electrical appliance operating at 100 W for 3 hours.",
+    "choices": ["300 Wh", "1,080,000 J", "1,080 J", "3600 J"],
+    "correctIndex": 1,
+    "explanation": "Energy = 100 W × 3 h = 300 Wh, which equals 300 × 3600 = 1,080,000 J.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A fuse in a circuit is rated at 5 A. If the circuit draws 4.8 A, will the fuse blow?",
+    "choices": ["Yes", "No", "It depends on the temperature", "It depends on the duration"],
+    "correctIndex": 1,
+    "explanation": "Since 4.8 A is below the 5 A rating, the fuse will not blow.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the SI unit of electric current?",
+    "choices": ["Ampere", "Volt", "Watt", "Ohm"],
+    "correctIndex": 0,
+    "explanation": "Electric current is measured in Amperes (A).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit of voltage?",
+    "choices": ["Volt", "Ampere", "Ohm", "Joule"],
+    "correctIndex": 0,
+    "explanation": "Voltage is measured in Volts (V).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit of resistance?",
+    "choices": ["Ohm", "Watt", "Volt", "Ampere"],
+    "correctIndex": 0,
+    "explanation": "Resistance is measured in Ohms (Ω).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which equation represents Ohm's law?",
+    "choices": ["V = I/R", "V = IR", "I = V/R", "R = V × I"],
+    "correctIndex": 1,
+    "explanation": "Ohm's law is given by V = I × R.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A light bulb draws 0.5 A when connected to a 120 V supply. What is its resistance?",
+    "choices": ["240 Ω", "60 Ω", "120 Ω", "180 Ω"],
+    "correctIndex": 0,
+    "explanation": "Resistance R = V / I = 120/0.5 = 240 Ω.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A battery supplies a voltage of 9 V. What is the terminal voltage of the battery?",
+    "choices": ["9 V", "0 V", "12 V", "6 V"],
+    "correctIndex": 0,
+    "explanation": "The terminal voltage is the voltage supplied by the battery, which is 9 V.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the formula for electrical power?",
+    "choices": ["P = I + V", "P = I × V", "P = V / I", "P = I - V"],
+    "correctIndex": 1,
+    "explanation": "Electrical power is given by the product of current and voltage: P = I × V.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A resistor with a resistance of 50 Ω has 0.2 A of current flowing through it. What is the voltage across the resistor?",
+    "choices": ["10 V", "5 V", "12 V", "15 V"],
+    "correctIndex": 0,
+    "explanation": "Voltage V = I × R = 0.2 × 50 = 10 V.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which component in an electrical circuit opposes the flow of current?",
+    "choices": ["Resistor", "Capacitor", "Inductor", "Battery"],
+    "correctIndex": 0,
+    "explanation": "A resistor limits the flow of current by opposing its passage.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the energy transferred formula in an electrical circuit?",
+    "choices": ["E = I + V + t", "E = I × V × t", "E = V / (I × t)", "E = I - V"],
+    "correctIndex": 1,
+    "explanation": "The electrical energy transferred is given by E = I × V × t.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a series circuit, components are connected:",
+    "choices": ["In parallel", "One after the other", "In a circular loop only", "Randomly"],
+    "correctIndex": 1,
+    "explanation": "In a series circuit, components are connected one after the other so the same current flows through all.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a parallel circuit, what happens if one branch fails?",
+    "choices": ["The entire circuit stops", "The other branches continue to operate", "The voltage doubles", "The current stops in all branches"],
+    "correctIndex": 1,
+    "explanation": "In a parallel circuit, if one branch fails, the remaining branches continue to function independently.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How can the current in a circuit be calculated if voltage and resistance are known?",
+    "choices": ["I = V × R", "I = V / R", "I = R / V", "I = V + R"],
+    "correctIndex": 1,
+    "explanation": "Using Ohm's law, current I = V / R.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary function of a fuse in an electrical circuit?",
+    "choices": [
+      "To amplify the current",
+      "To protect the circuit by breaking it when the current exceeds a safe limit",
+      "To store electrical energy",
+      "To regulate voltage"
+    ],
+    "correctIndex": 1,
+    "explanation": "A fuse is designed to protect an electrical circuit by melting and breaking the circuit if the current is too high.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which material is most commonly used for household wiring?",
+    "choices": ["Aluminum", "Copper", "Iron", "Silver"],
+    "correctIndex": 1,
+    "explanation": "Copper is widely used for electrical wiring due to its high conductivity and ductility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument is used to measure the current flowing through a circuit?",
+    "choices": ["Voltmeter", "Ammeter", "Ohmmeter", "Wattmeter"],
+    "correctIndex": 1,
+    "explanation": "An ammeter is the instrument used to measure electric current.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which instrument measures the potential difference across components in a circuit?",
+    "choices": ["Ammeter", "Voltmeter", "Ohmmeter", "Multimeter"],
+    "correctIndex": 1,
+    "explanation": "A voltmeter is used to measure the voltage (potential difference) across circuit elements.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A device rated at 1000 W and operating on a 230 V supply draws approximately how much current?",
+    "choices": ["4.35 A", "3.5 A", "5 A", "6 A"],
+    "correctIndex": 0,
+    "explanation": "Current I = P/V = 1000/230 ≈ 4.35 A.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is electrical insulation used for?",
+    "choices": [
+      "To increase current flow",
+      "To prevent accidental electrical conduction",
+      "To store charge",
+      "To convert AC to DC"
+    ],
+    "correctIndex": 1,
+    "explanation": "Insulation prevents the unwanted flow of electrical current, reducing the risk of electric shock.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of current flows in only one direction?",
+    "choices": ["Alternating current (AC)", "Direct current (DC)", "Both AC and DC", "Neither"],
+    "correctIndex": 1,
+    "explanation": "Direct current (DC) flows in a single direction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Many household outlets supply which type of current?",
+    "choices": ["Direct current (DC)", "Alternating current (AC)", "Both equally", "Variable current"],
+    "correctIndex": 1,
+    "explanation": "Household outlets typically provide alternating current (AC).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When resistance increases in a circuit while keeping voltage constant, what happens to the current?",
+    "choices": ["It increases", "It decreases", "It remains the same", "It oscillates"],
+    "correctIndex": 1,
+    "explanation": "According to Ohm's law (I = V/R), if resistance increases while voltage remains constant, the current decreases.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a circuit, what does the term 'scalar quantity' mean, as applied to resistance?",
+    "choices": [
+      "It has only magnitude and no direction",
+      "It has both magnitude and direction",
+      "It is measured in vector units",
+      "It is constant over time"
+    ],
+    "correctIndex": 0,
+    "explanation": "Resistance is a scalar quantity; it has magnitude only.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary difference between a series and a parallel circuit?",
+    "choices": [
+      "In a series circuit, components have different voltage drops; in a parallel circuit, the current splits among branches",
+      "In a series circuit, components share the same current; in a parallel circuit, each branch has the same voltage",
+      "Series circuits have multiple paths for current; parallel circuits do not",
+      "There is no difference"
+    ],
+    "correctIndex": 1,
+    "explanation": "In a series circuit all components share the same current, whereas in a parallel circuit every branch experiences the same voltage across it.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the formula P = IV represent?",
+    "choices": [
+      "Ohm's Law",
+      "Power dissipation in a circuit",
+      "Resistance calculation",
+      "Energy storage"
+    ],
+    "correctIndex": 1,
+    "explanation": "P = IV is the formula for electrical power, representing the rate at which energy is transferred.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Increasing the voltage in a circuit while keeping resistance constant will have what effect on current?",
+    "choices": [
+      "Decrease the current",
+      "Increase the current",
+      "No change in current",
+      "Change it unpredictably"
+    ],
+    "correctIndex": 1,
+    "explanation": "According to Ohm's law (I = V/R), if voltage increases and resistance remains constant, the current increases.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which component in a circuit typically stores electrical energy in an electric field?",
+    "choices": [
+      "Resistor",
+      "Capacitor",
+      "Inductor",
+      "Transformer"
+    ],
+    "correctIndex": 1,
+    "explanation": "A capacitor stores energy in an electric field.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What phenomenon describes the conversion of alternating current (AC) into direct current (DC)?",
+    "choices": [
+      "Rectification",
+      "Modulation",
+      "Amplification",
+      "Inversion"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rectification is the process of converting AC to DC.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which parameter determines the brightness of a light in a circuit, assuming the bulb's characteristics remain constant?",
+    "choices": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Power"
+    ],
+    "correctIndex": 3,
+    "explanation": "Brightness is closely related to power (P = IV) delivered to the light bulb.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does an ammeter measure?",
+    "choices": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Power"
+    ],
+    "correctIndex": 1,
+    "explanation": "An ammeter measures the electric current in a circuit.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a voltmeter measure?",
+    "choices": [
+      "Current",
+      "Voltage",
+      "Resistance",
+      "Power"
+    ],
+    "correctIndex": 1,
+    "explanation": "A voltmeter is used to measure the voltage difference between two points in a circuit.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If a circuit has a 1000 W appliance operating at 230 V, approximately how many amperes does it draw?",
+    "choices": [
+      "4.35 A", 
+      "3.0 A", 
+      "5.0 A", 
+      "6.0 A"
+    ],
+    "correctIndex": 0,
+    "explanation": "Current I = P/V = 1000/230 ≈ 4.35 A.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term best describes an electrical circuit that provides multiple independent pathways for current flow?",
+    "choices": [
+      "Series circuit",
+      "Parallel circuit",
+      "Open circuit",
+      "Short circuit"
+    ],
+    "correctIndex": 1,
+    "explanation": "A parallel circuit has multiple branches, giving independent paths for current flow.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the effect of a fuse blowing in an electrical circuit?",
+    "choices": [
+      "It increases the current",
+      "It protects the circuit by stopping the current flow",
+      "It converts AC to DC",
+      "It lowers the voltage supply"
+    ],
+    "correctIndex": 1,
+    "explanation": "A fuse is designed to blow (break the circuit) when the current exceeds safe limits.",
+    "difficulty": "easy"
   }
 ]
