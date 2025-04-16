@@ -1,8 +1,233 @@
 [
   {
-    "question": "What is Newton's Second Law?",
-    "choices": ["F = ma", "E = mc²", "V = IR", "P = IV"],
+    "question": "A 10 kg object is accelerated from rest to 20 m/s in 5 s. What is the net force acting on it?",
+    "choices": ["20 N", "40 N", "50 N", "60 N"],
+    "correctIndex": 1,
+    "explanation": "Acceleration a = (20-0)/5 = 4 m/s², so F = ma = 10 × 4 = 40 N.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A car decelerates uniformly from 30 m/s to rest over a distance of 45 m. What is its acceleration?",
+    "choices": ["-10 m/s²", "-5 m/s²", "10 m/s²", "5 m/s²"],
     "correctIndex": 0,
-    "explanation": "Newton’s Second Law states force equals mass times acceleration."
+    "explanation": "Using v² = u² + 2as with v = 0, we get 0 = (30)² + 2a(45); thus, a = -900/90 = -10 m/s².",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two forces of 15 N and 20 N act at an angle of 60° to one another. What is the approximate magnitude of the resultant force?",
+    "choices": ["25 N", "30.4 N", "35 N", "40 N"],
+    "correctIndex": 1,
+    "explanation": "Using the cosine rule: R = √(15² + 20² + 2×15×20×cos60°) = √(225+400+300) ≈ √925 ≈ 30.4 N.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A force of 25 N acts on a 5 kg mass, but a frictional force of 5 N opposes the motion. What is the resulting acceleration?",
+    "choices": ["2 m/s²", "3 m/s²", "4 m/s²", "5 m/s²"],
+    "correctIndex": 2,
+    "explanation": "Net force = 25 N – 5 N = 20 N, so acceleration a = 20/5 = 4 m/s².",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A spring obeys Hooke's law. When a 10 N force causes an extension of 0.05 m, what is the spring constant (k)?",
+    "choices": ["100 N/m", "150 N/m", "200 N/m", "250 N/m"],
+    "correctIndex": 2,
+    "explanation": "k = Force/extension = 10/0.05 = 200 N/m.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A ball decelerates uniformly from 10 m/s to rest in 4 s. What is the distance it travels during braking?",
+    "choices": ["10 m", "15 m", "20 m", "25 m"],
+    "correctIndex": 2,
+    "explanation": "Average speed = (10 + 0) / 2 = 5 m/s, so distance = 5 m/s × 4 s = 20 m.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Two forces acting along the same line are 8 N (to the right) and 5 N (to the left). What is the resultant force?",
+    "choices": ["3 N to the right", "3 N to the left", "13 N to the right", "13 N to the left"],
+    "correctIndex": 0,
+    "explanation": "Resultant force = 8 N (right) - 5 N (left) = 3 N to the right.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A ball is thrown vertically upward with an initial speed of 20 m/s. Assuming g = 10 m/s², what is its maximum height?",
+    "choices": ["10 m", "15 m", "20 m", "25 m"],
+    "correctIndex": 2,
+    "explanation": "Using v² = u² - 2gh with v = 0 gives 0 = (20)² - 2×10×h, so h = 400/20 = 20 m.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the momentum of a 2 kg object moving at 15 m/s?",
+    "choices": ["20 kg·m/s", "30 kg·m/s", "25 kg·m/s", "35 kg·m/s"],
+    "correctIndex": 1,
+    "explanation": "Momentum p = m × v = 2 × 15 = 30 kg·m/s.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A constant force accelerates a 3 kg object from 5 m/s to 25 m/s in 4 s. What is the work done by the net force?",
+    "choices": ["600 J", "750 J", "900 J", "1050 J"],
+    "correctIndex": 2,
+    "explanation": "Acceleration a = (25-5)/4 = 5 m/s², net force = 3×5 = 15 N; displacement s = 5×4 + 0.5×5×(4²) = 20 + 40 = 60 m; work = F × s = 15 × 60 = 900 J.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the SI unit of force?",
+    "choices": ["Newton", "Joule", "Watt", "Pascal"],
+    "correctIndex": 0,
+    "explanation": "Force is measured in Newtons (N).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "F = ma is the mathematical statement of which law?",
+    "choices": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Hooke's Law"],
+    "correctIndex": 1,
+    "explanation": "F = ma represents Newton's Second Law, relating force, mass, and acceleration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit of mass?",
+    "choices": ["Kilogram", "Gram", "Newton", "Meter"],
+    "correctIndex": 0,
+    "explanation": "Mass is measured in kilograms (kg).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Acceleration is measured in which unit?",
+    "choices": ["m/s", "m/s²", "km/h", "N/kg"],
+    "correctIndex": 1,
+    "explanation": "Acceleration is measured in meters per second squared (m/s²).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which law states that for every action there is an equal and opposite reaction?",
+    "choices": ["Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Conservation of Momentum"],
+    "correctIndex": 2,
+    "explanation": "Newton's Third Law states that every action has an equal and opposite reaction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the formula for average speed?",
+    "choices": ["Speed = distance/time", "Speed = time/distance", "Speed = mass/time", "Speed = force×time"],
+    "correctIndex": 0,
+    "explanation": "Average speed is defined as the distance traveled divided by the time taken.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a distance–time graph, a straight line indicates that an object is moving at:",
+    "choices": ["Increasing speed", "Decreasing speed", "Constant speed", "Rest"],
+    "correctIndex": 2,
+    "explanation": "A straight line on a distance–time graph signifies constant speed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Acceleration is calculated as:",
+    "choices": ["Change in speed divided by time", "Distance divided by time", "Mass times speed", "Force divided by time"],
+    "correctIndex": 0,
+    "explanation": "Acceleration is defined as the change in velocity over the time taken for that change.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a velocity–time graph, the slope represents:",
+    "choices": ["Distance", "Acceleration", "Speed", "Time"],
+    "correctIndex": 1,
+    "explanation": "The slope of a velocity–time graph indicates the acceleration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Momentum (p) is given by the formula:",
+    "choices": ["p = m + v", "p = m × v", "p = m/v", "p = v/m"],
+    "correctIndex": 1,
+    "explanation": "Momentum is calculated by multiplying mass (m) by velocity (v).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How is the distance traveled determined from a velocity–time graph?",
+    "choices": ["It is the slope of the graph", "It is the area under the graph", "It is the intercept", "It is the change in velocity"],
+    "correctIndex": 1,
+    "explanation": "The distance traveled is the area under the velocity–time graph.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which force opposes the motion of objects sliding past one another?",
+    "choices": ["Gravity", "Friction", "Tension", "Normal force"],
+    "correctIndex": 1,
+    "explanation": "Friction is the force that opposes the relative motion between two surfaces in contact.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which equation relates final velocity (v), initial velocity (u), acceleration (a), and time (t)?",
+    "choices": ["v = u + at", "v = u - at", "v = u × at", "v = u/at"],
+    "correctIndex": 0,
+    "explanation": "The equation v = u + at gives the final velocity when an object is accelerated from an initial velocity u by an acceleration a over time t.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Approximately what is the acceleration due to gravity near the Earth's surface?",
+    "choices": ["5 m/s²", "10 m/s²", "15 m/s²", "20 m/s²"],
+    "correctIndex": 1,
+    "explanation": "The acceleration due to gravity is approximately 10 m/s² (often used as an approximation for calculations).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does a negative acceleration indicate?",
+    "choices": ["The object is speeding up", "The object is slowing down", "The object is in uniform motion", "The object is changing direction only"],
+    "correctIndex": 1,
+    "explanation": "Negative acceleration, or deceleration, indicates that the object's speed is decreasing.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If an object travels at constant velocity, what is its acceleration?",
+    "choices": ["Equal to its speed", "Zero", "Positive", "Negative"],
+    "correctIndex": 1,
+    "explanation": "An object moving at constant velocity has zero acceleration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term best describes the rate of change of velocity?",
+    "choices": ["Momentum", "Force", "Acceleration", "Displacement"],
+    "correctIndex": 2,
+    "explanation": "Acceleration is defined as the rate of change of velocity with respect to time.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A velocity–time graph with a constant slope indicates that the acceleration is:",
+    "choices": ["Increasing", "Decreasing", "Constant", "Zero"],
+    "correctIndex": 2,
+    "explanation": "A constant slope on a velocity–time graph indicates constant acceleration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the SI unit of distance?",
+    "choices": ["Metre", "Kilometre", "Centimetre", "Inch"],
+    "correctIndex": 0,
+    "explanation": "Distance in SI units is measured in metres (m).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the term 'friction' refer to in physics?",
+    "choices": ["A force that opposes motion", "A force that enhances motion", "The conversion of energy", "Gravitational pull"],
+    "correctIndex": 0,
+    "explanation": "Friction is the resistive force that opposes the relative movement of surfaces in contact.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a vector quantity?",
+    "choices": ["Speed", "Distance", "Force", "Mass"],
+    "correctIndex": 2,
+    "explanation": "Force is a vector because it has both magnitude and direction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Newton's First Law is also known as the law of:",
+    "choices": ["Acceleration", "Inertia", "Action and Reaction", "Gravity"],
+    "correctIndex": 1,
+    "explanation": "Newton's First Law, the law of inertia, states that an object will remain at rest or in uniform motion unless acted upon by an external force.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When an object is in free fall near Earth's surface, which force is primarily acting on it?",
+    "choices": ["Friction", "Weight", "Tension", "Normal force"],
+    "correctIndex": 1,
+    "explanation": "In free fall, the dominant force is the weight, which is the gravitational force acting on the object's mass.",
+    "difficulty": "easy"
   }
 ]
