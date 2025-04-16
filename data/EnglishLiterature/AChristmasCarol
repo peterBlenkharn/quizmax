@@ -1,1 +1,782 @@
-
+[
+  {
+    "question": "Who is the main character in 'A Christmas Carol'?",
+    "choices": [
+      "Ebenezer Scrooge",
+      "Bob Cratchit",
+      "Jacob Marley",
+      "Tiny Tim"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ebenezer Scrooge is the miserly protagonist whose transformation is central to the novella.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ghost visits Scrooge first at midnight?",
+    "choices": [
+      "Ghost of Christmas Past",
+      "Ghost of Christmas Present",
+      "Jacob Marley",
+      "Ghost of Christmas Yet to Come"
+    ],
+    "correctIndex": 2,
+    "explanation": "Jacob Marley, Scrooge's former business partner, is the first spirit to visit him.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the primary theme of 'A Christmas Carol'?",
+    "choices": [
+      "Redemption and transformation",
+      "The struggle between science and religion",
+      "Romance and adventure",
+      "The inevitability of fate"
+    ],
+    "correctIndex": 0,
+    "explanation": "The novella centers on Scrooge's moral reformation and the possibility of redemption.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Who utters the famous line, 'God bless us, every one'?",
+    "choices": [
+      "Scrooge",
+      "Bob Cratchit",
+      "Tiny Tim",
+      "Jacob Marley"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tiny Tim expresses his hope and innocence with the line, highlighting his role as a symbol of goodwill.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ghost reveals scenes from Scrooge's early life?",
+    "choices": [
+      "Ghost of Christmas Past",
+      "Ghost of Christmas Present",
+      "Ghost of Christmas Yet to Come",
+      "Jacob Marley"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Ghost of Christmas Past takes Scrooge on a journey through his earlier years.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is Scrooge's famous dismissive remark about Christmas?",
+    "choices": [
+      "Merry Christmas!",
+      "Bah, humbug!",
+      "Happy Holidays!",
+      "No place for joy!"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phrase 'Bah, humbug!' encapsulates Scrooge's initial contempt for Christmas festivities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character is emblematic of the working class in the novella?",
+    "choices": [
+      "Jacob Marley",
+      "Bob Cratchit",
+      "Fezziwig",
+      "Mr. Scrooge"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bob Cratchit, despite hardship, is a symbol of the struggling working class.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the chain worn by Jacob Marley symbolize?",
+    "choices": [
+      "The burden of debt",
+      "The consequences of greed and selfishness",
+      "The importance of family ties",
+      "The passage of time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Marley’s chain represents the spiritual and moral burdens that arise from a life of greed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which spirit comes after the Ghost of Christmas Past?",
+    "choices": [
+      "Ghost of Christmas Present",
+      "Ghost of Christmas Yet to Come",
+      "Jacob Marley",
+      "None of the above"
+    ],
+    "correctIndex": 0,
+    "explanation": "After reflecting on his past, Scrooge is visited by the Ghost of Christmas Present who shows him current realities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Tiny Tim symbolize in 'A Christmas Carol'?",
+    "choices": [
+      "The corruption of society",
+      "Hope and the potential for change",
+      "The inevitability of death",
+      "The burdens of wealth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tiny Tim's optimism and vulnerability symbolize hope and the possibility of a kinder future.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What change does Scrooge undergo by the end of the story?",
+    "choices": [
+      "He becomes more greedy",
+      "He remains unchanged",
+      "He transforms into a generous and caring man",
+      "He moves abroad"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scrooge's reformation—becoming generous and caring—is the core of the narrative’s message.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Scrooge initially view Christmas?",
+    "choices": [
+      "As a time for joy and celebration",
+      "As an unnecessary distraction",
+      "As a sacred religious festival",
+      "As a business opportunity"
+    ],
+    "correctIndex": 1,
+    "explanation": "At the start, Scrooge regards Christmas as a pointless distraction from his business matters.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the significance of Fezziwig in the novella?",
+    "choices": [
+      "He represents old age and regret",
+      "He embodies the spirit of kindness and joviality associated with Christmas",
+      "He is a rival businessman",
+      "He is the primary antagonist"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fezziwig serves as a foil to Scrooge, embodying warmth, generosity, and the joy of communal celebration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of the supernatural in 'A Christmas Carol'?",
+    "choices": [
+      "To create a humorous atmosphere",
+      "To provide scientific explanations",
+      "To force characters to confront their past and moral failings",
+      "To serve as a mere decorative element"
+    ],
+    "correctIndex": 2,
+    "explanation": "The supernatural elements drive Scrooge to reflect on his life and prompt his transformation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What social issue does Dickens highlight through the character of Eva Smith?",
+    "choices": [
+      "Environmental degradation",
+      "Income inequality and social injustice",
+      "Technological obsolescence",
+      "Cultural assimilation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Eva Smith’s tragic story underscores the social injustice and neglect of the poor during the Victorian era.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character famously says, 'Bah, humbug!'?",
+    "choices": [
+      "Bob Cratchit",
+      "Tiny Tim",
+      "Ebenezer Scrooge",
+      "Jacob Marley"
+    ],
+    "correctIndex": 2,
+    "explanation": "The exclamation 'Bah, humbug!' is Scrooge’s dismissive remark towards Christmas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Scrooge's transformation suggest about the possibility of personal change?",
+    "choices": [
+      "That only financial wealth can alter a person",
+      "That individuals are doomed to remain the same",
+      "That everyone has the capacity for redemption and change",
+      "That change is only possible for the young"
+    ],
+    "correctIndex": 2,
+    "explanation": "The story strongly suggests that personal redemption is possible regardless of past misdeeds.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the snowy, cold setting at the beginning of 'A Christmas Carol' symbolize?",
+    "choices": [
+      "The purity of winter",
+      "The isolation and emotional coldness of Scrooge",
+      "The agricultural prosperity of the season",
+      "The festive spirit of Christmas"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cold, wintry setting mirrors Scrooge's initial lack of warmth and empathy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Dickens contrast Scrooge's character at the beginning and the end of the novella?",
+    "choices": [
+      "By showing him change from a miser to a benefactor",
+      "By depicting him as a hero throughout",
+      "By presenting him as consistently kind",
+      "By having him remain a solitary figure"
+    ],
+    "correctIndex": 0,
+    "explanation": "The contrast between Scrooge's initial greed and his final generosity underscores his dramatic transformation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ghost is responsible for showing Scrooge the potential consequences of his actions?",
+    "choices": [
+      "Ghost of Christmas Past",
+      "Ghost of Christmas Present",
+      "Ghost of Christmas Yet to Come",
+      "Jacob Marley"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Ghost of Christmas Yet to Come displays the grim future that awaits Scrooge if he does not change.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What role does public forgiveness play in the transformation of Scrooge?",
+    "choices": [
+      "It forces him to cling to his old ways",
+      "It has no effect on him",
+      "It inspires him to adopt a more compassionate outlook",
+      "It encourages him to isolate himself further"
+    ],
+    "correctIndex": 2,
+    "explanation": "The forgiveness and acceptance shown by others, such as the Cratchits, help motivate Scrooge's change of heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phrase best captures the essence of Scrooge's transformation at the end of the novella?",
+    "choices": [
+      "Cold as ice",
+      "Reformed and redeemed",
+      "Lost in sorrow",
+      "Forever alone"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scrooge's reformation from a miser into a kind, generous man is the central redemptive arc of the story.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the ghostly visitation in the novella primarily serve to illustrate?",
+    "choices": [
+      "The randomness of fate",
+      "The importance of historical accuracy",
+      "The consequences of moral neglect",
+      "The inevitability of technological change"
+    ],
+    "correctIndex": 2,
+    "explanation": "The apparitions reveal the dire consequences of neglecting one's social and moral responsibilities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which element of the novella emphasizes the theme of social responsibility?",
+    "choices": [
+      "The lavish descriptions of Scrooge's wealth",
+      "The interactions between Scrooge and his employees",
+      "The moral warnings delivered by the ghosts",
+      "The detailed portrayal of the winter landscape"
+    ],
+    "correctIndex": 2,
+    "explanation": "The ghosts’ warnings serve as a moral catalyst, urging both Scrooge and the audience to embrace social responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What effect does Dickens achieve by using the supernatural as a narrative device?",
+    "choices": [
+      "It minimizes the social commentary of the novella",
+      "It creates a fantastical and escapist story with no real-world implications",
+      "It heightens the dramatic tension and reinforces the moral transformation of the protagonist",
+      "It adds unnecessary complexity to the plot"
+    ],
+    "correctIndex": 2,
+    "explanation": "The supernatural elements intensify the narrative’s dramatic tension and deepen the moral message of transformation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which quotation best encapsulates the central message of 'A Christmas Carol'?",
+    "choices": [
+      "'Bah, humbug!'",
+      "'God bless us, every one!'",
+      "'I am the ghost of Christmas Yet to Come!'",
+      "'There is nothing in the world so irresistibly contagious as laughter and good-humour.'"
+    ],
+    "correctIndex": 1,
+    "explanation": "Tiny Tim's famous line, 'God bless us, every one!', reflects the universal message of hope, kindness, and communal responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes Dickens’ overall purpose in 'A Christmas Carol'?",
+    "choices": [
+      "To entertain with a simple ghost story",
+      "To advocate for social reform and moral responsibility",
+      "To provide a historical account of Christmas traditions",
+      "To document the economic practices of Victorian England"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dickens uses the narrative to critique the social neglect of his time and to promote the importance of compassion and reform.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the ultimate fate of Scrooge by the end of 'A Christmas Carol'?",
+    "choices": [
+      "He dies alone and unloved",
+      "He is arrested for fraud",
+      "He becomes a benefactor to others and embraces the Christmas spirit",
+      "He loses all his possessions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scrooge transforms completely, emerging as a generous, kind man who actively improves the lives of those around him.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which literary element does Dickens use to contrast the old and new Scrooge?",
+    "choices": [
+      "A consistent narrative perspective",
+      "A dramatic monologue",
+      "A transformation motif",
+      "A flashback technique"
+    ],
+    "correctIndex": 2,
+    "explanation": "The transformation motif—showing the marked change in Scrooge’s character—highlights the novella’s redemptive message.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which physical setting in the novella symbolizes Scrooge's initial isolation?",
+    "choices": [
+      "A bustling market",
+      "A warm fireplace",
+      "His cold, dark counting-house",
+      "A lively street festival"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scrooge’s counting-house is depicted as a cold, isolated place that mirrors his emotional detachment at the beginning of the story.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the effect of the recurrent imagery of darkness in 'A Christmas Carol'?",
+    "choices": [
+      "It creates a sense of mystery and suspense",
+      "It emphasizes the poor lighting conditions of Victorian offices",
+      "It symbolizes the moral and emotional darkness from which Scrooge must emerge",
+      "It has no significant effect on the overall theme"
+    ],
+    "correctIndex": 2,
+    "explanation": "Darkness represents Scrooge’s moral corruption and isolation, which contrasts with the eventual illumination of his character.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which narrative element is used to provide a contrast between the past and the present in the story?",
+    "choices": [
+      "The use of multiple narrators",
+      "The sequential ghost visits",
+      "The detailed description of winter",
+      "The dialogue between Scrooge and Bob Cratchit"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sequential visits by the three ghosts create a stark contrast between Scrooge's past, present, and potential future.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best illustrates the use of symbolism in 'A Christmas Carol'?",
+    "choices": [
+      "The repeated reference to Scrooge’s counting-house",
+      "Jacob Marley’s chain, symbolizing the consequences of greed",
+      "The depiction of the city streets at night",
+      "The description of the weather"
+    ],
+    "correctIndex": 1,
+    "explanation": "Marley’s chain is a powerful symbol of how greed and selfishness can bind a person in misery.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which event marks the turning point in Scrooge’s transformation?",
+    "choices": [
+      "His encounter with the Ghost of Christmas Yet to Come",
+      "His re-encounter with his old business partner",
+      "His reaction to Bob Cratchit's salary",
+      "His childhood memories"
+    ],
+    "correctIndex": 0,
+    "explanation": "The chilling visit from the Ghost of Christmas Yet to Come forces Scrooge to confront his potential future, catalyzing his transformation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What role does the weather play in 'A Christmas Carol'?",
+    "choices": [
+      "It has no symbolic meaning",
+      "It reflects the internal moods of the characters",
+      "It is solely used to create a dramatic setting",
+      "It contrasts the rural and urban landscapes"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cold, often gloomy weather mirrors Scrooge’s initial emotional state and enhances the overall somber mood of the novella.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which character ultimately represents hope and renewal in the story?",
+    "choices": [
+      "Mr. Scrooge",
+      "Bob Cratchit",
+      "Tiny Tim",
+      "Jacob Marley"
+    ],
+    "correctIndex": 2,
+    "explanation": "Tiny Tim, with his optimistic outlook despite his frailty, symbolizes hope and the potential for a better future.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Dickens use dialogue to enhance the character development of Scrooge?",
+    "choices": [
+      "By making him speak in archaic language",
+      "By contrasting his initial dismissive tone with his later sincere expressions of remorse",
+      "By having him only speak in monologues",
+      "By minimizing his dialogue throughout the novella"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scrooge’s dialogue evolves from curt, dismissive remarks to expressions filled with remorse and determination, marking his character development.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best represents the moral lesson of 'A Christmas Carol'?",
+    "choices": [
+      "Wealth and power are the keys to happiness",
+      "Individual actions have no impact on society",
+      "Everyone is capable of change and must take responsibility for one another",
+      "Change is impossible once one is set in their ways"
+    ],
+    "correctIndex": 2,
+    "explanation": "The story teaches that redemption is possible and that each person has a social responsibility to others.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the overall tone of 'A Christmas Carol' by the end of the novella?",
+    "choices": [
+      "Tragic and hopeless",
+      "Joyous, redemptive, and hopeful",
+      "Ironic and mocking",
+      "Indifferent and detached"
+    ],
+    "correctIndex": 1,
+    "explanation": "By the end, the novella adopts a joyous and hopeful tone, reflecting Scrooge's transformation and the potential for societal improvement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following events best encapsulates the theme of redemption in the novella?",
+    "choices": [
+      "Scrooge’s rejection of charity",
+      "Scrooge’s haunted past",
+      "Scrooge’s joyful embrace of Christmas and generosity",
+      "The bleak depiction of winter"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scrooge’s shift toward generosity and compassion—demonstrated by his actions on Christmas morning—epitomizes the theme of redemption.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the transformation of Scrooge signify within the context of Victorian society?",
+    "choices": [
+      "That individual change is unimportant",
+      "That personal redemption can lead to a wider social reform",
+      "That the upper class is doomed to remain unfeeling",
+      "That wealth always corrupts"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scrooge's transformation suggests that personal change can spark broader social improvement and moral renewal.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an example of foreshadowing in 'A Christmas Carol'?",
+    "choices": [
+      "Scrooge’s early dismissal of Christmas as 'Bah, humbug!'",
+      "The detailed description of London’s streets",
+      "The joyful scenes at Fezziwig’s party",
+      "The depiction of the snowy setting"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scrooge’s dismissive remark ‘Bah, humbug!’ foreshadows his initial moral failings and sets the stage for his eventual redemption.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the significance of the transformation in Scrooge's character at the end of 'A Christmas Carol'?",
+    "choices": [
+      "It underscores the permanence of wealth",
+      "It demonstrates that change is possible for anyone regardless of past behavior",
+      "It shows that only the elite can change",
+      "It is used to illustrate that redemption is unattainable"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scrooge's dramatic change from miser to benefactor suggests that personal and social redemption is possible.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Dickens use the motif of light and darkness to reinforce the novella's themes?",
+    "choices": [
+      "Light represents Scrooge's wealth, while darkness represents poverty",
+      "Light symbolizes hope and moral awakening; darkness represents ignorance and isolation",
+      "They are used only to describe the weather",
+      "They contrast the urban and rural settings"
+    ],
+    "correctIndex": 1,
+    "explanation": "The recurring contrast of light and darkness mirrors the evolution from moral ignorance to enlightenment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What transformation does the character Bob Cratchit undergo throughout the story?",
+    "choices": [
+      "He becomes more resentful and bitter",
+      "He remains a static character without growth",
+      "He evolves from a downtrodden worker to a hopeful family man despite hardships",
+      "He becomes Scrooge's business partner"
+    ],
+    "correctIndex": 2,
+    "explanation": "While Bob Cratchit’s circumstances remain difficult, his enduring optimism underscores the novella's message of hope.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which phrase best summarizes the central message Dickens conveys about responsibility in 'A Christmas Carol'?",
+    "choices": [
+      "'Every man has his price.'",
+      "'A penny saved is a penny earned.'",
+      "'Change begins with a single act of kindness.'",
+      "'There is no place like home.'"
+    ],
+    "correctIndex": 2,
+    "explanation": "The transformation of Scrooge and his eventual embrace of generosity emphasize that small acts of kindness can instigate broader change.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the effect of the Inspector’s final line on the reader?",
+    "choices": [
+      "It provides closure with no further moral implications",
+      "It leaves the reader with a lingering call to social responsibility",
+      "It dismisses the issues raised in the play",
+      "It undermines the entire narrative"
+    ],
+    "correctIndex": 1,
+    "explanation": "The final line acts as a moral appeal, urging the reader to reflect on their social responsibilities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ghost is most associated with the theme of opportunity for change?",
+    "choices": [
+      "Jacob Marley",
+      "The Ghost of Christmas Past",
+      "The Ghost of Christmas Present",
+      "The Ghost of Christmas Yet to Come"
+    ],
+    "correctIndex": 3,
+    "explanation": "The Ghost of Christmas Yet to Come offers a grim vision of the future that ultimately motivates Scrooge to change before it is too late.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does Scrooge’s increasing exposure to the Christmas spirit throughout the novella ultimately lead him to do?",
+    "choices": [
+      "Refuse further visits from the ghosts",
+      "Isolate himself even more",
+      "Open his heart and extend generosity to others",
+      "Return to his old ways after an initial change"
+    ],
+    "correctIndex": 2,
+    "explanation": "Exposure to the Christmas spirit transforms Scrooge’s perspective, leading him to embrace compassion and generosity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best exemplifies the theme of transformation in 'A Christmas Carol'?",
+    "choices": [
+      "Scrooge's methodical wealth accumulation",
+      "The dramatic change in Scrooge's behavior and attitude after the ghost visits",
+      "Jacob Marley's long, sorrowful speech",
+      "The persistent cold weather throughout the novella"
+    ],
+    "correctIndex": 1,
+    "explanation": "The dramatic alteration in Scrooge’s character—from miserly and isolated to compassionate and communal—is the essence of transformation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these best explains the term 'redemption' as it applies to 'A Christmas Carol'?",
+    "choices": [
+      "The act of buying back lost property",
+      "The state of being saved from wrongdoing or error, often resulting in moral renewal",
+      "A quick financial recovery",
+      "The experience of tragic loss"
+    ],
+    "correctIndex": 1,
+    "explanation": "Redemption in the novella refers to Scrooge’s profound moral and personal change from a selfish miser to a caring, generous man.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does Dickens use character contrasts to highlight the theme of social change in 'A Christmas Carol'?",
+    "choices": [
+      "By showing the similar views of all characters",
+      "By contrasting the cold, selfish attitudes of characters like Mr. Birling with the warm, repentant nature of Scrooge at the end",
+      "By ignoring the differences between characters",
+      "By portraying all characters as unchanging and static"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dickens contrasts the selfish, unrepentant characters with Scrooge’s eventual transformation, thereby underlining the need for social and moral change.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes the overarching purpose of 'A Christmas Carol'?",
+    "choices": [
+      "To provide an exciting ghost story for entertainment",
+      "To ridicule the concept of Christmas",
+      "To provoke thought on social responsibility and the potential for human redemption",
+      "To offer detailed economic analysis of Victorian industry"
+    ],
+    "correctIndex": 2,
+    "explanation": "The novella is meant to inspire readers to reflect on their own responsibilities to others and to embrace the possibility of personal and social redemption.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does the dramatic transformation of Scrooge ultimately suggest about Dickens’ view of human nature?",
+    "choices": [
+      "That human nature is inherently unchangeable",
+      "That even the most hardened hearts can be softened by compassion and self-reflection",
+      "That greed is the only driving force in society",
+      "That change is only possible through external punishment"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dickens conveys optimism about human nature by showing that even someone as callous as Scrooge can change dramatically for the better.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best highlights how Dickens uses the motif of light in the novella?",
+    "choices": [
+      "Light is used solely as a decorative detail in descriptions",
+      "Light serves as a metaphor for warmth, hope, and the moral awakening of Scrooge",
+      "Light is depicted as a source of physical energy",
+      "Light is absent in the majority of the text"
+    ],
+    "correctIndex": 1,
+    "explanation": "The use of light imagery contrasts with darkness to symbolize Scrooge’s shift from moral ignorance to enlightenment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best explains the significance of Scrooge’s final actions at the close of 'A Christmas Carol'?",
+    "choices": [
+      "They represent a temporary change that fades quickly",
+      "They underscore the triumph of redemption and the positive impact it can have on both the individual and society",
+      "They suggest that external forces forced Scrooge to change against his will",
+      "They indicate that Scrooge has returned to his old ways after a brief lapse"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scrooge’s final actions illustrate his complete moral turnaround, emphasizing the novella’s message that redemption can have a lasting, transformative effect on both the individual and the community.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What thematic role does the Christmas season play in 'A Christmas Carol'?",
+    "choices": [
+      "It serves as a backdrop without any thematic relevance",
+      "It underscores the potential for regeneration and the importance of compassion during a time of social unity",
+      "It highlights the commercialization of holidays exclusively",
+      "It represents a period of strict austerity"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Christmas season in the novella symbolizes renewal, warmth, and the opportunity to come together in compassion, contrasting with Scrooge’s initial isolation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best identifies the irony in Scrooge’s character arc?",
+    "choices": [
+      "Scrooge insists that no one is responsible for others, yet he eventually becomes a model of social responsibility",
+      "Scrooge is happy throughout the story",
+      "Scrooge never encounters any ghostly visitors",
+      "Scrooge is praised by everyone from the beginning"
+    ],
+    "correctIndex": 0,
+    "explanation": "It is deeply ironic that Scrooge, who initially denies any connection to society by claiming 'there is no such thing as society', ultimately becomes a figure of collective goodwill.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does Dickens use symbolism to comment on the social divisions of Victorian society?",
+    "choices": [
+      "By focusing exclusively on the luxurious aspects of wealth",
+      "By symbolizing the suffering of the poor through characters like Eva Smith and the Cratchit family",
+      "By depicting all characters as equal",
+      "By avoiding any discussion of wealth altogether"
+    ],
+    "correctIndex": 1,
+    "explanation": "The symbolism attached to characters such as Eva Smith and the Cratchit family underscores the stark social divisions and the consequences of neglecting the less fortunate.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In 'A Christmas Carol', what does the transformation of Scrooge reveal about Dickens' views on morality?",
+    "choices": [
+      "That morality is fixed and unchangeable",
+      "That genuine moral transformation is possible, and it requires self-awareness and compassion",
+      "That morality is dictated solely by societal norms",
+      "That wealth alone defines moral worth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Scrooge’s dramatic transformation illustrates that moral renewal is achievable through self-examination and empathy.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following best explains the use of the supernatural in reinforcing the novella's thematic structure?",
+    "choices": [
+      "The supernatural elements are included solely for shock value",
+      "They serve as allegorical devices that force characters to confront the repercussions of their actions",
+      "They replace all realistic dialogue with mystical language",
+      "They detract from the social commentary of the narrative"
+    ],
+    "correctIndex": 1,
+    "explanation": "The supernatural elements—embodied in the ghostly visitors—act as allegories for the moral and social consequences of the characters’ actions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the character of Fezziwig function as a foil to Scrooge?",
+    "choices": [
+      "By demonstrating a similar level of greed",
+      "By embodying warmth, generosity, and the joy of celebration—traits that are absent in Scrooge at the start",
+      "By remaining morally ambiguous throughout the story",
+      "By illustrating the disadvantages of wealth"
+    ],
+    "correctIndex": 1,
+    "explanation": "Fezziwig’s kindness and generosity highlight what Scrooge has lost and what he can potentially regain, setting up a stark contrast between the two characters.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the significance of the setting in 'A Christmas Carol' in relation to its themes?",
+    "choices": [
+      "The setting is incidental and unimportant",
+      "The urban setting, with its stark contrasts between wealth and poverty, reinforces the novella's social critique and themes of isolation versus community",
+      "The rural setting highlights the simplicity of life",
+      "The setting serves only as a backdrop for supernatural events"
+    ],
+    "correctIndex": 1,
+    "explanation": "The urban environment of London, with visible disparities in living conditions, underlines Dickens' commentary on social inequality and the need for communal compassion.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which statement best encapsulates Dickens’ critique of Victorian society in 'A Christmas Carol'?",
+    "choices": [
+      "Victorian society is based solely on moral virtue",
+      "The neglect of the poor and the prioritization of profit over people lead to widespread social degradation",
+      "Social mobility is easy to achieve in Victorian society",
+      "Technology was the main focus of the era"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dickens criticizes the dehumanizing effects of prioritizing wealth and profit, which results in neglect and suffering among the underprivileged.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does the Inspector’s interrogation style serve to transform the narrative of 'A Christmas Carol'?",
+    "choices": [
+      "It merely confuses the characters without any lasting impact",
+      "It gradually exposes the moral failings of each character, compelling both them and the reader to confront uncomfortable truths about social responsibility",
+      "It is used only to entertain the audience with humorous banter",
+      "It shifts the focus away from the main themes"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Inspector's relentless, probing questions dismantle the characters' justifications, thereby driving home the novella’s moral message about social responsibility and change.",
+    "difficulty": "hard"
+  }
+]
