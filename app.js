@@ -275,7 +275,8 @@ async function launchQuiz(chipName, subjectName) {
   
   // Build the filename and set up the data source path.
   const fileName = chipNameToFileName(chipName);
-  const path = `data/${subjectName}/${fileName}.json`;
+  const subjectDir = getSubjectDir(subjectName);
+  const path = `data/${subjectDir}/${fileName}.json`;
 
   try {
     const response = await fetch(path);
