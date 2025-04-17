@@ -149,6 +149,11 @@ function generateSubjectCards() {
   injectSVGs();
 }
 
+function getSubjectDir(subjectName) {
+  // remove *all* spaces
+  return subjectName.replace(/\s+/g, "");
+}
+
 // This function will replace each <img class="dynamic-svg"> with its inline SVG markup.
 function injectSVGs() {
   const svgImages = document.querySelectorAll('img.dynamic-svg');
