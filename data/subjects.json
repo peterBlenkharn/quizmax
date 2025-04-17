@@ -42,7 +42,7 @@
       "Organic Chemistry"
     ]
   },
-  "English Literature": {
+  "EnglishLiterature": {
     "colorClass": "english-literature",
     "chips": [
       "Romeo & Juliet",
@@ -51,7 +51,7 @@
       "A Christmas Carol"
     ]
   },
-  "English Language": {
+  "EnglishLanguage": {
     "colorClass": "english-language",
     "chips": [
       "English Language Reading",
