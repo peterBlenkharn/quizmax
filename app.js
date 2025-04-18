@@ -21,6 +21,8 @@ let timerInterval = null;
 let totalTime = 180; //seconds
 let timeLeft = 180; // seconds
 
+let responses = []; 
+
 let feedbackTimeoutID = null;
 
 const perlinScale = 0.001;
@@ -564,6 +566,14 @@ function displayQuestion() {
 // Evaluate the selected answer and show feedback
 function evaluateAnswer(selectedIndex, btn) {
   const currentQ = currentQuestions[currentQuestionIndex];
+
+    responses.push({
+    questionIndex: currentQuestionIndex,
+    selectedIndex:    selectedIndex,
+    choiceText:       currentQ.choices[selectedIndex],
+    correct:          (selectedIndex === currentQ.correctIndex)
+  });
+  
   if (selectedIndex === currentQ.correctIndex) {
     if (firstAttempt) score++;
     sounds.correct.play();
@@ -661,7 +671,7 @@ function resetQuizState() {
     clearInterval(timerInterval);
     timerInterval = null;
   }
-  
+  responses = [];  
   // Clear any lingering feedback.
   const feedbackPanel = document.getElementById("feedback");
   feedbackPanel.innerHTML = "";
@@ -869,24 +879,52 @@ function getSubjectColor(sectionName) {
 
 // Function to save quiz session data to the "quizmaxdata" collection.
 async function saveQuizResultToFirestore(section, score, timedOut, timeRemaining) {
-  // Construct a record for the quiz session.
+  // 1. Find the hard question’s index
+  const hardIndex = currentQuestions.findIndex(q => q.difficulty === 'hard');
+
+  // 2. Compute attempts per question in one pass
+  const attemptsPerQuestion = responses.reduce((acc, r) => {
+    acc[r.questionIndex] = (acc[r.questionIndex] || 0) + 1;
+    return acc;
+  }, {});
+
+  // 3. Did they ever get the hard Q right?
+  const hardQuestionCorrect = responses.some(r =>
+    r.questionIndex === hardIndex && r.correct
+  );
+  
+  
+  // 4. Build the full result object
   const result = {
-    timestamp: new Date().toISOString(),
-    section: section,                // e.g., "Maths - Numbers & Algebra"
-    correctAnswers: score,
-    secondsRemaining: timeRemaining, // remaining time at quiz completion
-    timedOut: timedOut
+    timestamp:           new Date().toISOString(),
+    section,  
+    correctAnswers:      score,
+    secondsRemaining:    timeRemaining,
+    timedOut,
+    responses,                // full click‑by‑click log
+    attemptsPerQuestion,      // { "0": 2, "1": 1, … }
+    hardQuestionCorrect       // true/false
   };
 
   console.log("Saving quiz result:", result);
 
+  // 5. Persist to Firestore
   try {
-    // Use the globally available Firestore reference (firebaseDb)
-    const docRef = await addDoc(collection(window.firebaseDb, "quizmaxdata"), result);
+    const docRef = await addDoc(
+      collection(window.firebaseDb, "quizmaxdata"),
+      result
+    );
     console.log("Quiz result saved with ID:", docRef.id);
   } catch (error) {
     console.error("Error saving quiz result: ", error);
   }
+}
+
+function computeAttemptsPerQuestion(responses) {
+  return responses.reduce((counts, r) => {
+    counts[r.questionIndex] = (counts[r.questionIndex] || 0) + 1;
+    return counts;
+  }, {});
 }
 
 // Function to get quiz sessions for a specified section from Firestore.
