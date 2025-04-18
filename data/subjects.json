@@ -55,8 +55,12 @@
   "English Language": {
     "colorClass": "english-language",
     "chips": [
-      "English Language Reading",
-      "English Language Writing"
+      "Literary Devices",
+      "Spot The Error",
+      "Text Detail",
+      "Tone Choice",
+      "Vocabulary Precision",
+      "Writers Effect"
     ]
   },
   "Geography": {
