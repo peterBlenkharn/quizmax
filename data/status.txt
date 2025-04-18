@@ -2,9 +2,11 @@ Biology - DONE
 Physics - DONE
 Chemistry - DONE
 Maths - DONE
+PE - DONE
+English Lit - DONE
+Geography - PARTIAL
 
-English Lit - 
 English Lang - 
 French - 
-PE - 
-Geography - 
+
+
