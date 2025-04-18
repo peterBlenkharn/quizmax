@@ -1,8 +1,220 @@
 [
   {
-    "question": "What is one benefit of regular physical exercise?",
-    "choices": ["Improved concentration", "Increased screen time", "Reduced heart rate", "Decreased metabolism"],
+    "question": "Which of the following is an example of a sedentary activity?",
+    "choices": ["Jogging", "Watching TV", "Playing football", "Cycling"],
+    "correctIndex": 1,
+    "explanation": "Watching TV involves minimal physical movement, classifying it as sedentary.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which social group may have less access to sports facilities due to disposable income?",
+    "choices": ["Teenagers", "Elderly", "Low-income families", "Athletes"],
+    "correctIndex": 2,
+    "explanation": "Low-income families often have limited funds to afford memberships or equipment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a common mental health benefit of regular physical activity?",
+    "choices": ["Increased body fat", "Higher stress levels", "Improved confidence", "Slower metabolism"],
+    "correctIndex": 2,
+    "explanation": "Exercise boosts mood and self-esteem, leading to improved confidence.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these is NOT a component of wellbeing?",
+    "choices": ["Physical", "Social", "Emotional", "Technological"],
+    "correctIndex": 3,
+    "explanation": "Technological wellbeing is not a recognised domain in this context.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these is a consequence of obesity?",
+    "choices": ["Improved heart function", "High flexibility", "Heart disease", "Increased stamina"],
+    "correctIndex": 2,
+    "explanation": "Obesity can lead to conditions like heart disease and diabetes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'media coverage' most directly affect in sport?",
+    "choices": ["Skill level", "Motivation", "Participation and popularity", "Muscle size"],
+    "correctIndex": 2,
+    "explanation": "Media increases visibility and popularity, encouraging more participation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of sponsorship involves providing clothing and equipment?",
+    "choices": ["Financial", "Product-based", "Facility-based", "Media"],
+    "correctIndex": 1,
+    "explanation": "Product-based sponsorship involves giving sportswear or gear to athletes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an example of a health-related consequence of a sedentary lifestyle?",
+    "choices": ["Improved agility", "Heart disease", "Increased flexibility", "Better stamina"],
+    "correctIndex": 1,
+    "explanation": "Lack of physical activity increases the risk of cardiovascular diseases.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which somatotype is typically suited for endurance sports like long-distance running?",
+    "choices": ["Endomorph", "Mesomorph", "Ectomorph", "Omnimorph"],
+    "correctIndex": 2,
+    "explanation": "Ectomorphs are light and lean, ideal for endurance-based activities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a reason someone might not participate in sport?",
+    "choices": ["Access to facilities", "Positive body image", "High disposable income", "Encouragement from peers"],
     "correctIndex": 0,
-    "explanation": "Regular exercise can improve concentration along with other health benefits."
+    "explanation": "Lack of access to local or affordable facilities is a known barrier.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which social factor can negatively influence female participation in sports?",
+    "choices": ["Media promotion", "Peer encouragement", "Sexism and stereotyping", "School sports clubs"],
+    "correctIndex": 2,
+    "explanation": "Stereotyping and outdated gender roles can discourage participation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a performance-enhancing drug used to build muscle mass?",
+    "choices": ["Beta blockers", "Diuretics", "Anabolic steroids", "Peptide hormones"],
+    "correctIndex": 2,
+    "explanation": "Anabolic steroids promote muscle growth and strength.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a consequence of blood doping?",
+    "choices": ["Reduced blood viscosity", "Improved flexibility", "Increased risk of heart attack", "Dehydration"],
+    "correctIndex": 2,
+    "explanation": "Thicker blood from blood doping can lead to serious heart issues.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main goal of physical activity for social wellbeing?",
+    "choices": ["Winning medals", "Making friends", "Increasing heart rate", "Improving bone density"],
+    "correctIndex": 1,
+    "explanation": "Social wellbeing is supported through building relationships and teamwork.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which is an example of an extrinsic reward?",
+    "choices": ["Self-satisfaction", "Pride", "Medal", "Enjoyment"],
+    "correctIndex": 2,
+    "explanation": "Extrinsic rewards are tangible, like medals or trophies.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of media gives live coverage and instant replays?",
+    "choices": ["Newspapers", "Radio", "Television", "Magazines"],
+    "correctIndex": 2,
+    "explanation": "Television can show visual highlights, replays, and analysis.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What do beta blockers primarily help control?",
+    "choices": ["Flexibility", "Aggression", "Heart rate", "Body temperature"],
+    "correctIndex": 2,
+    "explanation": "Beta blockers help reduce heart rate and improve composure.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a psychological benefit of exercise?",
+    "choices": ["Weight gain", "Improved reaction time", "Stress relief", "Joint stiffness"],
+    "correctIndex": 2,
+    "explanation": "Exercise releases endorphins that help reduce stress.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes not being physically active enough?",
+    "choices": ["Sedentary", "Obese", "Hyperactive", "Agile"],
+    "correctIndex": 0,
+    "explanation": "A sedentary lifestyle involves minimal physical activity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a negative impact of media on sport?",
+    "choices": ["Increased salaries", "Increased participation", "Unfair pressure", "Funding"],
+    "correctIndex": 2,
+    "explanation": "Media scrutiny can create pressure that harms mental health.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is a benefit of team sports for emotional wellbeing?",
+    "choices": ["Isolation", "Improved skill", "Reduced teamwork", "Sense of belonging"],
+    "correctIndex": 3,
+    "explanation": "Team sports can create a strong sense of community and connection.",
+    "difficulty": "easy"
+  },
+
+  {
+    "question": "Which of these is a *hard* skill classification example?",
+    "choices": ["Catching a ball", "Cycling on a quiet road", "Gymnastics vault", "Breathing while swimming"],
+    "correctIndex": 2,
+    "explanation": "Gymnastics vault requires coordination, control, and consistency.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a disadvantage of sponsorship for an athlete?",
+    "choices": ["Free kit", "Media exposure", "Public pressure", "Motivation"],
+    "correctIndex": 2,
+    "explanation": "Sponsored athletes often face higher expectations and scrutiny.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does obesity limit flexibility?",
+    "choices": ["Increased bone strength", "Greater muscle mass", "Fat restricts joint movement", "Higher confidence"],
+    "correctIndex": 2,
+    "explanation": "Fat buildup can limit range of motion and movement efficiency.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which method helps athletes cope with pre-performance anxiety?",
+    "choices": ["Aggression", "Mental rehearsal", "Overtraining", "Quitting"],
+    "correctIndex": 1,
+    "explanation": "Mental rehearsal prepares the mind and reduces nervousness.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Why might older adults participate less in physical activity?",
+    "choices": ["Excess time", "Fear of injury", "Peer pressure", "Media bias"],
+    "correctIndex": 1,
+    "explanation": "Age can bring health limitations, increasing risk perception.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is a potential side effect of anabolic steroids?",
+    "choices": ["Improved memory", "Liver damage", "Weight loss", "Lower aggression"],
+    "correctIndex": 1,
+    "explanation": "Steroid abuse can lead to liver damage and hormonal imbalance.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following reflects good sportsmanship?",
+    "choices": ["Cheering after fouling", "Faking injury", "Shaking hands after losing", "Celebrating aggressively"],
+    "correctIndex": 2,
+    "explanation": "Acknowledging your opponent respectfully is good etiquette.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does 'contract to compete' mean in sport?",
+    "choices": ["Sign to win", "Accept rules and spirit of the game", "Promise to train", "Agree on prize money"],
+    "correctIndex": 1,
+    "explanation": "It implies fair play and respect for rules and opponents.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How can media coverage be a disadvantage for a sport?",
+    "choices": ["More audience", "Better salaries", "Over-commercialisation", "Increased access"],
+    "correctIndex": 2,
+    "explanation": "Excessive focus on profits can damage the sport's integrity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which body type is least suited to long-distance running?",
+    "choices": ["Ectomorph", "Mesomorph", "Endomorph", "None of the above"],
+    "correctIndex": 2,
+    "explanation": "Endomorphs tend to carry more body fat and are less suited for endurance sports.",
+    "difficulty": "hard"
   }
 ]
