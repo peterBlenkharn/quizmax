@@ -1,8 +1,289 @@
 [
   {
-    "question": "What is a common cause of erosion?",
-    "choices": ["Wind", "Gravity", "Photosynthesis", "Ecosystems"],
+    "question": "Which type of plate boundary involves two plates moving toward one another, causing one plate to subduct?",
+    "choices": ["Constructive (divergent)", "Destructive (convergent)", "Conservative (transform)", "Collision-less (passive)"],
+    "correctIndex": 1,
+    "explanation": "Destructive boundaries are convergent; the denser oceanic plate is forced beneath the other plate, often creating volcanic arcs and deep‑sea trenches.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A mantle plume that pushes up through the crust away from any plate boundary is known as a …?",
+    "choices": ["Rift zone", "Mid‑ocean ridge", "Hot spot", "Benioff zone"],
+    "correctIndex": 2,
+    "explanation": "Hot spots are isolated upwellings of magma; the Hawaiian Islands are a classic example.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which two ingredients are essential for a tropical cyclone to form?",
+    "choices": ["Sea‑surface temperatures above 26 °C and Coriolis force", "Cold ocean currents and high pressure", "Volcanic islands and calm winds", "Low humidity and strong westerlies"],
     "correctIndex": 0,
-    "explanation": "Wind can cause significant erosion in certain areas."
+    "explanation": "Warm ocean water provides latent heat, and the Coriolis effect initiates rotation; without these, cyclones cannot develop.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "During an El Niño year, the normally warm water in the western Pacific moves eastward. What global impact does this often have?",
+    "choices": ["Weaker Atlantic hurricanes", "Increased UK winter snowfall", "Drier conditions in Australia and Indonesia", "Colder sea temperatures off Peru"],
+    "correctIndex": 2,
+    "explanation": "El Niño suppresses convection over Australia/Indonesia, leading to droughts there while Peru experiences warmer seas and heavy rain.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which scale is most commonly used today to compare the energy released by large earthquakes?",
+    "choices": ["Mercalli intensity scale", "Richter magnitude scale", "Moment magnitude scale (Mw)", "VEI index"],
+    "correctIndex": 2,
+    "explanation": "The moment magnitude scale measures total seismic energy and is more accurate for large events than the older Richter scale.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Liquefaction during an earthquake is MOST likely in which setting?",
+    "choices": ["Granite hillsides", "Dry sandstone plateaus", "Water‑saturated unconsolidated sediments", "Basalt lava flows"],
+    "correctIndex": 2,
+    "explanation": "Shaking causes water‑logged, loose sediments (e.g., reclaimed land or drained lake beds) to behave like a liquid, amplifying damage.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which graph type is most suitable for showing the total number of tropical storms per month in a year?",
+    "choices": ["Bar graph", "Climate (temp‑rainfall) graph", "Cross‑section", "Rose chart"],
+    "correctIndex": 0,
+    "explanation": "Discrete monthly totals are usually displayed as bars for clear comparison.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Thermal expansion of seawater is directly caused by …",
+    "choices": ["Melting sea ice", "Increased evaporation", "Rising global temperatures warming ocean water", "Subduction of oceanic crust"],
+    "correctIndex": 2,
+    "explanation": "As oceans warm they expand, contributing significantly to global sea‑level rise.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which average (mean, median, mode, modal class) should students use to analyse MONTHLY temperature data for long‑term climate change?",
+    "choices": ["Mean", "Median", "Mode", "Modal class"],
+    "correctIndex": 0,
+    "explanation": "The mean best represents overall central tendency in continuous climate datasets.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ice cores are considered a reliable climate proxy because they preserve …",
+    "choices": ["Tree‑ring widths", "Atmospheric gas bubbles from the past", "Historical diary entries", "Fossilised pollen only"],
+    "correctIndex": 1,
+    "explanation": "Tiny bubbles trap past concentrations of CO₂ and isotopes, giving temperature and greenhouse‑gas records spanning hundreds of thousands of years.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which UK upland area owes much of its present shape to glacial erosion during the last ice age?",
+    "choices": ["The Fens", "The Cotswolds", "The Lake District", "Salisbury Plain"],
+    "correctIndex": 2,
+    "explanation": "U‑shaped valleys, ribbon lakes and arêtes in the Lake District are classic glacial landforms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Arrange the coastal erosion landform sequence correctly:",
+    "choices": ["Stack → Cave → Arch → Stump", "Cave → Arch → Stack → Stump", "Arch → Cave → Stump → Stack", "Wave‑cut platform → Arch → Cave → Stack"],
+    "correctIndex": 1,
+    "explanation": "Waves exploit cracks to make a cave, which breaks through to form an arch; roof collapse leaves a stack that erodes to a stump.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Abrasion in a river channel occurs when …",
+    "choices": ["Water dissolves soluble minerals", "Material in suspension bounces along the bed", "Load carried by the river scrapes the bed and banks", "Large boulders roll steadily downstream"],
+    "correctIndex": 2,
+    "explanation": "Eroded sediment acts like sandpaper, grinding against channel surfaces.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which transport process describes sand‑sized particles hopping along the river or coastal bed?",
+    "choices": ["Traction", "Saltation", "Suspension", "Solution"],
+    "correctIndex": 1,
+    "explanation": "Saltation involves intermittent bouncing of medium‑sized particles in the flow.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Human construction of groynes along a coast most directly affects which coastal process?",
+    "choices": ["Longshore drift", "Hydraulic action", "Solution weathering", "Isostatic rebound"],
+    "correctIndex": 0,
+    "explanation": "Groynes interrupt sediment movement by trapping beach material transported by longshore drift.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The diagram below shows a waterfall. What feature is typically found at its base?",
+    "choices": ["Raised beach", "Plunge pool", "Spit", "Tombolo"],
+    "correctIndex": 1,
+    "explanation": "Erosion from falling water and debris scours a deep plunge pool at the foot of the waterfall.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In a tropical rainforest nutrient cycle, most nutrients are stored in …",
+    "choices": ["Deep soils", "Tree biomass and vegetation", "Atmospheric dust", "Surface litter for decades"],
+    "correctIndex": 1,
+    "explanation": "Rapid decomposition means nutrients are quickly re‑absorbed into the living biomass rather than accumulating in soil or litter.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which plant adaptation is typical of polar tundra vegetation?",
+    "choices": ["Very tall emergent trunks", "Waxy, needle‑like leaves and low‑growing mats", "Large buttress roots", "Succulent stems storing water"],
+    "correctIndex": 1,
+    "explanation": "Low stature reduces wind chill; waxy leaves minimise moisture loss in cold, dry conditions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Average daily sunshine in a polar Arctic region peaks in which month according to a typical graph?",
+    "choices": ["January", "March", "June", "October"],
+    "correctIndex": 2,
+    "explanation": "High‑latitude areas receive continuous daylight around the June solstice.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The greatest threat to Antarctic krill stocks (and therefore the food web) is currently …",
+    "choices": ["Ozone depletion", "Commercial over‑fishing combined with warming oceans", "Volcanic eruptions", "Tsunami risk"],
+    "correctIndex": 1,
+    "explanation": "Krill harvests and sea‑ice loss reduce the keystone species supporting penguins, whales and seals.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A small‑scale conservation strategy in the Arctic often cited by OCR is …",
+    "choices": ["The Antarctic Treaty", "The Inuit Ban on Whaling", "The Svalbard Seed Vault", "UNESCO Biosphere Reserves in the Sahara"],
+    "correctIndex": 2,
+    "explanation": "The Svalbard Global Seed Vault safeguards crop genetic diversity inside the Arctic permafrost.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which TWO statements best explain why tropical rainforests have a rapid nutrient cycle?",
+    "choices": ["Nutrients are in high demand by vegetation", "Cool conditions slow decomposition", "Heavy rainfall leaches litter slowly", "Warm, moist conditions decompose litter quickly"],
+    "correctIndex": 3,
+    "explanation": "Fast decomposition (warm/wet) and rapid plant uptake keep nutrients cycling quickly between soil and biomass.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Systematic sampling in fieldwork means …",
+    "choices": ["Selecting sites at fixed, regular intervals", "Randomly choosing any location", "Only using sites with extreme values", "Choosing sites easiest to access"],
+    "correctIndex": 0,
+    "explanation": "Regular spacing (e.g., every 10 m along a transect) gives a representative spread of data.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When using a six‑figure grid reference on an OS map, the third and sixth digits represent …",
+    "choices": ["Hundreds of metres eastings and northings", "Kilometres eastings and northings", "Metres above sea level", "Bearing angles from north"],
+    "correctIndex": 0,
+    "explanation": "They subdivide the 1 km square into 100‑m intervals, pinpointing precise locations.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hydraulic action erodes riverbanks because …",
+    "choices": ["Sediment grinds against the banks", "Water dissolves minerals", "Air is compressed into cracks by turbulent water", "Plants grow into the banks"],
+    "correctIndex": 2,
+    "explanation": "Pressure of water and trapped air weakens and breaks rock surfaces along the banks.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which weathering process is most effective on jointed limestone in upland UK areas?",
+    "choices": ["Chemically neutral solution", "Carbonation (acidic rainwater)", "Thermal expansion", "Salt crystallisation"],
+    "correctIndex": 1,
+    "explanation": "Slightly acidic rainwater reacts with calcium carbonate, enlarging joints into grykes and creating limestone pavements.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the primary reason for lower biodiversity in hot deserts compared with tropical rainforests?",
+    "choices": ["Low nutrient soils and water scarcity", "Poor sunlight", "Excessive glaciation", "High volcanic activity"],
+    "correctIndex": 0,
+    "explanation": "Extreme aridity limits primary productivity, resulting in fewer plant and animal species.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Flash flooding in arid regions is often intensified by which surface characteristic?",
+    "choices": ["Highly porous sandy soils", "Impermeable baked clay crusts", "Dense forest cover", "Deep snowpack"],
+    "correctIndex": 1,
+    "explanation": "Hard‑baked desert soils prevent infiltration, so intense rainfall rapidly flows as surface runoff.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which feature indicates past glaciation on an OS map: tightly packed contours forming a U‑shaped valley or river meanders on a floodplain?",
+    "choices": ["River meanders on a floodplain", "Tightly packed contours forming a U‑shaped valley"],
+    "correctIndex": 1,
+    "explanation": "U‑shaped valleys with steep sides and flat floors are characteristic of glacial erosion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Wave‑cut platforms form primarily through …",
+    "choices": ["Longshore drift depositing sand", "Marine erosion at the foot of cliffs", "Wind abrasion of cliff tops", "Salt weathering in dune systems"],
+    "correctIndex": 1,
+    "explanation": "Repetitive wave attack at the high‑tide line undercuts cliffs, leaving a gently sloping platform of bedrock.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following UK rivers has a drainage basin heavily modified by human reservoirs such as Kielder Water?",
+    "choices": ["River Dee", "River Severn", "River Tyne", "River Camel"],
+    "correctIndex": 2,
+    "explanation": "The River Tyne basin in Northumberland includes Kielder Reservoir, affecting discharge and sediment.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "A GIS layer useful to add when planning coastal fieldwork is …",
+    "choices": ["Historic storm tracks", "Sampling interval markers", "High‑resolution elevation data to assess cliff profiles", "Photos of every beach hut"],
+    "correctIndex": 2,
+    "explanation": "A digital elevation model helps students analyse slope angles, cliff retreat and risk areas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which air mass brings cold, dry weather to the UK in winter when it arrives from the east?",
+    "choices": ["Tropical maritime", "Polar continental", "Arctic maritime", "Tropical continental"],
+    "correctIndex": 1,
+    "explanation": "A Polar Continental air mass originates over cold Eastern Europe and Siberia, leading to frosty, dry UK conditions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Permafrost thaw in the Arctic releases which greenhouse gas directly from melting ground ice and decomposing organic matter?",
+    "choices": ["Sulphur dioxide", "Methane", "Ozone", "Nitrogen"],
+    "correctIndex": 1,
+    "explanation": "Methane trapped in frozen soils escapes as permafrost warms, amplifying climate change.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which instrument would you use to measure wind speed during physical geography fieldwork on coastal processes?",
+    "choices": ["Clino‑meter", "Anemometer", "Quadrat", "Nephelometer"],
+    "correctIndex": 1,
+    "explanation": "Anemometers record wind velocity, helpful for linking wind energy to wave generation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When plotting a climate graph, which axis convention is correct?",
+    "choices": ["Monthly temperature on the y‑axis left; rainfall on the y‑axis right", "Temperature on x‑axis; rainfall on y‑axis", "Rainfall on primary y‑axis; temperature on secondary y‑axis", "Both variables on the x‑axis"],
+    "correctIndex": 0,
+    "explanation": "Dual y‑axes allow simultaneous display: bars for rainfall (right) and a line for temperature (left).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Salt marshes are important because they …",
+    "choices": ["Promote coral growth", "Store large amounts of carbon and protect coastlines from erosion", "Generate geothermal power", "Cause coastal deserts"],
+    "correctIndex": 1,
+    "explanation": "They trap sediment, sequester carbon in organic muds and act as natural wave buffers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which weathering process dominates granite tors on Dartmoor, leading to blocky outcrops?",
+    "choices": ["Freeze‑thaw (frost shattering)", "Insolation (thermal expansion)", "Chemical hydrolysis", "Salt crystal growth"],
+    "correctIndex": 0,
+    "explanation": "Repeated freezing and thawing of water in joints pries granite blocks apart.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "If a hypothesis predicts that beach sediment size decreases with distance from a cliff, which statistical test could you use to assess correlation?",
+    "choices": ["Chi‑square", "Spearman's rank", "Mann‑Whitney U", "Student’s t‑test"],
+    "correctIndex": 1,
+    "explanation": "Spearman’s rank evaluates the strength and direction of monotonic relationships between two ranked variables.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following best describes isostatic rebound?",
+    "choices": ["Global sea‑level rise from melting ice sheets", "Localised land uplift after ice‑sheet melting", "Short‑term tidal range change", "Thermal expansion of the mantle"],
+    "correctIndex": 1,
+    "explanation": "Crust previously compressed by glacial ice rises slowly once the weight is removed, altering relative sea levels.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Why does the Intertropical Convergence Zone (ITCZ) migrate north and south through the year?",
+    "choices": ["Plate movements pull it", "It follows the overhead position of the Sun, heating surface air differently by season", "Ocean currents push the zone", "Earth’s tilt causes magnetic reversal"],
+    "correctIndex": 1,
+    "explanation": "Solar declination shifts the zone of maximum heating, drawing moist trade winds and creating seasonal rainfall belts.",
+    "difficulty": "hard"
   }
 ]
