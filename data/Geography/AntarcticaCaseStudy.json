@@ -1,1 +1,255 @@
-
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "The Antarctic Treaty was signed in which year?",
+    "choices": ["1919", "1945", "1959", "1991"],
+    "correctIndex": 2,
+    "explanation": "Entered force 1961; foundational governance document.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The treaty designates Antarctica for which main purpose?",
+    "choices": ["Military bases", "Mining exploration", "Peaceful scientific research", "Commercial whaling"],
+    "correctIndex": 2,
+    "explanation": "Article I bans military, promotes science.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which protocol added strict environmental protection measures in 1991?",
+    "choices": ["Kyoto Protocol", "Madrid Protocol (Environmental Protocol to Antarctic Treaty)", "Montreal Protocol", "Paris Agreement"],
+    "correctIndex": 1,
+    "explanation": "Madrid Protocol bans mineral resource activity & sets EIA rules.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "IAATO stands for …",
+    "choices": ["International Association of Antarctic Tour Operators", "Ice and Atmospheric Administration Tracking Office", "Inuit Arctic Association Tourism Organisation", "International Antarctic Aeronautics Trade Office"],
+    "correctIndex": 0,
+    "explanation": "IAATO self‑regulates cruise & expedition tourism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "IAATO limits shore landings to ___ passengers at a time per site.",
+    "choices": ["25", "100", "500", "1 000"],
+    "correctIndex": 1,
+    "explanation": "Max 100 ashore simultaneously to reduce disturbance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Tour vessels carrying over 500 passengers are …",
+    "choices": ["Allowed to land at selected penguin rookeries", "Prohibited from making any landings", "Given priority landing slots", "Required to tow waste barges"],
+    "correctIndex": 1,
+    "explanation": "Large ships may cruise‑by only.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fuel type has been banned for Antarctic shipping since 2011 to reduce oil‑spill risk?",
+    "choices": ["Heavy fuel oil (HFO)", "Marine gas oil", "Bio‑diesel", "AVJet fuel"],
+    "correctIndex": 0,
+    "explanation": "MARPOL Annex I ban forces cleaner distillates.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The main season for Antarctic tourism is …",
+    "choices": ["June‑August", "September‑October", "November‑March (austral summer)", "April‑May"],
+    "correctIndex": 2,
+    "explanation": "Accessible daylight & ice conditions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which species of penguin is most commonly seen on the Antarctic Peninsula tourist circuit?",
+    "choices": ["Emperor", "Adélie", "Gentoo", "Little Blue"],
+    "correctIndex": 2,
+    "explanation": "Gentoo colonies often near cruise landing sites.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Article V of the treaty prohibits nuclear explosions and ___.",
+    "choices": ["Mobile phone use", "Radio communication", "Radioactive waste disposal", "Fishing"],
+    "correctIndex": 2,
+    "explanation": "No radioactive waste may be dumped.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Scientific stations must share research findings under which article?",
+    "choices": ["Article III", "Article IX", "Article XII", "Article VII"],
+    "correctIndex": 0,
+    "explanation": "Free exchange of data & personnel promotes cooperation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which krill fishery management body sets catch limits in the Southern Ocean?",
+    "choices": ["CCAMLR", "ICES", "FAO", "IMO"],
+    "correctIndex": 0,
+    "explanation": "Commission for Conservation of Antarctic Marine Living Resources.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The ‘clean‑up after yourself’ principle requires tourists to …",
+    "choices": ["Leave scientific instruments behind", "Remove any waste, including food scraps", "Write names on rocks", "Feed penguins"],
+    "correctIndex": 1,
+    "explanation": "Zero‑waste policy prevents non‑native species introduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Tour operators brief visitors to stay at least ___ metres from wildlife.",
+    "choices": ["1 m", "2 m", "5 m", "15 m"],
+    "correctIndex": 2,
+    "explanation": "5 metre rule avoids disturbance; sometimes 10 m for seals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Most Antarctic cruise departures leave from …",
+    "choices": ["Cape Town", "Hobart", "Ushuaia (Argentina)", "Auckland"],
+    "correctIndex": 2,
+    "explanation": "Shortest Drake Passage crossing.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which logistical operation re‑supplies McMurdo Station each austral summer?",
+    "choices": ["Operation Deep Freeze", "IceBridge", "Solar Maximum", "Polar Silk Route"],
+    "correctIndex": 0,
+    "explanation": "US Air National Guard & icebreaker convoys deliver fuel and cargo.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Southern Ocean is defined by which latitude south of which Antarctic Treaty applies special ship reporting (Polar Code)?",
+    "choices": ["40°S", "50°S", "60°S", "66.5°S"],
+    "correctIndex": 2,
+    "explanation": "Treaty area begins at 60° South.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The term ‘cleaner than clean’ regarding bio‑security means tourists must …",
+    "choices": ["Wear freshly bought clothes", "Disinfect boots & vacuum Velcro to remove seeds", "Carry bottled tap water", "Use sunscreen"],
+    "correctIndex": 1,
+    "explanation": "Prevents introduction of alien species.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "IAATO’s 2022‑23 season recorded roughly how many visitors (excluding crew)?",
+    "choices": ["5 000", "25 000", "45 000", "Over 100 000"],
+    "correctIndex": 3,
+    "explanation": "Post‑Covid rebound passed 100 k for first time.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Antarctic Digital Database is maintained by which Scientific Committee?",
+    "choices": ["SCAR (Scientific Committee on Antarctic Research)", "IPCC", "UNEP", "SCOPUS"],
+    "correctIndex": 0,
+    "explanation": "SCAR compiles open‑source maps & data.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which country operates the ‘Mawson’ base, established 1954 on the continent’s longest‑occupied station record?",
+    "choices": ["Australia", "Chile", "Russia", "South Africa"],
+    "correctIndex": 0,
+    "explanation": "Australia’s Mawson in East Antarctica.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Parts of Antarctica are warming fastest on Earth, notably the ______ Peninsula.",
+    "choices": ["Ross", "Weddell", "Antarctic", "Antarctic Peninsula (West)"],
+    "correctIndex": 3,
+    "explanation": "Air temps rose >3 °C since 1950s.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "IAATO recommends aircraft keep a minimum ____ metre vertical separation over wildlife.",
+    "choices": ["150 m", "300 m", "600 m", "1 000 m"],
+    "correctIndex": 2,
+    "explanation": "Small planes & drones must stay 600 m high.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ships must carry a _____ to help avoid whale strikes.",
+    "choices": ["Sonar", "Forward‑looking infrared", "Bridge whale‑spotter", "All of the above"],
+    "correctIndex": 3,
+    "explanation": "IAATO guidelines encourage multiple mitigation methods.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Penguin rookeries visited by tourists are rotated or closed if counts drop below ___ % of long‑term average.",
+    "choices": ["5 %", "15 %", "25 %", "50 %"],
+    "correctIndex": 1,
+    "explanation": "Adaptive management protects stressed colonies.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The 2048 review clause refers to which protocol’s possible amendment on mineral resource activity?",
+    "choices": ["London Convention", "Madrid Protocol Article 25", "Kyoto Protocol", "UNFCCC Article 6"],
+    "correctIndex": 1,
+    "explanation": "In 2048 parties may renegotiate the mining ban.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Tourists are advised to walk on snow not moss because moss grows only ___ mm per year in Antarctica.",
+    "choices": ["0.1 mm", "1 mm", "5 mm", "10 mm"],
+    "correctIndex": 1,
+    "explanation": "Slow growth means footprints last decades.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – CCAMLR’s ‘Area 48’ krill catch limit is set at ___ 620 tonnes (trigger level) to protect predators.",
+    "choices": ["50 000", "155 000", "275 000", "620 000"],
+    "correctIndex": 2,
+    "explanation": "Annual TAC (trigger) is 620 000 t, with 155 000 t interim subarea limits.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The ‘Liability Annex’ (Annex VI) of the Environmental Protocol came into force in 2023 after which minimum number of ratifications?",
+    "choices": ["5", "10", "15", "20"],
+    "correctIndex": 2,
+    "explanation": "Fifteen parties must ratify to activate liability for environmental emergencies.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Under IAATO fuel‑carriage rules, ships >___ GT must use double hulls in Antarctic Treaty waters.",
+    "choices": ["100 GT", "400 GT", "5 000 GT", "10 000 GT"],
+    "correctIndex": 1,
+    "explanation": "MARPOL/Polar Code double‑hull for oil tanks >400 gross tonnage.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The Ross Sea MPA (2016) protects ____ million km², the world’s largest.",
+    "choices": ["0.5", "1.0", "1.55", "2.9"],
+    "correctIndex": 2,
+    "explanation": "1.55 M km² no‑take area agreed by CCAMLR.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which non‑native grass species was accidentally introduced to King George Island via vehicle tyres?",
+    "choices": ["Poa annua", "Agrostis stolonifera", "Festuca arundinacea", "Lolium perenne"],
+    "correctIndex": 0,
+    "explanation": "Annual meadow grass colonised disturbed soils.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – IAATO’s carbon‑offset scheme (2022) channels funds primarily into …",
+    "choices": ["Renewable energy in Antarctica", "Verified re‑forestation in South America", "Whaling reparations", "Penguin adoption"],
+    "correctIndex": 1,
+    "explanation": "Offsets balance cruise emissions via certified forestry.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The Antarctic Treaty Secretariat is headquartered in …",
+    "choices": ["Washington DC", "Buenos Aires", "Christchurch", "Geneva"],
+    "correctIndex": 1,
+    "explanation": "Buenos Aires hosts the permanent secretariat since 2004.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Under the Protocol, waste classification Category 2 (controlled waste) must be removed from Antarctica except if treated how?",
+    "choices": ["Incinerated at ≤850 °C with scrubbers, or returned home", "Buried on site", "Dumped at sea", "Stored in snow pits"],
+    "correctIndex": 0,
+    "explanation": "Only high‑temp incineration with emission controls permitted for Category 2.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – ASMA No.4 (Deception Island) limits visitor numbers to ___ per season per site to protect geothermal flora.",
+    "choices": ["500", "1 000", "3 000", "Unlimited"],
+    "correctIndex": 1,
+    "explanation": "Site guidelines cap seasonal totals.",
+    "difficulty": "hard"
+  }
+]
