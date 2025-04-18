@@ -1,8 +1,285 @@
 [
   {
-    "question": "What is one benefit of regular physical exercise?",
-    "choices": ["Improved concentration", "Increased screen time", "Reduced heart rate", "Decreased metabolism"],
+    "question": "Which component of fitness is tested by the Multi Stage Fitness Test?",
+    "choices": ["Muscular endurance", "Flexibility", "Cardiovascular endurance", "Power"],
+    "correctIndex": 2,
+    "explanation": "The Multi Stage Fitness Test assesses cardiovascular endurance by measuring how long a person can keep up with increasing pace levels.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which blood vessel carries oxygenated blood from the lungs to the heart?",
+    "choices": ["Aorta", "Vena cava", "Pulmonary artery", "Pulmonary vein"],
+    "correctIndex": 3,
+    "explanation": "The pulmonary vein carries oxygenated blood from the lungs to the left atrium of the heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these joint types allows movement in all directions?",
+    "choices": ["Hinge", "Ball and socket", "Pivot", "Gliding"],
+    "correctIndex": 1,
+    "explanation": "Ball and socket joints (like the shoulder and hip) allow flexion, extension, rotation, abduction and adduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following muscles is located in the upper arm?",
+    "choices": ["Quadriceps", "Biceps", "Hamstrings", "Gastrocnemius"],
+    "correctIndex": 1,
+    "explanation": "The biceps are found in the upper arm and are responsible for flexing the elbow.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fitness test measures agility?",
+    "choices": ["Sit and reach test", "Illinois Agility Test", "Vertical jump test", "Grip strength test"],
+    "correctIndex": 1,
+    "explanation": "The Illinois Agility Test measures how quickly a person can change direction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main function of the alveoli?",
+    "choices": ["Pumping blood", "Producing oxygen", "Gas exchange", "Filtering blood"],
+    "correctIndex": 2,
+    "explanation": "Alveoli are tiny air sacs in the lungs where oxygen is absorbed into the blood and carbon dioxide is removed.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which plane of movement divides the body into left and right?",
+    "choices": ["Transverse", "Frontal", "Sagittal", "Lateral"],
+    "correctIndex": 2,
+    "explanation": "The sagittal plane divides the body into left and right sections.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of muscle contraction involves no movement?",
+    "choices": ["Isotonic concentric", "Isotonic eccentric", "Isokinetic", "Isometric"],
+    "correctIndex": 3,
+    "explanation": "Isometric contractions occur when the muscle contracts but there is no movement in the joint.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which component of fitness is most important for a marathon runner?",
+    "choices": ["Speed", "Flexibility", "Cardiovascular endurance", "Reaction time"],
+    "correctIndex": 2,
+    "explanation": "Cardiovascular endurance is crucial for long-distance running to maintain aerobic energy production.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which movement occurs at the elbow joint when performing a bicep curl?",
+    "choices": ["Extension", "Abduction", "Flexion", "Rotation"],
+    "correctIndex": 2,
+    "explanation": "Flexion occurs at the elbow as the angle between the upper arm and forearm decreases.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does BMI stand for?",
+    "choices": ["Body Mass Index", "Body Muscle Intensity", "Balanced Muscle Indicator", "Blood Metabolism Indicator"],
     "correctIndex": 0,
-    "explanation": "Regular exercise can improve concentration along with other health benefits."
+    "explanation": "BMI is a measure that uses height and weight to estimate body fat.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an immediate effect of exercise?",
+    "choices": ["Increased bone density", "Improved flexibility", "Increased heart rate", "Increased muscular strength"],
+    "correctIndex": 2,
+    "explanation": "Heart rate increases immediately to supply muscles with more oxygen.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which nutrient is the primary source of energy during aerobic exercise?",
+    "choices": ["Protein", "Fibre", "Carbohydrate", "Fat"],
+    "correctIndex": 2,
+    "explanation": "Carbohydrates are broken down into glucose, the body's main source of energy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is tidal volume?",
+    "choices": ["The amount of air breathed in and out in one breath", "The amount of air left in the lungs after exhaling", "The maximum amount of air the lungs can hold", "The volume of air breathed per minute"],
+    "correctIndex": 0,
+    "explanation": "Tidal volume refers to the amount of air inhaled or exhaled in a normal breath.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fitness component is most important in gymnastics for holding balances?",
+    "choices": ["Reaction time", "Agility", "Flexibility", "Muscular strength"],
+    "correctIndex": 3,
+    "explanation": "Muscular strength helps gymnasts maintain and control balance positions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is lactic acid a by-product of?",
+    "choices": ["Aerobic respiration", "Anaerobic respiration", "Photosynthesis", "Tidal volume"],
+    "correctIndex": 1,
+    "explanation": "Lactic acid builds up during anaerobic respiration when there’s not enough oxygen for aerobic activity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which type of movement is raising the arm sideways away from the body?",
+    "choices": ["Adduction", "Flexion", "Abduction", "Extension"],
+    "correctIndex": 2,
+    "explanation": "Abduction means moving a limb away from the midline of the body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where are the deltoid muscles located?",
+    "choices": ["Shoulder", "Thigh", "Chest", "Calf"],
+    "correctIndex": 0,
+    "explanation": "The deltoids are located at the shoulder and help raise the arm.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which system includes the heart and blood vessels?",
+    "choices": ["Respiratory", "Digestive", "Circulatory", "Skeletal"],
+    "correctIndex": 2,
+    "explanation": "The circulatory system transports oxygen and nutrients via the blood.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which part of the skeletal system protects the brain?",
+    "choices": ["Ribs", "Femur", "Cranium", "Vertebrae"],
+    "correctIndex": 2,
+    "explanation": "The cranium is the part of the skull that encases and protects the brain.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which test is used to measure coordination?",
+    "choices": ["Wall toss test", "Sit and reach", "Illinois agility test", "Bleep test"],
+    "correctIndex": 0,
+    "explanation": "The wall toss test evaluates hand-eye coordination.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the function of red blood cells?",
+    "choices": ["Fight infection", "Help clot blood", "Carry oxygen", "Produce hormones"],
+    "correctIndex": 2,
+    "explanation": "Red blood cells carry oxygen around the body using haemoglobin.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these is an example of a hinge joint?",
+    "choices": ["Shoulder", "Hip", "Knee", "Wrist"],
+    "correctIndex": 2,
+    "explanation": "The knee joint allows movement in one direction like a hinge.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fitness component does the vertical jump test assess?",
+    "choices": ["Speed", "Agility", "Power", "Flexibility"],
+    "correctIndex": 2,
+    "explanation": "The vertical jump test measures explosive power in the legs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens to stroke volume during exercise?",
+    "choices": ["Decreases", "Stays the same", "Increases", "Becomes irregular"],
+    "correctIndex": 2,
+    "explanation": "Stroke volume increases to pump more blood and oxygen to working muscles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where is the quadriceps muscle group located?",
+    "choices": ["Upper arm", "Lower back", "Thigh", "Calf"],
+    "correctIndex": 2,
+    "explanation": "Quadriceps are located at the front of the thigh and are used in knee extension.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these is an anaerobic activity?",
+    "choices": ["Marathon running", "Jogging", "Sprinting", "Cycling"],
+    "correctIndex": 2,
+    "explanation": "Sprinting is short and intense, and relies on anaerobic energy systems.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the main function of ligaments?",
+    "choices": ["Connect muscle to bone", "Protect the brain", "Attach bone to bone", "Allow muscles to contract"],
+    "correctIndex": 2,
+    "explanation": "Ligaments connect bones together at joints and help stabilize them.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does 'VO2 max' measure?",
+    "choices": ["Max force a muscle can produce", "Max speed", "Max oxygen uptake", "Max heart rate"],
+    "correctIndex": 2,
+    "explanation": "VO2 max is the maximum amount of oxygen a person can use during intense exercise.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What term describes the number of times the heart beats per minute?",
+    "choices": ["Stroke volume", "Heart rate", "Cardiac output", "Pulse pressure"],
+    "correctIndex": 1,
+    "explanation": "Heart rate is the number of beats per minute.",
+    "difficulty": "easy"
+  },
+
+  // HARD QUESTIONS
+
+  {
+    "question": "Which muscle works as the antagonist during elbow flexion?",
+    "choices": ["Biceps", "Quadriceps", "Hamstrings", "Triceps"],
+    "correctIndex": 3,
+    "explanation": "During elbow flexion, the triceps act as the antagonist while the biceps contract.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which energy system is predominantly used during a 400m sprint?",
+    "choices": ["Aerobic", "ATP-PC", "Lactic acid system", "Glycolytic system"],
+    "correctIndex": 2,
+    "explanation": "The lactic acid system is used in high-intensity efforts lasting up to 60–90 seconds like a 400m sprint.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the role of synovial fluid in a joint?",
+    "choices": ["Absorbs nutrients", "Provides cushioning", "Reduces friction", "Delivers oxygen"],
+    "correctIndex": 2,
+    "explanation": "Synovial fluid lubricates joints to reduce friction between moving bones.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which axis is associated with rotation movements at the transverse plane?",
+    "choices": ["Longitudinal axis", "Frontal axis", "Sagittal axis", "Vertical axis"],
+    "correctIndex": 0,
+    "explanation": "Rotational movements in the transverse plane occur around the longitudinal axis.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which muscle pair works together at the knee during leg extension?",
+    "choices": ["Hamstrings and gluteals", "Quadriceps and hamstrings", "Quadriceps and gastrocnemius", "Biceps and triceps"],
+    "correctIndex": 1,
+    "explanation": "The quadriceps contract while the hamstrings relax, forming an agonist-antagonist pair.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the equation for calculating cardiac output?",
+    "choices": ["Heart rate ÷ stroke volume", "Stroke volume × heart rate", "VO2 max × tidal volume", "Heart rate + systolic pressure"],
+    "correctIndex": 1,
+    "explanation": "Cardiac output = stroke volume × heart rate.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of these is an example of a second-class lever system in the body?",
+    "choices": ["Biceps curl", "Plantar flexion at the ankle", "Neck extension", "Knee flexion"],
+    "correctIndex": 1,
+    "explanation": "In plantar flexion, the ball of the foot is the fulcrum, the load is the body, and the effort is applied by the calf muscles.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is an example of a closed skill?",
+    "choices": ["Dribbling in football", "Serving in tennis", "Gymnastics floor routine", "Passing in rugby"],
+    "correctIndex": 2,
+    "explanation": "A gymnastics routine is performed in a predictable environment, making it a closed skill.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which test best measures explosive upper body strength?",
+    "choices": ["Grip strength test", "Vertical jump", "Handball throw", "Standing long jump"],
+    "correctIndex": 2,
+    "explanation": "The handball throw test assesses explosive upper body power.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "How does lactic acid affect performance during anaerobic exercise?",
+    "choices": ["Increases muscle power", "Improves endurance", "Causes muscle fatigue and discomfort", "Has no effect"],
+    "correctIndex": 2,
+    "explanation": "Lactic acid accumulates during anaerobic exercise and can lead to fatigue and reduced performance.",
+    "difficulty": "hard"
   }
 ]
