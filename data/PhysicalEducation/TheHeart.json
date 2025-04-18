@@ -1,1 +1,281 @@
-
+[
+  {
+    "question": "What is the primary function of the heart?",
+    "choices": ["To filter blood", "To digest nutrients", "To pump blood", "To store oxygen"],
+    "correctIndex": 2,
+    "explanation": "The heart's main role is to act as a pump circulating blood around the body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How many chambers are in the human heart?",
+    "choices": ["2", "3", "4", "5"],
+    "correctIndex": 2,
+    "explanation": "The heart has 4 chambers: 2 atria and 2 ventricles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which side of the heart pumps deoxygenated blood to the lungs?",
+    "choices": ["Left", "Right", "Top", "Back"],
+    "correctIndex": 1,
+    "explanation": "The right side of the heart pumps deoxygenated blood to the lungs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which blood vessel carries oxygenated blood away from the heart?",
+    "choices": ["Vena cava", "Pulmonary artery", "Aorta", "Capillary"],
+    "correctIndex": 2,
+    "explanation": "The aorta carries oxygenated blood from the left ventricle to the body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What type of blood does the pulmonary artery carry?",
+    "choices": ["Oxygenated", "Deoxygenated", "Mixed", "Nutrient-rich"],
+    "correctIndex": 1,
+    "explanation": "The pulmonary artery is unique because it carries deoxygenated blood to the lungs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which chamber receives blood from the lungs?",
+    "choices": ["Right atrium", "Left ventricle", "Right ventricle", "Left atrium"],
+    "correctIndex": 3,
+    "explanation": "Oxygenated blood from the lungs enters the left atrium.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is stroke volume?",
+    "choices": ["Blood per minute", "Beats per second", "Blood per beat", "Oxygen per breath"],
+    "correctIndex": 2,
+    "explanation": "Stroke volume is the amount of blood pumped by the heart per beat.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the function of valves in the heart?",
+    "choices": ["Filter the blood", "Stop reverse flow", "Oxygenate blood", "Regulate pressure"],
+    "correctIndex": 1,
+    "explanation": "Valves ensure blood flows in one direction through the heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which blood vessel returns deoxygenated blood to the heart?",
+    "choices": ["Pulmonary vein", "Aorta", "Vena cava", "Capillary"],
+    "correctIndex": 2,
+    "explanation": "The vena cava carries deoxygenated blood into the right atrium.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens to heart rate during exercise?",
+    "choices": ["Decreases", "Stays the same", "Increases", "Becomes irregular"],
+    "correctIndex": 2,
+    "explanation": "Heart rate increases to supply muscles with more oxygenated blood.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which chamber of the heart has the thickest muscular wall?",
+    "choices": ["Right atrium", "Left ventricle", "Right ventricle", "Left atrium"],
+    "correctIndex": 1,
+    "explanation": "The left ventricle has a thick wall to pump blood around the entire body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is cardiac output?",
+    "choices": ["Blood per breath", "Heart beats per minute", "Blood pumped per minute", "Oxygen per second"],
+    "correctIndex": 2,
+    "explanation": "Cardiac output is the volume of blood pumped per minute (stroke volume × heart rate).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which vessel carries blood from the heart to the lungs?",
+    "choices": ["Aorta", "Pulmonary vein", "Pulmonary artery", "Vena cava"],
+    "correctIndex": 2,
+    "explanation": "The pulmonary artery carries deoxygenated blood to the lungs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where does gas exchange take place?",
+    "choices": ["Arteries", "Alveoli", "Veins", "Atria"],
+    "correctIndex": 1,
+    "explanation": "Gas exchange occurs in alveoli, where oxygen enters the blood and CO₂ leaves.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What does vascular shunting do during exercise?",
+    "choices": ["Reduces blood pressure", "Increases lactic acid", "Redistributes blood to working muscles", "Lowers heart rate"],
+    "correctIndex": 2,
+    "explanation": "Vascular shunting ensures more oxygenated blood goes to active muscles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the resting heart rate of a typical adult?",
+    "choices": ["40–60 bpm", "60–80 bpm", "100–120 bpm", "20–40 bpm"],
+    "correctIndex": 1,
+    "explanation": "Normal adult resting heart rate is around 60–80 beats per minute.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which component of the circulatory system connects arteries to veins?",
+    "choices": ["Alveoli", "Valves", "Capillaries", "Ventricles"],
+    "correctIndex": 2,
+    "explanation": "Capillaries are tiny vessels where oxygen and nutrients pass to tissues.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which vessel has the lowest pressure?",
+    "choices": ["Arteries", "Veins", "Capillaries", "Aorta"],
+    "correctIndex": 1,
+    "explanation": "Veins carry blood under low pressure back to the heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which term refers to the number of heart beats per minute?",
+    "choices": ["Stroke volume", "Cardiac output", "Heart rate", "Pulse width"],
+    "correctIndex": 2,
+    "explanation": "Heart rate is the number of beats per minute.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "During exercise, which area receives less blood flow?",
+    "choices": ["Muscles", "Skin", "Digestive system", "Lungs"],
+    "correctIndex": 2,
+    "explanation": "Blood is redirected away from the digestive system during physical activity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following carries oxygenated blood?",
+    "choices": ["Pulmonary artery", "Pulmonary vein", "Vena cava", "Right atrium"],
+    "correctIndex": 1,
+    "explanation": "Pulmonary vein carries oxygenated blood from lungs to heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following best describes double circulation?",
+    "choices": ["One loop through lungs", "Two loops: heart–lungs and heart–body", "Two hearts pumping", "Only lungs involved"],
+    "correctIndex": 1,
+    "explanation": "Blood is circulated through the lungs and then through the body in two loops.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Why does heart rate increase during exercise?",
+    "choices": ["To reduce oxygen levels", "To send more blood to lungs", "To supply muscles with oxygen", "To maintain blood pressure"],
+    "correctIndex": 2,
+    "explanation": "Increased heart rate delivers more oxygen and nutrients to working muscles.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which valve is found between the left atrium and left ventricle?",
+    "choices": ["Tricuspid", "Pulmonary", "Bicuspid (mitral)", "Aortic"],
+    "correctIndex": 2,
+    "explanation": "The bicuspid valve prevents backflow between the left atrium and ventricle.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the role of the septum in the heart?",
+    "choices": ["Connects heart to lungs", "Contracts muscles", "Separates left and right sides", "Controls heart rate"],
+    "correctIndex": 2,
+    "explanation": "The septum is a wall separating the oxygenated and deoxygenated sides of the heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "How does long-term exercise affect resting heart rate?",
+    "choices": ["It increases", "It decreases", "It stays the same", "It fluctuates"],
+    "correctIndex": 1,
+    "explanation": "Regular training makes the heart more efficient, reducing resting heart rate.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Where does blood go after it leaves the left ventricle?",
+    "choices": ["Right atrium", "Pulmonary artery", "Aorta", "Left atrium"],
+    "correctIndex": 2,
+    "explanation": "Blood exits via the aorta to be delivered to the body.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What happens to stroke volume with regular aerobic training?",
+    "choices": ["Increases", "Decreases", "Becomes irregular", "Stays the same"],
+    "correctIndex": 0,
+    "explanation": "A stronger heart pumps more blood per beat.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is the correct order of blood flow through the heart?",
+    "choices": [
+      "Right atrium → right ventricle → lungs → left atrium → left ventricle → body",
+      "Left atrium → right ventricle → lungs → right atrium → body",
+      "Right atrium → left atrium → body → lungs",
+      "Right atrium → lungs → right ventricle → body"
+    ],
+    "correctIndex": 0,
+    "explanation": "This reflects the accurate sequence through the heart and lungs.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What is the formula for calculating cardiac output?",
+    "choices": [
+      "Heart rate × tidal volume",
+      "Stroke volume ÷ heart rate",
+      "Heart rate × stroke volume",
+      "Heart rate + blood pressure"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cardiac output is the product of heart rate and stroke volume.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What does increased cardiac output during exercise allow the body to do?",
+    "choices": ["Store oxygen", "Use more energy", "Deliver more oxygen to muscles", "Raise body temperature"],
+    "correctIndex": 2,
+    "explanation": "Higher cardiac output helps supply active muscles with oxygen-rich blood.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a short-term effect of exercise on the heart?",
+    "choices": ["Increased resting heart rate", "Lower stroke volume", "Increased heart rate", "Cardiac hypertrophy"],
+    "correctIndex": 2,
+    "explanation": "Heart rate rises quickly to meet increased oxygen demand.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which of the following is a long-term adaptation of the cardiovascular system to training?",
+    "choices": ["Increased resting heart rate", "Decreased cardiac output", "Cardiac hypertrophy", "Weaker heart muscle"],
+    "correctIndex": 2,
+    "explanation": "The heart becomes stronger and more efficient over time.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which structure separates the atria from the ventricles?",
+    "choices": ["Septum", "Valves", "Capillaries", "Vena cava"],
+    "correctIndex": 1,
+    "explanation": "Valves regulate the flow of blood between atria and ventricles.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "What causes the 'lub-dub' sound of the heartbeat?",
+    "choices": [
+      "Muscle contraction",
+      "Blood entering atria",
+      "Closing of valves",
+      "Air entering lungs"
+    ],
+    "correctIndex": 2,
+    "explanation": "Heart sounds are caused by valves closing during the cardiac cycle.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which condition can result from poor cardiovascular fitness?",
+    "choices": ["Anemia", "Heart disease", "Osteoporosis", "Arthritis"],
+    "correctIndex": 1,
+    "explanation": "Low cardiovascular fitness increases the risk of heart-related issues.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Why is the left ventricle wall thicker than the right?",
+    "choices": [
+      "It has more oxygen",
+      "It pumps blood further",
+      "It has more valves",
+      "It contains more red blood cells"
+    ],
+    "correctIndex": 1,
+    "explanation": "The left ventricle pumps blood around the entire body and needs more force.",
+    "difficulty": "hard"
+  }
+]
