@@ -1,1 +1,289 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Ethiopia is land‑locked. Which country to the east controls the nearest major seaport used by Ethiopian trade?",
+    "choices": ["Kenya", "Djibouti", "Somalia", "Sudan"],
+    "correctIndex": 1,
+    "explanation": "Over 90 % of Ethiopian imports/exports transit through Djibouti Port.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which massive hydroelectric project on the Blue Nile aims to generate 5 000 MW for Ethiopia?",
+    "choices": ["Aswan Dam", "Grand Ethiopian Renaissance Dam (GERD)", "Kariba Dam", "Cahora Bassa Dam"],
+    "correctIndex": 1,
+    "explanation": "GERD is Africa’s largest dam, under phased filling since 2020.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ethiopia’s main agricultural export crop is …",
+    "choices": ["Cocoa", "Tea", "Coffee", "Cotton"],
+    "correctIndex": 2,
+    "explanation": "Coffee accounts for ~30 % of export earnings and supports millions of farmers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Productive Safety Net Programme (PSNP) provides food or cash to vulnerable households in exchange for …",
+    "choices": ["Nothing (it is unconditional)", "Labour on public‑works projects", "Export‑quality crops", "Microlending interest"],
+    "correctIndex": 1,
+    "explanation": "Public works include terracing, road building, water harvesting.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hawassa Industrial Park specialises in which light‑manufacturing sector?",
+    "choices": ["Electronics", "Textiles & garments", "Automobiles", "Ship‑building"],
+    "correctIndex": 1,
+    "explanation": "Export‑oriented clothing factories employ tens of thousands, mostly women.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which continent has provided most FDI and contractors for Ethiopia’s railways and parks since 2000?",
+    "choices": ["Europe", "North America", "Asia (especially China)", "South America"],
+    "correctIndex": 2,
+    "explanation": "Chinese loans built the Addis‑Djibouti railway and many parks.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ethiopia reduced child mortality under MDG‑4 by roughly …",
+    "choices": ["5 %", "25 %", "50 %", "Over 60 %"],
+    "correctIndex": 3,
+    "explanation": "UN data show deaths per 1 000 live births fell from >200 to <70 (1990‑2015).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Agriculture employs what approximate share of Ethiopia’s workforce?",
+    "choices": ["10 %", "30 %", "55 %", "Over 70 %"],
+    "correctIndex": 3,
+    "explanation": "Subsistence farming dominates rural livelihoods.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Ethiopian Commodity Exchange (ECX) was created to …",
+    "choices": ["Regulate mobile‑phone tariffs", "Provide transparent pricing & contracts for crops", "Issue government bonds", "Manage remittances"],
+    "correctIndex": 1,
+    "explanation": "ECX improves market information and farmer bargaining power.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which recurrent climate hazard periodically causes food insecurity in Ethiopia’s lowlands?",
+    "choices": ["Typhoons", "Drought linked to El Niño", "Permafrost thaw", "Volcanic tsunamis"],
+    "correctIndex": 1,
+    "explanation": "Drought, especially in the Somali Region, stresses pastoralists.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The **2005 ‘Agriculture Development‑Led Industrialisation’ (ADLI)** strategy prioritised …",
+    "choices": ["Import substitution", "Export‑oriented mining", "Raising smallholder productivity first to fuel wider growth", "Cashless economy"],
+    "correctIndex": 2,
+    "explanation": "Idea: surplus from farms funds industry & boosts demand.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ethiopia’s official poverty rate fell from ≈ 56 % (2000) to … in 2019 (World Bank $1.90 line)?",
+    "choices": ["51 %", "41 %", "30 %", "23 %"],
+    "correctIndex": 2,
+    "explanation": "Steady decline still leaves nearly one‑third in extreme poverty.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which key challenge limits Ethiopia’s manufacturing competitiveness?",
+    "choices": ["Very high coastal port fees", "Unreliable electricity supply & power cuts", "Oversupply of high‑skilled labour", "Excessive rainfall"],
+    "correctIndex": 1,
+    "explanation": "Rolling blackouts raise costs and reduce productivity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ethiopia’s capital city is …",
+    "choices": ["Kampala", "Addis Ababa", "Nairobi", "Khartoum"],
+    "correctIndex": 1,
+    "explanation": "Addis hosts the African Union HQ.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which international airline, owned by the Ethiopian government, is Africa’s largest by revenue?",
+    "choices": ["Kenya Airways", "South African Airways", "Ethiopian Airlines", "EgyptAir"],
+    "correctIndex": 2,
+    "explanation": "Profitable national carrier connects Addis hub to 130+ destinations.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 2020 Ethiopia entered a civil conflict centred on which northern region?",
+    "choices": ["Afar", "Oromia", "Tigray", "Gambela"],
+    "correctIndex": 2,
+    "explanation": "Fighting reversed some development gains and strained budgets.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The average annual economic growth rate (real GDP) from 2004‑2019 exceeded …",
+    "choices": ["2 %", "5 %", "7 %", "10 %"],
+    "correctIndex": 2,
+    "explanation": "World Bank shows >8 % average, among world’s fastest.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Currency devaluations (e.g., 2017, 2022) aim to …",
+    "choices": ["Cheapen exports & reduce trade deficit", "Increase overseas travel", "Lower inflation", "Strengthen birr against dollar"],
+    "correctIndex": 0,
+    "explanation": "A weaker birr makes coffee and garments more competitive.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A key obstacle for smallholder farmers is limited access to …",
+    "choices": ["Mobile phones", "Land", "Credit & extension services", "Sunshine"],
+    "correctIndex": 2,
+    "explanation": "Micro‑finance and advice remain uneven.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ethiopia’s Health Extension Programme trained women as local workers to deliver …",
+    "choices": ["Legal services", "Animal vaccinations", "Basic preventive healthcare & sanitation education", "Weather forecasts"],
+    "correctIndex": 2,
+    "explanation": "Community clinics improved maternal and child outcomes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which major rail line, opened 2018, cuts freight time to port from 3 days to 12 hours?",
+    "choices": ["Addis Ababa–Djibouti Standard‑Gauge Railway", "Tanzania‑Zambia Railway", "Mombasa Standard Gauge", "Suez Desert Railway"],
+    "correctIndex": 0,
+    "explanation": "Electric line increases trade efficiency.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "ADDIS Light‑Rail Transit (LRT) was the first of its kind in sub‑Saharan Africa. Its primary benefit?",
+    "choices": ["Increase gas‑car sales", "Reduce congestion & air pollution", "Serve long‑haul freight", "Boost coffee exports"],
+    "correctIndex": 1,
+    "explanation": "Two LRT lines move up to 60 000 passengers / hr.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "‘One WASH’ programme integrates which four ministries?",
+    "choices": ["Forestry, Defence, Tourism, Justice", "Water, Health, Education, Finance", "Agriculture, Mining, Sports, Culture", "Interior, Foreign Affairs, Energy, Trade"],
+    "correctIndex": 1,
+    "explanation": "Aims universal water‑supply & sanitation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "GOAL of the **Home‑grown Economic Reform Plan** (2019) is mainly to …",
+    "choices": ["Return to central planning", "Ease private‑sector restrictions and liberalise telecoms & finance", "Leave WTO", "Shift to cash crops only"],
+    "correctIndex": 1,
+    "explanation": "Ethio‑Telecom partial privatisation is part of it.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which disease was completely eradicated in Ethiopia by 2001, demonstrating public‑health success?",
+    "choices": ["Polio", "Guinea‑worm (dracunculiasis)", "Malaria", "HIV/AIDS"],
+    "correctIndex": 1,
+    "explanation": "Zero cases after water‑filter & education campaigns.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Female secondary school enrolment climbed sharply between 2000 and 2019—from 13 % to roughly …",
+    "choices": ["18 %", "24 %", "35 %", "45 %"],
+    "correctIndex": 2,
+    "explanation": "Gender gap narrows but challenges remain.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "‘Coffee 2023’ initiative seeks to double export earnings mainly by …",
+    "choices": ["Planting genetically modified Robusta", "Improving processing quality & traceability of specialty Arabica", "Raising domestic consumption", "Banning international auction"],
+    "correctIndex": 1,
+    "explanation": "Higher‑value niche coffees fetch premium prices.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which international partner funds the Safety Net & Resilience Program via the World Bank (IDA)?",
+    "choices": ["USAID", "EU", "DFID/FCDO (UK)", "All of the above"],
+    "correctIndex": 3,
+    "explanation": "Multiple donors pool resources.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Ethiopia’s National Electrification Plan (NEP 2.0) targets **universal access** by …",
+    "choices": ["2025", "2030", "2040", "2050"],
+    "correctIndex": 1,
+    "explanation": "Off‑grid solar plus grid extension aims 100 % electricity by 2030.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The FAO lauds Ethiopia’s ‘MERET’ project for combating land degradation through …",
+    "choices": ["Irrigation dams only", "Community terracing & agro‑forestry on degraded hillsides", "Large‑scale chemical fertilisers", "Urban tree‑planting"],
+    "correctIndex": 1,
+    "explanation": "Soil/ water conservation raised yields & resilience.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Vitamin‑A supplementation campaigns cut deficiency‑related blindness among children by over …",
+    "choices": ["5 %", "20 %", "40 %", "60 %"],
+    "correctIndex": 3,
+    "explanation": "Health surveys show substantial declines.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "FAO rates Ethiopia as Africa’s top producer of which oil‑seed crop?",
+    "choices": ["Sesame", "Groundnut", "Sunflower", "Oil‑palm"],
+    "correctIndex": 0,
+    "explanation": "Sesame exports to China & Israel generate forex.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – Ethiopia’s external debt‑to‑GDP ratio surged past 50 % in 2023 mainly due to …",
+    "choices": ["Export boom", "Borrowing for large infrastructure like GERD and railways amid forex shortages", "Currency revaluation", "Loan forgiveness"],
+    "correctIndex": 1,
+    "explanation": "High debt servicing strains foreign‑exchange reserves.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which international index placed Ethiopia in the **bottom quartile** for ‘logistics performance’, reflecting customs & road delays?",
+    "choices": ["World Bank LPI", "UNDP HDI", "TI Corruption Perceptions", "WEF Global Competitiveness"],
+    "correctIndex": 0,
+    "explanation": "Logistics Performance Index measures trade facilitation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The 2023 Green Legacy initiative targets planting ___ billion trees (cumulative) by 2026.",
+    "choices": ["2", "5", "20", "50"],
+    "correctIndex": 2,
+    "explanation": "Goal: 20 bn seedlings to combat erosion & climate change.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which specific export incentive was withdrawn in 2022 after US suspended Ethiopia's eligibility under the **AGOA** trade pact?",
+    "choices": ["Duty‑free garment access to US market", "Preferential EU tariff‑rate quotas", "Saudi coffee quota", "Chinese loan moratorium"],
+    "correctIndex": 0,
+    "explanation": "AGOA suspension threatens textile park jobs.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Regional tensions with Egypt & Sudan over GERD mainly concern …",
+    "choices": [
+      "Hydropower export pricing",
+      "Impacts on downstream Nile water availability & treaty rights",
+      "Displacement of Ethiopian farmers",
+      "Mining pollution"
+    ],
+    "correctIndex": 1,
+    "explanation": "Negotiations focus on filling schedule & drought safeguards.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which policy change in 2018 opened Ethiopia’s telecoms sector to foreign competition for the first time?",
+    "choices": ["Investment Proclamation No.1180", "Charter of the African Union", "Paris Mortgage Accord", "CAADP Compact"],
+    "correctIndex": 0,
+    "explanation": "Proclamation paved way for Safaricom‑led consortium licence.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Malnutrition stunting among under‑5s declined from 51 % to ___ % (2000‑2019).",
+    "choices": ["28 %", "35 %", "42 %", "48 %"],
+    "correctIndex": 0,
+    "explanation": "DHS surveys show stunting remains high but nearly halved.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Ethiopia’s capital‑to‑labour ratio in manufacturing remains low because gross capital formation is ___ % of GDP (2022).",
+    "choices": ["10 %", "18 %", "over 30 %", "45 %"],
+    "correctIndex": 2,
+    "explanation": "High investment (>30 %) yet rapid labour growth keeps ratio modest.",
+    "difficulty": "hard"
+  }
+]
 
