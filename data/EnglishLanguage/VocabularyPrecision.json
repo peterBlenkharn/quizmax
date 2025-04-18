@@ -1,7 +1,7 @@
 [
   /* ---------- EASY (1‑30) ---------- */
   {
-    "question": "Replace the underlined word with the BEST, more vivid alternative.\n\n The castle was BIG, towering over the village.",
+    "question": "Replace the underlined word with the BEST, more vivid alternative.\n\n\"The castle was **BIG**, towering over the village.\"",
     "choices": ["massive", "tiny", "usual", "average"],
     "correctIndex": 0,
     "explanation": "\"Massive\" provides a stronger sense of scale than the vague word \"big.\"",
