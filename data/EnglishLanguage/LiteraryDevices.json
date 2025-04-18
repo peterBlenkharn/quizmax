@@ -1,1 +1,309 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Read the extract:\n\n\"The wind howled across the empty field.\" \n\nWhich literary device is used?",
+    "choices": ["Simile", "Personification", "Hyperbole", "Irony"],
+    "correctIndex": 1,
+    "explanation": "The wind is given the human action of howling, which is personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her smile was as bright as the morning sun.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Simile", "Oxymoron", "Alliteration"],
+    "correctIndex": 1,
+    "explanation": "The comparison uses “as,” making it a simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The classroom was a zoo by lunchtime.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Onomatopoeia", "Personification", "Assonance"],
+    "correctIndex": 0,
+    "explanation": "It states the classroom *was* a zoo, a direct metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Peter picked a peck of pickled peppers.\" \n\nWhich literary device is used?",
+    "choices": ["Alliteration", "Simile", "Symbolism", "Euphemism"],
+    "correctIndex": 0,
+    "explanation": "Repetition of the initial consonant ‘p’ forms alliteration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Bang! The firework burst overhead.\" \n\nWhich literary device is used?",
+    "choices": ["Onomatopoeia", "Metaphor", "Hyperbole", "Irony"],
+    "correctIndex": 0,
+    "explanation": "\"Bang\" imitates a sound, so it is onomatopoeia.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"I’ve told you a million times—tidy your room!\" \n\nWhich literary device is used?",
+    "choices": ["Hyperbole", "Personification", "Metaphor", "Oxymoron"],
+    "correctIndex": 0,
+    "explanation": "Exaggerating to “a million times” is hyperbole.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Leaves danced across the pavement in the autumn breeze.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Allusion", "Paradox", "Assonance"],
+    "correctIndex": 0,
+    "explanation": "Leaves are given the human action of dancing—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her voice was music to his ears.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Onomatopoeia", "Hyperbole", "Litotes"],
+    "correctIndex": 0,
+    "explanation": "Equating voice with music is a metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The kettle hissed angrily on the stove.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Oxymoron", "Irony", "Simile"],
+    "correctIndex": 0,
+    "explanation": "Giving the kettle an emotion (anger) personifies it.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her laughter bubbled like a clear spring.\" \n\nWhich literary device is used?",
+    "choices": ["Simile", "Symbolism", "Alliteration", "Hyperbole"],
+    "correctIndex": 0,
+    "explanation": "The comparison uses \"like,\" which is a simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Time is a thief that steals our moments.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Euphemism", "Onomatopoeia", "Assonance"],
+    "correctIndex": 0,
+    "explanation": "Time is directly called a thief—this is a metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The bitter, black coffee slapped him awake.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Hyperbole", "Metaphor", "Alliteration"],
+    "correctIndex": 0,
+    "explanation": "Coffee is described as slapping, a human action—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Crash! The plate hit the floor.\" \n\nWhich literary device is used?",
+    "choices": ["Onomatopoeia", "Simile", "Irony", "Metaphor"],
+    "correctIndex": 0,
+    "explanation": "\"Crash\" imitates sound—onomatopoeia.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Freezing fire raced through his veins.\" \n\nWhich literary device is used?",
+    "choices": ["Oxymoron", "Alliteration", "Metaphor", "Litotes"],
+    "correctIndex": 0,
+    "explanation": "Combining contradictory terms \"freezing\" and \"fire\" creates an oxymoron.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The candles stood guard, tall and still around the sleeping house.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Simile", "Onomatopoeia", "Hyperbole"],
+    "correctIndex": 0,
+    "explanation": "Candles are given the human role of guards: personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her heart hammered like a drum.\" \n\nWhich literary device is used?",
+    "choices": ["Simile", "Alliteration", "Symbolism", "Metaphor"],
+    "correctIndex": 0,
+    "explanation": "\"Like a drum\" signals a simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The sun smiled down on the meadow.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Assonance", "Hyperbole", "Irony"],
+    "correctIndex": 0,
+    "explanation": "The sun is given the human action of smiling: personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"He carried the weight of the world on his shoulders.\" \n\nWhich literary device is used?",
+    "choices": ["Hyperbole", "Metaphor", "Alliteration", "Onomatopoeia"],
+    "correctIndex": 1,
+    "explanation": "The phrase is a metaphor for overwhelming responsibility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Whispering wind wandered through the willow trees.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Alliteration", "Oxymoron", "Simile"],
+    "correctIndex": 1,
+    "explanation": "Repeating the ‘w’ consonant sound is alliteration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The night wrapped the village in a velvet cloak.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Irony", "Hyperbole", "Allusion"],
+    "correctIndex": 0,
+    "explanation": "Night is personified as wrapping the village in a cloak.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her joke was met with deafening silence.\" \n\nWhich literary device is used?",
+    "choices": ["Oxymoron", "Metaphor", "Simile", "Alliteration"],
+    "correctIndex": 0,
+    "explanation": "\"Deafening silence\" pairs opposite ideas—an oxymoron.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The river’s icy fingers gripped the shore.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Simile", "Hyperbole", "Metaphor"],
+    "correctIndex": 0,
+    "explanation": "The river is given fingers—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"His idea was a lightning bolt of inspiration.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Onomatopoeia", "Simile", "Oxymoron"],
+    "correctIndex": 0,
+    "explanation": "The idea is directly compared to lightning—metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The market buzzed, a hive of activity.\" \n\nWhich literary device is used?",
+    "choices": ["Metaphor", "Hyperbole", "Personification", "Alliteration"],
+    "correctIndex": 0,
+    "explanation": "The market is called a hive—metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Sizzling sausages sang in the pan.\" \n\nWhich literary device is used?",
+    "choices": ["Onomatopoeia", "Personification", "Simile", "Metaphor"],
+    "correctIndex": 1,
+    "explanation": "Sausages are described as singing—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The mountain stood like a silent guardian over the valley.\" \n\nWhich literary device is used?",
+    "choices": ["Alliteration", "Simile", "Metaphor", "Hyperbole"],
+    "correctIndex": 1,
+    "explanation": "Uses “like” to compare mountain to guardian—simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Cold fire burned in her eyes.\" \n\nWhich literary device is used?",
+    "choices": ["Oxymoron", "Alliteration", "Onomatopoeia", "Simile"],
+    "correctIndex": 0,
+    "explanation": "\"Cold fire\" combines opposites—oxymoron.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Tick‑tock, tick‑tock, the clock mocked my sleepless night.\" \n\nWhich two devices are present, and which is the main focus of the question?",
+    "choices": [
+      "Onomatopoeia and personification – main focus on onomatopoeia",
+      "Metaphor and irony – main focus on irony",
+      "Simile and hyperbole – main focus on hyperbole",
+      "Alliteration and oxymoron – main focus on alliteration"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Tick‑tock\" imitates sound (onomatopoeia) and “mocked” is personification; the question emphasises the sound device.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"My phone suddenly screamed for attention on the silent desk.\" \n\nWhich literary device is used on the word 'screamed'?",
+    "choices": ["Personification", "Simile", "Metaphor", "Symbolism"],
+    "correctIndex": 0,
+    "explanation": "The phone is given a human action—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The clouds marched across the sky in gray battalions.\" \n\nWhich literary device is used?",
+    "choices": ["Personification", "Oxymoron", "Onomatopoeia", "Assonance"],
+    "correctIndex": 0,
+    "explanation": "Clouds are given the human action of marching—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"He whispered secrets to the stubborn lock until it yielded.\" \n\nWhich literary device best describes \"stubborn lock\"?",
+    "choices": ["Personification", "Metaphor", "Hyperbole", "Simile"],
+    "correctIndex": 0,
+    "explanation": "\"Stubborn\" gives the lock a human trait—personification.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her mind was a library stacked with unanswered questions.\" \n\nWhich literary device is used?",
+    "choices": ["Simile", "Metaphor", "Alliteration", "Irony"],
+    "correctIndex": 1,
+    "explanation": "Her mind is directly described as a library—metaphor.",
+    "difficulty": "easy"
+  },
 
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "Read the extract:\n\n\"Night poured itself over the city, thick as ink.\" \n\nWhich primary literary device is used?",
+    "choices": ["Simile", "Metaphor", "Personification", "Allusion"],
+    "correctIndex": 2,
+    "explanation": "\"Poured itself\" gives night human capability—personification (there is also a simile, but personification is primary).",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Hope is a fragile glass bird, glinting until the slightest tremor breaks it.\" \n\nWhich literary device dominates this description?",
+    "choices": ["Metaphor", "Onomatopoeia", "Alliteration", "Irony"],
+    "correctIndex": 0,
+    "explanation": "Hope is equated to a glass bird—an extended metaphor.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The distant thunder muttered discontent beneath the horizon.\" \n\nWhich literary device is used on \"muttered\"?",
+    "choices": ["Simile", "Allusion", "Personification", "Hyperbole"],
+    "correctIndex": 2,
+    "explanation": "Thunder is given a human action—personification.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Her silence roared louder than any protest.\" \n\nWhich literary device is employed?",
+    "choices": ["Oxymoron", "Hyperbole", "Metaphor", "Alliteration"],
+    "correctIndex": 2,
+    "explanation": "Silence is compared directly to a roar—metaphor capturing powerful quiet.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Beneath the weary moon, the waves stitched silver seams across the dark sea.\" \n\nWhich literary device is used on \"waves stitched\"?",
+    "choices": ["Personification", "Simile", "Onomatopoeia", "Irony"],
+    "correctIndex": 0,
+    "explanation": "Waves are given the human action ‘stitched’—personification.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The speaker’s promise tasted of dust and distant deserts.\" \n\nWhich sense imagery and device combine here?",
+    "choices": [
+      "Metaphor with gustatory (taste) imagery",
+      "Simile with auditory imagery",
+      "Personification with visual imagery",
+      "Onomatopoeia with tactile imagery"
+    ],
+    "correctIndex": 0,
+    "explanation": "A promise is compared (metaphor) to tasting dust—gustatory imagery.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Our plans lay in shards, bright and useless, glittering across the floor of the year.\" \n\nWhich literary device best describes \"shards\" of plans?",
+    "choices": ["Simile", "Metaphor", "Oxymoron", "Alliteration"],
+    "correctIndex": 1,
+    "explanation": "Plans are equated directly to shattered glass—metaphor.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Lightning scribbled jagged signatures across the blank sky.\" \n\nWhich device is primarily used on \"scribbled signatures\"?",
+    "choices": ["Alliteration", "Personification", "Simile", "Hyperbole"],
+    "correctIndex": 1,
+    "explanation": "Lightning is given the human action of writing—personification.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The argument unfolded like a chess match, each move colder than the last.\" \n\nWhich literary device is central to this comparison?",
+    "choices": ["Metaphor", "Onomatopoeia", "Assonance", "Oxymoron"],
+    "correctIndex": 0,
+    "explanation": "The argument is compared indirectly to a chess match—metaphor.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Morning crept over the horizon, tinting the world with cautious gold.\" \n\nWhich literary device is used on \"morning crept\"?",
+    "choices": ["Hyperbole", "Personification", "Simile", "Irony"],
+    "correctIndex": 1,
+    "explanation": "Morning is given the human action of creeping—personification.",
+    "difficulty": "hard"
+  }
+]
