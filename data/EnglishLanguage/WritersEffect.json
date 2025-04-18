@@ -1,1 +1,485 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Read the extract:\n\n\"The old house sighed as the wind rattled its loose shutters.\" \n\nWhat does this description most strongly suggest about the house?",
+    "choices": [
+      "It is new and sturdy",
+      "It is cheerful and welcoming",
+      "It is worn and fragile",
+      "It is brightly decorated"
+    ],
+    "correctIndex": 2,
+    "explanation": "Words like “old,” “sighed,” and “loose shutters” imply the building is fragile and time‑worn.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Ravi’s voice shrank to a whisper when the headteacher entered the room.\" \n\nWhat does Ravi’s whisper most likely show about his feelings?",
+    "choices": [
+      "He feels relaxed",
+      "He feels amused",
+      "He feels nervous",
+      "He feels angry"
+    ],
+    "correctIndex": 2,
+    "explanation": "Lowering his voice in the headteacher’s presence suggests nervousness or anxiety.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Sunlight spilled across the kitchen table, turning the mugs into little pots of gold.\" \n\nWhat is the overall mood created by this imagery?",
+    "choices": [
+      "Gloomy",
+      "Peaceful and warm",
+      "Chaotic and tense",
+      "Mysterious"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bright sunlight and the golden comparison create a warm, peaceful atmosphere.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Leila tapped her foot and glanced at the clock for the third time in a minute.\" \n\nWhat can we infer about Leila?",
+    "choices": [
+      "She is bored and waiting",
+      "She is sleepy",
+      "She is enjoying a performance",
+      "She is counting down to a surprise"
+    ],
+    "correctIndex": 0,
+    "explanation": "Frequent clock‑watching and foot‑tapping signal impatience or boredom while waiting.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The café door burst open, letting in a gust of rain and a traveller with laughter in his eyes.\" \n\nWhat impression do we get of the traveller?",
+    "choices": [
+      "He is angry",
+      "He is joyful and energetic",
+      "He is exhausted",
+      "He is confused"
+    ],
+    "correctIndex": 1,
+    "explanation": "“Laughter in his eyes” conveys a lively, cheerful nature.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"A single candle flickered on the windowsill, fighting the heavy darkness.\" \n\nWhat effect does the verb \"fighting\" create here?",
+    "choices": [
+      "It shows the light is strong and untroubled",
+      "It makes the scene comedic",
+      "It personifies the candle, emphasizing struggle",
+      "It suggests daylight is approaching"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using “fighting” personifies the candle, highlighting a struggle against darkness.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Tom scanned the empty playground and tucked his hands deeper into his pockets.\" \n\nWhich feeling is most suggested by Tom’s action?",
+    "choices": [
+      "Excitement",
+      "Pride",
+      "Loneliness",
+      "Confidence"
+    ],
+    "correctIndex": 2,
+    "explanation": "Putting hands in pockets while looking at an empty space implies loneliness or isolation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The market buzzed like a beehive, every stallholder calling out at once.\" \n\nWhat does the comparison to a beehive emphasize?",
+    "choices": [
+      "Silence",
+      "Orderliness",
+      "Busy activity",
+      "Empty space"
+    ],
+    "correctIndex": 2,
+    "explanation": "A beehive is known for constant busy movement and noise, highlighting the market’s lively bustle.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Grandfather’s stories always carried the scent of pine forests and campfire smoke.\" \n\nWhat effect does the imagery of “scent” create?",
+    "choices": [
+      "It makes the stories feel distant and cold",
+      "It appeals to sight only",
+      "It creates a warm, nostalgic atmosphere",
+      "It suggests the stories are frightening"
+    ],
+    "correctIndex": 2,
+    "explanation": "Invoking familiar smells gives the tales a cosy, nostalgic quality.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"As soon as the curtain rose, Maya’s heartbeat settled into a calm rhythm.\" \n\nWhat can we infer about Maya before the curtain rose?",
+    "choices": [
+      "She was calm already",
+      "She was nervous but became calm once the show began",
+      "She was bored",
+      "She didn’t care about the performance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Her heartbeat calming implies she felt nervous beforehand.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The motorway ahead glimmered like a silver ribbon under the streetlights.\" \n\nWhat feeling does this comparison most strongly convey?",
+    "choices": [
+      "Danger and chaos",
+      "Smoothness and beauty",
+      "Confusion",
+      "Silence and abandonment"
+    ],
+    "correctIndex": 1,
+    "explanation": "The “silver ribbon” image suggests a sleek, almost elegant scene.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Tariq slammed the door with a thud that echoed down the hallway.\" \n\nWhat does Tariq’s action imply?",
+    "choices": [
+      "He is cheerful",
+      "He is angry or frustrated",
+      "He is shy",
+      "He is confused"
+    ],
+    "correctIndex": 1,
+    "explanation": "Slamming a door typically signals anger or frustration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"A delicate silence settled over the garden after the rain.\" \n\nWhich word in this sentence most strongly contributes to a peaceful mood?",
+    "choices": [
+      "\"delicate\"",
+      "\"settled\"",
+      "\"garden\"",
+      "\"rain\""
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Delicate\" emphasizes gentleness, enhancing a tranquil mood.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Nora’s grin spread slowly, like sunrise over a sleepy valley.\" \n\nWhat does this simile suggest about Nora’s grin?",
+    "choices": [
+      "It appears suddenly and sharply",
+      "It grows gradually and warmly",
+      "It is forced",
+      "It is brief"
+    ],
+    "correctIndex": 1,
+    "explanation": "Comparing it to sunrise implies gentle, warm, gradual growth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The classroom felt like an oven by midday.\" \n\nWhat is the writer suggesting about the classroom?",
+    "choices": [
+      "It is extremely hot",
+      "It is cold and drafty",
+      "It is silent",
+      "It is very dark"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comparing to an oven emphasizes intense heat.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Ella’s reply was a single raised eyebrow.\" \n\nWhat does Ella’s gesture most likely communicate?",
+    "choices": [
+      "She is bored",
+      "She is skeptical or surprised",
+      "She fully agrees",
+      "She is afraid"
+    ],
+    "correctIndex": 1,
+    "explanation": "A raised eyebrow usually signals surprise or doubt.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The puppy trailed behind Maya, his tail sweeping the floor like a slow pendulum.\" \n\nWhat can we infer about the puppy’s energy level?",
+    "choices": [
+      "He is exhausted or sad",
+      "He is extremely excited",
+      "He is angry",
+      "He is frightened"
+    ],
+    "correctIndex": 0,
+    "explanation": "A dragging tail suggests low energy or sadness.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The storm outside drummed impatient fingers on the roof.\" \n\nWhich technique is used, and what is its effect?",
+    "choices": [
+      "Personification — adds urgency",
+      "Simile — calms the scene",
+      "Alliteration — stresses quiet",
+      "Metaphor — shows sunlight"
+    ],
+    "correctIndex": 0,
+    "explanation": "Personifying rain as \"drumming fingers\" adds urgency and restlessness.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Joshua’s shoulders slumped when he read the message.\" \n\nWhat emotion is most strongly implied?",
+    "choices": [
+      "Joy",
+      "Relief",
+      "Disappointment",
+      "Curiosity"
+    ],
+    "correctIndex": 2,
+    "explanation": "Slumping shoulders usually signal disappointment or defeat.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The queue twisted and turned, a restless snake on the pavement.\" \n\nWhat does the comparison to a snake emphasize?",
+    "choices": [
+      "The queue is noisy",
+      "The queue moves in a long, winding shape",
+      "The queue is silent and short",
+      "The queue is invisible"
+    ],
+    "correctIndex": 1,
+    "explanation": "A snake image highlights length and twisting movement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"When the results appeared, Lina’s smile froze halfway.\" \n\nWhat does Lina’s reaction suggest?",
+    "choices": [
+      "She is delighted",
+      "She is puzzled and slightly worried",
+      "She is tired",
+      "She is amused"
+    ],
+    "correctIndex": 1,
+    "explanation": "A half‑stopped smile implies uncertainty or worry.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The village square grew hushed, as though it were holding its breath.\" \n\nWhat atmosphere is created?",
+    "choices": [
+      "Tense anticipation",
+      "Busy celebration",
+      "Anger and chaos",
+      "Relaxed warmth"
+    ],
+    "correctIndex": 0,
+    "explanation": "Silence compared to breath‑holding suggests tense anticipation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Grandmother’s laugh rang out like church bells on a clear morning.\" \n\nWhat effect does this simile have?",
+    "choices": [
+      "Shows her laugh is dull",
+      "Suggests her laugh is loud and uplifting",
+      "Shows she is shy",
+      "Suggests irritation"
+    ],
+    "correctIndex": 1,
+    "explanation": "Church bells are bright and resonant, implying a joyful, ringing laugh.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Arif hesitated on the doorstep, one foot hovering in mid‑air.\" \n\nWhat does Arif’s hesitation suggest?",
+    "choices": [
+      "He is eager to enter",
+      "He is uncertain or reluctant",
+      "He is lost",
+      "He is joyful"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pausing with a lifted foot shows reluctance or uncertainty.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The moon slid behind the clouds, and darkness swallowed the path.\" \n\nWhat mood is created by this imagery?",
+    "choices": [
+      "Cheerful",
+      "Humorous",
+      "Ominous or uneasy",
+      "Festive"
+    ],
+    "correctIndex": 2,
+    "explanation": "Loss of light creates an ominous or uneasy feeling.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Sara’s answer came back sharp as broken glass.\" \n\nWhat does the simile reveal about Sara’s tone?",
+    "choices": [
+      "Kind and gentle",
+      "Indifferent",
+      "Harsh or cutting",
+      "Confused"
+    ],
+    "correctIndex": 2,
+    "explanation": "“Sharp as broken glass” implies harshness or hostility.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The city lights blinked on, timid stars beneath the real sky.\" \n\nWhich feeling is suggested by calling the lights \"timid\"?",
+    "choices": [
+      "Brightness",
+      "Smallness or shyness",
+      "Fury",
+      "Laziness"
+    ],
+    "correctIndex": 1,
+    "explanation": "‘Timid’ suggests something small or shy compared to the vast sky.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Luis rolled the dice and grinned as the pieces skated across the board.\" \n\nWhat emotion does Luis’s grin convey?",
+    "choices": [
+      "Sorrow",
+      "Excitement or pleasure",
+      "Fear",
+      "Exhaustion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Grinning in a game context shows excitement or pleasure.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"The meeting dragged on, each minute stretching like thick syrup.\" \n\nWhat does this comparison suggest about the meeting?",
+    "choices": [
+      "It felt slow and tedious",
+      "It was exciting",
+      "It was frightening",
+      "It was extremely short"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Stretching like thick syrup\" emphasizes slowness and boredom.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Read the extract:\n\n\"Jon’s shoulders straightened when he saw the results posted.\" \n\nWhat can we infer from Jon’s reaction?",
+    "choices": [
+      "He is relieved or proud",
+      "He is disappointed",
+      "He is confused",
+      "He is frightened"
+    ],
+    "correctIndex": 0,
+    "explanation": "Straightening posture usually reflects relief or confidence.",
+    "difficulty": "easy"
+  },
 
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "Read the extract:\n\n\"Ella’s polite smile wavered for a heartbeat when she spotted the empty chair beside her.\" \n\nWhat deeper feeling is hinted at beneath Ella’s politeness?",
+    "choices": [
+      "Annoyance at being disturbed",
+      "Disappointment that someone hasn’t arrived",
+      "Amusement at a joke",
+      "Fear of the chair"
+    ],
+    "correctIndex": 1,
+    "explanation": "The fleeting break in her smile suggests a pang of disappointment or concern.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The silence that followed his words was so complete it seemed to hum.\" \n\nWhat effect does this description of silence create?",
+    "choices": [
+      "A cheerful atmosphere",
+      "An intense, almost oppressive tension",
+      "A sense of boredom",
+      "A feeling of loud celebration"
+    ],
+    "correctIndex": 1,
+    "explanation": "A silence ‘so complete it hums’ implies heavy tension or gravity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Sam’s apology fluttered from his lips like a paper bird caught in the wind.\" \n\nWhich best captures the implied quality of Sam’s apology?",
+    "choices": [
+      "It is sturdy and confident",
+      "It is weak and easily lost",
+      "It is angry and forceful",
+      "It is rehearsed and mechanical"
+    ],
+    "correctIndex": 1,
+    "explanation": "Comparing it to a fragile paper bird suggests fragility and uncertainty.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The headlights carved narrow tunnels of clarity through the pouring rain.\" \n\nWhat is the writer’s main purpose in using this image?",
+    "choices": [
+      "To suggest the rain is gentle",
+      "To emphasise limited visibility in heavy rain",
+      "To show the driver is speeding",
+      "To describe colourful lights"
+    ],
+    "correctIndex": 1,
+    "explanation": "The ‘narrow tunnels’ emphasise restricted vision amid intense rain.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Mara’s answer landed like a stone in still water—sending ripples across the room.\" \n\nWhat does the comparison reveal about the effect of Mara’s answer?",
+    "choices": [
+      "It is ignored completely",
+      "It causes a noticeable disturbance",
+      "It brings joy to everyone",
+      "It confuses only Mara"
+    ],
+    "correctIndex": 1,
+    "explanation": "A stone causing ripples implies her words create noticeable impact or tension.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Under the harsh fluorescent lights, the waiting room colours looked drained of confidence.\" \n\nWhich idea is most suggested by ‘drained of confidence’?",
+    "choices": [
+      "The colours appear vibrant",
+      "The room feels cold and unnerving",
+      "The lights make the room cosy",
+      "The room is noisy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dull colours evoke a cold, unsettling atmosphere.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The news travelled through the village like frost, touching every doorstep by dawn.\" \n\nWhat effect does this simile create?",
+    "choices": [
+      "The news spread slowly and warmly",
+      "The news spread quietly but thoroughly",
+      "The news did not spread at all",
+      "The news brought immediate celebrations"
+    ],
+    "correctIndex": 1,
+    "explanation": "Frost reaches everywhere silently and thoroughly, mirroring the news’ subtle spread.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"He laughed, but the sound was brittle, as though it might snap in two.\" \n\nWhich feeling best matches the effect of this description of laughter?",
+    "choices": [
+      "Genuine happiness",
+      "Forced or fragile amusement",
+      "Complete boredom",
+      "Strong anger"
+    ],
+    "correctIndex": 1,
+    "explanation": "‘Brittle’ hints at a forced, delicate quality rather than true joy.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"Time crawled across the exam hall, its claws clicking softly on the tiles.\" \n\nWhat is most strongly conveyed by this personification of time?",
+    "choices": [
+      "The exam feels quick and exciting",
+      "The exam feels slow and oppressive",
+      "Students are relaxed",
+      "Time is invisible"
+    ],
+    "correctIndex": 1,
+    "explanation": "The crawling, claw‑clicking image suggests painfully slow, oppressive passing of time.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Read the extract:\n\n\"The promise glittered on the horizon, bright and distant as a winter star.\" \n\nWhat does this comparison imply about the promise?",
+    "choices": [
+      "It is close and easy to keep",
+      "It is alluring but far from fulfilment",
+      "It is dull and unimportant",
+      "It is frightening"
+    ],
+    "correctIndex": 1,
+    "explanation": "A winter star is attractive yet remote, implying the promise is appealing but difficult to reach.",
+    "difficulty": "hard"
+  }
+]
