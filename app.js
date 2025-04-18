@@ -415,7 +415,7 @@ function startNoiseBackground(subjectName) {
   tempDiv.classList.add(subjectData.colorClass);
   document.body.appendChild(tempDiv);
   const computed = getComputedStyle(tempDiv);
-  const color1 = computed.getPropertyValue('--subject-color').trim();
+  const color1 = computed.getPropertyValue('--subject-color-dark').trim();
   const color2 = computed.getPropertyValue('--subject-color-ultralite').trim();
   document.body.removeChild(tempDiv);
 
