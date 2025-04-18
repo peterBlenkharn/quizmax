@@ -1,8 +1,403 @@
 [
+  /* ---------- URBAN FUTURES (Q 1 – 12) ---------- */
   {
-    "question": "What factor greatly influences human settlement patterns?",
-    "choices": ["Climate", "Soil type", "Lunar cycles", "Tides"],
+    "question": "What is urbanisation?",
+    "choices": [
+      "An increase in the proportion of people living in the countryside",
+      "An increase in the proportion of people living in towns and cities",
+      "Migration to a different country",
+      "Improvements to rural transport"
+    ],
+    "correctIndex": 1,
+    "explanation": "Urbanisation measures the growing share of a nation's population that resides in urban settlements.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "According to the 2018 megacity rankings, which city had the largest population?",
+    "choices": ["Shanghai", "Delhi", "Tokyo", "São Paulo"],
+    "correctIndex": 2,
+    "explanation": "Tokyo topped the 2018 list with over 37 million inhabitants.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which PUSH factor most commonly drives rural‑to‑urban migration in many LIDCs?",
+    "choices": ["Better paid urban jobs", "Poor rural healthcare and education", "Cultural attractions in cities", "Urban climate"],
+    "correctIndex": 1,
+    "explanation": "Limited services and opportunities in rural areas encourage people to seek livelihoods in urban centres.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Self‑built housing on land that occupants do not legally own is usually termed a(n)…",
+    "choices": ["Central Business District", "Brownfield site", "Informal settlement", "Edge city"],
+    "correctIndex": 2,
+    "explanation": "Informal settlements (often called shanty towns or slums) arise where land tenure is insecure.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Rapid urban growth in Dhaka, Bangladesh, has led to which major challenge?",
+    "choices": ["Labour shortages", "Housing shortages and overcrowding", "Ageing population issues", "Falling land prices"],
+    "correctIndex": 1,
+    "explanation": "Population growth in Dhaka outpaces formal housing supply, leading to dense informal areas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a common sustainable‑transport initiative in megacities?",
+    "choices": ["Ring‑road expansion for private cars", "Bus Rapid Transit (BRT) corridors", "Low‑density suburban zoning", "Free parking in CBDs"],
+    "correctIndex": 1,
+    "explanation": "BRT systems move large numbers efficiently, lowering congestion and emissions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "To display changes in megacity populations between 2018 and 2030, the MOST suitable graph is a…",
+    "choices": ["Pie chart", "Bar graph", "Scatter graph", "Wind‑rose diagram"],
+    "correctIndex": 1,
+    "explanation": "Side‑by‑side bars clearly compare discrete values for each city in two different years.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – Which megacity in the 2018 table is forecast to have the SLOWEST percentage growth by 2030?",
+    "choices": ["Tokyo", "Shanghai", "Delhi", "Mexico City"],
     "correctIndex": 0,
-    "explanation": "Climate is a major factor influencing human settlements."
+    "explanation": "Tokyo’s increase from 37.5 M to 38.9 M is only about 4 %, far lower than others.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Primate cities can hinder balanced national development because they…",
+    "choices": [
+      "Promote rural industrialisation",
+      "Concentrate investment and skilled labour in one dominant urban centre",
+      "Lower a country’s GDP",
+      "Discourage internal migration"
+    ],
+    "correctIndex": 1,
+    "explanation": "Over‑concentration draws resources away from smaller regional centres, widening inequalities.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which policy is an example of a TOP‑DOWN approach to slum improvement?",
+    "choices": [
+      "Community‑led micro‑finance for home upgrades",
+      "National government building a mass‑relocation housing estate",
+      "Neighbourhood clean‑up organised by residents",
+      "NGO training residents in recycling for income"
+    ],
+    "correctIndex": 1,
+    "explanation": "Large‑scale state projects planned with limited local input typify top‑down strategies.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which statement best describes an ECONOMIC pull factor in urban migration?",
+    "choices": [
+      "Better medical facilities",
+      "Higher potential wages and job opportunities",
+      "Family traditions in the countryside",
+      "Cleaner air quality"
+    ],
+    "correctIndex": 1,
+    "explanation": "Employment prospects remain the strongest economic lure for migrants to cities.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A city’s CENTRAL BUSINESS DISTRICT (CBD) is typically characterised by…",
+    "choices": [
+      "High‑density commercial land use and vertical land values",
+      "Low‑rise residential housing",
+      "Heavy manufacturing plants",
+      "Extensive farmland"
+    ],
+    "correctIndex": 0,
+    "explanation": "Competition for accessible space drives up land values and building heights in the CBD.",
+    "difficulty": "easy"
+  },
+
+  /* ---------- DYNAMIC DEVELOPMENT (Q 13 – 24) ---------- */
+  {
+    "question": "Which of the following is a COMPOSITE development indicator?",
+    "choices": ["Infant‑mortality rate", "GDP per capita", "Human Development Index (HDI)", "Adult literacy rate"],
+    "correctIndex": 2,
+    "explanation": "HDI combines income, life expectancy and education into a single value.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Rostow’s model, Stage 5 is known as…",
+    "choices": ["Traditional Society", "Take‑off", "Drive to Maturity", "Age of Mass Consumption"],
+    "correctIndex": 3,
+    "explanation": "Stage 5 describes mature economies with widespread consumer goods and services.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The main goal of the HIPC Initiative was to…",
+    "choices": ["Promote global free trade", "Cancel or reduce unpayable debt for the poorest countries", "Fund large infrastructure in ACs", "Increase tariffs on LIDC exports"],
+    "correctIndex": 1,
+    "explanation": "Debt relief aimed to free resources for social spending and poverty reduction.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When a country relies heavily on exporting a single commodity (e.g., copper), it risks experiencing…",
+    "choices": ["Economic diversification", "Commodity dependence", "Import substitution", "Balanced trade"],
+    "correctIndex": 1,
+    "explanation": "Price volatility can destabilise growth if earnings come mostly from one product.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is a potential BENEFIT that a Trans‑National Company can bring to a host LIDC?",
+    "choices": [
+      "Investment in transport and energy infrastructure",
+      "All profits being repatriated",
+      "Undermining local suppliers",
+      "Export bans on manufactured goods"
+    ],
+    "correctIndex": 0,
+    "explanation": "TNCs often upgrade roads or power supply that local firms also use.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Political unrest makes it difficult for LIDCs to break out of poverty because it…",
+    "choices": [
+      "Encourages stable investment",
+      "Improves education outcomes",
+      "Disrupts markets and deters investors",
+      "Lowers military spending"
+    ],
+    "correctIndex": 2,
+    "explanation": "Instability raises risk, so donors and businesses divert funds elsewhere.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – In Rostow’s model the first significant growth of MANUFACTURING occurs in which stage?",
+    "choices": ["Traditional Society", "Pre‑conditions for Take‑off", "Take‑off", "Age of Mass Consumption"],
+    "correctIndex": 2,
+    "explanation": "Industrialisation accelerates during Take‑off, driving rapid GDP growth.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The term “Dutch Disease” refers to…",
+    "choices": [
+      "Soil salinisation in reclaimed polders",
+      "Currency appreciation from a natural‑resource boom that harms manufacturing exports",
+      "A plant pathogen affecting tulips",
+      "EU trade subsidies to the Netherlands"
+    ],
+    "correctIndex": 1,
+    "explanation": "Resource windfalls can strengthen the currency, making other exports less competitive.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Structural Adjustment Programmes (SAPs) linked to World Bank/IMF loans typically required recipient countries to…",
+    "choices": [
+      "Nationalise key industries",
+      "Reduce public spending and liberalise trade",
+      "Ban foreign ownership",
+      "Increase fuel subsidies"
+    ],
+    "correctIndex": 1,
+    "explanation": "SAPs promoted free‑market reforms, though critics argue they deepened inequalities.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Multilateral aid is BEST illustrated by…",
+    "choices": [
+      "A UK charity funding a clinic in Kenya",
+      "The World Bank lending money pooled from many donor states",
+      "Bilateral aid from China to Ethiopia",
+      "Remittances sent home by migrants"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multilateral aid passes through an international institution rather than a single donor government.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which indicator below MOST directly measures GENDER equality in education?",
+    "choices": [
+      "Ratio of girls to boys in primary schooling",
+      "GDP growth rate",
+      "Total fertility rate",
+      "Mobile‑phone subscriptions"
+    ],
+    "correctIndex": 0,
+    "explanation": "The enrolment ratio highlights disparities between male and female access to school.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "When export earnings fall below import costs for several consecutive years, a country experiences a …",
+    "choices": ["Trade surplus", "Balanced budget", "Trade deficit", "Trade embargo"],
+    "correctIndex": 2,
+    "explanation": "Greater imports than exports create a deficit, which may require borrowing foreign currency.",
+    "difficulty": "easy"
+  },
+
+  /* ---------- UK IN THE 21st CENTURY (Q 25 – 32) ---------- */
+  {
+    "question": "Which part of the UK generally has the HIGHEST population density?",
+    "choices": ["England", "Scotland", "Wales", "Northern Ireland"],
+    "correctIndex": 0,
+    "explanation": "England holds about 84 % of the UK population on roughly half the land area.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "An ageing population in the UK is likely to increase pressure on which service the MOST?",
+    "choices": ["Primary schools", "National Health Service (NHS)", "Defence budget", "Space exploration"],
+    "correctIndex": 1,
+    "explanation": "Older age groups require more healthcare and social‑care funding.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Since 2001 the QUATERNARY (knowledge) sector has grown strongly in hubs such as…",
+    "choices": ["Cornwall’s china‑clay pits", "Cambridge Science Park", "South Wales coalfield", "North Sea oil rigs"],
+    "correctIndex": 1,
+    "explanation": "High‑tech clusters near universities typify the UK’s modern knowledge economy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In South‑East England, housing shortages are linked to…",
+    "choices": [
+      "Rapid population growth and limited brownfield land",
+      "Excess supply of vacant properties",
+      "Continuous outward migration",
+      "High relief restricting building in upland areas"
+    ],
+    "correctIndex": 0,
+    "explanation": "Demand outstrips supply near economic hubs and green‑belt restrictions limit expansion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A vertical BAR graph is an appropriate way to show…",
+    "choices": [
+      "The changing % of renewable energy in the UK 2000‑2025",
+      "Monthly precipitation AND temperature together",
+      "Age‑group totals in the 2011 UK census",
+      "Variation in relief across a transect"
+    ],
+    "correctIndex": 2,
+    "explanation": "Discrete categories such as age groups are clearly compared with bars.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – Which UK city is widely regarded as the national AEROSPACE hub?",
+    "choices": ["Bristol", "Liverpool", "Aberdeen", "Norwich"],
+    "correctIndex": 0,
+    "explanation": "Bristol and the surrounding South‑West host Airbus, Rolls‑Royce aero‑engines and many component firms.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which UK MEDIA export currently earns the HIGHEST global revenues?",
+    "choices": ["Television & streaming drama", "Music‑recording industry", "Video‑game development", "Print newspapers"],
+    "correctIndex": 2,
+    "explanation": "The UK’s video‑games sector now outpaces other creative exports, reflecting global digital demand.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The UK’s permanent seat on the UN Security Council illustrates its …",
+    "choices": [
+      "Cultural influence",
+      "Political role in global governance",
+      "Loss of international significance",
+      "Status as a newly industrialising country"
+    ],
+    "correctIndex": 1,
+    "explanation": "A veto‑holding seat shows continued diplomatic weight in international security matters.",
+    "difficulty": "easy"
+  },
+
+  /* ---------- RESOURCE RELIANCE (Q 33 – 40) ---------- */
+  {
+    "question": "Food security exists when people have …",
+    "choices": [
+      "Ongoing physical and economic access to sufficient, safe and nutritious food",
+      "Unlimited fossil‑fuel reserves",
+      "Maximum daily caloric intake only",
+      "Government food subsidies"
+    ],
+    "correctIndex": 0,
+    "explanation": "The FAO’s definition stresses access, availability and utilisation of food.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Over‑fishing most directly results from …",
+    "choices": [
+      "Open‑access fisheries with few controls",
+      "Increasing coral cover",
+      "Marine protected areas",
+      "Rising numbers of small‑scale artisanal boats alone"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lack of quotas or enforcement allows fleets to exceed sustainable yields.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Mechanisation of agriculture boosts yields PRIMARILY by …",
+    "choices": [
+      "Reducing the need for irrigation",
+      "Increasing labour productivity and field efficiency",
+      "Halting soil erosion completely",
+      "Lowering fertiliser use to zero"
+    ],
+    "correctIndex": 1,
+    "explanation": "Machines allow faster ploughing, sowing and harvesting over larger areas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Desalination plants are built to increase supplies of …",
+    "choices": ["Fresh water", "Wind energy", "Natural gas", "Fertile soil"],
+    "correctIndex": 0,
+    "explanation": "Removing salt from seawater produces potable water for dry coastal regions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Green Revolution of the 1960s–70s introduced …",
+    "choices": [
+      "High‑yielding crop varieties, synthetic fertilisers and irrigation",
+      "Organic farming and permaculture",
+      "Subsistence shifting cultivation",
+      "GM drought‑tolerant maize only"
+    ],
+    "correctIndex": 0,
+    "explanation": "These technologies dramatically raised cereal outputs in Asia and Latin America.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – Which irrigation technique is generally MOST water‑efficient?",
+    "choices": ["Flood irrigation", "Furrow irrigation", "Centre‑pivot sprinklers", "Drip (trickle) irrigation"],
+    "correctIndex": 3,
+    "explanation": "Drip systems deliver water directly to plant roots, minimising evaporation losses.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Converting large areas of rainforest to soy or oil‑palm for biofuel production risks which trade‑off?",
+    "choices": [
+      "Increased carbon sequestration",
+      "Competition between food and fuel crops leading to rising food prices",
+      "Enhanced biodiversity",
+      "Reduced soil erosion everywhere"
+    ],
+    "correctIndex": 1,
+    "explanation": "Land used for biofuels cannot grow staple foods, potentially undermining food security.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Community‑scale rainwater harvesting in rural Kenya is an example of …",
+    "choices": ["Top‑down, high‑tech engineering", "Bottom‑up, small‑scale sustainability", "Export‑orientated agribusiness", "Hydro‑electric mega‑dam"],
+    "correctIndex": 1,
+    "explanation": "Local participation keeps costs low and benefits immediate.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – Integrated Pest Management (IPM) supports sustainable intensification by …",
+    "choices": [
+      "Relying exclusively on broad‑spectrum pesticides",
+      "Combining biological control, targeted chemicals and cultural practices to reduce crop loss",
+      "Stopping all pest control",
+      "Using GM crops only"
+    ],
+    "correctIndex": 1,
+    "explanation": "IPM lowers chemical use while maintaining yields and reducing resistance build‑up.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which planetary boundary is most directly threatened by excessive nitrogen‑based fertiliser use?",
+    "choices": ["Fresh‑water use", "Biogeochemical flows", "Stratospheric ozone", "Novel entities"],
+    "correctIndex": 1,
+    "explanation": "Run‑off of reactive nitrogen and phosphorus exceeds natural cycling limits, polluting waterways and oceans.",
+    "difficulty": "hard"
   }
 ]
