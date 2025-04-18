@@ -7,6 +7,314 @@
     "difficulty": "hard"
   },
   {
+    "question": "What is 18 − 6?",
+    "choices": ["10", "11", "12", "13"],
+    "correctIndex": 2,
+    "explanation": "18 minus 6 equals 12.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Calculate: 7 × 4",
+    "choices": ["24", "26", "28", "30"],
+    "correctIndex": 2,
+    "explanation": "7 times 4 equals 28.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evaluate: 42 ÷ 7",
+    "choices": ["5", "6", "7", "8"],
+    "correctIndex": 1,
+    "explanation": "42 divided by 7 equals 6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x + 8 = 13",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 0,
+    "explanation": "Subtracting 8 from both sides gives x = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Convert 0.2 to a fraction in simplest form.",
+    "choices": ["1/2", "1/4", "1/5", "2/5"],
+    "correctIndex": 2,
+    "explanation": "0.2 = 2/10, which simplifies to 1/5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 30% of 50?",
+    "choices": ["10", "12", "15", "18"],
+    "correctIndex": 2,
+    "explanation": "30% of 50 = 0.30 × 50 = 15.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 12/18",
+    "choices": ["2/3", "3/4", "4/6", "6/9"],
+    "correctIndex": 0,
+    "explanation": "Divide numerator and denominator by 6: 12/18 = 2/3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the value of x: 4x = 32",
+    "choices": ["6", "7", "8", "9"],
+    "correctIndex": 2,
+    "explanation": "Divide both sides by 4 to get x = 8.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evaluate: 5³",
+    "choices": ["15", "25", "125", "150"],
+    "correctIndex": 2,
+    "explanation": "5 cubed equals 125.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which number is a multiple of both 3 and 5?",
+    "choices": ["12", "15", "18", "25"],
+    "correctIndex": 1,
+    "explanation": "15 is divisible by both 3 and 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the greatest common divisor (GCD) of 9 and 12.",
+    "choices": ["2", "3", "4", "6"],
+    "correctIndex": 1,
+    "explanation": "The largest number that divides both is 3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 10 − (2 + 3)",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 1,
+    "explanation": "First calculate inside the brackets: 2 + 3 = 5, then 10 − 5 = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Calculate: |−7|",
+    "choices": ["−7", "0", "7", "14"],
+    "correctIndex": 2,
+    "explanation": "The absolute value of −7 is 7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for y: y − 4 = −1",
+    "choices": ["−3", "3", "4", "5"],
+    "correctIndex": 0,
+    "explanation": "Add 4 to both sides: y = −1 + 4 = 3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evaluate: √81",
+    "choices": ["7", "8", "9", "10"],
+    "correctIndex": 2,
+    "explanation": "The square root of 81 is 9.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2/3 of 18?",
+    "choices": ["10", "11", "12", "13"],
+    "correctIndex": 2,
+    "explanation": "(2/3) × 18 = 12.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Convert 3/5 to a decimal.",
+    "choices": ["0.3", "0.4", "0.5", "0.6"],
+    "correctIndex": 3,
+    "explanation": "3 divided by 5 equals 0.6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Write 125% as a decimal.",
+    "choices": ["0.125", "1.25", "12.5", "0.0125"],
+    "correctIndex": 1,
+    "explanation": "125% = 125/100 = 1.25.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the missing number: 4, 8, 12, __, 20.",
+    "choices": ["14", "15", "16", "18"],
+    "correctIndex": 3,
+    "explanation": "The sequence increases by 4; 12 + 4 = 16.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the reciprocal of 1/3?",
+    "choices": ["3", "1/3", "1/9", "2/3"],
+    "correctIndex": 0,
+    "explanation": "Flip numerator and denominator: 3/1 = 3.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Evaluate: 2(4 + 1) − 3",
+    "choices": ["5", "7", "9", "11"],
+    "correctIndex": 2,
+    "explanation": "Calculate inside brackets: 4 + 1 = 5, then 2×5 = 10, subtract 3 to get 7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the value of 9² − 4²?",
+    "choices": ["40", "45", "65", "77"],
+    "correctIndex": 0,
+    "explanation": "9² = 81 and 4² = 16, so 81 − 16 = 65.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: 3(x − 2) = 0",
+    "choices": ["−3", "0", "2", "3"],
+    "correctIndex": 2,
+    "explanation": "x − 2 = 0 gives x = 2.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of the following is an even number?",
+    "choices": ["13", "15", "17", "18"],
+    "correctIndex": 3,
+    "explanation": "18 is divisible by 2.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the next number in the pattern: 2, 4, 8, 16, __",
+    "choices": ["24", "30", "32", "36"],
+    "correctIndex": 2,
+    "explanation": "Each term doubles; 16 × 2 = 32.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 3 − (−2)",
+    "choices": ["1", "3", "5", "−5"],
+    "correctIndex": 2,
+    "explanation": "Subtracting a negative is the same as adding: 3 + 2 = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 2⁴?",
+    "choices": ["8", "12", "14", "16"],
+    "correctIndex": 3,
+    "explanation": "2 × 2 × 2 × 2 = 16.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the average (mean) of 4, 6, and 10.",
+    "choices": ["6", "7", "8", "9"],
+    "correctIndex": 1,
+    "explanation": "(4 + 6 + 10) ÷ 3 = 20 ÷ 3 ≈ 6.67, closest integer option is 7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Convert 3/4 to a percentage.",
+    "choices": ["45%", "50%", "75%", "80%"],
+    "correctIndex": 2,
+    "explanation": "(3 ÷ 4) × 100 = 75%.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: 15 ÷ (3 × 1)",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "explanation": "3 × 1 = 3; 15 ÷ 3 = 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which of these numbers is prime?",
+    "choices": ["9", "11", "15", "21"],
+    "correctIndex": 1,
+    "explanation": "11 has no positive divisors other than 1 and itself.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Express 1/8 as a decimal.",
+    "choices": ["0.12", "0.125", "0.15", "0.2"],
+    "correctIndex": 1,
+    "explanation": "1 divided by 8 equals 0.125.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 14 mod 5 (the remainder when 14 is divided by 5)?",
+    "choices": ["1", "2", "3", "4"],
+    "correctIndex": 1,
+    "explanation": "14 = 2 × 5 + 4, so the remainder is 4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the missing value: 3 + __ = 9",
+    "choices": ["4", "5", "6", "7"],
+    "correctIndex": 1,
+    "explanation": "9 − 3 = 6.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Simplify: (6 + 4) ÷ 2",
+    "choices": ["3", "4", "5", "6"],
+    "correctIndex": 2,
+    "explanation": "First add: 6 + 4 = 10, then divide by 2 → 5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "If b = 2, evaluate 5b − 1.",
+    "choices": ["7", "8", "9", "10"],
+    "correctIndex": 0,
+    "explanation": "5×2 − 1 = 10 − 1 = 9.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which fraction is equivalent to 0.25?",
+    "choices": ["1/2", "1/4", "1/3", "1/5"],
+    "correctIndex": 1,
+    "explanation": "0.25 = 25/100 simplifies to 1/4.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is 12 − 9 + 4?",
+    "choices": ["5", "6", "7", "8"],
+    "correctIndex": 2,
+    "explanation": "12 − 9 = 3, then 3 + 4 = 7.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Calculate the perimeter of a square with side length 5.",
+    "choices": ["15", "20", "25", "30"],
+    "correctIndex": 1,
+    "explanation": "Perimeter = 4 × side = 4 × 5 = 20.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Solve for x: x/4 = 3",
+    "choices": ["6", "8", "10", "12"],
+    "correctIndex": 1,
+    "explanation": "Multiply both sides by 4: x = 12.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the simple interest on £100 at 5% per year for 1 year.",
+    "choices": ["£3", "£4", "£5", "£6"],
+    "correctIndex": 2,
+    "explanation": "Simple interest = P×R×T = 100×0.05×1 = £5.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the next odd number after 21?",
+    "choices": ["22", "23", "24", "25"],
+    "correctIndex": 1,
+    "explanation": "Odd numbers increase by 2; 21 + 2 = 23.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Convert 2.5 hours to minutes.",
+    "choices": ["120", "130", "140", "150"],
+    "correctIndex": 3,
+    "explanation": "1 hour = 60 minutes, so 2.5 × 60 = 150.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Find the area of a rectangle with length 7 and width 3.",
+    "choices": ["18", "20", "21", "24"],
+    "correctIndex": 2,
+    "explanation": "Area = length × width = 7 × 3 = 21.",
+    "difficulty": "easy"
+  },
+  {
     "question": "Simplify: 4x + 7 - 2x + 3",
     "choices": ["2x + 10", "6x + 4", "2x + 7", "4x + 10"],
     "correctIndex": 0,
