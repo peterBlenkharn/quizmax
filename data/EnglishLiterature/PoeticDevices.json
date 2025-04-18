@@ -1,1 +1,305 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Identify the dominant poetic device in this line from *Holy Thursday*:\n\n\"…they **like Thames waters flow**\"",
+    "choices": ["Simile", "Alliteration", "Caesura", "Enjambment"],
+    "correctIndex": 0,
+    "explanation": "The movement of children is compared to flowing water using “like,” a simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is most evident in Frost’s *Out, Out—* line below?\n\n\"The buzz‑saw **snarled and rattled** in the yard\"",
+    "choices": ["Personification", "Onomatopoeia", "Metaphor", "Oxymoron"],
+    "correctIndex": 1,
+    "explanation": "“Snarled” and “rattled” imitate harsh sounds → onomatopoeia.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What poetic device is used here from Olds’ *My First Weeks*?\n\n\"The wall opened **like liquid**…\"",
+    "choices": ["Metaphor", "Simile", "Hyperbole", "Anaphora"],
+    "correctIndex": 1,
+    "explanation": "Uses “like” to compare the wall to liquid, forming a simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hopkins’ *Spring and Fall* begins:\n\n\"Leaves, **like the things of man**, you…\"  \nIdentify the device.",
+    "choices": ["Personification", "Simile", "Allusion", "Paradox"],
+    "correctIndex": 1,
+    "explanation": "Comparison with “like” makes this a simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device appears in Brontë’s *The Bluebell* phrase **“silent eloquence”**?",
+    "choices": ["Oxymoron", "Symbolism", "Caesura", "Assonance"],
+    "correctIndex": 0,
+    "explanation": "Combines contradictory terms (silence / eloquence) → oxymoron.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "O’Shaughnessy’s *Ode* opens with repeated **w** sounds:\n\n\"We are the **music‑makers**…\"  \nChoose the device.",
+    "choices": ["Alliteration", "Consonance", "Simile", "Metonymy"],
+    "correctIndex": 0,
+    "explanation": "Initial consonant repetition is alliteration.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hardy’s line \"the lamp’s **sad beams**\" chiefly illustrates which sound device?",
+    "choices": ["Sibilance", "Assonance", "Internal rhyme", "Onomatopoeia"],
+    "correctIndex": 0,
+    "explanation": "Soft *s* repetition creates sibilance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the technique in Keats’ image:\n\n\"night’s **starr’d face**\" (*When I have fears…*)",
+    "choices": ["Personification", "Metaphor", "Irony", "Chiasmus"],
+    "correctIndex": 1,
+    "explanation": "Giving the night a “face” is personification/metaphor; metaphor is broader and fits best.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What device appears in the Plath line:\n\n\"**Right, like a well‑done sum.**\" (*You’re*)",
+    "choices": ["Simile", "Hyperbole", "Allusion", "Antithesis"],
+    "correctIndex": 0,
+    "explanation": "Uses “like” to compare baby’s correctness to a sum.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Blake’s *Holy Thursday* the children are called **“flowers of London town.”**  Pick the device.",
+    "choices": ["Metaphor", "Simile", "Epithet", "Litotes"],
+    "correctIndex": 0,
+    "explanation": "Children directly named as flowers → metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is used here (*Spring and Fall*):\n\n\"…worlds of **wanwood leafmeal** lie\"",
+    "choices": ["Alliteration", "Metonymy", "Enjambment", "Onomatopoeia"],
+    "correctIndex": 0,
+    "explanation": "Repeats initial *w* and *l* sounds (alliteration).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hardy’s line **\"Bewrapt past knowing to what he was going\"** is an example of:",
+    "choices": ["Internal rhyme", "Caesura", "Simile", "Hyperbole"],
+    "correctIndex": 0,
+    "explanation": "“Bewrapt / past” internal consonant rhyme enhances sound.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The phrase **\"snarled and rattled, snarled and rattled\"** in *Out, Out—* shows:",
+    "choices": ["Anaphora", "Polysyndeton", "Repetition", "Ellipsis"],
+    "correctIndex": 2,
+    "explanation": "Exact word repetition reinforces the saw’s relentlessness.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the device in Clarke’s image:\n\n\"water’s **long green silk**\" (*Cold Knap Lake*)",
+    "choices": ["Metaphor", "Personification", "Simile", "Allusion"],
+    "correctIndex": 0,
+    "explanation": "Compares water to silk without “like/as” – metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Komunyakaa writes, \"**I can hurt / You with questions / Like silver bullets.**\"  Which device is central?",
+    "choices": ["Simile", "Symbolism", "Oxymoron", "Synecdoche"],
+    "correctIndex": 0,
+    "explanation": "Questions are compared to bullets using “like.”",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The line **\"my head slid through, my legs\"** (Olds) runs onto the next without punctuation. Name the device.",
+    "choices": ["Enjambment", "Caesura", "Parenthesis", "Allusion"],
+    "correctIndex": 0,
+    "explanation": "Run‑on across line break → enjambment.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device appears in Sheers’ phrase **\"the dog returns having caught nothing but his own tongue\"**?",
+    "choices": ["Personification", "Irony", "Metonymy", "Hyperbole"],
+    "correctIndex": 1,
+    "explanation": "Humorous contrast (trying to catch prey but only tongue) → situational irony.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What device is used in Sexton’s repeated colour **\"red red roses\"** (*Red Roses*)?",
+    "choices": ["Repetition for emphasis", "Simile", "Anaphora", "Synecdoche"],
+    "correctIndex": 0,
+    "explanation": "Word duplication intensifies imagery.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Gunn’s line **\"I fall into the lighted room.\"** includes which sound device on the *l*?",
+    "choices": ["Consonance", "Alliteration", "Assonance", "Internal rhyme"],
+    "correctIndex": 1,
+    "explanation": "Repetition of initial *l* sounds (“fall,” “lighted”).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the figurative device in Frost’s phrase **“life from spilling”** about the boy’s blood.",
+    "choices": ["Metaphor", "Metonymy", "Euphemism", "Paradox"],
+    "correctIndex": 2,
+    "explanation": "\"Life\" stands for blood – a metonymy replacing blood with life.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which device is in Keats’ description **\"cloudy symbols of a high romance\"**?",
+    "choices": ["Symbolism", "Onomatopoeia", "Synecdoche", "Alliteration"],
+    "correctIndex": 0,
+    "explanation": "Imagery of clouds as symbols uses symbolism.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the device in Blake’s line **\"wise guardians of the poor\"**.",
+    "choices": ["Epithet", "Simile", "Enjambment", "Antithesis"],
+    "correctIndex": 0,
+    "explanation": "Descriptive phrase attaches to noun – an epithet.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The rhetorical question **\"Was I there?\"** in *Cold Knap Lake* is an example of:",
+    "choices": ["Hypophora", "Anaphora", "Interrogative mood", "Symbol"],
+    "correctIndex": 2,
+    "explanation": "Simple interrogative used for reflection.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What device is apparent in Hopkins’ sound cluster **\"worlds of wanwood leafmeal\"**?",
+    "choices": ["Consonance", "Sibilance", "Internal rhyme", "Assonance"],
+    "correctIndex": 0,
+    "explanation": "Repetition of *w* and *l* consonants = consonance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Plath’s phrase **\"Feet to the stars\"** (*You’re*) exemplifies:",
+    "choices": ["Hyperbole", "Inversion", "Allusion", "Ellipsis"],
+    "correctIndex": 1,
+    "explanation": "Unusual word order places object first → inversion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Hardy’s repeating *O* exclamation **\"O journeying boy\"** shows which device?",
+    "choices": ["Apostrophe", "Euphemism", "Chiasmus", "Paradox"],
+    "correctIndex": 0,
+    "explanation": "Direct address to an absent person/figure – apostrophe.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The phrase **\"lone sea‑breakers\"** in *Ode* contains which sound technique?",
+    "choices": ["Assonance", "Alliteration", "Consonance", "Internal rhyme"],
+    "correctIndex": 1,
+    "explanation": "Repeats initial *l* sound.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the device in Clanchy’s comparison **\"soft spot hot as a smelted coin\"**.",
+    "choices": ["Simile", "Metaphor", "Oxymoron", "Personification"],
+    "correctIndex": 0,
+    "explanation": "Uses “as” to compare heat to a coin – simile.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What device is at work in Hardy’s repeated phrase **\"journeying boy\"**?",
+    "choices": ["Epitheton ornans", "Repetition for motif", "Anaphora", "Allusion"],
+    "correctIndex": 1,
+    "explanation": "Recurrent phrase forms a motif via repetition.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The metaphor **\"clock of cream and flame\"** in Olds’ poem signifies:",
+    "choices": ["Feeding schedule", "Anger", "Weather", "Mortality"],
+    "correctIndex": 0,
+    "explanation": "Cream = milk, flame = warmth; together symbolise feeding routine.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the device in Sexton’s **\"He pretends he is her ball\"** (mother and child).",
+    "choices": ["Metaphor", "Pun", "Hyperbole", "Alliteration"],
+    "correctIndex": 0,
+    "explanation": "Child compared directly to a ball – metaphor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the device in Gunn’s closing line **\"I have known heaven.\"** after newborn imagery.",
+    "choices": ["Hyperbole", "Litotes", "Anaphora", "Irony"],
+    "correctIndex": 0,
+    "explanation": "Grand exaggeration signalling bliss – hyperbole.",
+    "difficulty": "easy"
+  },
+
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "Which structural device is created by the repeated opening **“We…”** in O’Shaughnessy’s *Ode* stanzas?",
+    "choices": ["Anaphora", "Epistrophe", "Chiasmus", "Parenthesis"],
+    "correctIndex": 0,
+    "explanation": "Anaphora is repetition at the beginning of successive lines.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In Hopkins’ line **\"Nor mouth had, no nor mind, expressed\"** what device is the sudden internal pause?",
+    "choices": ["Caesura", "Enjambment", "Polysyndeton", "Synecdoche"],
+    "correctIndex": 0,
+    "explanation": "A strong pause within a line marked by commas → caesura.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hardy’s question **\"Knows your soul a sphere, O journeying boy?\"** chiefly relies on which classical figure?",
+    "choices": ["Apostrophe", "Synecdoche", "Allusion to Platonic forms", "Metonymy"],
+    "correctIndex": 2,
+    "explanation": "Invokes philosophical image of the soul‑sphere from Plato.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which metrical feature dominates Keats’ sonnet *When I have fears…*?",
+    "choices": ["Iambic pentameter", "Trochaic tetrameter", "Dactylic trimeter", "Anapestic tetrameter"],
+    "correctIndex": 0,
+    "explanation": "The Shakespearean sonnet form uses iambic pentameter lines.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Plath’s cascade of similes (**“Mute as a turnip… / Jumpy as a Mexican bean”**) best illustrates which broader technique?",
+    "choices": ["Catalogue of comparisons", "Zeugma", "Litotes", "Paradox"],
+    "correctIndex": 0,
+    "explanation": "A rapid series of varied similes forms a catalogue effect.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Identify the device in Frost’s rhythmic narrowing **“Little — less — nothing!”**",
+    "choices": ["Gradatio (climax)", "Antimetabole", "Aposiopesis", "Epistrophe"],
+    "correctIndex": 0,
+    "explanation": "Stepwise progression of decreasing words → gradatio/climactic ordering.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Komunyakaa’s surreal image **\"Big as the First State Bank\"** for flowers employs:",
+    "choices": ["Hyperbole & simile", "Caesura", "Irony", "Metonymy"],
+    "correctIndex": 0,
+    "explanation": "Flowers exaggerated to bank size using “as” – hyperbolic simile.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "The closing couplet of Keats’ sonnet provides resolution by contrasting **Love and Fame** with **nothingness**. Which device?",
+    "choices": ["Antithesis", "Epigram", "Oxymoron", "Metonymy"],
+    "correctIndex": 1,
+    "explanation": "Pithy, balanced statement ending poem – an epigram.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Hardy’s phrase **\"roof‑lamp’s oily flame\"** blends tactile and visual senses. Name the technique.",
+    "choices": ["Synaesthesia", "Consonance", "Enjambment", "Epithet"],
+    "correctIndex": 0,
+    "explanation": "Combines smell/touch (“oily”) with sight (“flame”) → synaesthesia.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "In *Love* (Clanchy) the newborn’s head is **“small as a cat’s.”** Which additional effect does this simile create beyond size?",
+    "choices": [
+      "Conveys fragility through an animal comparison",
+      "Introduces onomatopoeia",
+      "Demonstrates chiasmus",
+      "Creates satire"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cat comparison suggests delicacy and vulnerability, enriching image.",
+    "difficulty": "hard"
+  }
+]
 
