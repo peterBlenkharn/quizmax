@@ -1,1 +1,248 @@
-
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Lagos is located on which Gulf of Guinea body of water?",
+    "choices": ["Atlantic Ocean", "Indian Ocean", "Mediterranean Sea", "Red Sea"],
+    "correctIndex": 0,
+    "explanation": "Its harbour sits on Nigeria’s Atlantic coast.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The informal waterfront settlement often called the ‘Venice of Africa’ is …",
+    "choices": ["Ajegunle", "Makoko", "Victoria Island", "Ikeja"],
+    "correctIndex": 1,
+    "explanation": "Makoko’s stilt houses sprawl over Lagos Lagoon.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What is the estimated population of metropolitan Lagos (2024)?",
+    "choices": ["4 million", "11 million", "15 million", "Over 20 million"],
+    "correctIndex": 3,
+    "explanation": "UN estimates approach 22 M; projections exceed 24 M by 2030.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In 2016 Lagos opened Africa’s largest deep‑sea port project called …",
+    "choices": ["Eko Atlantic", "Lekki Deep‑Sea Port", "Tin Can Island", "Apapa Quay"],
+    "correctIndex": 1,
+    "explanation": "Lekki aims to reduce congestion at Apapa.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Nollywood film industry district houses many studios & distributors?",
+    "choices": ["Surulere", "Yaba", "Ikorodu", "Ajah"],
+    "correctIndex": 0,
+    "explanation": "Surulere is Nollywood’s historic heart.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "A BRT (Bus Rapid Transit) lane was introduced on which busy corridor in 2008?",
+    "choices": ["Carter Bridge", "Lagos‑Badagry Expressway", "Eko Bridge", "Third Mainland Bridge"],
+    "correctIndex": 1,
+    "explanation": "Dedicated lanes cut commute times.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Eko Atlantic project is built on land reclaimed from …",
+    "choices": ["Mangrove swamp", "Atlantic Ocean adjacent to Bar Beach", "Lagoon mudflats", "Former airport runway"],
+    "correctIndex": 1,
+    "explanation": "Sea walls and sand fill create a new luxury city.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which environmental problem affects Lagos Lagoon due to inadequate waste management?",
+    "choices": ["Oil spills only", "Plastic & sewage pollution", "Desertification", "Thermal inversions"],
+    "correctIndex": 1,
+    "explanation": "Floating debris blocks drains and harms aquatic life.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The majority of inward migrants to Lagos come from which part of Nigeria?",
+    "choices": ["Northern rural states", "Oil‑rich Niger Delta cities", "Abuja", "Cross‑border Benin"],
+    "correctIndex": 0,
+    "explanation": "Push factors: drought & unemployment in the north.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "In Makoko, the typical household relies on which basic economic activity?",
+    "choices": ["Fishing & fish‑smoking", "Coal mining", "IT outsourcing", "Automobile manufacturing"],
+    "correctIndex": 0,
+    "explanation": "Lagoon fishing underpins informal livelihoods.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which floating school prototype, hailed for climate‑resilience, collapsed in 2016 after heavy rain?",
+    "choices": ["Adjire School", "Makoko Floating School", "Badagry Boat Classroom", "Lekki Aqua Academy"],
+    "correctIndex": 1,
+    "explanation": "Mass‑timber structure melted; spurred stronger 2.0 design.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The main international airport serving Lagos is located in which suburb?",
+    "choices": ["Agege", "Ikeja", "Ikoyi", "Epe"],
+    "correctIndex": 1,
+    "explanation": "Murtala Muhammed Airport sits near Ikeja.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Residents of Lagos’ poorest slums often rely on **sachet water** because …",
+    "choices": ["It is cheaper than pipe water", "Piped water is scarce or contaminated", "They prefer taste", "Government bans boreholes"],
+    "correctIndex": 1,
+    "explanation": "Small plastic sachets fill water‑access gaps.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which multi‑storey electronic‑waste market/fire‑prone area dominates informal recycling?",
+    "choices": ["Computer Village at Ikeja", "Balogun Market", "Tejuosho Market", "Yaba Central"],
+    "correctIndex": 0,
+    "explanation": "Tech repair & e‑waste salvage cluster in Ikeja.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Lagos contributes roughly what % of Nigeria’s total GDP (2022)?",
+    "choices": ["5 %", "10 %", "15 %", "Over 25 %"],
+    "correctIndex": 3,
+    "explanation": "Estimates 26‑30 % despite being < 0.5 % land area.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which annual festival boosts cultural tourism and celebrates Yoruba heritage?",
+    "choices": ["Lagos Fashion Week", "Eyo (Adamu Orisha) Festival", "Felabration", "Calabar Carnival"],
+    "correctIndex": 1,
+    "explanation": "Eyo masqueraders parade in white robes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Oshodi Interchange (2020) integrates …",
+    "choices": ["Rail freight yards", "Three modern bus terminals and pedestrian bridges", "Oil refineries", "Police headquarters"],
+    "correctIndex": 1,
+    "explanation": "Replaces chaotic street buses with organised hubs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "What proportion of Lagos residents live in informal settlements according to UN‑Habitat (~2018)?",
+    "choices": ["< 10 %", "~ 20 %", "~ 40 %", "> 60 %"],
+    "correctIndex": 2,
+    "explanation": "Between 40‑60 % lack secure tenure & services.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Lagos State Waste Management Authority (LAWMA) introduced which colour‑coded bins for recycling pilot?",
+    "choices": ["Blue for recyclables", "Red for recyclables", "Green for medical waste", "Black for compost"],
+    "correctIndex": 0,
+    "explanation": "Blue = plastics & cans; brown for organics.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which dual‑carriageway bridge, at 11.8 km, links Lekki to Ikoyi reducing commute times?",
+    "choices": ["Third Mainland Bridge", "Lekki–Ikoyi Link Bridge", "Carter Bridge", "Eko Bridge"],
+    "correctIndex": 1,
+    "explanation": "Cable‑stayed Lekki–Ikoyi toll bridge opened 2013.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Lagos faces subsidence partly due to …",
+    "choices": ["Over‑abstraction of groundwater from boreholes", "Volcanic activity", "Plate uplift", "Permafrost thaw"],
+    "correctIndex": 0,
+    "explanation": "Groundwater pumping plus soft sediments cause sinking.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which digital‑payment company (Africa’s first ‘Fintech unicorn’) is headquartered in Lagos’ Yabacon cluster?",
+    "choices": ["Flutterwave", "Safaricom", "Stripe", "Naspers"],
+    "correctIndex": 0,
+    "explanation": "Yabatech/Yaba fosters tech start‑ups.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Traffic congestion in Lagos costs the economy about __ hours lost per commuter daily (Lagos Metropolitan Area Transport Authority estimate).",
+    "choices": ["0.5 h", "1 h", "2‑3 h", "5 h"],
+    "correctIndex": 2,
+    "explanation": "Average 3 million car trips face multi‑hour delays.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which state‑owned authority is spearheading the Lagos Rail Mass Transit (LRMT) Blue Line?",
+    "choices": ["Nigeria Railway Corporation", "Lagos Metropolitan Area Transport Authority (LAMATA)", "Federal Ministry of Works", "World Bank"],
+    "correctIndex": 1,
+    "explanation": "LAMATA plans six colour‑coded lines.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Water hyacinth infestation in Lagos Lagoon primarily results from …",
+    "choices": ["Saltwater intrusion", "Nutrient‑rich sewage effluent", "Oil exploration", "Thermal pollution"],
+    "correctIndex": 1,
+    "explanation": "Excess nitrates & phosphates accelerate invasive growth.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The Lagos State government sometimes uses ‘mega‑eviction’ of slums citing …",
+    "choices": ["Disease outbreaks", "Beautification & security", "Oil drilling", "Airport expansion"],
+    "correctIndex": 1,
+    "explanation": "Critics argue evictions violate housing rights.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Esther Ajayi’s solar‑kiosk initiative provides Makoko households with …",
+    "choices": ["Free fish nets", "Pay‑as‑you‑go solar lighting & phone charging", "Piped gas", "Ice‑cream"],
+    "correctIndex": 1,
+    "explanation": "Off‑grid solar reduces kerosene fumes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HARD – Lagos’ ‘Ambode Cleaner Initiative’ (2017) replaced 350 PSP (private sector participants) with a single concessionaire called …",
+    "choices": ["Visionscape", "LAWMA Green", "Dangote Waste", "EcoServe Lagos"],
+    "correctIndex": 0,
+    "explanation": "Transition sparked bin shortages & complaints.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The 2022 **Lagos Resilience Strategy** identifies ________ as the top chronic stress after unemployment.",
+    "choices": ["Housing affordability", "Flooding", "Food insecurity", "Cyber‑crime"],
+    "correctIndex": 1,
+    "explanation": "Annual flash floods disrupt lives & transport.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Eko Atlantic’s Great Wall of Lagos is constructed of __ tonnes of rock armour and concrete caissons.",
+    "choices": ["100 000", "500 000", "2 million", "7 million"],
+    "correctIndex": 3,
+    "explanation": "Seven million tonnes shield the reclaimed city from Atlantic waves.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Under Lagos’ Land‑Use Charge (revised 2020), property tax is calculated on Market Value × … %",
+    "choices": ["0.076 %", "0.5 %", "1.6 %", "5 %"],
+    "correctIndex": 0,
+    "explanation": "0.076 % for owner‑occupied residential; higher for others.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – According to NASA InSAR data (2021), parts of Lagos subside at up to __ mm per year.",
+    "choices": ["5 mm", "10 mm", "25 mm", "40 mm"],
+    "correctIndex": 2,
+    "explanation": "High subsidence plus sea‑level rise raise flood risk.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The informal sector constitutes about what percentage of Lagos State’s employment?",
+    "choices": ["12 %", "28 %", "45 %", "Over 60 %"],
+    "correctIndex": 3,
+    "explanation": "Most jobs are unregistered micro‑enterprises.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – WorldBank’s ‘Transforming Urban Spaces’ loan for Lagos (2023) totals nearly …",
+    "choices": ["$50 m", "$150 m", "$300 m", "$750 m"],
+    "correctIndex": 2,
+    "explanation": "$300 m supports drainage & slum upgrading.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which law (year) created the Lagos State Urban Renewal Authority (LASURA)?",
+    "choices": ["1991", "2001", "2005", "2010"],
+    "correctIndex": 1,
+    "explanation": "2001 Law No 7 established LASURA to coordinate slum upgrading.",
+    "difficulty": "hard"
+  }
+]
