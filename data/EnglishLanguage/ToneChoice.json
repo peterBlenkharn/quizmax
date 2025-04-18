@@ -1,1 +1,497 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Choose the sentence most appropriate to BEGIN a **formal letter of complaint to the city council**.",
+    "choices": [
+      "Hey folks, this place is a mess!",
+      "I am writing to express my concern regarding the recent rise in litter across Riverside Park.",
+      "You guys really need to sort out the trash situation.",
+      "Yo, council—clean up the park, please!"
+    ],
+    "correctIndex": 1,
+    "explanation": "Choice 2 uses formal tone (“I am writing to express …”) and proper polite phrasing suited to a council letter.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the BEST closing line for an **informal email to a close friend**.",
+    "choices": [
+      "Yours faithfully,",
+      "Sincerely,",
+      "Catch you later!",
+      "Respectfully yours,"
+    ],
+    "correctIndex": 2,
+    "explanation": "“Catch you later!” is relaxed and friendly, matching an informal email to a friend.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence is most suitable to START a **school assembly speech encouraging recycling**?",
+    "choices": [
+      "Let’s talk rubbish—literally!",
+      "Esteemed ladies and gentlemen, I hereby commence proceedings.",
+      "Yo, bins are boring but listen up!",
+      "I ain’t here to lecture, but…"
+    ],
+    "correctIndex": 0,
+    "explanation": "Choice 1 is engaging yet respectful for a school audience; others are either too stiff or too slang‑heavy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the sentence that BEST OPENS a **formal job‑application cover letter**.",
+    "choices": [
+      "Sup, hiring team?",
+      "I am writing to apply for the position of Marketing Assistant advertised on 2 May.",
+      "Thought I’d drop you a note about that job.",
+      "Hey there—your ad looked cool!"
+    ],
+    "correctIndex": 1,
+    "explanation": "It clearly states purpose, role and date in professional language.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the MOST APPROPRIATE sign‑off for a **business memo to your department manager**.",
+    "choices": [
+      "Cheers,",
+      "Best,",
+      "Love,",
+      "With gratitude and warmest personal regards,"
+    ],
+    "correctIndex": 1,
+    "explanation": "“Best,” is professional yet concise; “Cheers” is informal, others are unsuitable.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence best suited to a **text message inviting a friend to the cinema**.",
+    "choices": [
+      "Would you care to accompany me to a motion picture screening this evening?",
+      "Cinema at 7? Fancy it?",
+      "It would give me immense pleasure if you would attend the evening’s entertainment.",
+      "Dear Sir or Madam, join me for a film."
+    ],
+    "correctIndex": 1,
+    "explanation": "Short, casual phrasing fits a friendly text.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence BEST starts a **formal report on quarterly sales figures**?",
+    "choices": [
+      "Quarterly sales were kinda decent, I guess.",
+      "This report outlines the key sales figures for Q2 2025 and analyses underlying trends.",
+      "Okay team—sales stuff coming up!",
+      "Yo, check out these numbers!"
+    ],
+    "correctIndex": 1,
+    "explanation": "Clear, precise, formal language appropriate to a report.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the MOST SUITABLE opening for an **informal holiday postcard**.",
+    "choices": [
+      "Dear Sir or Madam, I write from the coast.",
+      "Hi from the sunny beach—wish you were here!",
+      "Pursuant to our previous correspondence, I remain by the sea.",
+      "Respectfully yours, from Sand Bay."
+    ],
+    "correctIndex": 1,
+    "explanation": "Friendly and casual tone matches a postcard to friends/family.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the sentence that BEST OPENS a **persuasive speech to local voters**.",
+    "choices": [
+      "Good evening, neighbours. Together, we can build safer streets and greener parks.",
+      "Hey dudes, let’s fix stuff!",
+      "Morning Sir/Madam, hereby speech commences.",
+      "Sup everyone—ready for politics?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Respectful address plus inclusive “together” suits community persuasion.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the MOST APPROPRIATE subject line for a **formal business email requesting a meeting**.",
+    "choices": [
+      "Meet?",
+      "Request for Meeting – Project Delta Timeline Discussion",
+      "Let’s chat!",
+      "Coffee soon?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Clearly states purpose and project name in formal style.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence most effective to END a **formal complaint**.",
+    "choices": [
+      "Sort it out, yeah?",
+      "I look forward to your prompt resolution of this matter.",
+      "Love and hugs,",
+      "Bye!"
+    ],
+    "correctIndex": 1,
+    "explanation": "Polite yet firm expectation suits formal complaint ending.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the BEST greeting for an **email update to your classmates about a group project**.",
+    "choices": [
+      "Dear Sir or Madam,",
+      "Hi team,",
+      "To whom it may concern,",
+      "Esteemed shareholders,"
+    ],
+    "correctIndex": 1,
+    "explanation": "“Hi team,” is friendly yet still purposeful among peers.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the sentence MOST APPROPRIATE to advertise a **summer music festival aimed at teenagers**.",
+    "choices": [
+      "Embark upon an unparalleled auditory experience this summer.",
+      "Get ready to rock the summer—tickets on sale now!",
+      "It is with solemn duty that we invite you to our festival.",
+      "Your esteemed presence is requested at a festival of sound."
+    ],
+    "correctIndex": 1,
+    "explanation": "Energetic language and direct call to action appeal to teens.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the BEST closing for a **thank‑you note to your teacher**.",
+    "choices": [
+      "Thanks a bunch, you’re awesome!",
+      "Thank you very much for your guidance this term.",
+      "Cheers, mate!",
+      "Later, teacher!"
+    ],
+    "correctIndex": 1,
+    "explanation": "Respectful gratitude fits teacher‑student relationship.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the greeting MOST suitable for a **formal invitation to a charity gala**.",
+    "choices": [
+      "Dear Esteemed Guest,",
+      "Hey there buddy,",
+      "Yo VIP,",
+      "Hiya!"
+    ],
+    "correctIndex": 0,
+    "explanation": "“Dear Esteemed Guest,” maintains formality and respect.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the BEST line to BEGIN an **informal blog post about a hiking trip**.",
+    "choices": [
+      "Greetings and salutations, respected readership.",
+      "Just back from the tallest peak I’ve ever hiked—and wow, my legs know it!",
+      "Pursuant to recreational activities, I hiked.",
+      "This communication concerns hills."
+    ],
+    "correctIndex": 1,
+    "explanation": "Conversational tone with personal excitement suits a blog.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence most appropriate for an **office notice reminding staff of a safety drill**.",
+    "choices": [
+      "Reminder: The fire‑safety drill will take place at 10:00 a.m. on Friday. Please follow all instructions promptly.",
+      "Hey guys, fire thing Friday—don’t forget!",
+      "Yo, drill time Friday, don’t be late.",
+      "Kindly be advised that combustive perils exist."
+    ],
+    "correctIndex": 0,
+    "explanation": "Clear, polite, formal but not overly rigid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the BEST sentence to END a **formal scholarship application**.",
+    "choices": [
+      "Wish me luck!",
+      "Thank you for considering my application; I look forward to your response.",
+      "Can’t wait to hear back!",
+      "Bye for now."
+    ],
+    "correctIndex": 1,
+    "explanation": "Polite appreciation and anticipation suit a formal application.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the BEST opener for an **informal social‑media post sharing good news**.",
+    "choices": [
+      "Delighted to share that I passed my driving test today!",
+      "It gives me immense pleasure to inform you that I have successfully completed the vehicular assessment.",
+      "To whom it may concern, I passed.",
+      "Esteemed friends, an announcement:"
+    ],
+    "correctIndex": 0,
+    "explanation": "Friendly yet clear language fits social media announcement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the MOST APPROPRIATE sentence for a **formal event programme introduction**.",
+    "choices": [
+      "Welcome to the 2025 Innovation Summit; we are honoured by your presence.",
+      "Hey innovators, ready to party?",
+      "Sup folks, let’s get innovative!",
+      "Yo yo yo, summit time!"
+    ],
+    "correctIndex": 0,
+    "explanation": "Gracious, formal welcome matches printed programme.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the BEST sign‑off for a **letter of condolence**.",
+    "choices": [
+      "Lots of love and hugs!!!",
+      "With deepest sympathy,",
+      "Catch you later,",
+      "Respectfully yours (lol)."
+    ],
+    "correctIndex": 1,
+    "explanation": "Solemn and respectful for condolence context.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which subject line is best for a **friendly invitation to a birthday party**?",
+    "choices": [
+      "Invitation: Celebrate My Birthday This Saturday!",
+      "Your presence is cordially requested for an obligatory ceremony.",
+      "Mandatory attendance: birthday.",
+      "Formal communication: birthday commences."
+    ],
+    "correctIndex": 0,
+    "explanation": "Cheerful yet clear invitation fits informal context.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the BEST opening for a **formal business apology email**.",
+    "choices": [
+      "Sorry about the mix‑up!",
+      "Please accept my sincere apologies for the error in the shipment dated 4 April.",
+      "Oops—our bad on that order.",
+      "Yo, sorry ‘bout that."
+    ],
+    "correctIndex": 1,
+    "explanation": "Apology is explicit, detailed, and formally phrased.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the sentence most appropriate for an **encouraging text to a friend before an exam**.",
+    "choices": [
+      "Best of luck—you’ve got this!",
+      "Esteemed candidate, good fortune be upon you.",
+      "I remain, yours faithfully, encouraging.",
+      "Dear Sir/Madam, you will likely succeed."
+    ],
+    "correctIndex": 0,
+    "explanation": "Warm, supportive language matches informal encouragement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the BEST closing for an **internal company newsletter**.",
+    "choices": [
+      "Thank you for reading; have a productive month ahead.",
+      "Peace out, colleagues!",
+      "Please consider this letter dissolved.",
+      "Love ya!"
+    ],
+    "correctIndex": 0,
+    "explanation": "Professional yet upbeat suits internal newsletter.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the MOST appropriate greeting for a **cold‑call sales email**.",
+    "choices": [
+      "Hey random person!",
+      "Dear Ms Patel,",
+      "Yo Patel,",
+      "To whoever reads this,"
+    ],
+    "correctIndex": 1,
+    "explanation": "Uses recipient’s name in respectful formal salutation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the sentence BEST suited to an **informal thank‑you text after a meal at a friend’s house**.",
+    "choices": [
+      "Thank you for the delightful dinner—your pasta was amazing!",
+      "This correspondence serves to appreciate your catering services.",
+      "I hereby acknowledge reception of nourishment.",
+      "I remain hungry."
+    ],
+    "correctIndex": 0,
+    "explanation": "Warm and specific compliment is informal and friendly.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the BEST opener for a **formal university lecture**.",
+    "choices": [
+      "Good morning. Today we will explore the ethical implications of artificial intelligence.",
+      "Hi everyone—robots, yay!",
+      "Yo class, AI time!",
+      "Hey folks, buckle up for some brain stuff."
+    ],
+    "correctIndex": 0,
+    "explanation": "Formal greeting and clear topic introduction suit academic lecture.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the most suitable subject line for an **informal catch‑up email to an old school friend**.",
+    "choices": [
+      "Long time no see!",
+      "Professional Enquiry",
+      "Invoice Attached",
+      "Urgent: Immediate Action Required"
+    ],
+    "correctIndex": 0,
+    "explanation": "Friendly and casual matches personal catch‑up.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence is BEST for a **formal notice of meeting postponement**?",
+    "choices": [
+      "Heads up: meeting moved.",
+      "Please be advised that the project meeting scheduled for 12 May has been postponed to 19 May at 10:00 a.m.",
+      "Yo people—date change!",
+      "We ain’t doing the meeting then."
+    ],
+    "correctIndex": 1,
+    "explanation": "Precise details in formal language suit official postponement.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Pick the sentence most appropriate for **starting a persuasive letter to a local representative about road safety**.",
+    "choices": [
+      "I am writing to urge immediate action to improve pedestrian safety on Brook Street.",
+      "Yo rep, fix the road!",
+      "Brook Street’s lame—sort it out.",
+      "This letter thingy is about the road."
+    ],
+    "correctIndex": 0,
+    "explanation": "Formal, clear action statement suits advocacy letter.",
+    "difficulty": "easy"
+  },
 
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "Choose the MOST SUITABLE opening line for a **formal proposal seeking funding from a scientific foundation**.",
+    "choices": [
+      "Give us cash for our cool idea, please!",
+      "In pursuit of advancing renewable‑energy storage, our team respectfully submits the following funding proposal for your consideration.",
+      "Hey there foundation folks—got a project for you.",
+      "Yo, science squad needs money."
+    ],
+    "correctIndex": 1,
+    "explanation": "Professional tone, clear purpose, and respectful language meet high‑stakes funding context.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the sentence that BEST CONVEYS an **apologetic yet authoritative tone in a company‑wide recall notice**.",
+    "choices": [
+      "Oops, we messed up—sorry!",
+      "We regret any inconvenience caused and have initiated an immediate product recall to ensure your safety.",
+      "Yeah, product’s faulty—deal with it.",
+      "Mistakes were made, moving on."
+    ],
+    "correctIndex": 1,
+    "explanation": "Balancing apology with decisive action achieves serious corporate register.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the closing most appropriate for a **formal reference letter for a former employee**.",
+    "choices": [
+      "If further information is required, please do not hesitate to contact me.",
+      "Any questions, hit me up!",
+      "That’s all, folks!",
+      "Laters."
+    ],
+    "correctIndex": 0,
+    "explanation": "Polite offer of additional help suits reference letter conventions.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Pick the sentence that BEST suits a **press release announcing a merger between two firms**.",
+    "choices": [
+      "Company A and Company B are super excited to team up—yay us!",
+      "Company A and Company B are pleased to announce their intention to merge, creating a stronger platform for innovation and customer value.",
+      "We’re kinda merging maybe, stay tuned.",
+      "Yo, big business move!"
+    ],
+    "correctIndex": 1,
+    "explanation": "Formal, positive tone with focus on benefits is standard for press releases.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which greeting is MOST APPROPRIATE for a **cover letter to an unknown hiring manager**?",
+    "choices": [
+      "Hey there,",
+      "To whom it may concern:",
+      "Yo hiring boss,",
+      "Hi team!"
+    ],
+    "correctIndex": 1,
+    "explanation": "Formal generic salutation is accepted when the name is unknown.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the sentence that BEST begins an **academic abstract for a research journal**.",
+    "choices": [
+      "This paper kinda looks at stuff to do with bees.",
+      "This study investigates the effects of urban light pollution on the foraging patterns of wild bees in temperate climates.",
+      "We did bee things—check it out!",
+      "Here be some bee research."
+    ],
+    "correctIndex": 1,
+    "explanation": "Precise, formal, and informative—matches academic abstract register.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the MOST SUITABLE tone for a **CEO’s year‑end letter to shareholders**.",
+    "choices": [
+      "Thanks for the cash, see you next year!",
+      "We are pleased to report sustained growth and are confident our strategic investments will continue to deliver long‑term value.",
+      "Yo investors—money’s good, chill!",
+      "Whatever, profits happened."
+    ],
+    "correctIndex": 1,
+    "explanation": "Professional, optimistic, and shareholder‑focused language is expected.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Pick the best subject line for an **urgent internal security alert email**.",
+    "choices": [
+      "Heads Up",
+      "(URGENT) Security Alert: Immediate Password Reset Required",
+      "FYI: Maybe a thing",
+      "Yo team—hackers?"
+    ],
+    "correctIndex": 1,
+    "explanation": "Uses “URGENT,” states action and topic clearly—matches critical internal alert.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which closing sentence is MOST APPROPRIATE for a **formal research‑grant denial letter**?",
+    "choices": [
+      "Sorry, not this time—good luck tho!",
+      "We appreciate your interest in our programme and encourage you to apply in future funding cycles.",
+      "Nah, try again.",
+      "Better luck next year, pal."
+    ],
+    "correctIndex": 1,
+    "explanation": "Polite encouragement aligns with formal denial register.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the opening line BEST fitting a **legal notice of contract termination**.",
+    "choices": [
+      "We hereby give notice that, in accordance with Clause 14(b), the contract dated 3 March 2023 will terminate effective 1 July 2025.",
+      "We don’t want to work with you anymore—bye.",
+      "Yo, contract’s over.",
+      "Guess what, it’s done."
+    ],
+    "correctIndex": 0,
+    "explanation": "Precise, formal, cites clause and dates—required for legal notice.",
+    "difficulty": "hard"
+  }
+]
