@@ -1,1 +1,497 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Which sentence is punctuated correctly?",
+    "choices": [
+      "I went to the shop, and bought milk.",
+      "I went to the shop and bought milk.",
+      "I went, to the shop and bought milk.",
+      "I went to the shop; and bought milk."
+    ],
+    "correctIndex": 1,
+    "explanation": "No comma is needed between a single subject and compound verb.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses the apostrophe correctly?",
+    "choices": [
+      "The childrens toys were everywhere.",
+      "The children's toys were everywhere.",
+      "The childrens' toys were everywhere.",
+      "The children's toy's were everywhere."
+    ],
+    "correctIndex": 1,
+    "explanation": "Add ’s after the plural noun \"children\" to show possession.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the grammatically correct sentence.",
+    "choices": [
+      "Neither the dogs nor the cat were hungry.",
+      "Neither the dogs nor the cat was hungry.",
+      "Neither the dogs nor the cat are hungry.",
+      "Neither the dogs nor the cat be hungry."
+    ],
+    "correctIndex": 1,
+    "explanation": "With \"neither…nor,\" the verb agrees with the closer subject (cat).",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence with correct comma usage.",
+    "choices": [
+      "After dinner we played cards.",
+      "After dinner, we played cards.",
+      "After, dinner we played cards.",
+      "After dinner we, played cards."
+    ],
+    "correctIndex": 1,
+    "explanation": "Introductory phrase \"After dinner\" should be followed by a comma.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence combines the clauses correctly?",
+    "choices": [
+      "The rain fell, the streets flooded.",
+      "The rain fell and the streets flooded.",
+      "The rain fell the streets flooded.",
+      "The rain fell but, the streets flooded."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use a coordinating conjunction without an unnecessary comma.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the correctly punctuated direct speech.",
+    "choices": [
+      "\"Stop\" she shouted.",
+      "\"Stop,\" she shouted.",
+      "\"Stop,\" she shouted!",
+      "\"Stop,\" She shouted."
+    ],
+    "correctIndex": 1,
+    "explanation": "Comma inside quotation marks followed by the speech tag.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses the semicolon correctly?",
+    "choices": [
+      "I have a big test tomorrow; I can't go out tonight.",
+      "I have a big test; tomorrow I can't go out tonight.",
+      "I have a big test; tomorrow; I can't go out tonight.",
+      "I have a big test, tomorrow; I can't go out tonight."
+    ],
+    "correctIndex": 0,
+    "explanation": "Semicolon joins two closely related independent clauses.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the sentence with correct subject‑verb agreement.",
+    "choices": [
+      "The list of items are on the desk.",
+      "The list of items is on the desk.",
+      "The list of items were on the desk.",
+      "The list of items be on the desk."
+    ],
+    "correctIndex": 1,
+    "explanation": "\"List\" is singular; use \"is.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses the colon correctly?",
+    "choices": [
+      "Bring the following items: torch, map, and water.",
+      "Bring the following: items torch, map, and water.",
+      "Bring: the following items torch, map, and water.",
+      "Bring the following items torch: map and water."
+    ],
+    "correctIndex": 0,
+    "explanation": "Colon introduces a list after a complete clause.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the correctly punctuated sentence.",
+    "choices": [
+      "It's time to go home.",
+      "Its time to go home.",
+      "Its' time to go home.",
+      "It's' time to go home."
+    ],
+    "correctIndex": 0,
+    "explanation": "\"It's\" is the contraction of \"it is.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence is free of comma splice errors?",
+    "choices": [
+      "I studied all night, I still felt unprepared.",
+      "I studied all night; I still felt unprepared.",
+      "I studied all night I still felt unprepared.",
+      "I studied all night, but I still felt unprepared."
+    ],
+    "correctIndex": 3,
+    "explanation": "Comma + conjunction correctly links clauses; semicolon could also work but only one option combines both corrections.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence with correct hyphenation.",
+    "choices": [
+      "It was a well known fact.",
+      "It was a well‑known fact.",
+      "It was a wellknown fact.",
+      "It was a well known‑fact."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use a hyphen in a compound adjective before the noun.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the sentence with correct comparative form.",
+    "choices": [
+      "This puzzle is more easier than the last.",
+      "This puzzle is easier than the last.",
+      "This puzzle is more easy than the last.",
+      "This puzzle is easilier than the last."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use \"easier\" not \"more easier.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence contains correct parallel structure?",
+    "choices": [
+      "She likes hiking, to swim, and cycling.",
+      "She likes hiking, swimming, and cycling.",
+      "She likes hiking, to swim, and to cycling.",
+      "She likes hike, swimming, and cycling."
+    ],
+    "correctIndex": 1,
+    "explanation": "All items share the same gerund form.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence with correct pronoun reference.",
+    "choices": [
+      "When Jess met Sara, she was thrilled to see her old friend.",
+      "Jess was thrilled to see her old friend Sara.",
+      "Jess met Sara and she was thrilled to see her.",
+      "Jess was thrilled to see her, Sara."
+    ],
+    "correctIndex": 1,
+    "explanation": "Sentence clearly indicates Jess is the one thrilled.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses commas to set off a non‑essential clause correctly?",
+    "choices": [
+      "My brother who lives abroad is visiting.",
+      "My brother, who lives abroad, is visiting.",
+      "My brother who lives abroad, is visiting.",
+      "My brother, who lives abroad is visiting."
+    ],
+    "correctIndex": 1,
+    "explanation": "Non‑essential clause \"who lives abroad\" is enclosed by commas.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the correctly punctuated address.",
+    "choices": [
+      "She moved to 16 Green Road Leeds UK.",
+      "She moved to 16, Green Road, Leeds, UK.",
+      "She moved to 16 Green Road, Leeds, UK.",
+      "She moved to 16 Green Road Leeds, UK."
+    ],
+    "correctIndex": 2,
+    "explanation": "Commas separate street, city, and country.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the sentence with correct placement of the modifier.",
+    "choices": [
+      "Running quickly, the finish line was crossed by the athlete.",
+      "Running quickly, the athlete crossed the finish line.",
+      "The athlete crossed, running quickly, the finish line.",
+      "Running quickly the finish line crossed the athlete."
+    ],
+    "correctIndex": 1,
+    "explanation": "Modifier \"Running quickly\" is followed immediately by the noun it describes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses the Oxford comma correctly?",
+    "choices": [
+      "We bought apples, oranges and bananas.",
+      "We bought apples, oranges, and bananas.",
+      "We bought apples oranges, and bananas.",
+      "We bought, apples, oranges, and bananas."
+    ],
+    "correctIndex": 1,
+    "explanation": "Oxford comma before \"and\" in a list is acceptable and consistent.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the properly punctuated introductory phrase.",
+    "choices": [
+      "To be honest I didn’t expect the result.",
+      "To be honest, I didn’t expect the result.",
+      "To be honest I, didn’t expect the result.",
+      "To be honest I didn’t, expect the result."
+    ],
+    "correctIndex": 1,
+    "explanation": "Comma follows a short introductory phrase.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the sentence with correct tag question punctuation.",
+    "choices": [
+      "You’re coming tonight, aren’t you?",
+      "You’re coming tonight aren’t you?",
+      "You’re coming tonight, aren’t you.",
+      "You’re coming tonight aren’t you."
+    ],
+    "correctIndex": 0,
+    "explanation": "Comma before tag and question mark at end.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses quotation marks and punctuation correctly?",
+    "choices": [
+      "Did she really say, \"I quit\"?",
+      "Did she really say, \"I quit\"?",
+      "Did she really say \"I quit?\"",
+      "Did she really say \"I quit\"?"
+    ],
+    "correctIndex": 3,
+    "explanation": "Question mark outside quotation belongs to whole sentence; quote has no internal punctuation.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the correctly punctuated date.",
+    "choices": [
+      "Tuesday 5 October 2025",
+      "Tuesday, 5 October, 2025",
+      "Tuesday, 5 October 2025",
+      "Tuesday 5, October 2025"
+    ],
+    "correctIndex": 2,
+    "explanation": "Comma after day of week; no comma between month and year in UK style.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence with correct homophone usage.",
+    "choices": [
+      "They're going to park their car over there.",
+      "Their going to park there car over they're.",
+      "There going to park they're car over their.",
+      "They're going to park there car over their."
+    ],
+    "correctIndex": 0,
+    "explanation": "\"They're\" = they are; \"their\" = possession; \"there\" = place.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence maintains tense consistency?",
+    "choices": [
+      "She finished her homework and goes to bed.",
+      "She finishes her homework and went to bed.",
+      "She finished her homework and went to bed.",
+      "She finish her homework and goes to bed."
+    ],
+    "correctIndex": 2,
+    "explanation": "Both verbs are in past tense.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the sentence with correct comma placement for direct address.",
+    "choices": [
+      "Let's eat Anna.",
+      "Let's eat, Anna.",
+      "Lets eat, Anna.",
+      "Lets eat Anna."
+    ],
+    "correctIndex": 1,
+    "explanation": "Comma separates the noun of direct address.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Identify the correctly pluralised noun.",
+    "choices": [
+      "Two loafs of bread",
+      "Two loaves of bread",
+      "Two loafes of bread",
+      "Two loaf of breads"
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Loaves\" is the correct plural of \"loaf.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence uses capital letters correctly?",
+    "choices": [
+      "My aunt lives in paris, france.",
+      "My Aunt lives in Paris, France.",
+      "My aunt lives in Paris, France.",
+      "My aunt lives in paris, France."
+    ],
+    "correctIndex": 2,
+    "explanation": "Capitalize city and country; \"aunt\" is not capitalised unless a title with name.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the sentence with the correct use of the dash.",
+    "choices": [
+      "Three things—honesty, courage, and kindness—define her.",
+      "Three things—honesty, courage, and kindness define her.",
+      "Three things honesty—courage, and kindness—define her.",
+      "Three things—honesty courage, and kindness—define her."
+    ],
+    "correctIndex": 0,
+    "explanation": "En dashes set off the list within the sentence.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the properly punctuated complex sentence.",
+    "choices": [
+      "Although it was late we kept talking.",
+      "Although it was late, we kept talking.",
+      "Although, it was late we kept talking.",
+      "Although it was late; we kept talking."
+    ],
+    "correctIndex": 1,
+    "explanation": "Comma after subordinate clause at sentence start.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which sentence is free from double negatives?",
+    "choices": [
+      "I don't need no help.",
+      "I don't need any help.",
+      "I can't hardly wait.",
+      "I haven't seen nobody."
+    ],
+    "correctIndex": 1,
+    "explanation": "\"Any\" avoids the double‑negative error.",
+    "difficulty": "easy"
+  },
 
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "Which sentence correctly integrates the parenthetical phrase?",
+    "choices": [
+      "The conference—originally planned for April— has been postponed.",
+      "The conference originally planned for April, has been postponed.",
+      "The conference—originally planned for April—has been postponed.",
+      "The conference — originally planned for April — has been postponed."
+    ],
+    "correctIndex": 2,
+    "explanation": "No extra space before second dash; both dashes touch the words they offset.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Identify the sentence with correct use of the semicolon and conjunctive adverb.",
+    "choices": [
+      "The evidence was inconclusive, therefore, the case was dismissed.",
+      "The evidence was inconclusive; therefore, the case was dismissed.",
+      "The evidence was inconclusive; therefore the case was dismissed",
+      "The evidence was inconclusive; therefore; the case was dismissed."
+    ],
+    "correctIndex": 1,
+    "explanation": "Independent clauses separated by semicolon, comma follows conjunctive adverb.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the sentence with correct parallelism and colon usage.",
+    "choices": [
+      "Her goals are: finish the thesis, to publish an article, and a job in academia.",
+      "Her goals are: finishing the thesis, publishing an article, and obtaining a job in academia.",
+      "Her goals are finishing the thesis: publishing an article: and obtaining a job in academia.",
+      "Her goals are; finishing the thesis, publishing an article, and obtaining a job in academia."
+    ],
+    "correctIndex": 1,
+    "explanation": "Colon follows a complete clause; list items share parallel gerund form.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the sentence that avoids the dangling modifier.",
+    "choices": [
+      "Walking through the museum, the ancient sculptures fascinated us.",
+      "Walking through the museum, we were fascinated by the ancient sculptures.",
+      "Walking through the museum, ancient sculptures fascinated.",
+      "Walking through the museum, the sculptures were fascinating."
+    ],
+    "correctIndex": 1,
+    "explanation": "The modifier clearly refers to \"we,\" the subject that follows.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which sentence correctly places the adverb \"only\" to reflect the intended meaning: *She bought only three tickets (no more than three).*",
+    "choices": [
+      "Only she bought three tickets.",
+      "She only bought three tickets.",
+      "She bought only three tickets.",
+      "She bought three only tickets."
+    ],
+    "correctIndex": 2,
+    "explanation": "\"Only\" immediately before \"three\" limits the quantity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Identify the sentence with correct subjunctive mood.",
+    "choices": [
+      "If I was you, I would apologise.",
+      "If I were you, I would apologise.",
+      "If I were you, I will apologise.",
+      "If I was you, I will apologise."
+    ],
+    "correctIndex": 1,
+    "explanation": "Use \"were\" for the present subjunctive in hypothetical statements.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the sentence that uses commas to separate coordinate adjectives correctly.",
+    "choices": [
+      "It was a long, exhausting journey.",
+      "It was a long exhausting journey.",
+      "It was a long, exhausting, journey.",
+      "It was a long exhaust, journey."
+    ],
+    "correctIndex": 0,
+    "explanation": "Coordinate adjectives modify the same noun and need a comma.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Which sentence is free of misplaced modifiers?",
+    "choices": [
+      "She served sandwiches to the children on paper plates.",
+      "She served sandwiches on paper plates to the children.",
+      "She served paper plates to the children with sandwiches.",
+      "She served the children on paper plates sandwiches."
+    ],
+    "correctIndex": 1,
+    "explanation": "Modifier \"on paper plates\" correctly follows \"sandwiches.\"",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the correctly punctuated complex-compound sentence.",
+    "choices": [
+      "When the bell rang, we packed our bags, and we left; however we missed the bus.",
+      "When the bell rang, we packed our bags, and we left; however, we missed the bus.",
+      "When the bell rang we packed our bags and we left; however, we missed the bus.",
+      "When the bell rang; we packed our bags, and we left, however, we missed the bus."
+    ],
+    "correctIndex": 1,
+    "explanation": "Comma after introductory clause, comma after conjunctive adverb following semicolon.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Identify the sentence with correct hyphen use for a compound modifier.",
+    "choices": [
+      "She is a well respected researcher.",
+      "She is a well‑respected researcher.",
+      "She is a well respected‑researcher.",
+      "She is a well‑ respected researcher."
+    ],
+    "correctIndex": 1,
+    "explanation": "Hyphen joins compound adjective \"well‑respected\" before a noun.",
+    "difficulty": "hard"
+  }
+]
