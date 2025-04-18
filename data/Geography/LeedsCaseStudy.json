@@ -1,1 +1,296 @@
-
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Which river flows through the centre of Leeds, historically powering textile mills?",
+    "choices": ["River Aire", "River Ouse", "River Trent", "River Tyne"],
+    "correctIndex": 0,
+    "explanation": "Leeds developed along the River Aire; canalisation and mills lined its banks.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Leeds saw rapid population growth in the 19th century largely because of which industry?",
+    "choices": ["Shipbuilding", "Coal mining", "Woollen textiles", "Car manufacturing"],
+    "correctIndex": 2,
+    "explanation": "Woollen mills made Leeds a key Industrial‑Revolution textile hub.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "De‑industrialisation in the 1970s–80s led Leeds to shift toward which economic sector?",
+    "choices": ["Primary", "Secondary manufacturing", "Tertiary & quaternary services", "Informal subsistence"],
+    "correctIndex": 2,
+    "explanation": "Finance, legal services and digital tech now dominate the city economy.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The regeneration of Holbeck Urban Village converted former mills into …",
+    "choices": ["Luxury flats & creative‑industry offices", "Coal mines", "New ring roads", "Out‑of‑town retail parks"],
+    "correctIndex": 0,
+    "explanation": "Brownfield sites were recycled for mixed‑use living and creative workspaces.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which major retail development opened in 2013, boosting Leeds’ CBD footfall?",
+    "choices": ["White Rose Centre", "Trinity Leeds", "Victoria Gate", "Kirkstall Forge"],
+    "correctIndex": 1,
+    "explanation": "Trinity Leeds created 100+ shops under a glazed dome downtown.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Students from the University of Leeds and Leeds Beckett make up roughly what fraction of the city’s 800 000 residents?",
+    "choices": ["About 1 in 20", "About 1 in 10", "About 1 in 5", "About 1 in 2"],
+    "correctIndex": 1,
+    "explanation": "≈ 80 000 students ≈ 10 % of the total population.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which migrant group arrived in large numbers to work in Leeds’ post‑war textile mills, shaping Chapeltown’s culture?",
+    "choices": ["Polish", "Irish", "Caribbean", "Somali"],
+    "correctIndex": 2,
+    "explanation": "Windrush‑generation Caribbeans settled, bringing reggae and carnival traditions.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "South Bank Leeds aims to double city‑centre size by …",
+    "choices": ["Building a new airport", "Developing former rail/industrial land south of the River Aire", "Damming the Aire", "Constructing offshore wind farms"],
+    "correctIndex": 1,
+    "explanation": "The masterplan turns old freight yards into offices, homes, and parkland.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The planned HS2 Eastern Leg (now curtailed) originally proposed a new station called …",
+    "choices": ["Leeds East Parkway", "Leeds South Bank", "Leeds New Lane", "Leeds Victoria"],
+    "correctIndex": 2,
+    "explanation": "New Lane site was within the South Bank regeneration zone.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which Leeds neighbourhood is best known for independent cafés, vintage shops and gentrification?",
+    "choices": ["Headingley", "Meanwood", "Roundhay", "Hyde Park"],
+    "correctIndex": 0,
+    "explanation": "Headingley evolved from student suburb to chic, raising house prices.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Leeds Climate Commission’s 2030 target focuses on achieving …",
+    "choices": ["Zero unemployment", "Net‑zero carbon emissions", "Free public transport", "Elimination of food waste"],
+    "correctIndex": 1,
+    "explanation": "Net‑zero goals guide energy, transport and building policies.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which bus‑based rapid‑transit scheme opened in 2016 to improve corridor commuting?",
+    "choices": ["Leeds Supertram", "East Leeds Orbital Route", "Aire Valley BRT ‘Leeds CityBus’", "A64 Quality‑Bus Corridor"],
+    "correctIndex": 2,
+    "explanation": "branded as CityBus/BRT, linking park‑and‑ride to CBD.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Thorpe Park and Kirkstall Forge are examples of …",
+    "choices": ["Out‑of‑town science parks & mixed‑use brownfield redevelopments", "Flood‑control reservoirs", "Coal‑power stations", "Green‑belt farmland"],
+    "correctIndex": 0,
+    "explanation": "They provide grade‑A offices, retail, and new housing on reclaimed sites.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which motorway skirts the south of Leeds, improving logistics?",
+    "choices": ["M1", "M4", "M6", "M11"],
+    "correctIndex": 0,
+    "explanation": "The M1 connects Leeds to Sheffield, Nottingham and London.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Leeds’ Aire‑Calder Navigation originally enabled …",
+    "choices": ["Bulk coal & wool transport by barge to Humber ports", "Hydro‑electric power", "Passenger trams", "Wind‑farm servicing"],
+    "correctIndex": 0,
+    "explanation": "The canal gave textile mills cheap access to coal and export markets.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Armley Mills now hosts which cultural attraction reflecting industrial heritage?",
+    "choices": ["Leeds Art Gallery", "Royal Armouries", "Leeds Industrial Museum", "The Tetley contemporary art space"],
+    "correctIndex": 2,
+    "explanation": "It preserves textile machinery in Britain’s largest woollen mill.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which ethnic group has increased in Harehills since EU enlargement (2004)?",
+    "choices": ["Polish", "Indian", "Jamaican", "Turkish"],
+    "correctIndex": 0,
+    "explanation": "Polish migrants opened shops and delis along Harehills Road.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Leeds City Region Enterprise Zone focuses on …",
+    "choices": ["Low‑carbon manufacturing & logistics in the Aire Valley", "Fishing", "Oil refining", "Shipbuilding"],
+    "correctIndex": 0,
+    "explanation": "Tax incentives attract green technology firms.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "‘Liveable City’ plans promote ___ lanes and park‑and‑ride to curb car use.",
+    "choices": ["Tram", "Dedicated cycle", "Canal‑boat", "Horse‑drawn"],
+    "correctIndex": 1,
+    "explanation": "Leeds is expanding segregated cycling routes.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The White Rose Centre south of the city is best categorised as …",
+    "choices": ["Edge‑of‑town shopping mall", "Inner‑city market", "Science park", "Airport extension"],
+    "correctIndex": 0,
+    "explanation": "Opened 1997, drawing shoppers from suburban car owners.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which flood event (month + year) spurred major River Aire defence upgrades?",
+    "choices": ["June 2007", "December 2015 (Storm Eva)", "February 2014", "January 2021"],
+    "correctIndex": 1,
+    "explanation": "Storm Eva submerged Kirkstall and Clarence Dock.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "The ‘Levelling‑Up’ agenda identifies Leeds as part of which UK region?",
+    "choices": ["Northern Powerhouse", "Midlands Engine", "Home Counties", "Celtic Fringe"],
+    "correctIndex": 0,
+    "explanation": "Leeds‑Manchester‑Sheffield corridor gets infrastructure focus.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Approximate population of metropolitan Leeds (2023) is …",
+    "choices": ["350 000", "520 000", "808 000", "1.5 million"],
+    "correctIndex": 2,
+    "explanation": "ONS mid‑2023 estimate ≈ 0.8 M.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Headingley stadium supports the local economy through which TWO sports?",
+    "choices": ["Cricket & Rugby League", "Football & Tennis", "Basketball & Ice hockey", "Golf & F1"],
+    "correctIndex": 0,
+    "explanation": "Yorkshire CCC and Leeds Rhinos attract spectators and spending.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "HS2 cancellation may reduce expected ___ benefits predicted for Leeds.",
+    "choices": ["Carbon‑emission", "Agglomeration & inward‑investment", "Flood‑control", "Air‑quality"],
+    "correctIndex": 1,
+    "explanation": "High‑speed rail promised faster London links to lure HQs.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which suburban rail electrification project improves connectivity to Bradford, Halifax, & Huddersfield?",
+    "choices": ["Trans‑Pennine Route Upgrade", "Cross‑rail 2", "Borders Railway", "MetroWest"],
+    "correctIndex": 0,
+    "explanation": "TP upgrade modernises the Manchester‑Leeds‑York corridor.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Overseas‑born residents in Leeds account for roughly …",
+    "choices": ["5 %", "11 %", "18 %", "30 %"],
+    "correctIndex": 2,
+    "explanation": "Census 2021 shows ~18 % born outside UK.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Which area hosts the annual West Indian Carnival, Europe’s oldest after Notting Hill?",
+    "choices": ["Beeston", "Moortown", "Chapeltown", "Hunslet"],
+    "correctIndex": 2,
+    "explanation": "Since 1967 Chapeltown carnival celebrates Afro‑Caribbean culture.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Leeds Bradford Airport expansion is controversial mainly because of …",
+    "choices": ["Noise & carbon‑emission concerns", "Lack of runway length", "Low passenger demand", "Iceberg collision risk"],
+    "correctIndex": 0,
+    "explanation": "Campaigners fear increased flights clash with climate goals.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Channel 4 relocated its national HQ to Leeds in 2019 primarily to …",
+    "choices": ["Reduce rent costs", "Enhance UK regional representation & creative jobs outside London", "Avoid Ofcom regulation", "Launch a streaming service"],
+    "correctIndex": 1,
+    "explanation": "The move supports northern media clustering.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "‘Zero Waste Leeds’ focuses on what main sustainability theme?",
+    "choices": ["Renewable energy", "Circular economy & recycling", "Public transport", "Air‑quality monitoring"],
+    "correctIndex": 1,
+    "explanation": "The NGO campaigns for repair cafés and clothing reuse.",
+    "difficulty": "easy"
+  },
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "HARD – Between 1951 and 1981 Leeds lost over 30 000 textile jobs. The PRIMARY driver was …",
+    "choices": ["Off‑shoring to lower‑wage countries and synthetic‑fibre competition", "Robotics in local factories", "Collapse of canal transport", "Mandatory shorter working weeks"],
+    "correctIndex": 0,
+    "explanation": "Globalisation and new materials undercut woollen mills.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which European Structural Fund programme (2014‑20) co‑financed Leeds’ flood‑alleviation scheme Phase 1?",
+    "choices": ["ERDF", "ESF", "CAP", "LIFE"],
+    "correctIndex": 0,
+    "explanation": "European Regional Development Fund provided ~£35 m.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Leeds Inner Ring Road (A58 / A64(M)) was Britain’s first urban motorway built largely as …",
+    "choices": ["An elevated viaduct with segmental pre‑cast concrete", "A cut‑and‑cover tunnel", "A cable‑stayed bridge", "An under‑river immersed tube"],
+    "correctIndex": 1,
+    "explanation": "The 1960s motorway disappeared beneath city streets in a cut‑and‑cover box.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which ward remains within the **10 % most deprived** nationally despite city growth?",
+    "choices": ["Moortown", "Burmantofts & Richmond Hill", "Otley & Yeadon", "Wetherby"],
+    "correctIndex": 1,
+    "explanation": "Indices of Multiple Deprivation 2019 rank Burmantofts low for income & health.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The Aire Valley District Heat Network pipes surplus steam from which facility to new developments?",
+    "choices": ["Knostrop Wastewater Treatment", "Skelton Grange Energy‑from‑Waste", "Drax biomass plant", "Stourton Park‑and‑Ride"],
+    "correctIndex": 1,
+    "explanation": "Energy‑from‑Waste plant provides low‑carbon heat.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Studentification in Hyde Park led to the what % increase in HMOs (houses in multiple occupation) between 1991 and 2011?",
+    "choices": ["5 %", "20 %", "45 %", "Over 60 %"],
+    "correctIndex": 3,
+    "explanation": "Census/ council data show more than three‑fifths of homes became HMOs.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Leeds Innovation District spans the universities and which teaching hospital, producing a life‑science ‘triple helix’?",
+    "choices": ["St James’s University Hospital", "Leeds General Infirmary", "Chapel Allerton Hospital", "Seacroft Hospital"],
+    "correctIndex": 1,
+    "explanation": "LGI anchors medical research alongside universities & business.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – Which policy tool is Leeds **NOT** permitted to use under current powers, hampering mass‑transit funding?",
+    "choices": ["Workplace parking levy", "Bus franchising", "Green‑bond issue", "Council‑tax precept"],
+    "correctIndex": 0,
+    "explanation": "Only Nottingham has a workplace‑parking levy; Leeds lacks enabling legislation.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – By 2025 Leeds plans to retrofit how many council‑owned homes with external wall insulation under its ‘HUG’ scheme?",
+    "choices": ["2 000", "5 000", "12 000", "24 000"],
+    "correctIndex": 2,
+    "explanation": "Homes Upgrade Grant targets ~12 k properties to cut energy bills.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "HARD – The 2020 Leeds Inclusive Growth Strategy identifies **12 ‘big ideas’.** Idea #6 focuses on …",
+    "choices": [
+      "Culture & creative industries",
+      "Innovation district & data",
+      "Low‑carbon economy",
+      "Skills pathways for disadvantaged residents"
+    ],
+    "correctIndex": 2,
+    "explanation": "Big Idea 6: ‘Leeds as a low‑carbon city’ pushes green investment.",
+    "difficulty": "hard"
+  }
+]
