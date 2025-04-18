@@ -1,1 +1,292 @@
+[
+  /* ---------- EASY (1‑30) ---------- */
+  {
+    "question": "Replace the underlined word with the BEST, more vivid alternative.\n\n The castle was BIG, towering over the village.",
+    "choices": ["massive", "tiny", "usual", "average"],
+    "correctIndex": 0,
+    "explanation": "\"Massive\" provides a stronger sense of scale than the vague word \"big.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace the underlined word with the BEST alternative.\n\n\"The kitten was **small** enough to fit in his palm.\"",
+    "choices": ["minute", "colossal", "ample", "average"],
+    "correctIndex": 0,
+    "explanation": "\"Minute\" means extremely small, offering greater precision.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the strongest verb to replace the underlined word.\n\n\"Exhausted, she **walked slowly** up the hill.\"",
+    "choices": ["trudged", "ran", "ambled", "slid"],
+    "correctIndex": 0,
+    "explanation": "\"Trudged\" conveys effort and slow movement in a single word.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the most vivid replacement for **said**.\n\n\"‘Don’t touch that,’ he **said** angrily.\"",
+    "choices": ["snapped", "whispered", "muttered", "uttered"],
+    "correctIndex": 0,
+    "explanation": "\"Snapped\" shows anger more vividly than generic \"said.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace the underlined word.\n\n\"The soup tastes **good**.\"",
+    "choices": ["delicious", "bland", "awful", "plain"],
+    "correctIndex": 0,
+    "explanation": "\"Delicious\" is a precise positive descriptor for taste.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the BEST synonym for **cold** in context.\n\n\"A **cold** wind cut across the lake.\"",
+    "choices": ["icy", "lukewarm", "tepid", "balmy"],
+    "correctIndex": 0,
+    "explanation": "\"Icy\" intensifies the chill of the wind.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **happy** with the most expressive option.\n\n\"She felt **happy** when she heard the news.\"",
+    "choices": ["elated", "miserable", "content", "neutral"],
+    "correctIndex": 0,
+    "explanation": "\"Elated\" conveys intense joy, stronger than \"happy.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the precise synonym for **looked**.\n\n\"He **looked** at the ancient maps spread across the table.\"",
+    "choices": ["examined", "gazed", "glanced", "saw"],
+    "correctIndex": 0,
+    "explanation": "\"Examined\" suggests careful study, fitting the context.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **really tired** with a single word.\n\n\"After the marathon, they were **really tired**.\"",
+    "choices": ["exhausted", "sleepy", "restless", "rested"],
+    "correctIndex": 0,
+    "explanation": "\"Exhausted\" condenses the phrase and is more vivid.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the strongest verb to replace **ate quickly**.\n\n\"The children **ate quickly** before the bus arrived.\"",
+    "choices": ["gobbled", "nibbled", "picked", "tasted"],
+    "correctIndex": 0,
+    "explanation": "\"Gobbled\" conveys speed and eagerness in eating.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very loud** with the most precise word.\n\n\"A **very loud** bang shook the windows.\"",
+    "choices": ["deafening", "quiet", "faint", "moderate"],
+    "correctIndex": 0,
+    "explanation": "\"Deafening\" is an exact synonym for extremely loud.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the best replacement for **busy**.\n\n\"The **busy** market hummed with activity.\"",
+    "choices": ["bustling", "quiet", "abandoned", "sleepy"],
+    "correctIndex": 0,
+    "explanation": "\"Bustling\" is a vivid synonym describing lively activity.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very important** with a single word.\n\n\"Completing the report on time is **very important**.\"",
+    "choices": ["crucial", "optional", "minor", "casual"],
+    "correctIndex": 0,
+    "explanation": "\"Crucial\" succinctly captures high importance.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the most evocative synonym for **fear** in context.\n\n\"A sudden **fear** gripped him as the lights went out.\"",
+    "choices": ["terror", "curiosity", "delight", "boredom"],
+    "correctIndex": 0,
+    "explanation": "\"Terror\" intensifies the feeling beyond generic \"fear.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very old** with one word.\n\n\"The village is home to a **very old** oak tree.\"",
+    "choices": ["ancient", "recent", "modern", "new"],
+    "correctIndex": 0,
+    "explanation": "\"Ancient\" precisely describes extreme age.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the most descriptive replacement for **walked**.\n\n\"She **walked** nervously onto the stage.\"",
+    "choices": ["stepped", "strode", "stumbled", "tiptoed"],
+    "correctIndex": 3,
+    "explanation": "\"Tiptoed\" conveys cautious, nervous movement better than generic \"walked.\"",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very clean** with a single adjective.\n\n\"The lab was **very clean**, with every surface shining.\"",
+    "choices": ["spotless", "dusty", "grimy", "messy"],
+    "correctIndex": 0,
+    "explanation": "\"Spotless\" captures an immaculate state.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the strongest synonym for **angry**.\n\n\"He grew **angry** when no one listened.\"",
+    "choices": ["furious", "annoyed", "calm", "pleased"],
+    "correctIndex": 0,
+    "explanation": "\"Furious\" expresses intense anger.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very funny** with a precise adjective.\n\n\"The comedian’s set was **very funny**.\"",
+    "choices": ["hilarious", "dull", "serious", "tedious"],
+    "correctIndex": 0,
+    "explanation": "\"Hilarious\" is a vivid synonym for extremely funny.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the best replacement for **said quietly**.\n\n\"‘I’m not sure,’ she **said quietly**.\"",
+    "choices": ["murmured", "shouted", "argued", "declared"],
+    "correctIndex": 0,
+    "explanation": "\"Murmured\" suggests a soft, quiet voice.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **tired** with a more expressive word.\n\n\"The hikers were **tired** after eight hours on the trail.\"",
+    "choices": ["weary", "rested", "alert", "energised"],
+    "correctIndex": 0,
+    "explanation": "\"Weary\" adds depth to the sense of fatigue.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the precise synonym for **nice** in the context of weather.\n\n\"It’s a **nice** day for a picnic.\"",
+    "choices": ["pleasant", "stormy", "gloomy", "harsh"],
+    "correctIndex": 0,
+    "explanation": "\"Pleasant\" specifically describes agreeable weather.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the most vivid replacement for **very cold**.\n\n\"She shivered in the **very cold** night.\"",
+    "choices": ["freezing", "warm", "mild", "tepid"],
+    "correctIndex": 0,
+    "explanation": "\"Freezing\" powerfully conveys severe cold.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **looked quickly** with one precise verb.\n\n\"He **looked quickly** at his watch.\"",
+    "choices": ["glanced", "gawked", "examined", "stared"],
+    "correctIndex": 0,
+    "explanation": "\"Glanced\" means a quick look.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the best replacement for **very hungry**.\n\n\"After skipping lunch, she felt **very hungry**.\"",
+    "choices": ["famished", "peckish", "satisfied", "full"],
+    "correctIndex": 0,
+    "explanation": "\"Famished\" expresses extreme hunger.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the precise synonym for **bad smell**.\n\n\"A **bad smell** drifted from the bin.\"",
+    "choices": ["stench", "aroma", "scent", "perfume"],
+    "correctIndex": 0,
+    "explanation": "\"Stench\" denotes an unpleasant odour.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very boring** with a single adjective.\n\n\"The lecture was **very boring**.\"",
+    "choices": ["monotonous", "exciting", "riveting", "fascinating"],
+    "correctIndex": 0,
+    "explanation": "\"Monotonous\" captures sustained boredom.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the most powerful synonym for **destroyed**.\n\n\"The storm **destroyed** dozens of homes.\"",
+    "choices": ["devastated", "damaged", "scratched", "touched"],
+    "correctIndex": 0,
+    "explanation": "\"Devastated\" conveys total ruin.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Choose the BEST replacement for **very surprised**.\n\n\"He was **very surprised** to see snow in April.\"",
+    "choices": ["astonished", "aware", "unsure", "calm"],
+    "correctIndex": 0,
+    "explanation": "\"Astonished\" denotes great surprise.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Replace **very slow** with one vivid word.\n\n\"Progress on the project was **very slow**.\"",
+    "choices": ["glacial", "swift", "rapid", "brisk"],
+    "correctIndex": 0,
+    "explanation": "\"Glacial\" metaphorically captures extreme slowness.",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Select the precise synonym for **scared**.\n\n\"The sudden noise left the cat **scared**.\"",
+    "choices": ["petrified", "relaxed", "curious", "content"],
+    "correctIndex": 0,
+    "explanation": "\"Petrified\" intensifies the fear.",
+    "difficulty": "easy"
+  },
 
+  /* ---------- HARD (31‑40) ---------- */
+  {
+    "question": "Choose the most nuanced synonym to replace **thought carefully**.\n\n\"She **thought carefully** before responding to the complex question.\"",
+    "choices": ["contemplated", "reacted", "guessed", "ignored"],
+    "correctIndex": 0,
+    "explanation": "\"Contemplated\" implies deep, reflective thinking.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Replace **very ugly** with a single, precise adjective.\n\n\"The abandoned factory was **very ugly**, looming over the river.\"",
+    "choices": ["unsightly", "modest", "picturesque", "ordinary"],
+    "correctIndex": 0,
+    "explanation": "\"Unsightly\" accurately labels unattractive appearance.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the BEST replacement for **very calm**.\n\n\"Despite the chaos, her voice remained **very calm**.\"",
+    "choices": ["serene", "anxious", "boisterous", "eager"],
+    "correctIndex": 0,
+    "explanation": "\"Serene\" conveys undisturbed calm.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the most precise synonym for **very risky**.\n\n\"Investing all savings in one start‑up felt **very risky**.\"",
+    "choices": ["perilous", "secure", "routine", "moderate"],
+    "correctIndex": 0,
+    "explanation": "\"Perilous\" emphasises serious risk.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Replace **very clear** with a stronger word.\n\n\"The instructions were **very clear** and left no room for doubt.\"",
+    "choices": ["explicit", "vague", "ambiguous", "uncertain"],
+    "correctIndex": 0,
+    "explanation": "\"Explicit\" indicates absolute clarity.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the best single word to replace **went up quickly**.\n\n\"Sales **went up quickly** after the new advert launched.\"",
+    "choices": ["soared", "dropped", "plateaued", "fluctuated"],
+    "correctIndex": 0,
+    "explanation": "\"Soared\" conveys a rapid, significant rise.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Choose the most precise verb to replace **looked angrily**.\n\n\"She **looked angrily** at the referee.\"",
+    "choices": ["glared", "observed", "peeked", "glanced"],
+    "correctIndex": 0,
+    "explanation": "\"Glared\" implies an angry stare.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Replace **very detailed** with the best adjective.\n\n\"The detective kept **very detailed** notes.\"",
+    "choices": ["meticulous", "rough", "sketchy", "brief"],
+    "correctIndex": 0,
+    "explanation": "\"Meticulous\" suggests extreme attention to detail.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Select the strongest synonym for **very weak** in context.\n\n\"After weeks of illness, he felt **very weak**.\"",
+    "choices": ["frail", "sturdy", "robust", "firm"],
+    "correctIndex": 0,
+    "explanation": "\"Frail\" conveys physical weakness vividly.",
+    "difficulty": "hard"
+  },
+  {
+    "question": "Replace **helped** with the most sophisticated verb.\n\n\"The grant **helped** the researchers complete their study.\"",
+    "choices": ["facilitated", "hindered", "ignored", "complicated"],
+    "correctIndex": 0,
+    "explanation": "\"Facilitated\" precisely indicates enabling assistance.",
+    "difficulty": "hard"
+  }
+]
