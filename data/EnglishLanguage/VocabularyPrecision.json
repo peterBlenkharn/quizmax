@@ -1,5 +1,4 @@
 [
-  /* ---------- EASY (1‑30) ---------- */
   {
     "question": "Replace the underlined word with the BEST, more vivid alternative.\n\n\"The castle was **BIG**, towering over the village.\"",
     "choices": ["massive", "tiny", "usual", "average"],
@@ -217,8 +216,6 @@
     "explanation": "\"Petrified\" intensifies the fear.",
     "difficulty": "easy"
   },
-
-  /* ---------- HARD (31‑40) ---------- */
   {
     "question": "Choose the most nuanced synonym to replace **thought carefully**.\n\n\"She **thought carefully** before responding to the complex question.\"",
     "choices": ["contemplated", "reacted", "guessed", "ignored"],
