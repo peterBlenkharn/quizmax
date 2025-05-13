@@ -1,5 +1,4 @@
 [
-  /* ---------- URBAN FUTURES (Q 1 – 12) ---------- */
   {
     "question": "What is urbanisation?",
     "choices": [
@@ -109,8 +108,6 @@
     "explanation": "Competition for accessible space drives up land values and building heights in the CBD.",
     "difficulty": "easy"
   },
-
-  /* ---------- DYNAMIC DEVELOPMENT (Q 13 – 24) ---------- */
   {
     "question": "Which of the following is a COMPOSITE development indicator?",
     "choices": ["Infant‑mortality rate", "GDP per capita", "Human Development Index (HDI)", "Adult literacy rate"],
@@ -225,8 +222,6 @@
     "explanation": "Greater imports than exports create a deficit, which may require borrowing foreign currency.",
     "difficulty": "easy"
   },
-
-  /* ---------- UK IN THE 21st CENTURY (Q 25 – 32) ---------- */
   {
     "question": "Which part of the UK generally has the HIGHEST population density?",
     "choices": ["England", "Scotland", "Wales", "Northern Ireland"],
@@ -298,8 +293,6 @@
     "explanation": "A veto‑holding seat shows continued diplomatic weight in international security matters.",
     "difficulty": "easy"
   },
-
-  /* ---------- RESOURCE RELIANCE (Q 33 – 40) ---------- */
   {
     "question": "Food security exists when people have …",
     "choices": [
