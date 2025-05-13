@@ -1,5 +1,4 @@
 [
-  /* ---------- EASY (1‑30) ---------- */
   {
     "question": "Read the extract:\n\n\"The old house sighed as the wind rattled its loose shutters.\" \n\nWhat does this description most strongly suggest about the house?",
     "choices": [
@@ -360,8 +359,6 @@
     "explanation": "Straightening posture usually reflects relief or confidence.",
     "difficulty": "easy"
   },
-
-  /* ---------- HARD (31‑40) ---------- */
   {
     "question": "Read the extract:\n\n\"Ella’s polite smile wavered for a heartbeat when she spotted the empty chair beside her.\" \n\nWhat deeper feeling is hinted at beneath Ella’s politeness?",
     "choices": [
