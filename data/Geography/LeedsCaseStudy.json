@@ -1,5 +1,4 @@
 [
-  /* ---------- EASY (1‑30) ---------- */
   {
     "question": "Which river flows through the centre of Leeds, historically powering textile mills?",
     "choices": ["River Aire", "River Ouse", "River Trent", "River Tyne"],
@@ -217,7 +216,6 @@
     "explanation": "The NGO campaigns for repair cafés and clothing reuse.",
     "difficulty": "easy"
   },
-  /* ---------- HARD (31‑40) ---------- */
   {
     "question": "HARD – Between 1951 and 1981 Leeds lost over 30 000 textile jobs. The PRIMARY driver was …",
     "choices": ["Off‑shoring to lower‑wage countries and synthetic‑fibre competition", "Robotics in local factories", "Collapse of canal transport", "Mandatory shorter working weeks"],
