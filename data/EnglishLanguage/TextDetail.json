@@ -209,8 +209,6 @@
     "explanation": "Rows end at K.",
     "difficulty": "easy"
   },
-
-  /* -------- HARD QUESTIONS 31‑40 -------- */
   {
     "question": "Read the extract:\n\n\"‘The safe code,’ said Mr Lee, ‘is the last two digits of our phone number, 74, reversed.’\" \n\nWhat is the safe code?",
     "choices": ["47", "74", "67", "76"],
