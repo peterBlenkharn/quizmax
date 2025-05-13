@@ -209,9 +209,6 @@
     "explanation": "Heart rate is the number of beats per minute.",
     "difficulty": "easy"
   },
-
-  // HARD QUESTIONS
-
   {
     "question": "Which muscle works as the antagonist during elbow flexion?",
     "choices": ["Biceps", "Quadriceps", "Hamstrings", "Triceps"],
